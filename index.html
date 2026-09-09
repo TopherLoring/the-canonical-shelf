@@ -319,6 +319,14 @@ button.chip[aria-pressed="true"] .n{color:var(--paper-2)}
 .empty h3{font-family:var(--serif);font-size:21px;margin:0 0 6px}
 .empty p{margin:0;font-size:14.5px;color:var(--ink-3)}
 
+.reader-toolbar{display:flex;flex-wrap:wrap;gap:12px;align-items:end;margin-bottom:24px}
+.reader-toolbar label{display:flex;flex-direction:column;gap:5px;font-size:13px}
+.reader-toolbar select{max-width:100%;padding:10px;font:inherit;color:var(--ink);background:var(--paper-3);border:1px solid var(--rule);border-radius:var(--r)}
+.reader-nav{display:flex;justify-content:space-between;gap:12px;max-width:72ch;margin:20px 0}
+.reader-nav button:disabled{opacity:.4;cursor:default}
+.reader-text{max-width:68ch;font-family:var(--serif);font-size:clamp(18px,2.5vw,22px);line-height:1.75}
+.reader-verse{margin:0 0 14px}
+.reader-verse sup{font-family:var(--mono);font-size:11px;color:var(--ink-3);margin-right:5px}
 /* ---------- verses ---------- */
 .vhead{max-width:64ch;margin:0 0 22px}
 .vhead h2{font-family:var(--serif);font-size:clamp(26px,4vw,36px);font-weight:600;letter-spacing:-.015em;margin:0 0 10px}
@@ -1408,6 +1416,7 @@ async function loadCorpus(auto){
     corpusErr = String(error.message || error);
   }
   if(S.tab === "verses") renderVerses();
+  if(S.tab === "explore") renderExplore();
 }
 function searchFull(raw, exclude = new Set()){
   const q = normalizeSearch(raw);
@@ -1543,6 +1552,7 @@ const ACHV = [
 
 /* ---------- state ---------- */
 const S = {
+  readerBook:null, readerChapter:1,
   tab:"play", scale:"len", filters:new Set(), q:"", theme:"all",
   tr:"bsb", custom:null, customName:"", customCredit:"",
   lifeFilter:"all", vFacet:"theme",
@@ -2802,9 +2812,10 @@ function matches(b){
 }
 function renderExplore(){
   const host=$("#panel-explore");
-  const hits=BOOKS.filter(matches);
+  if(S.readerBook) return renderBibleChapter(host);
+  const hits=BOOKS.filter(b=>!S.filters.size || S.filters.has(b.cat));
   if(!hits.length){ host.innerHTML=`<div class="empty"><h3>Nothing matches that</h3><p>Try a book name, a person such as Moses or Paul, or clear the group filters above.</p></div>`; return; }
-  let html="";
+  let html='<div class="vhead"><h2>Read the Bible</h2><p>Choose a book to read its complete chapters in the Berean Standard Bible.</p></div>';
   CAT_ORDER.forEach(k=>{
     const set=hits.filter(b=>b.cat===k); if(!set.length) return;
     const c=CATS[k], all=BOOKS.filter(b=>b.cat===k);
@@ -2817,7 +2828,42 @@ function renderExplore(){
         <span class="card-hook">${esc(b.hook)}</span></button>`).join("")}</div></section>`;
   });
   host.innerHTML=html;
-  host.querySelectorAll(".card").forEach(el=>el.addEventListener("click",()=>openBook(+el.dataset.n)));
+  host.querySelectorAll(".card").forEach(el=>el.addEventListener("click",()=>readChapter(+el.dataset.n,1)));
+}
+
+function readChapter(book, chapter){
+  const b=byN(book);
+  if(!b || !Number.isInteger(chapter) || chapter<1 || chapter>b.ch) return;
+  S.readerBook=book; S.readerChapter=chapter;
+  renderExplore(); scrollToWork();
+}
+function adjacentChapter(direction){
+  const b=byN(S.readerBook), chapter=S.readerChapter+direction;
+  if(chapter<1) return b.n>1 ? {book:b.n-1, chapter:byN(b.n-1).ch} : null;
+  if(chapter>b.ch) return b.n<66 ? {book:b.n+1, chapter:1} : null;
+  return {book:b.n, chapter};
+}
+function renderBibleChapter(host){
+  const b=byN(S.readerBook), chapter=S.readerChapter;
+  const previous=adjacentChapter(-1), next=adjacentChapter(1);
+  const nav=()=>`<nav class="reader-nav" aria-label="Chapter navigation"><button type="button" class="ftload" data-direction="-1" ${previous?'':'disabled'}>Previous chapter</button><button type="button" class="ftload" data-direction="1" ${next?'':'disabled'}>Next chapter</button></nav>`;
+  let content;
+  if(corpusReady()){
+    const verses=CORPUS.filter(row=>row.bn===b.n && row.chapter===chapter);
+    content=verses.length ? verses.map(row=>`<p class="reader-verse" id="verse-${row.bn}-${chapter}-${row.verse}"><sup aria-label="Verse ${row.verse}">${row.verse}</sup> ${esc(row.text)}</p>`).join("") : '<p role="status">This chapter is missing from the Bible text.</p>';
+  }else if(corpusState==='unavailable'){
+    content=`<p role="status">Could not load the Bible text: ${esc(corpusErr)}.</p><button type="button" class="ftload" id="reader-retry">Retry</button>`;
+  }else content='<p role="status">Loading the Bible text…</p>';
+  host.innerHTML=`<div class="reader-toolbar"><button type="button" class="ftload" id="reader-books">All books</button><label>Book <select id="reader-book">${BOOKS.map(book=>`<option value="${book.n}" ${book.n===b.n?'selected':''}>${esc(book.name)}</option>`).join('')}</select></label><label>Chapter <select id="reader-chapter">${Array.from({length:b.ch},(_,i)=>`<option value="${i+1}" ${i+1===chapter?'selected':''}>${i+1}</option>`).join('')}</select></label><button type="button" class="ftload" id="reader-details">Book details</button></div>
+    <div class="vhead"><h2>${esc(b.name)} ${chapter}</h2><p>Berean Standard Bible · Chapter ${chapter} of ${b.ch}</p></div>${nav()}<article class="reader-text" aria-label="${esc(b.name)} chapter ${chapter}">${content}</article>${nav()}`;
+  host.querySelector('#reader-books').addEventListener('click',()=>{S.readerBook=null;renderExplore();scrollToWork();});
+  host.querySelector('#reader-book').addEventListener('change',e=>readChapter(+e.target.value,1));
+  host.querySelector('#reader-chapter').addEventListener('change',e=>readChapter(b.n,+e.target.value));
+  host.querySelector('#reader-details').addEventListener('click',()=>openBook(b.n));
+  host.querySelectorAll('[data-direction]').forEach(button=>button.addEventListener('click',()=>{const target=adjacentChapter(+button.dataset.direction);if(target) readChapter(target.book,target.chapter);}));
+  const retry=host.querySelector('#reader-retry');
+  if(retry) retry.addEventListener('click',()=>{loadCorpus(true);renderExplore();});
+  if(corpusState==='idle') loadCorpus(true);
 }
 
 /* ---------- drawer ---------- */
