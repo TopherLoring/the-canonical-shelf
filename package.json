@@ -1,0 +1,6 @@
+{
+  "name": "the-canonical-shelf",
+  "private": true,
+  "scripts": {"test": "node tests/foundations.test.cjs && node tests/interactions.test.cjs"},
+  "devDependencies": {"linkedom": "0.18.12"}
+}

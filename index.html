@@ -597,11 +597,12 @@ button.chip[aria-pressed="true"] .n{color:var(--paper-2)}
 }
 @media print{.tabbar,.spine-scale,.drawer,.scrim,.savebox{display:none}}
 </style>
+<link rel="stylesheet" href="foundations.css">
 </head>
 <body>
 
 <header class="masthead wrap">
-  <p class="eyebrow"><b>66 books</b> · 4 stages · 40 levels · 12 game types · 97 verses</p>
+  <p class="eyebrow"><b>66 books</b> · Full Bible reader · Guided learning · Interactive missions</p>
   <h1>The Canonical<br><em>Shelf</em></h1>
   <p class="lede">The Bible is not one book — it is a shelf of sixty-six, collected over roughly a thousand years, in four or five different kinds of writing. Learn the shelf first, then the groups, then what is actually in them.</p>
 </header>
@@ -636,6 +637,7 @@ button.chip[aria-pressed="true"] .n{color:var(--paper-2)}
 </nav>
 
 <main>
+  <div class="wrap" id="foundations-return" hidden><button type="button" class="ftload" id="foundations-return-button">Return to guided learning</button></div>
   <section class="panel wrap" id="panel-play" role="tabpanel" aria-labelledby="tab-play" data-open="1"></section>
   <section class="panel wrap" id="panel-explore" role="tabpanel" aria-labelledby="tab-explore" hidden></section>
   <section class="panel wrap" id="panel-learn" role="tabpanel" aria-labelledby="tab-learn" hidden></section>
@@ -653,6 +655,8 @@ button.chip[aria-pressed="true"] .n{color:var(--paper-2)}
 <div class="scrim" id="scrim"></div>
 <aside class="drawer" id="drawer" role="dialog" aria-modal="false" aria-label="Book detail" tabindex="-1"></aside>
 
+<script src="foundations-data.js"></script>
+<script src="foundations.js"></script>
 <script>
 /* =====================================================================
    THE CANON v1.0.0 — data + application
@@ -1417,6 +1421,7 @@ async function loadCorpus(auto){
   }
   if(S.tab === "verses") renderVerses();
   if(S.tab === "explore") renderExplore();
+  if(window.Foundations) Foundations.refreshPassage();
 }
 function searchFull(raw, exclude = new Set()){
   const q = normalizeSearch(raw);
@@ -1988,6 +1993,7 @@ function starRow(got,total){
   return s;
 }
 function renderPlay(){
+  if(window.Foundations && !S.legacyPractice) return Foundations.render("panel-play");
   const host=$("#panel-play");
   const rank=rankOf(S.xp), nx=nextRank(S.xp);
   const pct = nx ? ((S.xp-rank.xp)/(nx.xp-rank.xp))*100 : 100;
@@ -2115,7 +2121,7 @@ function encodeSave(){
   const obj={v:4,x:S.xp,b:S.bestStreak,u:S.unlockAll?1:0,k:S.arcadeOpen?1:0,
     s:st, l:BOOKS.map(b=>S.learned.has(b.n)?"1":"0").join(""), a:[...S.got],
     d:Object.keys(S.stepDone||{}).filter(k=>S.stepDone[k]),
-    ms:S.modeSkip?1:0, eb:S.e2eBest||0, ed:S.e2eDaily||{date:"",best:0}, cb:S.chainBest||0};
+    ms:S.modeSkip?1:0, eb:S.e2eBest||0, ed:S.e2eDaily||{date:"",best:0}, cb:S.chainBest||0, fd:window.Foundations?Foundations.exportState():null};
   try{ return btoa(unescape(encodeURIComponent(JSON.stringify(obj)))); }catch(e){ return ""; }
 }
 function decodeSave(code){
@@ -2136,6 +2142,7 @@ function decodeSave(code){
     } else return false;
     S.learned=new Set(); [...(o.l||"")].forEach((c,i)=>{ if(c==="1") S.learned.add(i+1); });
     S.got=new Set(Array.isArray(o.a)?o.a.filter(id=>ACHV.some(x=>x.id===id)):[]);
+    if(o.fd && window.Foundations) Foundations.importState(o.fd);
     return true;
   }catch(e){ return false; }
 }
@@ -2602,7 +2609,7 @@ function finishRun(){
   advice = stars===4 ? "Nothing left to fix here. Move on."
     : stars===0 ? "Read the group lesson under Learn for whatever you missed, then run it again."
     : "Run it again for four stars, or push on and come back.";
-  const verdict = stars===4?"Mastered." : stars===3?"Strong." : stars===2?"Cleared, with gaps."
+  const verdict = stars===4?"Round complete." : stars===3?"Strong." : stars===2?"Cleared, with gaps."
     : stars===1?"Cleared \u2014 just." : "Not cleared. You need 55% to move on.";
 
   let bonus=0, fresh=[], nextL=null, justUnlocked=false, arcadeJust=false;
@@ -2651,9 +2658,9 @@ function finishRun(){
         :`${!L.arcade && nextL && isUnlocked(levelIndex(L.id)+1)?`<button type="button" class="ghost gonext">Next: ${esc(nextL.name)}</button>`:""}
       <button type="button" class="ghost tomap">Back to the map</button>`}
     </div></div>`;
-  if(L.check) S.stepDone[L.stepId]=true;
+  if(L.check && stars>=1) S.stepDone[L.stepId]=true;
   const host=$(S.runHost||"#panel-play");
-  host.querySelector(".rerun").addEventListener("click",()=>startLevel(L.arcade?L:L.id));
+  host.querySelector(".rerun").addEventListener("click",()=>startLevel((L.arcade||L.check)?L:L.id));
   const gn=host.querySelector(".gonext"); if(gn) gn.addEventListener("click",()=>startLevel(nextL.id));
   const tm=host.querySelector(".tomap"); if(tm) tm.addEventListener("click",()=>{ endRun(); renderPlay(); scrollToWork(); });
   const ts=host.querySelector(".tostep");
@@ -3255,7 +3262,7 @@ const CONTENT_STEPS = [
   body:"Most books can be identified by three names. Moses and Aaron mean the Torah. Deborah, Gideon and Samson mean Judges.",
   check:{fmt:"mixed", e:["who"], scope:{from:1,to:39}, n:5}},
  {id:"n.people2", title:"Who is in it: New Testament", sub:"The cast",
-  body:"Peter and Paul dominate Acts. Timothy and Titus each have letters addressed to them. Onesimus appears in exactly one book.",
+  body:"Peter and Paul dominate Acts. Timothy and Titus each have letters addressed to them. Onesimus appears in Philemon and Colossians (Colossians 4:9).",
   check:{fmt:"mixed", e:["who"], scope:{from:40,to:66}, n:5}},
  {id:"n.author", title:"Who wrote it", sub:"Traditional and scholarly",
   body:"Most books carry a traditional attribution and a scholarly view, and for many of them the two differ. This tool gives you both rather than picking a side.",
@@ -3486,6 +3493,7 @@ function modeUnlocked(i){
   return true;
 }
 function renderLearn(){
+  if(window.Foundations && !S.legacyLearn) return Foundations.render("panel-learn");
   if(S.learnMode) return renderTrack();
   const host=$("#panel-learn");
   host.innerHTML = `
@@ -3735,13 +3743,14 @@ function scrollToWork(){
   window.scrollTo({top:bar.offsetTop,behavior:reduce?"auto":"smooth"});
 }
 function setTab(t){
+  document.getElementById("foundations-return").hidden=!(S.legacyPractice || S.legacyLearn);
   S.tab=t; if(t!=="learn"){ S.runHost="#panel-play"; }
   document.querySelectorAll(".tab").forEach(b=>b.setAttribute("aria-selected",b.dataset.tab===t));
   ["play","explore","learn","verses"].forEach(k=>{
     const p=document.getElementById("panel-"+k);
     p.dataset.open = k===t?"1":"0"; p.hidden = k!==t;
   });
-  if(t==="play"   && !S.run) renderPlay();
+  if(t==="play"   && (!S.run || !S.legacyPractice)) renderPlay();
   if(t==="explore") renderExplore();
   if(t==="learn")   renderLearn();
   if(t==="verses")  renderVerses();
@@ -3791,6 +3800,7 @@ document.addEventListener("keydown",e=>{
   }
 });
 
+document.getElementById("foundations-return-button").addEventListener("click",()=>{ if(S.run) endRun(); S.legacyLearn=false; S.legacyPractice=false; S.learnMode=null; Foundations.open("panel-learn"); setTab("learn"); });
 /* ---------- boot ---------- */
 buildSpine(true); buildLegend(); renderPlay(); updateChrome();
 
@@ -3806,6 +3816,7 @@ function restoreLocal(){
 window.addEventListener("beforeunload", saveLocal);
 setInterval(saveLocal, 20000);
 restoreLocal();
+setTab("learn");
 if("serviceWorker" in navigator) window.addEventListener("load",()=>navigator.serviceWorker.register("sw.js").catch(()=>{}));
 (window.requestIdleCallback||function(f){setTimeout(f,2500);})(()=>loadCorpus(true));
 </script>
