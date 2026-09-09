@@ -622,7 +622,7 @@ button.chip[aria-pressed="true"] .n{color:var(--paper-2)}
     <div class="tabbar-right">
       <button class="trchip" id="trchip" type="button" title="Change translation">BSB</button>
       <button class="rankchip" id="rankchip" type="button" title="Go to Play"><b>Visitor</b><span class="xp">0 XP</span></button>
-      <input class="search" id="search" type="search" placeholder="Search books or verses" aria-label="Search">
+      <input class="search" id="search" type="search" placeholder="Search the Bible" aria-label="Search">
     </div>
   </div>
 </nav>
@@ -1376,67 +1376,80 @@ function searchVerses(raw){
   return exact.concat(meta, cross, loose);
 }
 
-/* ---------- tier 2: full-text search over the whole BSB ---------- */
-let CORPUS = null, corpusState = "idle", corpusErr = "";
-function corpusReady(){ return corpusState==="loaded" && CORPUS; }
-async function loadCorpus(auto){
-  if(corpusState==="loading" || corpusState==="loaded") return;
-  corpusState="loading"; if(!auto) renderVerses();
-  try{
-    const r = await fetch("corpus.txt", {cache:"force-cache"});
-    if(!r.ok) throw new Error("HTTP "+r.status);
-    const txt = await r.text();
-    const rows=[];
-    for(const line of txt.split("\n")){
-      if(!line) continue;
-      const a=line.indexOf("\t"); const b=line.indexOf("\t",a+1); const c=line.indexOf("\t",b+1);
-      if(c<0) continue;
-      rows.push([+line.slice(0,a), +line.slice(a+1,b), +line.slice(b+1,c), line.slice(c+1)]);
-    }
-    if(rows.length<30000) throw new Error("corpus looks truncated ("+rows.length+" verses)");
-    CORPUS=rows; corpusState="loaded";
-  }catch(e){
-    corpusState="unavailable"; corpusErr=String(e.message||e);
-  }
-  renderVerses();
+/* ---------- search the complete corpus ---------- */
+let CORPUS = null, corpusState = "idle", corpusErr = "", corpusLimit = 120;
+function corpusReady(){ return corpusState === "loaded" && CORPUS; }
+function normalizeSearch(text){
+  return text.toLowerCase().replace(/[‘’]/g, "'").replace(/[“”]/g, '"').replace(/\s+/g, " ").trim();
 }
-function searchFull(raw, exclude){
-  if(!corpusReady()) return {hits:[], total:0};
-  const terms = expandQuery(raw.trim().toLowerCase());
-  const hits=[]; let total=0;
-  for(let i=0;i<CORPUS.length;i++){
-    const row=CORPUS[i], low=row[3].toLowerCase();
-    let ok=false;
-    for(let t=0;t<terms.length;t++){ if(low.includes(terms[t])){ ok=true; break; } }
-    if(!ok) continue;
-    const nm=BOOKS[row[0]-1]; if(!nm) continue;
-    const ref = nm.name+" "+row[1]+":"+row[2];
-    if(exclude.has(ref)) continue;
+async function loadCorpus(auto){
+  if(corpusState === "loading" || corpusState === "loaded") return;
+  corpusState = "loading";
+  if(!auto) renderVerses();
+  try{
+    const response = await fetch("./corpus.txt", {cache:"no-cache"});
+    if(!response.ok) throw new Error("HTTP " + response.status);
+    const rows = [];
+    for(const line of (await response.text()).split(/\r?\n/)){
+      if(!line.trim()) continue;
+      const fields = line.split("\t");
+      const [bn, chapter, verse] = fields.slice(0,3).map(Number);
+      const book = BOOKS[bn-1], text = fields.slice(3).join("\t");
+      if(!book || !Number.isInteger(bn) || !Number.isInteger(chapter) || chapter<1 || !Number.isInteger(verse) || verse<1 || !text.trim())
+        throw new Error("Invalid corpus row " + (rows.length+1));
+      rows.push({bn, chapter, verse, text, ref:book.name+" "+chapter+":"+verse, low:normalizeSearch(text)});
+    }
+    if(rows.length < 30000) throw new Error("Corpus looks truncated ("+rows.length+" verses)");
+    CORPUS = rows;
+    corpusState = "loaded";
+    corpusErr = "";
+  }catch(error){
+    corpusState = "unavailable";
+    corpusErr = String(error.message || error);
+  }
+  if(S.tab === "verses") renderVerses();
+}
+function searchFull(raw, exclude = new Set()){
+  const q = normalizeSearch(raw);
+  if(!corpusReady() || !q) return {hits:[], total:0};
+  // Resolve book names first so John never matches 1 John or John 3:1 matches 3:10.
+  let reference = null;
+  for(const book of BOOKS){
+    const name = normalizeSearch(book.name);
+    if(q !== name && !q.startsWith(name+" ")) continue;
+    const suffix = q.slice(name.length).trim();
+    const match = suffix.match(/^(\d+)(?:\s*:\s*(\d+)(?:\s*[-–]\s*(\d+))?)?$/);
+    if(!suffix || match){ reference = {bn:book.n, chapter:match ? +match[1] : null, first:match && match[2] ? +match[2] : null, last:match && match[3] ? +match[3] : null}; break; }
+  }
+  const terms = q.match(/"[^"]+"|\S+/g).map(term=>term.replace(/^"|"$/g,""));
+  const hits = []; let total = 0;
+  for(const row of CORPUS){
+    const matches = reference
+      ? row.bn===reference.bn && (reference.chapter===null || row.chapter===reference.chapter) && (reference.first===null || (row.verse>=reference.first && row.verse<=(reference.last===null ? reference.first : reference.last)))
+      : terms.every(term=>row.low.includes(term));
+    if(!matches || exclude.has(row.ref)) continue;
     total++;
-    if(hits.length<120) hits.push({ref, bn:row[0], text:row[3]});
+    if(hits.length < corpusLimit) hits.push(row);
   }
   return {hits, total};
 }
-function fullTextBlock(q, exclude){
-  if(!q.trim()) return "";
-  if(corpusState==="unavailable")
-    return `<div class="ftbox"><p class="ftnote">Full-text search is unavailable here \u2014 the corpus loads only when this is served over http. The 232 curated passages above are always searchable.</p></div>`;
-  if(corpusState==="idle")
-    return `<div class="ftbox"><p class="ftnote">Only the ${VERSES.length} curated passages were searched.</p>
-      <button type="button" class="ftload" id="ftload">Search all 31,086 verses</button></div>`;
-  if(corpusState==="loading")
-    return `<div class="ftbox"><p class="ftnote">Loading the full text\u2026</p></div>`;
-  const {hits,total}=searchFull(q, exclude);
-  if(!total) return `<div class="ftbox"><p class="ftnote">No other matches in the full Bible text.</p></div>`;
-  return `<div class="ftbox">
-    <p class="ft-h">Elsewhere in the Bible <span>${total} more match${total>1?"es":""}${total>hits.length?", showing "+hits.length:""}</span></p>
-    <p class="ftnote">Full BSB text. These are not curated \u2014 no theme, speaker or note.</p>
-    <div class="ftlist">${hits.map(x=>{
-      const b=byN(x.bn);
-      return `<article class="ftcard" style="--seg:${CATS[b.cat].c}">
-        <button type="button" class="vcard-book" data-n="${x.bn}">${esc(x.ref)}</button>
-        <p>${esc(x.text)}</p></article>`;
-    }).join("")}</div></div>`;
+function fullTextBlock(q){
+  if(corpusState === "unavailable") return `<div class="ftbox" role="status"><p>Could not load corpus.txt: ${esc(corpusErr)}.</p><p class="ftnote">Serve this page and corpus.txt from the same folder over HTTP or HTTPS.</p><button type="button" class="ftload" id="ftload">Retry search</button></div>`;
+  if(!corpusReady()) return `<div class="ftbox" role="status"><p>Loading corpus.txt…</p></div>`;
+  const {hits,total} = searchFull(q);
+  return `<div class="ftbox"><p class="ft-h" role="status">${total.toLocaleString()} result${total===1?"":"s"}${total>hits.length?", showing "+hits.length.toLocaleString():""}</p>
+    <p class="ftnote">Searching all ${CORPUS.length.toLocaleString()} verses in corpus.txt (Berean Standard Bible). Enter words, a quoted phrase, a book, or a reference such as John 3:16 or John 3:16–18.</p>
+    ${total ? `<div class="ftlist">${hits.map(x=>`<article class="ftcard" style="--seg:${CATS[byN(x.bn).cat].c}"><button type="button" class="vcard-book" data-n="${x.bn}">${esc(x.ref)}</button><p>${esc(x.text)}</p></article>`).join("")}</div>` : '<p>No matching verses. Try different words or a verse reference.</p>'}
+    ${total>hits.length?'<button type="button" class="ftload" id="ftmore">Show more results</button>':""}</div>`;
+}
+function renderCorpusSearch(host){
+  host.innerHTML = `<div class="vhead"><h2>Bible search</h2><p>Results for “${esc(S.q.trim())}”</p></div>${fullTextBlock(S.q)}`;
+  host.querySelectorAll(".vcard-book").forEach(el=>el.addEventListener("click",()=>openBook(+el.dataset.n)));
+  const retry = host.querySelector("#ftload");
+  if(retry) retry.addEventListener("click",()=>loadCorpus(false));
+  const more = host.querySelector("#ftmore");
+  if(more) more.addEventListener("click",()=>{corpusLimit += 120; renderVerses();});
+  if(corpusState === "idle") loadCorpus(false);
 }
 
 function whereLabel(w){
@@ -3516,6 +3529,7 @@ function startCheck(step, m){
 /* ---------- verses ---------- */
 function renderVerses(){
   const host=$("#panel-verses");
+  if(S.q.trim()) return renderCorpusSearch(host);
   const anchor=VERSES.find(v=>v.themes.includes("fruitlist"));
   const list = searchVerses(S.q).filter(r=>{
     const v=r.v;
@@ -3697,11 +3711,22 @@ document.querySelectorAll(".spine-scale button").forEach(b=>b.addEventListener("
   document.querySelectorAll(".spine-scale button").forEach(x=>x.setAttribute("aria-pressed",x===b));
   buildSpine(false);
 }));
-$("#search").addEventListener("input",e=>{
-  S.q=e.target.value;
-  if(S.tab==="verses") return renderVerses();
-  if(S.tab!=="explore"){ setTab("explore"); scrollToWork(); } else renderExplore();
+let searchTimer;
+function runCorpusQuery(){
+  clearTimeout(searchTimer);
+  S.q = $("#search").value;
+  corpusLimit = 120;
+  if(S.tab!=="verses"){ setTab("verses"); scrollToWork(); }
+  else renderVerses();
+}
+$("#search").addEventListener("input",()=>{
+  clearTimeout(searchTimer);
+  searchTimer = setTimeout(runCorpusQuery, 150);
 });
+$("#search").addEventListener("keydown",e=>{
+  if(e.key === "Enter"){ e.preventDefault(); runCorpusQuery(); }
+});
+
 $("#scrim").addEventListener("click",closeDrawer);
 document.addEventListener("keydown",e=>{
   if(e.key==="Escape" && $("#drawer").dataset.open==="1") return closeDrawer();
