@@ -2,7 +2,9 @@
 
 ## Release scope
 
-Units 1–2 contain nine complete lessons, eighteen initial challenges, and eight distinct transfer-review challenges for Unit 2. The theological guide contains sixteen approved topic explanations with passages and interpretive boundaries. Units 3–16 below are an authoring roadmap, not completed courses or unlocked placeholders. The existing Bible reader, full-verse corpus search, and original practice modes remain available.
+All sixteen units are available: 23 complete lessons, 50 initial understanding challenges, and 36 return-review challenges. Unit 1 contains five orientation lessons; Unit 2 contains four reading-method lessons; Units 3–16 each contain one integrated unit study with four primary-text encounters and layered explanation. This is a complete introductory path, not an exhaustive seminary course or a claim that every theological dispute has been resolved. The theological guide supplies sixteen approved topic explanations with interpretive boundaries. The full Bible reader, corpus search, original book drills, and saved progress remain available.
+
+Every unit has a readable document generated from production lesson data and the Bible corpus. Documents include readings, explanations, vocabulary, reflections, challenge solutions, and review material. Run `npm run docs` after editing content.
 
 ## University-informed design
 
@@ -10,13 +12,13 @@ This is original curriculum, not copied course material, a university syllabus, 
 
 ## Learning contract
 
-Each lesson has an objective, full primary reading from corpus.txt, substantive explanation, a simpler explanation, vocabulary, deeper inquiry, optional reflection with a model, and two challenges. Readers may move freely. No profession of faith is required. Reflection is private and ungraded; exported progress includes reflections and says so. Learning milestones are separate from legacy arcade XP.
+Each lesson has an objective, full primary reading from corpus.txt (plus three additional primary readings in each integrated unit study), substantive explanation, a simpler explanation, vocabulary, deeper inquiry, optional reflection with a model, and at least two challenges. Readers may move freely. No profession of faith is required. Reflection is private and ungraded; exported progress includes reflections and says so. Learning milestones are separate from legacy arcade XP.
 
-Challenges use sequencing, matching, evidence selection, and a two-stage scenario. All support keyboard and touch without dragging or timers. Hints and retries are unlimited. Completing both challenges earns one milestone. Return practice after 1, 3, 7, then 14 days builds retention; intervals are product defaults, not a uniquely proven optimum. Early practice is available but cannot accelerate review awards. Unit 1 reviews revisit the original tasks with ordering variation. Unit 2 reviews use eight separately authored transfer problems. Revisit a lesson and resume the same mission without losing its current construction. A milestone is evidence of task completion, not whole-topic mastery or personal belief.
+Challenges use story and reasoning sequencing, matching, evidence boards, directed argument maps, and multi-stage scenarios. Initial constructions are shuffled while preserving answer keys and keyboard operation. All support keyboard and touch without dragging or timers. Hints and retries are unlimited. Completing every challenge earns one milestone. Return practice after 1, 3, 7, then 14 days builds retention; intervals are product defaults, not a uniquely proven optimum. Early practice is available but cannot accelerate review awards. Unit 1 reviews revisit the original tasks with ordering variation. Unit 2 reviews use eight separately authored transfer problems. Units 3–16 add 28 review challenges that audit new claims and reconstruct conceptual connections. Reviews are formative practice, not a validated psychometric measure. Revisit a lesson and resume the same mission without losing its current construction. A milestone is evidence of task completion, not whole-topic mastery or personal belief.
 
-## Scope and sequence
+## Complete scope and sequence
 
-1. **Orientation:** The five playable lessons above.
+1. **Orientation:** Five lessons introducing the central story, library, narrative, context, and mercy.
 2. **Reading Scripture (playable):** Genre (Psalm 23); audience and context (1 Corinthians 11:17–22); translation and manuscripts (1 Corinthians 13:1–7); responsible application (James 1:19–27). See [complete Unit 2](unit-02.md).
 3. **Creation and humanity:** Genesis; image of God; sin and mortality; creation care.
 4. **Covenant and liberation:** Abraham; Exodus; Sinai; covenant responsibilities.
@@ -169,7 +171,7 @@ Difficulty is not a universal empirical ranking. Prioritize conceptual complexit
 
 ## Editorial and release gates
 
-Approved positions are the guide’s stated perspective, not a claim that all Christians or all MCC/Disciples congregations agree. Describe competing positions in terms adherents would recognize. Cite sources and distinguish textual observation, historical claims, and interpretation. Never award points for assent, identity, or disclosure. No speculative personal cosmology is taught as doctrine. New substantive disagreements require owner review before publication. Additional units need complete prose, primary readings, aligned challenges, accessibility verification, and theological review before appearing as playable lessons.
+Approved positions are the guide’s stated perspective, not a claim that all Christians or all MCC/Disciples congregations agree. Describe competing positions in terms adherents would recognize. Cite sources and distinguish textual observation, historical claims, and interpretation. Never award points for assent, identity, or disclosure. No speculative personal cosmology is taught as doctrine. New substantive disagreements require owner review before publication. Future additions need complete prose, primary readings, aligned challenges, accessibility verification, and theological review before appearing as playable lessons.
 
 ## Sources
 
@@ -180,3 +182,22 @@ Approved positions are the guide’s stated perspective, not a claim that all Ch
 - [MCC: faith and core values](https://insidemcc.org/about-mcc/what-we-believe/)
 - [Christian Church (Disciples of Christ): identity](https://disciples.org/our-identity/)
 - [Spacing learning over time: Carpenter and Agarwal](https://pdf.retrievalpractice.org/SpacingGuide.pdf)
+
+## Unit documents
+
+- [Unit 1](unit-01.md)
+- [Unit 2](unit-02.md)
+- [Unit 3](unit-03.md)
+- [Unit 4](unit-04.md)
+- [Unit 5](unit-05.md)
+- [Unit 6](unit-06.md)
+- [Unit 7](unit-07.md)
+- [Unit 8](unit-08.md)
+- [Unit 9](unit-09.md)
+- [Unit 10](unit-10.md)
+- [Unit 11](unit-11.md)
+- [Unit 12](unit-12.md)
+- [Unit 13](unit-13.md)
+- [Unit 14](unit-14.md)
+- [Unit 15](unit-15.md)
+- [Unit 16](unit-16.md)

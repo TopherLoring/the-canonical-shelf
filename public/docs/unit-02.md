@@ -30,6 +30,8 @@ Genre also changes how we read other books. A proverb often communicates practic
 
 Try a simple routine: identify the form, point to a clue, explain what the language communicates, and test your reading against the whole passage. Avoid two shortcuts: assuming all vivid language is a literal description, and calling anything difficult a metaphor without evidence. Responsible reading gives reasons for either judgment.
 
+Genre comparison: Acts 18:1–4 narrates Paul’s arrival, work, and conversations in Corinth. Exodus 20:12–17 gives covenant commands; a command tells its audience what to do, not what everyone actually did. Daniel 7:2–3 presents a vision of beasts; 7:17–18 itself interprets beasts in relation to kings and a kingdom. The symbolism makes a claim about power and hope, not a zoological report. These genres can address reality differently. Identifying symbolism does not make a passage meaningless, and identifying narrative does not settle every historical question.
+
 **Simply:** A metaphor can make a serious claim. Psalm 23’s shepherd image speaks of God’s care; the valley shows that care does not mean an absence of danger.
 
 ### Vocabulary
@@ -38,7 +40,7 @@ Try a simple routine: identify the form, point to a clue, explain what the langu
 - **Metaphor:** Describing one thing in terms of another to illuminate its meaning.
 - **Apocalyptic:** Writing that uses revelatory visions and symbols to address judgment, crisis, and hope.
 
-**Deeper:** Compare the shepherd and host images. Which details change, and what claim about God remains? A useful analogy opens understanding while retaining limits; it should not turn every incidental feature of shepherding into a doctrine about God.
+**Deeper:** Compare the shepherd and host images. Which details change, and what claim about God remains? A useful analogy opens understanding while retaining limits; it should not turn every incidental feature of shepherding into a doctrine about God. Books can mix genres: Daniel includes court narratives and visions. Classify the passage before classifying the whole book. Revelation likewise uses symbolic visions, but its images must be read in their own literary and historical contexts; a genre label alone cannot identify a modern political figure or date.
 
 **Optional reflection:** Which image in Psalm 23 communicates care most clearly to you, and which words in the passage support your reading?
 
@@ -75,6 +77,56 @@ Select the two details that support God’s care amid danger rather than a guara
 **Hint:** Look for both danger and companionship.
 
 **Explanation:** The valley and divine companionship belong to the same poem. The reading must account for both.
+
+### Three genres, three reading moves
+
+**Format:** match
+
+Read the comparison passages. Connect each feature with the reading move it warrants.
+
+- Daniel’s beasts, interpreted as kings in 7:17 → Read the image through the vision’s own interpretation before assigning referents.
+- Acts identifies Corinth, Paul’s trade, and synagogue conversations → Trace characters, setting, and narrated events; then ask historical questions.
+- Exodus addresses its audience with prohibitions → Distinguish a covenant obligation from a report of actual behavior.
+
+**Hint:** A vision, a narrated event, and a command make different kinds of claims.
+
+**Explanation:** Daniel supplies an interpretive cue; Acts narrates a setting and actions; Exodus prescribes conduct. None of these moves licenses ignoring context.
+
+### Additional reading: Daniel 7:2–3 · Berean Standard Bible
+
+**2** Daniel declared: “In my vision in the night I looked, and suddenly the four winds of heaven were churning up the great sea.
+
+**3** Then four great beasts came up out of the sea, each one different from the others:
+
+### Additional reading: Daniel 7:17–18 · Berean Standard Bible
+
+**17** ‘These four great beasts are four kings who will arise from the earth.
+
+**18** But the saints of the Most High will receive the kingdom and possess it forever—yes, forever and ever.’
+
+### Additional reading: Acts 18:1–4 · Berean Standard Bible
+
+**1** After this, Paul left Athens and went to Corinth.
+
+**2** There he found a Jew named Aquila, a native of Pontus, who had recently come from Italy with his wife Priscilla because Claudius had ordered all the Jews to leave Rome. Paul went to visit them,
+
+**3** and he stayed and worked with them because they were tentmakers by trade, just as he was.
+
+**4** Every Sabbath he reasoned in the synagogue, trying to persuade Jews and Greeks alike.
+
+### Additional reading: Exodus 20:12–17 · Berean Standard Bible
+
+**12** Honor your father and mother, so that your days may be long in the land that the LORD your God is giving you.
+
+**13** You shall not murder.
+
+**14** You shall not commit adultery.
+
+**15** You shall not steal.
+
+**16** You shall not bear false witness against your neighbor.
+
+**17** You shall not covet your neighbor’s house. You shall not covet your neighbor’s wife, or his manservant or maidservant, or his ox or donkey, or anything that belongs to your neighbor.”
 
 ### Return mission: new examples
 
@@ -140,6 +192,8 @@ This passage is therefore a useful exercise in context. If we extract a phrase a
 Historical context can deepen understanding, but confidence should match evidence. This paragraph establishes unequal treatment. It does not provide every person’s motive or a complete seating chart. A historical reconstruction may be plausible without being something the passage directly states. Label the difference instead of filling every gap with certainty.
 
 Build your interpretation in layers: identify the speaker and recipients; summarize the problem; trace the response; and mark unanswered questions. Then ask what the passage challenges now. A community might examine whether cost, accessibility, timing, or social status makes its stated welcome difficult to experience. That is an application derived from the concern, not a claim that Paul discussed every modern arrangement.
+
+Return to Unit 1’s patronage lens. Do we treat a shared meal as each person’s private choice, or ask how unequal resources shape belonging? Paul explicitly names hunger and humiliation. Social history helps form questions; it does not authorize us to invent every participant’s motives.
 
 **Simply:** Paul is correcting a gathering where some people are humiliated and left hungry. Read his words about the meal inside that conversation before using them as an isolated rule.
 
@@ -253,6 +307,8 @@ The original handwritten documents are not available for us simply to inspect. T
 
 Our guide treats Scripture as inspired and authoritative while allowing critical examination of transmission and interpretation. To investigate a difference, read the paragraph, compare translations, consult their notes and stated methods, then formulate a conclusion limited to the evidence. If the original-language issue remains uncertain, say so. You do not need to know Greek or Hebrew to begin asking these better questions.
 
+Manuscript workshop: read 1 John 5:6–8 below, then compare the linked NET notes. The KJV at 5:7 includes “in heaven, the Father, the Word, and the Holy Ghost: and these three are one.” The BSB’s 5:7 reads “For there are three that testify:” and continues with Spirit, water, and blood in 5:8. The difference is an added clause, not just updated vocabulary. NET marks the issue “tc” (textual criticism), distinct from “tn” (translation note). Its note reports late, limited Greek support for the longer reading and explains why it is excluded from the main text. This is a source-text decision, not merely a choice between English synonyms. A footnote makes the evidence visible; it does not by itself establish a translator’s motive.
+
 **Simply:** Different English wording can express the same idea. First ask whether the difference concerns translation, manuscript wording, or interpretation; then inspect the evidence for that specific question.
 
 ### Vocabulary
@@ -260,8 +316,9 @@ Our guide treats Scripture as inspired and authoritative while allowing critical
 - **Manuscript witness:** A surviving handwritten copy that provides evidence about a text.
 - **Textual variant:** A difference in wording among textual witnesses.
 - **Idiom:** An expression whose meaning is not always obvious from its individual words.
+- **Textual apparatus:** Notes reporting alternative readings and the witnesses that support them.
 
-**Deeper:** A translation that stays close to word forms and one that makes an idiom explicit may illuminate different features. Neither approach guarantees accuracy in every passage. Read the translation’s method and notes rather than ranking versions solely by how old or familiar they sound.
+**Deeper:** A translation that stays close to word forms and one that makes an idiom explicit may illuminate different features. Neither approach guarantees accuracy in every passage. Read the translation’s method and notes rather than ranking versions solely by how old or familiar they sound. In the NET note, separate manuscript evidence from the editors’ conclusion. Compare that source-text question with the English-word choice charity/love in this lesson. A judgment about one reading’s originality neither proves nor disproves the Trinity; that doctrine is examined across passages in Unit 11.
 
 **Optional reflection:** How would you respond to someone who sees “charity” and “love” and concludes one translator removed the original message?
 
@@ -297,6 +354,31 @@ Using the two excerpts in the lesson, select the two conclusions the evidence su
 **Hint:** Keep your conclusion proportional to this comparison.
 
 **Explanation:** The passages support continuity of meaning in this example, not a universal verdict on all translation decisions.
+
+### Investigate a manuscript note
+
+**Format:** evidence
+
+Compare 1 John 5:6–8 and the workshop note. Select the two conclusions warranted by this evidence.
+
+- The longer heavenly-witness clause is a source-text variant, not an English synonym.
+- The NET tc note explains the evidence behind its main-text decision.
+- A shorter reading proves the translators wanted to remove the Trinity.
+- Every difference between two Bible versions is a manuscript variant.
+
+**Supported evidence:** The longer heavenly-witness clause is a source-text variant, not an English synonym.; The NET tc note explains the evidence behind its main-text decision.
+
+**Hint:** Ask whether the difference lies in the underlying wording or its English expression. Do not infer an intention from absence alone.
+
+**Explanation:** The note documents a textual decision. Claims about motives and the whole doctrine require additional evidence.
+
+### Additional reading: 1 John 5:6–8 · Berean Standard Bible
+
+**6** This is the One who came by water and blood, Jesus Christ—not by water alone, but by water and blood. And it is the Spirit who testifies to this, because the Spirit is the truth.
+
+**7** For there are three that testify:
+
+**8** the Spirit, the water, and the blood—and these three are in agreement.
 
 ### Return mission: new examples
 
@@ -335,6 +417,7 @@ Put this beginner’s investigation in order.
 
 - [Berean Bible: translation process and sources](https://berean.bible/)
 - [KJV wording of 1 Corinthians 13:4](https://www.biblegateway.com/passage/?search=1+Corinthians+13%3A4&version=KJV)
+- [NET Bible: 1 John 5:6–8, translation and textual-critical notes](https://www.biblegateway.com/passage/?search=1+John+5%3A6-8&version=NET)
 
 ## Build a responsible application
 
@@ -369,6 +452,8 @@ The mirror comparison makes the problem memorable: a person sees and then forget
 An application should be specific enough to do and humble enough to revise. If a discussion turns hostile, someone might listen before answering, check an accusation, and repair a harmful statement. If a neighbor needs support, someone might ask what help is wanted and arrange it. Neither example turns a verse into permission to control another person or ignore their account of their own needs.
 
 Our guide distinguishes receiving salvation through grace from earning it through achievement. Practicing love is a response to grace, not a score that purchases God’s acceptance. The same distinction applies to learning: your mission score records how you reasoned through a task. It cannot measure your faith, virtue, or standing before God. You may identify the lesson’s reasoning while still asking questions about it.
+
+An argument map makes reasoning inspectable. Start with observations from the passage, connect them to an interpretation they support, and connect that interpretation to a proportionate application. Several observations may support one claim. A plausible application is not a quotation, and an unsupported leap should remain unconnected. In the mission, build three directed links: two observations → one claim → one application.
 
 **Simply:** Notice what the passage says, explain how its parts fit, and choose a concrete response. Test that response against the passage and the real needs of the people affected.
 
@@ -423,6 +508,28 @@ You connect hearing with action and take responsibility for the consequences.
 **Hint:** Move from careful listening to a concrete response that addresses the harm.
 
 **Explanation:** Responsible application connects the passage with action while remaining accountable to the person affected.
+
+### Build James’s argument
+
+**Format:** argument
+
+Build exactly three supported links. Two observations support the author’s central claim; the claim then warrants one application. Leave the unsupported shortcut disconnected.
+
+- Observation: James contrasts hearing alone with doing (1:22).
+- Observation: James names care for vulnerable people (1:27).
+- Interpretation: receiving the word should take practical form.
+- Application: listen to a person in need and arrange practical help.
+- Alternative interpretation: good intentions make listening unnecessary.
+
+**Supported connections:**
+
+- Observation: James contrasts hearing alone with doing (1:22). → Interpretation: receiving the word should take practical form.
+- Observation: James names care for vulnerable people (1:27). → Interpretation: receiving the word should take practical form.
+- Interpretation: receiving the word should take practical form. → Application: listen to a person in need and arrange practical help.
+
+**Hint:** Connect each observation to the claim it supports, then connect that claim to the justified application. Leave unsupported claims unconnected.
+
+**Explanation:** Hearing/doing and care support the claim that reception takes practical form. The application is one justified response, not the only possible one. Bypassing listening contradicts 1:19.
 
 ### Return mission: new examples
 

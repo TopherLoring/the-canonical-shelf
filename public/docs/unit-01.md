@@ -26,6 +26,8 @@ This guide teaches Christianity from an explicitly LGBTQ-affirming, open-table p
 
 The first goal is orientation. Notice what the passage actually says before trying to settle every question about how salvation works. Later lessons distinguish the saving work of Christ, receiving grace through faith and repentance, and living in response to that grace.
 
+Paul writes to a community in Roman Corinth, not to isolated readers. Patron-client relationships exchanged resources and assistance for loyalty and public honor; gifts could create obligations. That social setting helps us ask who had influence and whose needs went unheard. It does not establish the motive of every Corinthian. Read 1 Corinthians 11:17–22 alongside this opening lesson: the gospel Paul recalls in chapter 15 also concerns the community’s shared life.
+
 **Simply:** Start with a person and a story: Christians proclaim that Jesus died for sins and rose from the dead. You can learn what that claim means before deciding what you believe.
 
 ### Vocabulary
@@ -33,8 +35,9 @@ The first goal is orientation. Notice what the passage actually says before tryi
 - **Gospel:** Good news; also the name for a narrative book about Jesus.
 - **Christ:** Anointed one; the Greek title corresponding to Messiah.
 - **Resurrection:** Being raised from death, not repeatedly returning in new earthly lives.
+- **Patronage:** Relationships in which assistance and resources could carry expectations of loyalty, honor, and reciprocal obligations.
 
-**Deeper:** Paul distinguishes the proclamation from his own role as its messenger. Ask what changes when we read this as a reminder to a community rather than as a modern individual conversion script.
+**Deeper:** Paul distinguishes the proclamation from his own role as its messenger. Ask what changes when we read this as a reminder to a community rather than as a modern individual conversion script. Modern individualistic habits may reduce Paul’s letters to “my beliefs” or “my spiritual success.” Ask instead how status, dependence, and public reputation shape a congregation. Jennings studies patronage especially in 2 Corinthians 8–9; applying that lens elsewhere is an interpretive proposal, to be checked against each passage. In 1 Corinthians 11, hunger and humiliation are explicit evidence; a precise seating plan or each host’s intention is a reconstruction. Paul’s critique reaches communal conduct, not simply private sincerity.
 
 **Optional reflection:** What would you need to understand before explaining Christianity’s central claim to someone else?
 
@@ -70,6 +73,46 @@ Assign the correct meaning to each term.
 **Hint:** A title, a message, and an event are different categories.
 
 **Explanation:** Christ is a title, gospel is good news, and resurrection concerns being raised from death.
+
+### Connect gospel and shared life
+
+**Format:** argument
+
+Use 1 Corinthians 11:17–22, the additional reading. Build three links from the two observations through the supported interpretation to its application.
+
+- Observation: some go hungry while others have excess (11:21).
+- Observation: Paul rebukes humiliating those who have nothing (11:22).
+- Interpretation: this gathering’s inequality contradicts its purpose as a shared meal.
+- Application: arrange the meal so people with fewer resources are included.
+- Alternative interpretation: we know every host’s private motive.
+
+**Supported connections:**
+
+- Observation: some go hungry while others have excess (11:21). → Interpretation: this gathering’s inequality contradicts its purpose as a shared meal.
+- Observation: Paul rebukes humiliating those who have nothing (11:22). → Interpretation: this gathering’s inequality contradicts its purpose as a shared meal.
+- Interpretation: this gathering’s inequality contradicts its purpose as a shared meal. → Application: arrange the meal so people with fewer resources are included.
+
+**Hint:** Connect each observation to the claim it supports, then connect that claim to the justified application. Leave unsupported claims unconnected.
+
+**Explanation:** The reported conduct supports a critique of the gathering and a practical response. Patronage raises useful background questions but cannot disclose every individual motive.
+
+### Additional reading: 1 Corinthians 11:17–22 · Berean Standard Bible
+
+**17** In the following instructions I have no praise to offer, because your gatherings do more harm than good.
+
+**18** First of all, I hear that when you come together as a church, there are divisions among you, and in part I believe it.
+
+**19** And indeed, there must be differences among you to show which of you are approved.
+
+**20** Now then, when you come together, it is not the Lord’s Supper you eat.
+
+**21** For as you eat, each of you goes ahead without sharing his meal. While one remains hungry, another gets drunk.
+
+**22** Don’t you have your own homes in which to eat and drink? Or do you despise the church of God and humiliate those who have nothing? What can I say to you? Shall I praise you for this? No, I will not!
+
+### Sources
+
+- [Mark A. Jennings, Patronage and Rebuke in Paul’s Persuasion in 2 Corinthians 8–9 (2009)](https://www.jgrchj.net/volume6/JGRChJ6-5_Jennings.pdf)
 
 ## Navigate a library
 

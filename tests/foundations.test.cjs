@@ -1,23 +1,27 @@
 const assert=require('node:assert/strict'),fs=require('node:fs'),vm=require('node:vm');
-const root=require('node:path').resolve(__dirname,'..');
+const root=require('node:path').resolve(__dirname,'../public');
 const read=p=>fs.readFileSync(root+'/'+p,'utf8');
 const ctx=vm.createContext({window:{},localStorage:{getItem:()=>null,setItem:()=>{}},Date,JSON,Number,Set,String,console});
 vm.runInContext(read('foundations-data.js'),ctx);vm.runInContext(read('foundations.js'),ctx);
 const D=ctx.window.FOUNDATIONS_DATA,T=ctx.window.Foundations._test;
-assert.equal(D.lessons.length,9);assert.equal(D.topics.length,16);assert.equal(D.units.length,16);
+assert.equal(D.lessons.length,23);assert.equal(D.topics.length,16);assert.equal(D.units.length,16);
 const rows=read('corpus.txt').trim().split(/\r?\n/).map(x=>x.split('\t'));
 assert.ok(rows.length>30000);
+assert.equal(new Set(D.lessons.map(l=>l.id)).size,D.lessons.length);
+for(const unit of D.units)assert.ok(D.lessons.some(l=>l.unit===unit.id));
 for(const l of D.lessons){
  assert.ok(l.body.length>=4&&l.simple&&l.deeper&&l.reflect&&l.model);
  const [b,c,s,e]=l.ref;assert.equal(rows.filter(r=>+r[0]===b&&+r[1]===c&&+r[2]>=s&&+r[2]<=e).length,e-s+1);
- assert.equal(l.challenges.length,2);
+ assert.ok(l.challenges.length>=2);
+ for(const extra of l.extraReadings||[]){const[b,c,s,e]=extra.ref;assert.equal(rows.filter(r=>+r[0]===b&&+r[1]===c&&+r[2]>=s&&+r[2]<=e).length,e-s+1);}
+ for(const source of l.sources||[])assert.ok(D.sources.some(s=>s.url===source));
  assert.ok(D.units.some(u=>u.id===l.unit));
- if(l.unit===2)assert.equal(l.reviewChallenges.length,2);
+ if(l.unit>=2)assert.equal(l.reviewChallenges.length,2);
  for(const ch of [...l.challenges,...(l.reviewChallenges||[])]){
   assert.ok(ch.hint&&ch.why);
-  if(ch.kind==='scenario'){assert.equal(ch.stages.length,2);for(const st of ch.stages)assert.ok(st.choices[st.correct]&&st.feedback.length===st.choices.length);continue;}
-  const correct={order:ch.answer,matches:Object.fromEntries(ch.answer.map((a,i)=>[i,a])),selected:ch.answer};
-  assert.ok(T.evaluate(ch,correct));assert.equal(T.evaluate(ch,{order:[],matches:{},selected:[]}),false);
+  if(ch.kind==='scenario'){assert.ok(ch.stages.length>=2);for(const st of ch.stages)assert.ok(st.choices[st.correct]&&st.feedback.length===st.choices.length);continue;}
+  const correct={order:ch.answer,matches:Object.fromEntries(ch.answer.map((a,i)=>[i,a])),selected:ch.answer,links:ch.answer};
+  assert.ok(T.evaluate(ch,correct));assert.equal(T.evaluate(ch,{order:[],matches:{},selected:[],links:[]}),false);
   if(ch.kind==='match')for(const n of ch.answer)assert.ok(ch.options[n]);
  }
 }

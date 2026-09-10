@@ -15,15 +15,17 @@ window.FOUNDATIONS_DATA = {
         "Christianity centers on Jesus Christ: his life, death, and resurrection, and the relationship with God made possible through him. Christ is a title meaning anointed one, not Jesus’ surname. Gospel means good news; it can refer to the Christian message or to one of the four Gospel books.",
         "Paul’s letter to the Corinthians addresses an existing community with questions and disagreements. Here he recalls a message he received and passed on: Christ died for sins, was buried, was raised, and appeared to witnesses. This is a compact proclamation inside a letter, not a complete biography of Jesus.",
         "This guide teaches Christianity from an explicitly LGBTQ-affirming, open-table perspective influenced by Metropolitan Community Churches and the Christian Church (Disciples of Christ). It takes historic Christian teaching seriously and identifies disagreements. You may explore, question, or disagree; challenges assess understanding rather than personal assent.",
-        "The first goal is orientation. Notice what the passage actually says before trying to settle every question about how salvation works. Later lessons distinguish the saving work of Christ, receiving grace through faith and repentance, and living in response to that grace."
+        "The first goal is orientation. Notice what the passage actually says before trying to settle every question about how salvation works. Later lessons distinguish the saving work of Christ, receiving grace through faith and repentance, and living in response to that grace.",
+        "Paul writes to a community in Roman Corinth, not to isolated readers. Patron-client relationships exchanged resources and assistance for loyalty and public honor; gifts could create obligations. That social setting helps us ask who had influence and whose needs went unheard. It does not establish the motive of every Corinthian. Read 1 Corinthians 11:17–22 alongside this opening lesson: the gospel Paul recalls in chapter 15 also concerns the community’s shared life."
       ],
       "simple": "Start with a person and a story: Christians proclaim that Jesus died for sins and rose from the dead. You can learn what that claim means before deciding what you believe.",
       "vocab": {
         "Gospel": "Good news; also the name for a narrative book about Jesus.",
         "Christ": "Anointed one; the Greek title corresponding to Messiah.",
-        "Resurrection": "Being raised from death, not repeatedly returning in new earthly lives."
+        "Resurrection": "Being raised from death, not repeatedly returning in new earthly lives.",
+        "Patronage": "Relationships in which assistance and resources could carry expectations of loyalty, honor, and reciprocal obligations."
       },
-      "deeper": "Paul distinguishes the proclamation from his own role as its messenger. Ask what changes when we read this as a reminder to a community rather than as a modern individual conversion script.",
+      "deeper": "Paul distinguishes the proclamation from his own role as its messenger. Ask what changes when we read this as a reminder to a community rather than as a modern individual conversion script. Modern individualistic habits may reduce Paul’s letters to “my beliefs” or “my spiritual success.” Ask instead how status, dependence, and public reputation shape a congregation. Jennings studies patronage especially in 2 Corinthians 8–9; applying that lens elsewhere is an interpretive proposal, to be checked against each passage. In 1 Corinthians 11, hunger and humiliation are explicit evidence; a precise seating plan or each host’s intention is a reconstruction. Paul’s critique reaches communal conduct, not simply private sincerity.",
       "reflect": "What would you need to understand before explaining Christianity’s central claim to someone else?",
       "model": "I would separate who Jesus is, what Christians say happened, and why they believe those events matter.",
       "challenges": [
@@ -67,9 +69,51 @@ window.FOUNDATIONS_DATA = {
             "Good news",
             "Anointed one"
           ]
+        },
+        {
+          "kind": "argument",
+          "title": "Connect gospel and shared life",
+          "prompt": "Use 1 Corinthians 11:17–22, the additional reading. Build three links from the two observations through the supported interpretation to its application.",
+          "items": [
+            "Observation: some go hungry while others have excess (11:21).",
+            "Observation: Paul rebukes humiliating those who have nothing (11:22).",
+            "Interpretation: this gathering’s inequality contradicts its purpose as a shared meal.",
+            "Application: arrange the meal so people with fewer resources are included.",
+            "Alternative interpretation: we know every host’s private motive."
+          ],
+          "answer": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              3
+            ]
+          ],
+          "hint": "Connect each observation to the claim it supports, then connect that claim to the justified application. Leave unsupported claims unconnected.",
+          "why": "The reported conduct supports a critique of the gathering and a practical response. Patronage raises useful background questions but cannot disclose every individual motive."
         }
       ],
-      "unit": 1
+      "unit": 1,
+      "extraReadings": [
+        {
+          "reading": "1 Corinthians 11:17–22",
+          "ref": [
+            46,
+            11,
+            17,
+            22
+          ]
+        }
+      ],
+      "sources": [
+        "https://www.jgrchj.net/volume6/JGRChJ6-5_Jennings.pdf"
+      ]
     },
     {
       "id": "library",
@@ -387,7 +431,8 @@ window.FOUNDATIONS_DATA = {
         "Psalm 23 describes the LORD as a shepherd and then as a host. The speaker is led, restored, accompanied through danger, and welcomed to a table. Those images communicate care and trust. Reading the shepherd image metaphorically does not mean the poem has nothing to say about reality. It means asking what the comparison helps its audience understand about God.",
         "Notice that the valley and enemies remain within the poem. Trust is voiced amid danger rather than only after every threat disappears. Reading the whole psalm therefore complicates a claim that faithful people must never experience hardship. The poem gives language for confidence and dependence; it is not a formula that lets a reader predict every outcome.",
         "Genre also changes how we read other books. A proverb often communicates practical wisdom rather than an exceptionless guarantee. A narrative may report a character’s harmful act without endorsing it. Apocalyptic writing uses visions and symbols to address crisis and hope. Identifying genre starts inquiry; it does not automatically settle every historical or theological question.",
-        "Try a simple routine: identify the form, point to a clue, explain what the language communicates, and test your reading against the whole passage. Avoid two shortcuts: assuming all vivid language is a literal description, and calling anything difficult a metaphor without evidence. Responsible reading gives reasons for either judgment."
+        "Try a simple routine: identify the form, point to a clue, explain what the language communicates, and test your reading against the whole passage. Avoid two shortcuts: assuming all vivid language is a literal description, and calling anything difficult a metaphor without evidence. Responsible reading gives reasons for either judgment.",
+        "Genre comparison: Acts 18:1–4 narrates Paul’s arrival, work, and conversations in Corinth. Exodus 20:12–17 gives covenant commands; a command tells its audience what to do, not what everyone actually did. Daniel 7:2–3 presents a vision of beasts; 7:17–18 itself interprets beasts in relation to kings and a kingdom. The symbolism makes a claim about power and hope, not a zoological report. These genres can address reality differently. Identifying symbolism does not make a passage meaningless, and identifying narrative does not settle every historical question."
       ],
       "simple": "A metaphor can make a serious claim. Psalm 23’s shepherd image speaks of God’s care; the valley shows that care does not mean an absence of danger.",
       "vocab": {
@@ -395,7 +440,7 @@ window.FOUNDATIONS_DATA = {
         "Metaphor": "Describing one thing in terms of another to illuminate its meaning.",
         "Apocalyptic": "Writing that uses revelatory visions and symbols to address judgment, crisis, and hope."
       },
-      "deeper": "Compare the shepherd and host images. Which details change, and what claim about God remains? A useful analogy opens understanding while retaining limits; it should not turn every incidental feature of shepherding into a doctrine about God.",
+      "deeper": "Compare the shepherd and host images. Which details change, and what claim about God remains? A useful analogy opens understanding while retaining limits; it should not turn every incidental feature of shepherding into a doctrine about God. Books can mix genres: Daniel includes court narratives and visions. Classify the passage before classifying the whole book. Revelation likewise uses symbolic visions, but its images must be read in their own literary and historical contexts; a genre label alone cannot identify a modern political figure or date.",
       "reflect": "Which image in Psalm 23 communicates care most clearly to you, and which words in the passage support your reading?",
       "model": "The table image suggests welcome and provision. Because the table is prepared in the presence of enemies, I would not use it as a promise that trust removes every threat.",
       "sources": [
@@ -443,6 +488,28 @@ window.FOUNDATIONS_DATA = {
           ],
           "hint": "Look for both danger and companionship.",
           "why": "The valley and divine companionship belong to the same poem. The reading must account for both."
+        },
+        {
+          "kind": "match",
+          "title": "Three genres, three reading moves",
+          "prompt": "Read the comparison passages. Connect each feature with the reading move it warrants.",
+          "items": [
+            "Daniel’s beasts, interpreted as kings in 7:17",
+            "Acts identifies Corinth, Paul’s trade, and synagogue conversations",
+            "Exodus addresses its audience with prohibitions"
+          ],
+          "options": [
+            "Distinguish a covenant obligation from a report of actual behavior.",
+            "Trace characters, setting, and narrated events; then ask historical questions.",
+            "Read the image through the vision’s own interpretation before assigning referents."
+          ],
+          "answer": [
+            2,
+            1,
+            0
+          ],
+          "hint": "A vision, a narrated event, and a command make different kinds of claims.",
+          "why": "Daniel supplies an interpretive cue; Acts narrates a setting and actions; Exodus prescribes conduct. None of these moves licenses ignoring context."
         }
       ],
       "reviewChallenges": [
@@ -485,6 +552,44 @@ window.FOUNDATIONS_DATA = {
           "hint": "Neither literalism nor dismissal follows automatically from an image.",
           "why": "Metaphor and truth are compatible, and an interpretation remains accountable to context."
         }
+      ],
+      "extraReadings": [
+        {
+          "reading": "Daniel 7:2–3",
+          "ref": [
+            27,
+            7,
+            2,
+            3
+          ]
+        },
+        {
+          "reading": "Daniel 7:17–18",
+          "ref": [
+            27,
+            7,
+            17,
+            18
+          ]
+        },
+        {
+          "reading": "Acts 18:1–4",
+          "ref": [
+            44,
+            18,
+            1,
+            4
+          ]
+        },
+        {
+          "reading": "Exodus 20:12–17",
+          "ref": [
+            2,
+            20,
+            12,
+            17
+          ]
+        }
       ]
     },
     {
@@ -504,7 +609,8 @@ window.FOUNDATIONS_DATA = {
         "The immediate issue concerns how a Christian community treats people when it gathers. Paul challenges humiliation and disregard for those who have little. The following verses recount the Lord’s Supper, and later he tells the community to wait for one another. His argument connects the meaning of the meal with the treatment of actual people.",
         "This passage is therefore a useful exercise in context. If we extract a phrase about eating and drinking without the surrounding argument, we may miss the communal problem. Our guide affirms an open table. That editorial position does not remove the need to read Paul carefully or imply that every Christian tradition reaches the same conclusions about Communion.",
         "Historical context can deepen understanding, but confidence should match evidence. This paragraph establishes unequal treatment. It does not provide every person’s motive or a complete seating chart. A historical reconstruction may be plausible without being something the passage directly states. Label the difference instead of filling every gap with certainty.",
-        "Build your interpretation in layers: identify the speaker and recipients; summarize the problem; trace the response; and mark unanswered questions. Then ask what the passage challenges now. A community might examine whether cost, accessibility, timing, or social status makes its stated welcome difficult to experience. That is an application derived from the concern, not a claim that Paul discussed every modern arrangement."
+        "Build your interpretation in layers: identify the speaker and recipients; summarize the problem; trace the response; and mark unanswered questions. Then ask what the passage challenges now. A community might examine whether cost, accessibility, timing, or social status makes its stated welcome difficult to experience. That is an application derived from the concern, not a claim that Paul discussed every modern arrangement.",
+        "Return to Unit 1’s patronage lens. Do we treat a shared meal as each person’s private choice, or ask how unequal resources shape belonging? Paul explicitly names hunger and humiliation. Social history helps form questions; it does not authorize us to invent every participant’s motives."
       ],
       "simple": "Paul is correcting a gathering where some people are humiliated and left hungry. Read his words about the meal inside that conversation before using them as an isolated rule.",
       "vocab": {
@@ -614,20 +720,23 @@ window.FOUNDATIONS_DATA = {
         "Compare the opening of 1 Corinthians 13:4. The King James Version reads “Charity suffereth long, and is kind”; the Berean Standard Bible reads “Love is patient, love is kind.” In this passage, charity is not limited to donating money. The surrounding verses describe behavior and relationships. The difference illustrates how English wording can change while conveying a closely related meaning.",
         "Three kinds of question should stay separate. A translation question asks how to render an underlying expression. A textual question asks which wording is best supported when manuscript witnesses differ. An interpretive question asks what a passage means in its setting or how it applies now. One comparison may involve more than one layer, but different English words alone do not prove different underlying manuscripts.",
         "The original handwritten documents are not available for us simply to inspect. Textual scholarship compares surviving witnesses, their dates and relationships, and patterns that may explain a variation. A footnote about a variant makes a judgment visible; it does not by itself prove that editors hid or invented doctrine. Equally, confidence in Scripture does not make every translation decision beyond criticism.",
-        "Our guide treats Scripture as inspired and authoritative while allowing critical examination of transmission and interpretation. To investigate a difference, read the paragraph, compare translations, consult their notes and stated methods, then formulate a conclusion limited to the evidence. If the original-language issue remains uncertain, say so. You do not need to know Greek or Hebrew to begin asking these better questions."
+        "Our guide treats Scripture as inspired and authoritative while allowing critical examination of transmission and interpretation. To investigate a difference, read the paragraph, compare translations, consult their notes and stated methods, then formulate a conclusion limited to the evidence. If the original-language issue remains uncertain, say so. You do not need to know Greek or Hebrew to begin asking these better questions.",
+        "Manuscript workshop: read 1 John 5:6–8 below, then compare the linked NET notes. The KJV at 5:7 includes “in heaven, the Father, the Word, and the Holy Ghost: and these three are one.” The BSB’s 5:7 reads “For there are three that testify:” and continues with Spirit, water, and blood in 5:8. The difference is an added clause, not just updated vocabulary. NET marks the issue “tc” (textual criticism), distinct from “tn” (translation note). Its note reports late, limited Greek support for the longer reading and explains why it is excluded from the main text. This is a source-text decision, not merely a choice between English synonyms. A footnote makes the evidence visible; it does not by itself establish a translator’s motive."
       ],
       "simple": "Different English wording can express the same idea. First ask whether the difference concerns translation, manuscript wording, or interpretation; then inspect the evidence for that specific question.",
       "vocab": {
         "Manuscript witness": "A surviving handwritten copy that provides evidence about a text.",
         "Textual variant": "A difference in wording among textual witnesses.",
-        "Idiom": "An expression whose meaning is not always obvious from its individual words."
+        "Idiom": "An expression whose meaning is not always obvious from its individual words.",
+        "Textual apparatus": "Notes reporting alternative readings and the witnesses that support them."
       },
-      "deeper": "A translation that stays close to word forms and one that makes an idiom explicit may illuminate different features. Neither approach guarantees accuracy in every passage. Read the translation’s method and notes rather than ranking versions solely by how old or familiar they sound.",
+      "deeper": "A translation that stays close to word forms and one that makes an idiom explicit may illuminate different features. Neither approach guarantees accuracy in every passage. Read the translation’s method and notes rather than ranking versions solely by how old or familiar they sound. In the NET note, separate manuscript evidence from the editors’ conclusion. Compare that source-text question with the English-word choice charity/love in this lesson. A judgment about one reading’s originality neither proves nor disproves the Trinity; that doctrine is examined across passages in Unit 11.",
       "reflect": "How would you respond to someone who sees “charity” and “love” and concludes one translator removed the original message?",
       "model": "I would compare the full passage and ask how “charity” functions there. This wording difference alone does not establish deliberate alteration of the underlying text.",
       "sources": [
         "https://berean.bible/",
-        "https://www.biblegateway.com/passage/?search=1+Corinthians+13%3A4&version=KJV"
+        "https://www.biblegateway.com/passage/?search=1+Corinthians+13%3A4&version=KJV",
+        "https://www.biblegateway.com/passage/?search=1+John+5%3A6-8&version=NET"
       ],
       "challenges": [
         {
@@ -668,6 +777,23 @@ window.FOUNDATIONS_DATA = {
           ],
           "hint": "Keep your conclusion proportional to this comparison.",
           "why": "The passages support continuity of meaning in this example, not a universal verdict on all translation decisions."
+        },
+        {
+          "kind": "evidence",
+          "title": "Investigate a manuscript note",
+          "prompt": "Compare 1 John 5:6–8 and the workshop note. Select the two conclusions warranted by this evidence.",
+          "items": [
+            "The longer heavenly-witness clause is a source-text variant, not an English synonym.",
+            "The NET tc note explains the evidence behind its main-text decision.",
+            "A shorter reading proves the translators wanted to remove the Trinity.",
+            "Every difference between two Bible versions is a manuscript variant."
+          ],
+          "answer": [
+            0,
+            1
+          ],
+          "hint": "Ask whether the difference lies in the underlying wording or its English expression. Do not infer an intention from absence alone.",
+          "why": "The note documents a textual decision. Claims about motives and the whole doctrine require additional evidence."
         }
       ],
       "reviewChallenges": [
@@ -712,6 +838,17 @@ window.FOUNDATIONS_DATA = {
           "hint": "Understand the passage before deciding what the difference proves.",
           "why": "The process moves from context through evidence to a proportionate conclusion."
         }
+      ],
+      "extraReadings": [
+        {
+          "reading": "1 John 5:6–8",
+          "ref": [
+            62,
+            5,
+            6,
+            8
+          ]
+        }
       ]
     },
     {
@@ -731,7 +868,8 @@ window.FOUNDATIONS_DATA = {
         "Observation notices James’ mirror comparison and his examples of conduct. Interpretation asks how these details develop the contrast between hearing and doing. Application considers a fitting response today. A modern action can be faithful to the concern without being an exact action named in the text. We should identify that step honestly rather than claiming our proposed action is the only possible reading.",
         "The mirror comparison makes the problem memorable: a person sees and then forgets. Its function is not to describe the biology of memory but to expose a gap between encounter and response. James’ examples make that gap concrete. Speech and care matter; a religious self-description is not a substitute for responsible conduct.",
         "An application should be specific enough to do and humble enough to revise. If a discussion turns hostile, someone might listen before answering, check an accusation, and repair a harmful statement. If a neighbor needs support, someone might ask what help is wanted and arrange it. Neither example turns a verse into permission to control another person or ignore their account of their own needs.",
-        "Our guide distinguishes receiving salvation through grace from earning it through achievement. Practicing love is a response to grace, not a score that purchases God’s acceptance. The same distinction applies to learning: your mission score records how you reasoned through a task. It cannot measure your faith, virtue, or standing before God. You may identify the lesson’s reasoning while still asking questions about it."
+        "Our guide distinguishes receiving salvation through grace from earning it through achievement. Practicing love is a response to grace, not a score that purchases God’s acceptance. The same distinction applies to learning: your mission score records how you reasoned through a task. It cannot measure your faith, virtue, or standing before God. You may identify the lesson’s reasoning while still asking questions about it.",
+        "An argument map makes reasoning inspectable. Start with observations from the passage, connect them to an interpretation they support, and connect that interpretation to a proportionate application. Several observations may support one claim. A plausible application is not a quotation, and an unsupported leap should remain unconnected. In the mission, build three directed links: two observations → one claim → one application."
       ],
       "simple": "Notice what the passage says, explain how its parts fit, and choose a concrete response. Test that response against the passage and the real needs of the people affected.",
       "vocab": {
@@ -803,6 +941,34 @@ window.FOUNDATIONS_DATA = {
               ]
             }
           ]
+        },
+        {
+          "kind": "argument",
+          "title": "Build James’s argument",
+          "prompt": "Build exactly three supported links. Two observations support the author’s central claim; the claim then warrants one application. Leave the unsupported shortcut disconnected.",
+          "items": [
+            "Observation: James contrasts hearing alone with doing (1:22).",
+            "Observation: James names care for vulnerable people (1:27).",
+            "Interpretation: receiving the word should take practical form.",
+            "Application: listen to a person in need and arrange practical help.",
+            "Alternative interpretation: good intentions make listening unnecessary."
+          ],
+          "answer": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              3
+            ]
+          ],
+          "hint": "Connect each observation to the claim it supports, then connect that claim to the justified application. Leave unsupported claims unconnected.",
+          "why": "Hearing/doing and care support the claim that reception takes practical form. The application is one justified response, not the only possible one. Bypassing listening contradicts 1:19."
         }
       ],
       "reviewChallenges": [
@@ -844,6 +1010,2023 @@ window.FOUNDATIONS_DATA = {
             "Application",
             "Observation"
           ]
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "id": "creation",
+      "title": "Created for life and responsibility",
+      "ref": [
+        1,
+        1,
+        26,
+        31
+      ],
+      "reading": "Genesis 1:26–31",
+      "extraReadings": [
+        {
+          "ref": [
+            1,
+            2,
+            15,
+            17
+          ],
+          "reading": "Genesis 2:15–17"
+        },
+        {
+          "ref": [
+            1,
+            3,
+            19,
+            24
+          ],
+          "reading": "Genesis 3:19–24"
+        },
+        {
+          "ref": [
+            19,
+            104,
+            24,
+            30
+          ],
+          "reading": "Psalm 104:24–30"
+        }
+      ],
+      "objective": "Connect creation, human dignity, responsibility, and mortality without confusing theological claims with a scientific timeline.",
+      "body": [
+        "Genesis opens with God bringing an ordered world into being and declaring it good. Human beings are portrayed as bearing God’s image. In this guide, that language grounds dignity and responsibility rather than a ranking of people by power, usefulness, gender, or sexuality. The story places humanity within creation and gives human action consequences for other creatures.",
+        "The garden account combines provision with responsibility and a boundary. The human is placed in the garden to cultivate and keep it. Freedom is therefore not pictured as the absence of relationships or obligations. A theological reading asks what these stories say about dependence on God, trust, and the way humans inhabit a world they did not make.",
+        "Genesis 3 portrays distrust, disobedience, damaged relationships, and expulsion. Access to the tree of life is closed. Our teaching emphasizes the loss of humanity’s intended enduring life with God and the inheritance of mortality and a broken condition. Christians disagree about inherited personal guilt. The text’s account of human life does not require us to assert that animals could not die before human sin.",
+        "The Bible uses ancient language and literary forms to address questions about God and the world. Creation narratives can have theological and historical significance without functioning as modern accounts of biological mechanisms. We do not require young-earth creationism. Distinguish what the text claims from scientific questions it does not formulate in modern terms.",
+        "Psalm 104 widens attention to the abundance and dependence of living creatures. Creation care follows from treating that world as valuable rather than disposable. A practical response might involve reducing harm, protecting resources shared with neighbors, or asking who bears the cost of our consumption. These actions express responsibility; they do not purchase salvation."
+      ],
+      "simple": "Humanity belongs to a good creation, bears dignity, and has responsibilities. Sin disrupts life with God; Genesis portrays lost access to the tree of life.",
+      "vocab": {
+        "Image of God": "Language linking humanity’s dignity and calling to God.",
+        "Mortality": "Being subject to death.",
+        "Stewardship": "Responsible care for what is entrusted to us."
+      },
+      "deeper": "Compare Genesis 1, Genesis 2–3, and Psalm 104 as distinct literary presentations. A shared theological concern need not erase differences in imagery or sequence.",
+      "reflect": "What practical difference would it make to regard a difficult neighbor and a damaged landscape as worthy of care?",
+      "model": "I would separate someone’s dignity from whether I approve of their actions, and consider how my choices affect shared living conditions.",
+      "challenges": [
+        {
+          "kind": "evidence",
+          "title": "Build the evidence case",
+          "prompt": "Select the two claims supported by this unit’s explanation and readings.",
+          "items": [
+            "Humans bear God’s image",
+            "The garden includes work and a boundary",
+            "Genesis provides a modern fossil chronology",
+            "The tree of life remains freely accessible after expulsion"
+          ],
+          "answer": [
+            0,
+            1
+          ],
+          "hint": "Select statements supported by the lesson and readings; distinguish them from stronger claims the evidence does not establish.",
+          "why": "The selected claims stay within the evidence and the guide’s stated interpretive boundaries."
+        },
+        {
+          "kind": "match",
+          "title": "Connect meaning with practice",
+          "prompt": "Connect each concrete example to the concept it illustrates.",
+          "items": [
+            "Dignity is not earned by usefulness",
+            "Care for a shared habitat",
+            "Human life is subject to death"
+          ],
+          "options": [
+            "Image of God",
+            "Stewardship",
+            "Mortality"
+          ],
+          "answer": [
+            0,
+            1,
+            2
+          ],
+          "hint": "Compare the action or claim in each example with the definitions, rather than matching by a single word.",
+          "why": "A correct connection explains the role of the example in context. These categories help organize reasoning; they do not measure personal assent."
+        }
+      ],
+      "reviewChallenges": [
+        {
+          "kind": "evidence",
+          "title": "Audit a new interpretation",
+          "prompt": "Select the two responsible moves or conclusions in this new reading situation.",
+          "items": [
+            "Theological meaning and scientific explanation ask distinguishable questions",
+            "Ancient imagery makes a passage meaningless",
+            "Recognizing human dignity creates responsibilities",
+            "Inherited mortality proves inherited personal guilt"
+          ],
+          "answer": [
+            0,
+            2
+          ],
+          "hint": "Select statements supported by the lesson and readings; distinguish them from stronger claims the evidence does not establish.",
+          "why": "Responsible interpretation remains accountable to context, the limits of its evidence, and the people affected."
+        },
+        {
+          "kind": "match",
+          "title": "Rebuild the connections",
+          "prompt": "Connect each concrete example to the concept it illustrates.",
+          "items": [
+            "Image of God",
+            "Stewardship",
+            "Mortality"
+          ],
+          "options": [
+            "Dignity is not earned by usefulness",
+            "Care for a shared habitat",
+            "Human life is subject to death"
+          ],
+          "answer": [
+            0,
+            1,
+            2
+          ],
+          "hint": "Compare the action or claim in each example with the definitions, rather than matching by a single word.",
+          "why": "A correct connection explains the role of the example in context. These categories help organize reasoning; they do not measure personal assent."
+        }
+      ]
+    },
+    {
+      "unit": 4,
+      "id": "covenant",
+      "title": "Promise, liberation, and covenant",
+      "ref": [
+        1,
+        12,
+        1,
+        3
+      ],
+      "reading": "Genesis 12:1–3",
+      "extraReadings": [
+        {
+          "ref": [
+            2,
+            3,
+            7,
+            12
+          ],
+          "reading": "Exodus 3:7–12"
+        },
+        {
+          "ref": [
+            2,
+            19,
+            3,
+            6
+          ],
+          "reading": "Exodus 19:3–6"
+        },
+        {
+          "ref": [
+            3,
+            19,
+            9,
+            18
+          ],
+          "reading": "Leviticus 19:9–18"
+        }
+      ],
+      "objective": "Trace how promise and liberation lead to covenant responsibilities and concern for neighbors.",
+      "body": [
+        "God’s call to Abram links a particular family with blessing beyond itself. A covenant is a committed relationship involving promises and responsibilities. Reading the story only as a reward for exceptional people misses the outward direction of the promise. The call begins a long narrative of trust, failure, conflict, and continuing relationship.",
+        "Exodus portrays God hearing the suffering of an enslaved people and calling Moses into a work of liberation. Moses’ questions and limitations remain in the story. Deliverance is not described as the result of Israel already having built a perfect society. The narrative moves from oppression toward freedom and then toward the task of living together.",
+        "At Sinai, Israel receives a communal vocation within a covenant. Instructions about worship and social conduct belong to that setting. Leviticus 19 connects holiness with concrete practices: leaving produce for vulnerable people, dealing honestly, paying attention to justice, and loving the neighbor. Worship and treatment of others are not unrelated spheres.",
+        "Ancient laws require historical and literary interpretation. Distinguish their original community and social arrangements from principles and applications drawn by later readers. Christians differ over how particular Torah commands apply through Christ; this lesson does not flatten the whole Torah into either an unchanged modern rulebook or an irrelevant relic.",
+        "Christianity’s reading of covenant must preserve respect for Judaism as a living tradition. Israel’s scriptures have significance beyond serving as clues for Christians. In this unit, follow the movement from promise to liberation to responsibility, and identify how a community’s gratitude can become care for people with less power."
+      ],
+      "simple": "The narrative moves from God’s promise to liberation and a shared way of life. Covenant joins belonging with responsibility.",
+      "vocab": {
+        "Covenant": "A committed relationship with promises and responsibilities.",
+        "Liberation": "Release from oppression and bondage.",
+        "Torah": "Teaching or instruction; also the first five books of the Hebrew Bible."
+      },
+      "deeper": "Compare the order of deliverance and command in Exodus. What changes when obedience is understood within an already initiated relationship rather than as a technique for forcing God to act?",
+      "reflect": "How could freedom be used in a way that also protects someone else’s freedom?",
+      "model": "A community could use its resources to remove a barrier faced by vulnerable neighbors rather than simply protect its own comfort.",
+      "challenges": [
+        {
+          "kind": "evidence",
+          "title": "Build the evidence case",
+          "prompt": "Select the two claims supported by this unit’s explanation and readings.",
+          "items": [
+            "The promise to Abram looks beyond his own household",
+            "Exodus depicts attention to the suffering of enslaved people",
+            "Leviticus separates holiness from treatment of neighbors",
+            "Israel is portrayed as perfect before deliverance"
+          ],
+          "answer": [
+            0,
+            1
+          ],
+          "hint": "Select statements supported by the lesson and readings; distinguish them from stronger claims the evidence does not establish.",
+          "why": "The selected claims stay within the evidence and the guide’s stated interpretive boundaries."
+        },
+        {
+          "kind": "sequence",
+          "title": "Build the covenant story",
+          "prompt": "Arrange these steps or narrative movements into a responsible sequence.",
+          "items": [
+            "Instruction at Sinai",
+            "Promise to Abram",
+            "Life shaped by neighbor responsibilities",
+            "Liberation from Egypt"
+          ],
+          "answer": [
+            1,
+            3,
+            0,
+            2
+          ],
+          "hint": "Follow the broad narrative movement; do not confuse it with the dates when texts were composed.",
+          "why": "Follow the broad narrative movement; do not confuse it with the dates when texts were composed."
+        }
+      ],
+      "reviewChallenges": [
+        {
+          "kind": "evidence",
+          "title": "Audit a new interpretation",
+          "prompt": "Select the two responsible moves or conclusions in this new reading situation.",
+          "items": [
+            "Identify the ancient audience before proposing a modern application",
+            "All Torah commands have identical applications in every Christian tradition",
+            "Consider how a law addresses vulnerable people",
+            "Christian interpretation makes Jewish readings irrelevant"
+          ],
+          "answer": [
+            0,
+            2
+          ],
+          "hint": "Select statements supported by the lesson and readings; distinguish them from stronger claims the evidence does not establish.",
+          "why": "Responsible interpretation remains accountable to context, the limits of its evidence, and the people affected."
+        },
+        {
+          "kind": "match",
+          "title": "Rebuild the connections",
+          "prompt": "Connect each concrete example to the concept it illustrates.",
+          "items": [
+            "Torah",
+            "Covenant",
+            "Liberation"
+          ],
+          "options": [
+            "A binding relationship shapes communal life",
+            "An enslaved people are delivered",
+            "Instruction guides worship and conduct"
+          ],
+          "answer": [
+            2,
+            0,
+            1
+          ],
+          "hint": "Compare the action or claim in each example with the definitions, rather than matching by a single word.",
+          "why": "A correct connection explains the role of the example in context. These categories help organize reasoning; they do not measure personal assent."
+        }
+      ]
+    },
+    {
+      "unit": 5,
+      "id": "kingdom-exile",
+      "title": "Power, failure, exile, and return",
+      "ref": [
+        9,
+        8,
+        10,
+        18
+      ],
+      "reading": "1 Samuel 8:10–18",
+      "extraReadings": [
+        {
+          "ref": [
+            12,
+            25,
+            8,
+            12
+          ],
+          "reading": "2 Kings 25:8–12"
+        },
+        {
+          "ref": [
+            19,
+            137,
+            1,
+            6
+          ],
+          "reading": "Psalm 137:1–6"
+        },
+        {
+          "ref": [
+            15,
+            1,
+            1,
+            4
+          ],
+          "reading": "Ezra 1:1–4"
+        }
+      ],
+      "objective": "Connect Israel’s leadership stories with the costs of power, the experience of exile, and the work of return.",
+      "body": [
+        "Joshua, Judges, Samuel, and Kings tell stories of land, leadership, conflict, and faithfulness. These writings do more than list rulers. They invite judgments about how power is used and whose suffering it produces. A leader’s place in a biblical narrative does not make every action an example to follow.",
+        "In 1 Samuel 8, the demand for a king meets a warning about what royal power can take: labor, land, goods, and people’s freedom. Later stories contain both hopes attached to kingship and failures of kings. Read those tensions together. A passage about leadership should not be turned automatically into endorsement of any modern ruler or political arrangement.",
+        "Second Kings portrays the destruction of Jerusalem and displacement of people. Exile includes loss of homeland, institutions, and a familiar way of life. Psalm 137 gives voice to grief and memory in that situation. Reading lament alongside narrative helps keep historical summaries from erasing the human experience of catastrophe.",
+        "Ezra begins with permission to return and rebuild. Return does not make every conflict disappear or restore a world exactly as it was. Biblical narratives of rebuilding raise questions about identity, worship, neighbors, and communal responsibility. Hope can include difficult practical work as well as relief.",
+        "Conquest and violence in these books require direct ethical attention. Historical context can explain a setting without making harm good. Distinguish reported acts, attributed divine commands, and later interpretations; some passages remain morally difficult. Our present-day application is examined through Jesus’ teaching, love of neighbor, and human dignity rather than by copying ancient violence."
+      ],
+      "simple": "These books examine what leadership does to people. Exile brings devastating loss; return begins a demanding work of rebuilding.",
+      "vocab": {
+        "Monarchy": "Rule by a king or queen.",
+        "Exile": "Displacement from one’s homeland.",
+        "Lament": "An expression of grief, protest, or appeal amid suffering."
+      },
+      "deeper": "Read a historical account beside a lament about loss. What becomes visible in the poem that a timeline cannot convey? Avoid assuming that every biblical explanation of one catastrophe diagnoses a present-day disaster.",
+      "reflect": "What questions should a community ask before treating a powerful leader as its solution?",
+      "model": "I would ask who gains protection, who bears the costs, and whether vulnerable people can challenge abuses of power.",
+      "challenges": [
+        {
+          "kind": "evidence",
+          "title": "Build the evidence case",
+          "prompt": "Select the two claims supported by this unit’s explanation and readings.",
+          "items": [
+            "Samuel warns about the costs of royal power",
+            "Psalm 137 expresses grief and memory",
+            "The narrative guarantees all kings act rightly",
+            "Return means no further communal work is needed"
+          ],
+          "answer": [
+            0,
+            1
+          ],
+          "hint": "Select statements supported by the lesson and readings; distinguish them from stronger claims the evidence does not establish.",
+          "why": "The selected claims stay within the evidence and the guide’s stated interpretive boundaries."
+        },
+        {
+          "kind": "sequence",
+          "title": "Reconstruct loss and return",
+          "prompt": "Arrange these steps or narrative movements into a responsible sequence.",
+          "items": [
+            "Return and rebuilding begin",
+            "Royal power is demanded and questioned",
+            "Jerusalem is destroyed and people are displaced",
+            "A displaced community laments"
+          ],
+          "answer": [
+            1,
+            2,
+            3,
+            0
+          ],
+          "hint": "Follow the narrative trajectory from monarchy through exile toward return. This is a broad story map, not an exact dating of each poem.",
+          "why": "Follow the narrative trajectory from monarchy through exile toward return. This is a broad story map, not an exact dating of each poem."
+        }
+      ],
+      "reviewChallenges": [
+        {
+          "kind": "evidence",
+          "title": "Audit a new interpretation",
+          "prompt": "Select the two responsible moves or conclusions in this new reading situation.",
+          "items": [
+            "A narrated action is not automatically an ethical model",
+            "Context can be examined without excusing harm",
+            "Every ancient war authorizes a modern parallel",
+            "Historical timelines fully capture the experience of displacement"
+          ],
+          "answer": [
+            0,
+            1
+          ],
+          "hint": "Select statements supported by the lesson and readings; distinguish them from stronger claims the evidence does not establish.",
+          "why": "Responsible interpretation remains accountable to context, the limits of its evidence, and the people affected."
+        },
+        {
+          "kind": "match",
+          "title": "Rebuild the connections",
+          "prompt": "Connect each concrete example to the concept it illustrates.",
+          "items": [
+            "Return",
+            "Monarchy",
+            "Exile"
+          ],
+          "options": [
+            "A ruler demands land and labor",
+            "A displaced community mourns its homeland",
+            "A community organizes rebuilding"
+          ],
+          "answer": [
+            2,
+            0,
+            1
+          ],
+          "hint": "Compare the action or claim in each example with the definitions, rather than matching by a single word.",
+          "why": "A correct connection explains the role of the example in context. These categories help organize reasoning; they do not measure personal assent."
+        }
+      ]
+    },
+    {
+      "unit": 6,
+      "id": "wisdom",
+      "title": "Prayer and wisdom for an uneven life",
+      "ref": [
+        19,
+        13,
+        1,
+        6
+      ],
+      "reading": "Psalm 13:1–6",
+      "extraReadings": [
+        {
+          "ref": [
+            20,
+            26,
+            4,
+            5
+          ],
+          "reading": "Proverbs 26:4–5"
+        },
+        {
+          "ref": [
+            18,
+            2,
+            11,
+            13
+          ],
+          "reading": "Job 2:11–13"
+        },
+        {
+          "ref": [
+            21,
+            3,
+            1,
+            8
+          ],
+          "reading": "Ecclesiastes 3:1–8"
+        }
+      ],
+      "objective": "Distinguish lament, practical wisdom, and reflection on suffering without turning them into guarantees.",
+      "body": [
+        "The Psalms give language for praise, gratitude, confession, grief, and protest. Psalm 13 begins with a painful question about God’s apparent absence and moves toward trust. A prayer can contain distress and faith together. Lament is not necessarily a failure of belief or something a learner must rush past to sound religious.",
+        "Proverbs teaches discernment through compact sayings. Proverbs 26:4–5 places different advice about answering a fool side by side. The reader must consider circumstances rather than apply every saying as an identical instruction for every situation. Wisdom involves judgment, not merely retrieving a sentence that appears to settle a problem.",
+        "Job challenges easy links between suffering and personal wrongdoing. In the selected scene, his friends initially sit with him in grief. Their later arguments should not be confused with the book’s unquestioned final voice. A biblical character can speak confidently and still need correction within the larger work.",
+        "Ecclesiastes reflects on time, limits, work, and what humans cannot control. Song of Songs adds poetry about love and desire to the wisdom collection’s range. Together these books resist a narrow picture in which faithful life means relentless certainty, predictable success, or freedom from embodied experience.",
+        "When someone suffers, these writings can support listening, honest prayer, and practical presence. They should not be used to diagnose weak faith or insist that a tragedy was inflicted to teach a lesson. A proverb may guide action; a lament may give words; a story may unsettle a false explanation. Choose the tool appropriate to the need."
+      ],
+      "simple": "Wisdom is thoughtful discernment, not a guarantee of easy outcomes. The Bible includes honest grief as well as praise.",
+      "vocab": {
+        "Lament": "Prayer or speech expressing grief and appeal.",
+        "Proverb": "A compact saying that invites practical discernment.",
+        "Wisdom": "Judgment about how to live responsibly amid real circumstances."
+      },
+      "deeper": "Compare the different voices in Job. A statement appearing in Scripture must still be read according to who says it and how the work evaluates it.",
+      "reflect": "When might sitting with a person be more helpful than offering an explanation?",
+      "model": "When someone is newly grieving, attention and practical companionship can honor their experience without imposing a cause for their loss.",
+      "challenges": [
+        {
+          "kind": "evidence",
+          "title": "Build the evidence case",
+          "prompt": "Select the two claims supported by this unit’s explanation and readings.",
+          "items": [
+            "Psalm 13 includes distress and trust",
+            "Proverbs 26 requires attention to circumstances",
+            "A proverb guarantees success in every situation",
+            "Every speech in Job is presented as equally correct"
+          ],
+          "answer": [
+            0,
+            1
+          ],
+          "hint": "Select statements supported by the lesson and readings; distinguish them from stronger claims the evidence does not establish.",
+          "why": "The selected claims stay within the evidence and the guide’s stated interpretive boundaries."
+        },
+        {
+          "kind": "match",
+          "title": "Connect meaning with practice",
+          "prompt": "Connect each concrete example to the concept it illustrates.",
+          "items": [
+            "A prayer asks how long suffering will continue",
+            "A concise saying requires situational judgment",
+            "A friend stays present without claiming to explain a loss"
+          ],
+          "options": [
+            "Practical companionship",
+            "Lament",
+            "Proverb"
+          ],
+          "answer": [
+            1,
+            2,
+            0
+          ],
+          "hint": "Compare the action or claim in each example with the definitions, rather than matching by a single word.",
+          "why": "A correct connection explains the role of the example in context. These categories help organize reasoning; they do not measure personal assent."
+        }
+      ],
+      "reviewChallenges": [
+        {
+          "kind": "evidence",
+          "title": "Audit a new interpretation",
+          "prompt": "Select the two responsible moves or conclusions in this new reading situation.",
+          "items": [
+            "Ask who is speaking within a biblical dialogue",
+            "Treat grief as proof of unbelief",
+            "Choose a response appropriate to the person and situation",
+            "Use a proverb to guarantee that a faithful person cannot suffer"
+          ],
+          "answer": [
+            0,
+            2
+          ],
+          "hint": "Select statements supported by the lesson and readings; distinguish them from stronger claims the evidence does not establish.",
+          "why": "Responsible interpretation remains accountable to context, the limits of its evidence, and the people affected."
+        },
+        {
+          "kind": "match",
+          "title": "Rebuild the connections",
+          "prompt": "Connect each concrete example to the concept it illustrates.",
+          "items": [
+            "Practical companionship",
+            "Lament",
+            "Proverb"
+          ],
+          "options": [
+            "A prayer asks how long suffering will continue",
+            "A concise saying requires situational judgment",
+            "A friend stays present without claiming to explain a loss"
+          ],
+          "answer": [
+            2,
+            0,
+            1
+          ],
+          "hint": "Compare the action or claim in each example with the definitions, rather than matching by a single word.",
+          "why": "A correct connection explains the role of the example in context. These categories help organize reasoning; they do not measure personal assent."
+        }
+      ]
+    },
+    {
+      "unit": 7,
+      "id": "prophets",
+      "title": "Hear the prophets in their own setting",
+      "ref": [
+        30,
+        5,
+        21,
+        24
+      ],
+      "reading": "Amos 5:21–24",
+      "extraReadings": [
+        {
+          "ref": [
+            23,
+            1,
+            16,
+            20
+          ],
+          "reading": "Isaiah 1:16–20"
+        },
+        {
+          "ref": [
+            24,
+            29,
+            4,
+            7
+          ],
+          "reading": "Jeremiah 29:4–7"
+        },
+        {
+          "ref": [
+            33,
+            6,
+            6,
+            8
+          ],
+          "reading": "Micah 6:6–8"
+        }
+      ],
+      "objective": "Relate prophetic speech to worship, justice, crisis, and hope before using it as a prediction or slogan.",
+      "body": [
+        "Biblical prophets speak into concrete communal situations. Their messages can include warning, judgment, instruction, symbolic action, and hope. Prediction is part of some prophetic writing, but treating prophecy only as a code for distant events can hide its confrontation with present wrongdoing.",
+        "Amos challenges worship disconnected from justice. The passage’s force comes from the tension between religious activity and communal conduct. It does not require the conclusion that worship is always worthless. It demands attention to a community that offers religious expression while failing its neighbors.",
+        "Isaiah links a call to change with defending vulnerable people. Micah challenges the idea that larger offerings can substitute for justice, mercy, and humble life with God. These texts bring ethical responsibility into the center of religious practice rather than treating it as an optional extra.",
+        "Jeremiah’s letter to exiles calls for ordinary life and concern for the place where they live. Read later words of hope within that address to a displaced community. A promise in this setting is not automatically a personalized guarantee of immediate career success, wealth, or exemption from hardship.",
+        "A responsible reading asks who is addressed, what conduct is challenged, what hope is offered, and how the language functions. Christians connect prophetic hope with Jesus in several ways; those readings should be explained without erasing the earlier setting or Jewish interpretation. Present-day application needs a reasoned connection rather than simply attaching a prophet’s authority to our preferred cause."
+      ],
+      "simple": "Prophets confront communities and offer hope within history. Start with their audience and concern before applying their words now.",
+      "vocab": {
+        "Prophet": "A figure who communicates a message understood as coming from God.",
+        "Justice": "Right dealing that attends to relationships, institutions, and vulnerable people.",
+        "Oracle": "A prophetic declaration or message."
+      },
+      "deeper": "Compare a warning with a promise in the same prophetic book. How do they relate? Do not assume that one vivid line supplies a complete policy for a different setting.",
+      "reflect": "What evidence would help you decide whether a modern use of a prophetic verse respects its context?",
+      "model": "I would identify the original audience and issue, then explain the connection to the modern concern instead of relying on a shared word alone.",
+      "challenges": [
+        {
+          "kind": "evidence",
+          "title": "Build the evidence case",
+          "prompt": "Select the two claims supported by this unit’s explanation and readings.",
+          "items": [
+            "Amos challenges the separation of worship and justice",
+            "Jeremiah addresses people living in exile",
+            "Every prophetic promise guarantees immediate personal success",
+            "Prophecy only concerns events far in the future"
+          ],
+          "answer": [
+            0,
+            1
+          ],
+          "hint": "Select statements supported by the lesson and readings; distinguish them from stronger claims the evidence does not establish.",
+          "why": "The selected claims stay within the evidence and the guide’s stated interpretive boundaries."
+        },
+        {
+          "kind": "sequence",
+          "title": "Construct a prophetic reading",
+          "prompt": "Arrange these steps or narrative movements into a responsible sequence.",
+          "items": [
+            "Argue for a present-day application",
+            "Identify the audience and situation",
+            "Trace the conduct challenged and the hope offered",
+            "Read the passage in its larger argument"
+          ],
+          "answer": [
+            1,
+            3,
+            2,
+            0
+          ],
+          "hint": "Recover the conversation before turning a line into a modern slogan.",
+          "why": "Recover the conversation before turning a line into a modern slogan."
+        }
+      ],
+      "reviewChallenges": [
+        {
+          "kind": "evidence",
+          "title": "Audit a new interpretation",
+          "prompt": "Select the two responsible moves or conclusions in this new reading situation.",
+          "items": [
+            "Earlier historical meaning matters when Christians read prophetic hope",
+            "A promise to exiles is automatically a wealth guarantee",
+            "Justice and mercy can be central to prophetic teaching",
+            "A modern slogan needs no contextual argument if it quotes a prophet"
+          ],
+          "answer": [
+            0,
+            2
+          ],
+          "hint": "Select statements supported by the lesson and readings; distinguish them from stronger claims the evidence does not establish.",
+          "why": "Responsible interpretation remains accountable to context, the limits of its evidence, and the people affected."
+        },
+        {
+          "kind": "match",
+          "title": "Rebuild the connections",
+          "prompt": "Connect each concrete example to the concept it illustrates.",
+          "items": [
+            "Application",
+            "Audience",
+            "Prophetic critique"
+          ],
+          "options": [
+            "Identify the community being addressed",
+            "Ask what wrongdoing is confronted",
+            "Connect the concern to a present practice with reasons"
+          ],
+          "answer": [
+            2,
+            0,
+            1
+          ],
+          "hint": "Compare the action or claim in each example with the definitions, rather than matching by a single word.",
+          "why": "A correct connection explains the role of the example in context. These categories help organize reasoning; they do not measure personal assent."
+        }
+      ]
+    },
+    {
+      "unit": 8,
+      "id": "jesus-world",
+      "title": "Meet Jesus within his Jewish world",
+      "ref": [
+        42,
+        4,
+        16,
+        21
+      ],
+      "reading": "Luke 4:16–21",
+      "extraReadings": [
+        {
+          "ref": [
+            41,
+            1,
+            14,
+            20
+          ],
+          "reading": "Mark 1:14–20"
+        },
+        {
+          "ref": [
+            40,
+            5,
+            1,
+            12
+          ],
+          "reading": "Matthew 5:1–12"
+        },
+        {
+          "ref": [
+            42,
+            15,
+            1,
+            7
+          ],
+          "reading": "Luke 15:1–7"
+        }
+      ],
+      "objective": "Connect Jesus’ kingdom announcement, teaching, and discipleship with his Jewish setting.",
+      "body": [
+        "The four Gospels present Jesus’ ministry, teaching, death, and resurrection with distinctive emphases. They are not four identical transcripts. Read each account on its own terms before comparing them. The setting is Jewish life under Roman rule, with diverse expectations and disagreements rather than one uniform religious outlook.",
+        "In Luke 4, Jesus reads from Isaiah in a synagogue and speaks about fulfillment. The scene connects his ministry with good news, release, and restoration. Jesus’ engagement with Israel’s Scriptures is integral to the account. Christianity’s Jewish roots are not incidental background, and Jewish people must not be reduced to a single group opposing him.",
+        "Mark introduces the announcement of God’s kingdom and the calling of followers. Kingdom refers to God’s reign rather than merely a place after death. Following Jesus involves a relationship and a changed direction of life. The disciples’ later confusion and failures remain part of the story, which gives beginners room to understand discipleship as learning.",
+        "The Beatitudes and parables invite readers to reconsider status, mercy, hope, and responsibility. In Luke 15, a complaint about Jesus’ welcome helps explain the lost-sheep story. A parable’s surrounding conversation matters; do not assign a separate doctrinal meaning to every incidental detail without evidence.",
+        "This guide approaches Jesus as fully divine and fully human, while helping learners read the narratives before asking them to master every later formulation. Practice with concrete questions: what does Jesus do, whom does he address, what expectation is challenged, and what response is invited? Understanding those questions is distinct from requiring a profession of faith."
+      ],
+      "simple": "Jesus teaches and acts within Jewish life. His announcement of God’s reign invites changed relationships, mercy, and discipleship.",
+      "vocab": {
+        "Gospel": "Good news; also a narrative account of Jesus.",
+        "Kingdom of God": "God’s reign and its realization.",
+        "Disciple": "A follower who learns a way of life from a teacher."
+      },
+      "deeper": "Compare two Gospel presentations without forcing every detail into one flattened account. Ask how each writer’s arrangement communicates a concern.",
+      "reflect": "What difference does the complaint before the lost-sheep parable make to your reading?",
+      "model": "It shows that the story addresses questions about welcome and recovery, not simply the behavior of a shepherd in isolation.",
+      "challenges": [
+        {
+          "kind": "evidence",
+          "title": "Build the evidence case",
+          "prompt": "Select the two claims supported by this unit’s explanation and readings.",
+          "items": [
+            "Luke places Jesus in a synagogue reading Isaiah",
+            "The lost-sheep story responds to a complaint about welcome",
+            "All Jewish people share one response to Jesus",
+            "God’s kingdom means only a place after death"
+          ],
+          "answer": [
+            0,
+            1
+          ],
+          "hint": "Select statements supported by the lesson and readings; distinguish them from stronger claims the evidence does not establish.",
+          "why": "The selected claims stay within the evidence and the guide’s stated interpretive boundaries."
+        },
+        {
+          "kind": "sequence",
+          "title": "Rebuild the parable’s conversation",
+          "prompt": "Arrange these steps or narrative movements into a responsible sequence.",
+          "items": [
+            "Jesus tells the lost-sheep story",
+            "A response to the meaning of recovery is invited",
+            "A complaint challenges Jesus’ welcome"
+          ],
+          "answer": [
+            2,
+            0,
+            1
+          ],
+          "hint": "Locate the complaint that occasions the story before explaining the response it invites.",
+          "why": "Locate the complaint that occasions the story before explaining the response it invites."
+        }
+      ],
+      "reviewChallenges": [
+        {
+          "kind": "evidence",
+          "title": "Audit a new interpretation",
+          "prompt": "Select the two responsible moves or conclusions in this new reading situation.",
+          "items": [
+            "Preserve Jesus’ Jewish setting when interpreting his teaching",
+            "Assume every detail in a parable has an independent doctrinal meaning",
+            "Read each Gospel’s presentation before combining accounts",
+            "Treat disciples’ confusion as absent from the narratives"
+          ],
+          "answer": [
+            0,
+            2
+          ],
+          "hint": "Select statements supported by the lesson and readings; distinguish them from stronger claims the evidence does not establish.",
+          "why": "Responsible interpretation remains accountable to context, the limits of its evidence, and the people affected."
+        },
+        {
+          "kind": "match",
+          "title": "Rebuild the connections",
+          "prompt": "Connect each concrete example to the concept it illustrates.",
+          "items": [
+            "Discipleship",
+            "Parable context",
+            "Gospel perspective"
+          ],
+          "options": [
+            "Study why a story is told in this conversation",
+            "Notice how one Gospel arranges its material",
+            "Trace the invitation to follow and learn"
+          ],
+          "answer": [
+            2,
+            0,
+            1
+          ],
+          "hint": "Compare the action or claim in each example with the definitions, rather than matching by a single word.",
+          "why": "A correct connection explains the role of the example in context. These categories help organize reasoning; they do not measure personal assent."
+        }
+      ]
+    },
+    {
+      "unit": 9,
+      "id": "cross-grace",
+      "title": "Cross, resurrection, and the gift of grace",
+      "ref": [
+        46,
+        15,
+        1,
+        8
+      ],
+      "reading": "1 Corinthians 15:1–8",
+      "extraReadings": [
+        {
+          "ref": [
+            47,
+            5,
+            18,
+            21
+          ],
+          "reading": "2 Corinthians 5:18–21"
+        },
+        {
+          "ref": [
+            51,
+            2,
+            13,
+            15
+          ],
+          "reading": "Colossians 2:13–15"
+        },
+        {
+          "ref": [
+            49,
+            2,
+            8,
+            10
+          ],
+          "reading": "Ephesians 2:8–10"
+        }
+      ],
+      "objective": "Distinguish Christ’s saving work, receiving grace, and the response of discipleship.",
+      "body": [
+        "The Christian proclamation holds Jesus’ death and resurrection together. Paul recalls Christ’s death for sins, burial, resurrection, and appearances. Christian faith does not treat the cross merely as an inspiring example of someone being kind. It proclaims a saving work humanity could not accomplish for itself.",
+        "Sin separates humanity from God and brings us under judgment. Through his willing sacrifice and resurrection, Jesus bears our sins, confronts their consequences, defeats sin and death, and makes reconciliation with God possible. The New Testament uses several themes to communicate this significance rather than only one explanatory picture.",
+        "Penal substitution describes Christ as bearing the penalty due to sinners. Other accounts emphasize victory over sin and death, sacrifice, representation, healing, and reconciliation. These themes can overlap. Our guide accommodates penal substitution without making its particular account of punishment the sole explanation of salvation.",
+        "Salvation is God’s gift of grace, made possible through Christ’s sacrifice and resurrection. We receive it by acknowledging sin and our inability to save ourselves, repenting, and trusting in Christ’s saving work. Repentance and faith describe receiving the gift rather than earning it. Inability to merit salvation does not mean a person lacks value in God’s eyes.",
+        "Ephesians connects grace with a life of good works while denying that salvation is a basis for boasting. Loving action belongs to the response to grace, not the price of admission. Keep the questions separate: what Christ accomplishes, how the gift is received, and how discipleship takes practical form. This distinction prevents both a merit contest and a faith reduced to words without responsibility."
+      ],
+      "simple": "Christ’s saving work makes reconciliation possible. Salvation is received as grace; loving action is its response, not its purchase price.",
+      "vocab": {
+        "Atonement": "Christ’s work addressing sin and restoring relationship with God.",
+        "Reconciliation": "Restoration of a ruptured relationship.",
+        "Penal substitution": "An account in which Christ bears the penalty due to sinners."
+      },
+      "deeper": "Compare the language of reconciliation in 2 Corinthians with victory in Colossians. What does each image illuminate, and what questions does it leave open?",
+      "reflect": "How would you explain the difference between receiving a gift and earning a reward?",
+      "model": "Receiving involves accepting what is offered. Gratitude can produce action, but that response is not what makes the original offer a gift.",
+      "challenges": [
+        {
+          "kind": "evidence",
+          "title": "Build the evidence case",
+          "prompt": "Select the two claims supported by this unit’s explanation and readings.",
+          "items": [
+            "Paul’s proclamation includes death and resurrection",
+            "Ephesians connects grace with good works without making them a purchase",
+            "All atonement themes require one identical mechanism",
+            "The cross is presented only as an example of politeness"
+          ],
+          "answer": [
+            0,
+            1
+          ],
+          "hint": "Select statements supported by the lesson and readings; distinguish them from stronger claims the evidence does not establish.",
+          "why": "The selected claims stay within the evidence and the guide’s stated interpretive boundaries."
+        },
+        {
+          "kind": "sequence",
+          "title": "Trace the proclamation",
+          "prompt": "Arrange these steps or narrative movements into a responsible sequence.",
+          "items": [
+            "Christ is raised",
+            "Christ is buried",
+            "Christ appears to witnesses",
+            "Christ dies for sins"
+          ],
+          "answer": [
+            3,
+            1,
+            0,
+            2
+          ],
+          "hint": "Paul’s proclamation connects the events; it does not by itself choose one exclusive atonement mechanism.",
+          "why": "Paul’s proclamation connects the events; it does not by itself choose one exclusive atonement mechanism."
+        }
+      ],
+      "reviewChallenges": [
+        {
+          "kind": "evidence",
+          "title": "Audit a new interpretation",
+          "prompt": "Select the two responsible moves or conclusions in this new reading situation.",
+          "items": [
+            "Different biblical atonement themes can overlap",
+            "A person must earn enough moral credit before grace becomes available",
+            "Distinguish receiving salvation from earning it",
+            "Teaching a view requires learners to assent to it"
+          ],
+          "answer": [
+            0,
+            2
+          ],
+          "hint": "Select statements supported by the lesson and readings; distinguish them from stronger claims the evidence does not establish.",
+          "why": "Responsible interpretation remains accountable to context, the limits of its evidence, and the people affected."
+        },
+        {
+          "kind": "match",
+          "title": "Rebuild the connections",
+          "prompt": "Connect each concrete example to the concept it illustrates.",
+          "items": [
+            "Receiving grace",
+            "Discipleship",
+            "Saving work"
+          ],
+          "options": [
+            "Christ overcomes sin and death",
+            "A person turns and trusts in Christ",
+            "A believer practices mercy in response"
+          ],
+          "answer": [
+            1,
+            2,
+            0
+          ],
+          "hint": "Compare the action or claim in each example with the definitions, rather than matching by a single word.",
+          "why": "A correct connection explains the role of the example in context. These categories help organize reasoning; they do not measure personal assent."
+        }
+      ]
+    },
+    {
+      "unit": 10,
+      "id": "early-church",
+      "title": "Learn with the early Christian communities",
+      "ref": [
+        44,
+        2,
+        42,
+        47
+      ],
+      "reading": "Acts 2:42–47",
+      "extraReadings": [
+        {
+          "ref": [
+            44,
+            15,
+            1,
+            11
+          ],
+          "reading": "Acts 15:1–11"
+        },
+        {
+          "ref": [
+            46,
+            12,
+            12,
+            26
+          ],
+          "reading": "1 Corinthians 12:12–26"
+        },
+        {
+          "ref": [
+            59,
+            2,
+            1,
+            9
+          ],
+          "reading": "James 2:1–9"
+        }
+      ],
+      "objective": "Read Acts and letters as accounts of communities learning to practice belonging amid disagreement.",
+      "body": [
+        "Acts describes the spread of the Christian movement and the formation of communities. The selected passage depicts teaching, shared meals, prayer, and material generosity. It provides a picture of communal life within a narrative, not a claim that every later Christian gathering must reproduce every detail in precisely the same arrangement.",
+        "Conflict appears early. Acts 15 describes a dispute over Gentile inclusion and requirements for belonging. The community reasons through testimony, Scripture, and discussion. This is not a picture of a Church without hard questions. It shows that the relationship between inherited practice and a widening community required discernment.",
+        "Paul’s body image in 1 Corinthians challenges the idea that one member can dismiss another as unnecessary. Difference need not mean inferior worth. The passage connects interdependence with attention to members who might otherwise be overlooked. Its point is more than efficient organization; it concerns belonging and care.",
+        "Letters such as James address concrete failures, including favoritism toward wealthy people. A letter’s correction is evidence that a problem existed, not proof that the author approves of it. Other New Testament letters likewise respond to particular communities and concerns. Start with audience and argument before treating a sentence as an isolated universal instruction.",
+        "The guide’s open-table and LGBTQ-affirming commitments shape its present-day practice. Studying early debates helps learners understand how communities argue about belonging without assuming every modern dispute is identical to Acts 15. Reasoned comparison identifies both a shared concern and the differences between settings."
+      ],
+      "simple": "The early Church learned through worship, care, disagreement, and correction. Its letters help us see both its hopes and its failures.",
+      "vocab": {
+        "Gentile": "A person who is not Jewish.",
+        "Epistle": "A letter, often addressing a community’s questions or conduct.",
+        "Interdependence": "Mutual belonging and need among people with different roles."
+      },
+      "deeper": "Compare a narrative description in Acts with an instruction in a letter. How does each kind of writing supply evidence about communal practice?",
+      "reflect": "What would it look like for a community to take seriously that no member is unnecessary?",
+      "model": "It would listen to people whose needs are easy to overlook and examine whether its arrangements let them participate meaningfully.",
+      "challenges": [
+        {
+          "kind": "evidence",
+          "title": "Build the evidence case",
+          "prompt": "Select the two claims supported by this unit’s explanation and readings.",
+          "items": [
+            "Acts includes disputes about belonging",
+            "Paul’s body image describes interdependence",
+            "A corrective letter endorses the problem it criticizes",
+            "Early Christian communities never disagreed"
+          ],
+          "answer": [
+            0,
+            1
+          ],
+          "hint": "Select statements supported by the lesson and readings; distinguish them from stronger claims the evidence does not establish.",
+          "why": "The selected claims stay within the evidence and the guide’s stated interpretive boundaries."
+        },
+        {
+          "kind": "match",
+          "title": "Connect meaning with practice",
+          "prompt": "Connect each concrete example to the concept it illustrates.",
+          "items": [
+            "A letter responds to favoritism",
+            "A community considers Gentile inclusion",
+            "Members recognize that they need one another"
+          ],
+          "options": [
+            "Interdependence",
+            "Epistle in context",
+            "Communal discernment"
+          ],
+          "answer": [
+            1,
+            2,
+            0
+          ],
+          "hint": "Compare the action or claim in each example with the definitions, rather than matching by a single word.",
+          "why": "A correct connection explains the role of the example in context. These categories help organize reasoning; they do not measure personal assent."
+        }
+      ],
+      "reviewChallenges": [
+        {
+          "kind": "evidence",
+          "title": "Audit a new interpretation",
+          "prompt": "Select the two responsible moves or conclusions in this new reading situation.",
+          "items": [
+            "A modern comparison should identify differences as well as similarities",
+            "A narrative summary automatically fixes every later institutional detail",
+            "Corrective passages reveal problems within communities",
+            "A member’s usefulness determines their dignity"
+          ],
+          "answer": [
+            0,
+            2
+          ],
+          "hint": "Select statements supported by the lesson and readings; distinguish them from stronger claims the evidence does not establish.",
+          "why": "Responsible interpretation remains accountable to context, the limits of its evidence, and the people affected."
+        },
+        {
+          "kind": "match",
+          "title": "Rebuild the connections",
+          "prompt": "Connect each concrete example to the concept it illustrates.",
+          "items": [
+            "Interdependence",
+            "Epistle in context",
+            "Communal discernment"
+          ],
+          "options": [
+            "A letter responds to favoritism",
+            "A community considers Gentile inclusion",
+            "Members recognize that they need one another"
+          ],
+          "answer": [
+            2,
+            0,
+            1
+          ],
+          "hint": "Compare the action or claim in each example with the definitions, rather than matching by a single word.",
+          "why": "A correct connection explains the role of the example in context. These categories help organize reasoning; they do not measure personal assent."
+        }
+      ]
+    },
+    {
+      "unit": 11,
+      "id": "doctrine",
+      "title": "Speak carefully about God",
+      "ref": [
+        40,
+        28,
+        16,
+        20
+      ],
+      "reading": "Matthew 28:16–20",
+      "extraReadings": [
+        {
+          "ref": [
+            43,
+            1,
+            1,
+            18
+          ],
+          "reading": "John 1:1–18"
+        },
+        {
+          "ref": [
+            50,
+            2,
+            5,
+            11
+          ],
+          "reading": "Philippians 2:5–11"
+        },
+        {
+          "ref": [
+            45,
+            8,
+            26,
+            30
+          ],
+          "reading": "Romans 8:26–30"
+        }
+      ],
+      "objective": "Distinguish Trinity, incarnation, and providence while recognizing the limits of explanatory models.",
+      "body": [
+        "Christian doctrine gathers and interprets biblical testimony in a disciplined way. The Trinity names the historic confession of one God in three persons: Father, Son, and Holy Spirit. It does not mean three separate gods or one person merely switching roles. The language aims to preserve unity and real distinction together.",
+        "Incarnation names the Son’s becoming human in Jesus Christ. Historic Christianity confesses Jesus as fully divine and fully human. These claims should not be explained as a half-divine, half-human mixture. John’s language about the Word and Philippians’ account of self-giving are important primary readings for examining the confession.",
+        "The Spirit is described in relation to life, prayer, community, and God’s work among people. Romans 8 places divine help alongside human weakness and hope. Understanding the Spirit does not require learners to treat every strong feeling as a direct command from God. Discernment and responsibility remain important.",
+        "Providence concerns God’s purposes and care within history. Our guide teaches meaningful human response: people can accept or resist grace, while their choices cannot ultimately thwart God’s purpose. Foreknowledge means knowing beforehand; predestination concerns an appointed outcome; determinism concerns how events are determined. They are not interchangeable terms.",
+        "Analogies can open understanding but also mislead. Water changing states can obscure the distinction of persons; dividing an object into thirds can suggest that each person is only part of God. State the doctrine first, identify an analogy’s limits, and leave room for mystery without using mystery as an excuse for careless reasoning. Understanding is assessed; assent is not required for participation."
+      ],
+      "simple": "Trinity concerns who God is; incarnation concerns the Son becoming human; providence concerns God’s purposes in history. Keep the questions distinct.",
+      "vocab": {
+        "Trinity": "The historic confession of one God in three persons.",
+        "Incarnation": "The Son’s becoming human in Jesus Christ.",
+        "Providence": "God’s care and purposes within the world’s history."
+      },
+      "deeper": "Compare what a biblical passage directly says with how a later doctrinal formulation draws several passages together. Both deserve careful study, but they are not identical literary acts.",
+      "reflect": "What makes an analogy helpful, and when should it be set aside?",
+      "model": "It can clarify one feature, but it should be set aside when its other features contradict the claim it was meant to explain.",
+      "challenges": [
+        {
+          "kind": "evidence",
+          "title": "Build the evidence case",
+          "prompt": "Select the two claims supported by this unit’s explanation and readings.",
+          "items": [
+            "Trinitarian teaching holds unity and distinction together",
+            "The incarnation affirms genuine humanity",
+            "The Trinity means three independent gods",
+            "A physical analogy completely defines God"
+          ],
+          "answer": [
+            0,
+            1
+          ],
+          "hint": "Select statements supported by the lesson and readings; distinguish them from stronger claims the evidence does not establish.",
+          "why": "The selected claims stay within the evidence and the guide’s stated interpretive boundaries."
+        },
+        {
+          "kind": "match",
+          "title": "Connect meaning with practice",
+          "prompt": "Connect each concrete example to the concept it illustrates.",
+          "items": [
+            "One God in three persons",
+            "The Son becomes human",
+            "God works toward purposes within history"
+          ],
+          "options": [
+            "Providence",
+            "Trinity",
+            "Incarnation"
+          ],
+          "answer": [
+            1,
+            2,
+            0
+          ],
+          "hint": "Compare the action or claim in each example with the definitions, rather than matching by a single word.",
+          "why": "A correct connection explains the role of the example in context. These categories help organize reasoning; they do not measure personal assent."
+        }
+      ],
+      "reviewChallenges": [
+        {
+          "kind": "evidence",
+          "title": "Audit a new interpretation",
+          "prompt": "Select the two responsible moves or conclusions in this new reading situation.",
+          "items": [
+            "Knowing an outcome and causing it are distinguishable claims",
+            "Predestination simply means every human choice is imaginary in all traditions",
+            "Analogies should be checked against the doctrine they illustrate",
+            "Mystery eliminates the need to define terms carefully"
+          ],
+          "answer": [
+            0,
+            2
+          ],
+          "hint": "Select statements supported by the lesson and readings; distinguish them from stronger claims the evidence does not establish.",
+          "why": "Responsible interpretation remains accountable to context, the limits of its evidence, and the people affected."
+        },
+        {
+          "kind": "match",
+          "title": "Rebuild the connections",
+          "prompt": "Connect each concrete example to the concept it illustrates.",
+          "items": [
+            "Providence",
+            "Trinity",
+            "Incarnation"
+          ],
+          "options": [
+            "One God in three persons",
+            "The Son becomes human",
+            "God works toward purposes within history"
+          ],
+          "answer": [
+            2,
+            0,
+            1
+          ],
+          "hint": "Compare the action or claim in each example with the definitions, rather than matching by a single word.",
+          "why": "A correct connection explains the role of the example in context. These categories help organize reasoning; they do not measure personal assent."
+        }
+      ],
+      "sources": [
+        "https://www.oca.org/orthodoxy/the-orthodox-faith/doctrine-scripture/the-symbol-of-faith/incarnation"
+      ]
+    },
+    {
+      "unit": 12,
+      "id": "practices",
+      "title": "Practice belonging, prayer, and care",
+      "ref": [
+        45,
+        6,
+        1,
+        4
+      ],
+      "reading": "Romans 6:1–4",
+      "extraReadings": [
+        {
+          "ref": [
+            46,
+            10,
+            16,
+            17
+          ],
+          "reading": "1 Corinthians 10:16–17"
+        },
+        {
+          "ref": [
+            40,
+            6,
+            5,
+            13
+          ],
+          "reading": "Matthew 6:5–13"
+        },
+        {
+          "ref": [
+            62,
+            4,
+            7,
+            12
+          ],
+          "reading": "1 John 4:7–12"
+        }
+      ],
+      "objective": "Explain baptism, Communion, prayer, and loving action as practices of Christian life without turning them into a merit system.",
+      "body": [
+        "Christian practices give embodied and communal expression to faith. Baptism connects belonging with Christ’s death and resurrection. Communities also promise support for the person baptized. This guide teaches its spiritual and social significance without declaring it necessary for salvation. Infant and believer’s baptism should be explained fairly.",
+        "Communion remembers Christ’s sacrifice, expresses communion with him, and gathers people in unity. The guide affirms an open table: all are welcome, always, without a membership, baptism, or doctrinal-agreement requirement. Other churches have different practices. Describing them accurately does not change the welcome expressed here.",
+        "Christians differ over how to describe Christ’s presence in Communion. Real-presence, spiritual-presence, and memorial emphases deserve explanation rather than caricature. The common meal is not merely an abstract puzzle; Paul’s discussion also concerns the unity and treatment of those who gather.",
+        "Prayer includes petition, gratitude, lament, confession, and listening. Jesus’ teaching challenges performance for public admiration and provides a pattern of dependence, forgiveness, and concern for God’s purposes. Prayer is not a technique that guarantees a preferred outcome. It does not replace medical care or justify blaming illness on insufficient faith.",
+        "First John connects God’s prior love with love among people. Formation means learning to embody that relationship in speech, habits, service, and repair after harm. A sustainable practice might be a brief daily prayer, attentive reading, or a concrete act of care. The point is faithful response, not accumulating religious achievements that earn salvation."
+      ],
+      "simple": "Baptism marks belonging, Communion gathers the community, prayer cultivates relationship, and love takes practical form. Grace is not earned through these practices.",
+      "vocab": {
+        "Baptism": "A Christian rite of water marking belonging and union with Christ.",
+        "Communion": "The shared meal remembering Christ and expressing participation and unity.",
+        "Formation": "The development of habits and understanding that shape a way of life."
+      },
+      "deeper": "Compare a practice’s meaning with a particular church’s admission rules or ritual form. Differences in practice should be named without assuming another community has no spiritual seriousness.",
+      "reflect": "Which small practice could help you pay better attention to another person’s needs?",
+      "model": "I could combine a brief period of reflection with one concrete act of listening or care, then review whether I followed through.",
+      "challenges": [
+        {
+          "kind": "evidence",
+          "title": "Build the evidence case",
+          "prompt": "Select the two claims supported by this unit’s explanation and readings.",
+          "items": [
+            "Romans links baptism with Christ’s death and resurrection",
+            "Paul connects the one bread with communal unity",
+            "Prayer guarantees the outcome a person requests",
+            "Religious practices purchase salvation"
+          ],
+          "answer": [
+            0,
+            1
+          ],
+          "hint": "Select statements supported by the lesson and readings; distinguish them from stronger claims the evidence does not establish.",
+          "why": "The selected claims stay within the evidence and the guide’s stated interpretive boundaries."
+        },
+        {
+          "kind": "match",
+          "title": "Connect meaning with practice",
+          "prompt": "Connect each concrete example to the concept it illustrates.",
+          "items": [
+            "Receiving everyone at the table",
+            "Learning a sustainable pattern of attentive care",
+            "Bringing grief honestly before God"
+          ],
+          "options": [
+            "Lament",
+            "Open Communion",
+            "Formation"
+          ],
+          "answer": [
+            1,
+            2,
+            0
+          ],
+          "hint": "Compare the action or claim in each example with the definitions, rather than matching by a single word.",
+          "why": "A correct connection explains the role of the example in context. These categories help organize reasoning; they do not measure personal assent."
+        }
+      ],
+      "reviewChallenges": [
+        {
+          "kind": "evidence",
+          "title": "Audit a new interpretation",
+          "prompt": "Select the two responsible moves or conclusions in this new reading situation.",
+          "items": [
+            "Explain other churches’ practices accurately while stating this guide’s welcome",
+            "Treat lack of healing as proof of weak faith",
+            "Allow prayer to include uncertainty and grief",
+            "Score someone’s private religious disclosure as evidence of virtue"
+          ],
+          "answer": [
+            0,
+            2
+          ],
+          "hint": "Select statements supported by the lesson and readings; distinguish them from stronger claims the evidence does not establish.",
+          "why": "Responsible interpretation remains accountable to context, the limits of its evidence, and the people affected."
+        },
+        {
+          "kind": "match",
+          "title": "Rebuild the connections",
+          "prompt": "Connect each concrete example to the concept it illustrates.",
+          "items": [
+            "Lament",
+            "Open Communion",
+            "Formation"
+          ],
+          "options": [
+            "Receiving everyone at the table",
+            "Learning a sustainable pattern of attentive care",
+            "Bringing grief honestly before God"
+          ],
+          "answer": [
+            2,
+            0,
+            1
+          ],
+          "hint": "Compare the action or claim in each example with the definitions, rather than matching by a single word.",
+          "why": "A correct connection explains the role of the example in context. These categories help organize reasoning; they do not measure personal assent."
+        }
+      ]
+    },
+    {
+      "unit": 13,
+      "id": "traditions",
+      "title": "Understand Christian differences without caricature",
+      "ref": [
+        49,
+        4,
+        1,
+        6
+      ],
+      "reading": "Ephesians 4:1–6",
+      "extraReadings": [
+        {
+          "ref": [
+            43,
+            17,
+            20,
+            23
+          ],
+          "reading": "John 17:20–23"
+        },
+        {
+          "ref": [
+            45,
+            14,
+            1,
+            4
+          ],
+          "reading": "Romans 14:1–4"
+        },
+        {
+          "ref": [
+            46,
+            12,
+            4,
+            7
+          ],
+          "reading": "1 Corinthians 12:4–7"
+        }
+      ],
+      "objective": "Compare shared Christian claims and differing structures while identifying this guide’s own commitments.",
+      "body": [
+        "Christianity includes many communities with shared texts and substantial disagreements. Creeds express central formulations about God and Christ; confessions and other statements articulate further teaching. Historical divisions involve theology, authority, worship, culture, and institutions. A single label rarely explains every congregation or individual.",
+        "Catholic, Orthodox, and Protestant traditions relate Scripture, tradition, and church authority in different ways. Their understandings of ministry and sacraments also differ. Some churches organize through bishops, some through councils of elders, and some emphasize congregational autonomy. These descriptions are starting points for comparison, not a ranking of sincerity.",
+        "The Reformation and other reform movements raised questions about authority, grace, faith, and church life. Protestant traditions themselves differ: Lutheran teaching emphasizes justification and law/gospel; Wesleyan teaching emphasizes grace and sanctification; Baptist traditions emphasize religious liberty and local church freedom. These summaries identify emphases rather than claiming each concern belongs to only one group.",
+        "This guide draws particularly on Metropolitan Community Churches and the Christian Church (Disciples of Christ). Its editorial commitments include an open table, explicit LGBTQ affirmation, Christian unity, contextual reading, and freedom of inquiry. It teaches historic doctrine substantively without making assent a prerequisite to learning. It does not claim to speak officially for every congregation in either movement.",
+        "Ecumenism seeks relationship and cooperation among Christians without pretending disagreements do not exist. A fair comparison asks what a tradition affirms, why its adherents find it persuasive, and where differences affect practice. Learners should be able to represent a position accurately even when they reject it. Understanding another account is not an obligation to adopt it."
+      ],
+      "simple": "Christian traditions share much while disagreeing about authority and practice. Learn their reasons and identify this guide’s perspective openly.",
+      "vocab": {
+        "Creed": "A concise statement of foundational belief.",
+        "Ecumenism": "Work toward Christian relationship, cooperation, and unity.",
+        "Polity": "A church’s structure of governance."
+      },
+      "deeper": "Compare a denomination’s official statement with a local congregation’s practice. Neither should automatically be treated as a complete description of the other.",
+      "reflect": "What would make a comparison of two traditions fair to both?",
+      "model": "I would use their own statements, distinguish shared claims from disagreements, and avoid reducing either to its critics’ description.",
+      "challenges": [
+        {
+          "kind": "evidence",
+          "title": "Build the evidence case",
+          "prompt": "Select the two claims supported by this unit’s explanation and readings.",
+          "items": [
+            "A denomination can contain internal diversity",
+            "Ecumenical cooperation need not erase disagreement",
+            "Every Protestant tradition has identical sacramental teaching",
+            "Understanding a position requires adopting it"
+          ],
+          "answer": [
+            0,
+            1
+          ],
+          "hint": "Select statements supported by the lesson and readings; distinguish them from stronger claims the evidence does not establish.",
+          "why": "The selected claims stay within the evidence and the guide’s stated interpretive boundaries."
+        },
+        {
+          "kind": "match",
+          "title": "Connect meaning with practice",
+          "prompt": "Connect each concrete example to the concept it illustrates.",
+          "items": [
+            "A statement summarizes foundational belief",
+            "Churches cooperate while naming differences",
+            "A community decides how leadership is organized"
+          ],
+          "options": [
+            "Polity",
+            "Creed",
+            "Ecumenism"
+          ],
+          "answer": [
+            1,
+            2,
+            0
+          ],
+          "hint": "Compare the action or claim in each example with the definitions, rather than matching by a single word.",
+          "why": "A correct connection explains the role of the example in context. These categories help organize reasoning; they do not measure personal assent."
+        }
+      ],
+      "reviewChallenges": [
+        {
+          "kind": "evidence",
+          "title": "Audit a new interpretation",
+          "prompt": "Select the two responsible moves or conclusions in this new reading situation.",
+          "items": [
+            "Use a tradition’s own account when describing its beliefs",
+            "Treat every local practice as the official view of all Christians",
+            "State this guide’s perspective rather than presenting it as universal consensus",
+            "Equate disagreement with a lack of sincerity"
+          ],
+          "answer": [
+            0,
+            2
+          ],
+          "hint": "Select statements supported by the lesson and readings; distinguish them from stronger claims the evidence does not establish.",
+          "why": "Responsible interpretation remains accountable to context, the limits of its evidence, and the people affected."
+        },
+        {
+          "kind": "match",
+          "title": "Rebuild the connections",
+          "prompt": "Connect each concrete example to the concept it illustrates.",
+          "items": [
+            "Polity",
+            "Creed",
+            "Ecumenism"
+          ],
+          "options": [
+            "A statement summarizes foundational belief",
+            "Churches cooperate while naming differences",
+            "A community decides how leadership is organized"
+          ],
+          "answer": [
+            2,
+            0,
+            1
+          ],
+          "hint": "Compare the action or claim in each example with the definitions, rather than matching by a single word.",
+          "why": "A correct connection explains the role of the example in context. These categories help organize reasoning; they do not measure personal assent."
+        }
+      ],
+      "sources": [
+        "https://insidemcc.org/about-mcc/what-we-believe/",
+        "https://disciples.org/our-identity/",
+        "https://www.elca.org/about-the-elca/who-we-are/beliefs",
+        "https://www.umc.org/en/content/distinctive-wesleyan-emphases",
+        "https://www.allianceofbaptists.org/about-1"
+      ]
+    },
+    {
+      "unit": 14,
+      "id": "hard-questions",
+      "title": "Stay honest with difficult questions",
+      "ref": [
+        42,
+        13,
+        1,
+        5
+      ],
+      "reading": "Luke 13:1–5",
+      "extraReadings": [
+        {
+          "ref": [
+            45,
+            11,
+            1,
+            6
+          ],
+          "reading": "Romans 11:1–6"
+        },
+        {
+          "ref": [
+            57,
+            1,
+            15,
+            17
+          ],
+          "reading": "Philemon 1:15–17"
+        },
+        {
+          "ref": [
+            40,
+            22,
+            34,
+            40
+          ],
+          "reading": "Matthew 22:34–40"
+        }
+      ],
+      "objective": "Address suffering, difficult ethical texts, and religious difference with evidence and care.",
+      "body": [
+        "Questions about suffering and evil are both intellectual and personal. Luke 13 challenges the inference that victims suffered because they were worse sinners than others. Our guide distinguishes wrongdoing enabled by human freedom from disease and disasters within a dynamic natural world. It does not claim a complete answer to why God permits every loss.",
+        "God can bring healing and good from suffering without suffering becoming good in itself or every tragedy being a deliberate lesson. Lament, uncertainty, practical help, and hope belong together. Biblical miracles can be studied seriously alongside differing interpretations. Neither a diagnosis nor an unhealed condition establishes possession or inadequate faith.",
+        "Conquest, slavery, and restrictions on women require direct examination rather than avoidance. Philemon can be studied for Paul’s appeal to receive Onesimus as a brother, while also asking what the letter explicitly says and what it leaves unresolved about slavery. Historical context does not by itself excuse harm or settle every moral question.",
+        "The guide explicitly affirms LGBTQ dignity, relationships, marriage, and equal participation in ministry. Opposing interpretations and affirming responses should be explained with attention to context; people’s dignity is not treated as an open contest. Present-day application is examined through Jesus’ teaching, love of neighbor, and human dignity.",
+        "Respectful treatment of other religions includes Christianity’s Jewish roots and the rejection of collective Jewish blame for Jesus’ death. Romans 11 challenges a simple claim that God abandoned Israel. Teach salvation through Christ while explaining disagreements about the unevangelized and covenant without declaring particular people’s final destiny. Acknowledging uncertainty is more responsible than inventing certainty."
+      ],
+      "simple": "Read difficult texts directly, acknowledge what remains unresolved, and keep people’s dignity and actual needs in view.",
+      "vocab": {
+        "Theodicy": "An attempt to account for evil and suffering in relation to God.",
+        "Interpretive boundary": "A limit on what the available evidence establishes.",
+        "Religious literacy": "Accurate understanding of beliefs and practices, including their diversity."
+      },
+      "deeper": "For a difficult passage, list its explicit statements, your interpretation, the moral question, and the proposed application separately. This makes disagreement easier to examine without disguising it.",
+      "reflect": "How would you respond to someone who has been harmed by a religious explanation of their suffering?",
+      "model": "I would listen without diagnosing their faith, acknowledge the harm, and offer practical support rather than impose another unearned certainty.",
+      "challenges": [
+        {
+          "kind": "evidence",
+          "title": "Build the evidence case",
+          "prompt": "Select the two claims supported by this unit’s explanation and readings.",
+          "items": [
+            "Luke challenges the assumption that victims were worse sinners",
+            "Romans 11 asks whether God rejected his people",
+            "Historical context automatically makes an ancient practice morally acceptable",
+            "An illness identifies a person’s spiritual failure"
+          ],
+          "answer": [
+            0,
+            1
+          ],
+          "hint": "Select statements supported by the lesson and readings; distinguish them from stronger claims the evidence does not establish.",
+          "why": "The selected claims stay within the evidence and the guide’s stated interpretive boundaries."
+        },
+        {
+          "kind": "scenario",
+          "title": "Respond to a harmful explanation",
+          "prompt": "After a neighbor loses their home in a disaster, a group claims the loss proves God’s judgment against them.",
+          "items": [],
+          "answer": [],
+          "stages": [
+            {
+              "prompt": "What is your first response?",
+              "choices": [
+                "Ask which sin caused the disaster",
+                "Listen to the neighbor and help identify immediate needs",
+                "Offer a confident cosmic explanation"
+              ],
+              "correct": 1,
+              "feedback": [
+                "The selected passage does not authorize that diagnosis.",
+                "You begin with the person’s actual circumstances and needs.",
+                "An explanation unsupported by evidence can add to the harm."
+              ]
+            },
+            {
+              "prompt": "The group quotes an unrelated verse as proof. How do you examine it?",
+              "choices": [
+                "Accept the claim because it contains a quotation",
+                "Dismiss all Scripture as irrelevant",
+                "Read its context and ask what supports this specific application"
+              ],
+              "correct": 2,
+              "feedback": [
+                "A quotation alone does not establish the application.",
+                "You can examine a claim critically without dismissing the entire collection.",
+                "You distinguish the passage from the inference imposed on it."
+              ]
+            },
+            {
+              "prompt": "What should the community do next?",
+              "choices": [
+                "Offer practical support and correct the unsupported accusation",
+                "Require the neighbor to agree with its theology before helping",
+                "Use the episode to prove its own moral superiority"
+              ],
+              "correct": 0,
+              "feedback": [
+                "Care and correction address both practical loss and the added harm.",
+                "This guide’s welcome does not make shared belief a condition of care.",
+                "The affected person’s well-being, not the group’s status, is the concern."
+              ]
+            }
+          ],
+          "hint": "Distinguish care, evidence, and accountability. Avoid diagnosing a person’s spiritual state from a disaster.",
+          "why": "You can take Scripture seriously while refusing an unsupported accusation and acting to reduce harm."
+        }
+      ],
+      "reviewChallenges": [
+        {
+          "kind": "evidence",
+          "title": "Audit a new interpretation",
+          "prompt": "Select the two responsible moves or conclusions in this new reading situation.",
+          "items": [
+            "Separate textual evidence from moral and interpretive judgments",
+            "Treat mental illness as evidence of possession",
+            "Acknowledge uncertainty about an individual’s final destiny",
+            "Use disagreement to make another person’s dignity conditional"
+          ],
+          "answer": [
+            0,
+            2
+          ],
+          "hint": "Select statements supported by the lesson and readings; distinguish them from stronger claims the evidence does not establish.",
+          "why": "Responsible interpretation remains accountable to context, the limits of its evidence, and the people affected."
+        },
+        {
+          "kind": "match",
+          "title": "Rebuild the connections",
+          "prompt": "Connect each concrete example to the concept it illustrates.",
+          "items": [
+            "Religious literacy",
+            "Interpretive boundary",
+            "Pastoral attention"
+          ],
+          "options": [
+            "A passage does not reveal every motive",
+            "A person needs care before an abstract explanation",
+            "A comparison uses another tradition’s own account"
+          ],
+          "answer": [
+            2,
+            0,
+            1
+          ],
+          "hint": "Compare the action or claim in each example with the definitions, rather than matching by a single word.",
+          "why": "A correct connection explains the role of the example in context. These categories help organize reasoning; they do not measure personal assent."
+        }
+      ]
+    },
+    {
+      "unit": 15,
+      "id": "final-hope",
+      "title": "Resurrection, judgment, and renewed creation",
+      "ref": [
+        46,
+        15,
+        20,
+        28
+      ],
+      "reading": "1 Corinthians 15:20–28",
+      "extraReadings": [
+        {
+          "ref": [
+            46,
+            15,
+            42,
+            49
+          ],
+          "reading": "1 Corinthians 15:42–49"
+        },
+        {
+          "ref": [
+            66,
+            21,
+            1,
+            5
+          ],
+          "reading": "Revelation 21:1–5"
+        },
+        {
+          "ref": [
+            66,
+            22,
+            1,
+            5
+          ],
+          "reading": "Revelation 22:1–5"
+        }
+      ],
+      "objective": "Distinguish resurrection and renewed creation from disputed end-times timelines and repeated earthly lives.",
+      "body": [
+        "Christian hope centers on resurrection and life with God. Paul connects Christ’s resurrection with the future of those who belong to him. Death is presented as an enemy to be overcome, not merely a change of address that makes embodied life irrelevant. The claim concerns God’s saving action rather than a human technique for escaping mortality.",
+        "Paul also uses contrasts to describe transformed embodied life. A spiritual body should not be reduced automatically to an immaterial ghost; the passage contrasts conditions of embodied existence within its account of resurrection. Christian traditions debate details, but bodily resurrection is the historic emphasis taught here.",
+        "Revelation’s visions culminate in renewed creation, divine presence, and the ending of death and tears. The tree of life reappears, connecting final hope with imagery from Genesis. The book’s symbolic and apocalyptic forms require contextual interpretation. Images of beasts, numbers, and catastrophe should not be assigned confidently to each day’s headlines.",
+        "Judgment, salvation through Christ, and eternal life are substantive Christian teachings. Christians disagree about the nature and duration of hell, the fate of the unevangelized, and detailed timelines of final events. This guide explains principal interpretations and their arguments without claiming certainty about the destiny of particular individuals.",
+        "Resurrection is distinct from reincarnation or repeated earthly lives. This curriculum does not assert personal theories of recurring lives or guarantee opportunities after death. Its practical emphasis is hope that encourages faithfulness, care, and justice now rather than speculation that distracts from present responsibilities."
+      ],
+      "simple": "Christian hope is resurrection and renewed creation. Detailed schedules and some accounts of final destiny remain disputed.",
+      "vocab": {
+        "Resurrection": "Being raised from death to transformed life.",
+        "Eschatology": "Study of final hope, judgment, and the last things.",
+        "Renewed creation": "The world’s restoration under God’s life-giving presence."
+      },
+      "deeper": "Compare the tree-of-life imagery in Genesis and Revelation. Notice the narrative connection without assuming that every image defines the physical mechanics of the future.",
+      "reflect": "How might hope for renewed creation shape care for this world rather than neglect of it?",
+      "model": "I would regard embodied life and the world as worthy of care, while avoiding claims that I can calculate the timing of the final renewal.",
+      "challenges": [
+        {
+          "kind": "evidence",
+          "title": "Build the evidence case",
+          "prompt": "Select the two claims supported by this unit’s explanation and readings.",
+          "items": [
+            "Paul connects Christian hope with Christ’s resurrection",
+            "Revelation portrays the ending of death and tears",
+            "Apocalyptic images supply an undisputed modern calendar",
+            "Resurrection means repeatedly returning to new earthly lives"
+          ],
+          "answer": [
+            0,
+            1
+          ],
+          "hint": "Select statements supported by the lesson and readings; distinguish them from stronger claims the evidence does not establish.",
+          "why": "The selected claims stay within the evidence and the guide’s stated interpretive boundaries."
+        },
+        {
+          "kind": "match",
+          "title": "Connect meaning with practice",
+          "prompt": "Connect each concrete example to the concept it illustrates.",
+          "items": [
+            "God raises the dead to transformed life",
+            "A theory assigns every vision to a modern date",
+            "A vision portrays divine presence and the end of tears"
+          ],
+          "options": [
+            "Disputed timeline",
+            "Renewed creation",
+            "Resurrection"
+          ],
+          "answer": [
+            2,
+            0,
+            1
+          ],
+          "hint": "Compare the action or claim in each example with the definitions, rather than matching by a single word.",
+          "why": "A correct connection explains the role of the example in context. These categories help organize reasoning; they do not measure personal assent."
+        }
+      ],
+      "reviewChallenges": [
+        {
+          "kind": "evidence",
+          "title": "Audit a new interpretation",
+          "prompt": "Select the two responsible moves or conclusions in this new reading situation.",
+          "items": [
+            "Read apocalyptic imagery within literary context",
+            "Declare a living person’s final destiny with certainty",
+            "Distinguish historic resurrection teaching from reincarnation",
+            "Treat disagreement about timelines as absence of all Christian hope"
+          ],
+          "answer": [
+            0,
+            2
+          ],
+          "hint": "Select statements supported by the lesson and readings; distinguish them from stronger claims the evidence does not establish.",
+          "why": "Responsible interpretation remains accountable to context, the limits of its evidence, and the people affected."
+        },
+        {
+          "kind": "match",
+          "title": "Rebuild the connections",
+          "prompt": "Connect each concrete example to the concept it illustrates.",
+          "items": [
+            "Disputed timeline",
+            "Renewed creation",
+            "Resurrection"
+          ],
+          "options": [
+            "God raises the dead to transformed life",
+            "A theory assigns every vision to a modern date",
+            "A vision portrays divine presence and the end of tears"
+          ],
+          "answer": [
+            1,
+            2,
+            0
+          ],
+          "hint": "Compare the action or claim in each example with the definitions, rather than matching by a single word.",
+          "why": "A correct connection explains the role of the example in context. These categories help organize reasoning; they do not measure personal assent."
+        }
+      ]
+    },
+    {
+      "unit": 16,
+      "id": "independent",
+      "title": "Complete an independent reading project",
+      "ref": [
+        65,
+        1,
+        20,
+        25
+      ],
+      "reading": "Jude 1:20–25",
+      "extraReadings": [
+        {
+          "ref": [
+            55,
+            3,
+            14,
+            17
+          ],
+          "reading": "2 Timothy 3:14–17"
+        },
+        {
+          "ref": [
+            44,
+            17,
+            10,
+            12
+          ],
+          "reading": "Acts 17:10–12"
+        },
+        {
+          "ref": [
+            59,
+            1,
+            22,
+            25
+          ],
+          "reading": "James 1:22–25"
+        }
+      ],
+      "objective": "Build and explain a contextual reading that distinguishes evidence, interpretation, disagreement, and application.",
+      "body": [
+        "An introductory guide should eventually make you less dependent on the guide. Begin a reading project with a manageable whole book such as Ruth, Jonah, Philippians, Philemon, or Jude. Read the complete book in Explore before focusing on a few verses. Record an initial question rather than deciding the answer in advance.",
+        "Build an evidence record: identify the form of writing, audience where known, repeated concerns, important turns, and details that complicate your first impression. Separate what the text explicitly says from historical reconstructions and personal associations. If a factual claim matters to your argument, investigate it with a reliable source.",
+        "Next write a short account of the passage’s meaning in context. Compare at least one alternative reading and explain why someone might find it persuasive. A translation difference may require attention to wording or manuscript notes; a theological disagreement may require comparing several passages. State what your evidence does and does not settle.",
+        "Finally propose a concrete application and consider its effects on others. The goal is not to make Scripture agree with every initial preference. It is to develop an accountable reading that can be revised. Return to the text, the people affected, and the wider Christian conversation when new evidence or concerns arise.",
+        "The project is complete when you can explain your reasoning, not when you have eliminated every question. Use the optional reflection to draft a five-part brief: question, context, evidence, interpretation with an alternative, and application with a limit. The mission checks the method; it does not grade your personal conclusions or certify your theology. Continued reading, community, and reflection remain part of learning."
+      ],
+      "simple": "Read a whole book, build an evidence case, compare an alternative, and propose a responsible application. Name what remains uncertain.",
+      "vocab": {
+        "Evidence record": "A collection of textual observations and sourced contextual information.",
+        "Alternative interpretation": "Another reasoned account of a passage’s meaning.",
+        "Synthesis": "An explanation connecting several observations into a coherent account."
+      },
+      "deeper": "Read all of Jude after the selected ending. Compare the call to mercy with the letter’s warnings. How does the whole letter complicate a summary based only on its final blessing?",
+      "reflect": "Draft your project: question; context; two pieces of evidence; interpretation and an alternative; application and one limit.",
+      "model": "For Jude, I might ask how warning and mercy fit together, read the full letter, distinguish its audiences and appeals, compare readings, and propose a response that does not turn disagreement into contempt.",
+      "challenges": [
+        {
+          "kind": "sequence",
+          "title": "Construct your study project",
+          "prompt": "Build a responsible sequence from first encounter to application.",
+          "items": [
+            "Propose an application and name its limits",
+            "Read the complete book and identify context",
+            "Form an interpretation and compare an alternative",
+            "Record evidence, including details that complicate your first impression"
+          ],
+          "answer": [
+            1,
+            3,
+            2,
+            0
+          ],
+          "hint": "First encounter the work, then build the evidence, reason from it, and apply it.",
+          "why": "A reading project makes its reasoning visible: context, evidence, interpretation with alternatives, and accountable application."
+        },
+        {
+          "kind": "scenario",
+          "title": "Defend and revise your reading",
+          "prompt": "You have drafted a reading project. A peer raises evidence that challenges your conclusion.",
+          "items": [],
+          "answer": [],
+          "stages": [
+            {
+              "prompt": "How do you handle the new evidence?",
+              "choices": [
+                "Hide it so the project looks confident",
+                "Return to the passage and assess its relevance",
+                "Assume disagreement proves the peer is insincere"
+              ],
+              "correct": 1,
+              "feedback": [
+                "Completeness includes acknowledging evidence that complicates the argument.",
+                "Your reading remains answerable to the text.",
+                "Motive judgments do not resolve the interpretive issue."
+              ]
+            },
+            {
+              "prompt": "The evidence supports more than one interpretation. What belongs in the project?",
+              "choices": [
+                "Your preferred conclusion presented as the only possible view",
+                "A claim that no interpretation can ever be evaluated",
+                "Your reasoning, a fair alternative, and the remaining uncertainty"
+              ],
+              "correct": 2,
+              "feedback": [
+                "That would hide a real limitation.",
+                "Uncertainty does not make all arguments equally strong.",
+                "This makes the interpretation reviewable and proportionate to the evidence."
+              ]
+            },
+            {
+              "prompt": "Someone affected by your proposed application says it is causing harm. What next?",
+              "choices": [
+                "Listen, examine the effects, and revise where warranted",
+                "Treat the mission score as proof the application is right",
+                "Ignore their experience because your intentions were good"
+              ],
+              "correct": 0,
+              "feedback": [
+                "Responsible application includes accountability to the people affected.",
+                "A learning score cannot validate every real-world judgment.",
+                "Intentions matter but do not erase consequences."
+              ]
+            }
+          ],
+          "hint": "Keep textual evidence, competing explanations, and lived consequences open to examination.",
+          "why": "A completed project demonstrates accountable reasoning, not immunity from revision."
+        }
+      ],
+      "reviewChallenges": [
+        {
+          "kind": "evidence",
+          "title": "Audit a new interpretation",
+          "prompt": "Select the two responsible moves or conclusions in this new reading situation.",
+          "items": [
+            "Represent an alternative interpretation in recognizable terms",
+            "Hide an uncertainty to make the project sound complete",
+            "Revise a reading when relevant evidence changes",
+            "Treat a mission score as proof of personal holiness"
+          ],
+          "answer": [
+            0,
+            2
+          ],
+          "hint": "Select statements supported by the lesson and readings; distinguish them from stronger claims the evidence does not establish.",
+          "why": "Responsible interpretation remains accountable to context, the limits of its evidence, and the people affected."
+        },
+        {
+          "kind": "match",
+          "title": "Rebuild the connections",
+          "prompt": "Connect each concrete example to the concept it illustrates.",
+          "items": [
+            "Application",
+            "Observation",
+            "Interpretation"
+          ],
+          "options": [
+            "Record a repeated concern in the passage",
+            "Explain why that concern matters in the argument",
+            "Propose an action and check its effects"
+          ],
+          "answer": [
+            2,
+            0,
+            1
+          ],
+          "hint": "Compare the action or claim in each example with the definitions, rather than matching by a single word.",
+          "why": "A correct connection explains the role of the example in context. These categories help organize reasoning; they do not measure personal assent."
         }
       ]
     }
@@ -949,7 +3132,7 @@ window.FOUNDATIONS_DATA = {
   "units": [
     {
       "title": "Orientation",
-      "scope": "The five playable lessons above",
+      "scope": "Five orientation lessons: the central story, library, narrative, context, and mercy",
       "id": 1
     },
     {
@@ -1068,6 +3251,30 @@ window.FOUNDATIONS_DATA = {
     {
       "title": "KJV wording of 1 Corinthians 13:4",
       "url": "https://www.biblegateway.com/passage/?search=1+Corinthians+13%3A4&version=KJV"
+    },
+    {
+      "title": "Orthodox Church in America: incarnation",
+      "url": "https://www.oca.org/orthodoxy/the-orthodox-faith/doctrine-scripture/the-symbol-of-faith/incarnation"
+    },
+    {
+      "title": "ELCA: Lutheran beliefs",
+      "url": "https://www.elca.org/about-the-elca/who-we-are/beliefs"
+    },
+    {
+      "title": "United Methodist Church: Wesleyan emphases",
+      "url": "https://www.umc.org/en/content/distinctive-wesleyan-emphases"
+    },
+    {
+      "title": "Alliance of Baptists: covenant and values",
+      "url": "https://www.allianceofbaptists.org/about-1"
+    },
+    {
+      "title": "NET Bible: 1 John 5:6–8, translation and textual-critical notes",
+      "url": "https://www.biblegateway.com/passage/?search=1+John+5%3A6-8&version=NET"
+    },
+    {
+      "title": "Mark A. Jennings, Patronage and Rebuke in Paul’s Persuasion in 2 Corinthians 8–9 (2009)",
+      "url": "https://www.jgrchj.net/volume6/JGRChJ6-5_Jennings.pdf"
     }
   ]
 };

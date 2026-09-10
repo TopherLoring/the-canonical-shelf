@@ -1,6 +1,6 @@
 const assert=require('node:assert/strict'),fs=require('node:fs'),vm=require('node:vm'),path=require('node:path');
 const {parseHTML}=require(process.env.SHELF_DOM_MODULE||'linkedom');
-const root=path.resolve(__dirname,'..'),read=p=>fs.readFileSync(root+'/'+p,'utf8');
+const root=path.resolve(__dirname,'../public'),read=p=>fs.readFileSync(root+'/'+p,'utf8');
 const html=read('index.html'),{window}=parseHTML(html),document=window.document;
 const memory=new Map();let now=Date.now();class Clock extends Date{static now(){return now;}}
 const ctx=vm.createContext({window,document,Date:Clock,console,localStorage:{getItem:k=>memory.get(k)||null,setItem:(k,v)=>memory.set(k,v)},setTimeout:()=>0,setInterval:()=>0,clearInterval:()=>{},clearTimeout:()=>{},requestAnimationFrame:f=>f(),navigator:{},location:{},matchMedia:()=>({matches:false}),getComputedStyle:()=>({getPropertyValue:()=>''}),btoa:s=>Buffer.from(s,'binary').toString('base64'),atob:s=>Buffer.from(s,'base64').toString('binary'),TextEncoder,TextDecoder,URL,Blob,fetch:async()=>({ok:true,text:async()=>read('corpus.txt')})});
@@ -28,6 +28,10 @@ async function run(){
     let pos=order.indexOf(ch.items[ch.answer[target]]);
     while(pos>target){action('up',`[data-i="${pos}"]`);pos--;}
    }action('check');
+  }else if(ch.kind==='argument'){
+   function connect(a,b){for(const [id,value] of [['from',a],['to',b]]){const el=document.querySelector('#fd-'+id);Object.defineProperty(el,'value',{value:String(value),configurable:true});el.dispatchEvent(new window.Event('change'));}action('link');}
+   connect(0,4);action('check');assert.ok(document.querySelector('#fd-feedback').textContent.includes('Not yet'));action('unlink','[data-i="0"]');
+   for(const [a,b] of ch.answer)connect(a,b);action('check');
   }else if(ch.kind==='match'){
    for(let i=0;i<ch.answer.length;i++){const el=document.querySelector(`[data-match="${i}"]`);Object.defineProperty(el,'value',{value:String(ch.answer[i]),configurable:true});el.dispatchEvent(new window.Event('change'));}action('check');
   }else if(ch.kind==='evidence'){
@@ -42,15 +46,16 @@ async function run(){
  const backup=F.exportState(),due=backup.lessons.begin.due;
  F.open();action('practice');action('start','[data-id="begin"]');D.lessons[0].challenges.forEach(solve);assert.equal(F.exportState().lessons.begin.due,due);
  now=due+1;F.open();action('practice');action('start','[data-id="begin"]');D.lessons[0].challenges.forEach(solve);assert.equal(F.exportState().lessons.begin.reviews,1);
- for(const l of D.lessons.filter(x=>x.unit===2)){now=F.exportState().lessons[l.id].due+1;F.open();action('practice');action('start',`[data-id="${l.id}"]`);assert.ok(document.querySelector('#panel-learn h2').textContent.includes(l.reviewChallenges[0].title));l.reviewChallenges.forEach(solve);assert.equal(F.exportState().lessons[l.id].reviews,1);}
+ for(const l of D.lessons.filter(x=>x.unit>=2)){now=F.exportState().lessons[l.id].due+1;F.open();action('practice');action('start',`[data-id="${l.id}"]`);assert.ok(document.querySelector('#panel-learn h2').textContent.includes(l.reviewChallenges[0].title));l.reviewChallenges.forEach(solve);assert.equal(F.exportState().lessons[l.id].reviews,1);}
  const codeSave=vm.runInContext('encodeSave()',ctx);F.importState({});assert.equal(F.exportState().lessons.begin.passed,false);ctx.codeSave=codeSave;assert.ok(vm.runInContext('decodeSave(codeSave)',ctx));assert.ok(F.exportState().lessons.begin.passed);
  F.open();action('lesson','[data-id="begin"]');assert.equal(document.querySelector('#fd-note').value,'<script>private & note</script>');assert.equal(document.querySelector('#fd-note script'),null);
  action('reader','[data-id="begin"]');assert.ok(document.querySelector('#panel-explore').textContent.includes('1 Corinthians 15'));assert.ok(document.querySelectorAll('.reader-verse').length>5);
  vm.runInContext('setTab("play")',ctx);assert.ok(document.querySelector('#panel-play').textContent.includes('Practice understanding'));
  click('#panel-play [data-fd="legacy"]');assert.equal(document.querySelector('#foundations-return').hidden,false);click('#foundations-return-button');assert.ok(document.querySelector('#panel-learn').textContent.includes('A guided beginning'));
  F.open();action('legacy');assert.ok(document.querySelector('#panel-learn').textContent.includes('Eight modes'));click('#foundations-return-button');
+ F.open();action('lesson','[data-id="creation"]');assert.ok(document.querySelector('#fd-extra-0').textContent.includes('garden'));action('reader','[data-id="creation"][data-extra="0"]');assert.ok(document.querySelector('#panel-explore').textContent.includes('Genesis 2'));
  const result=vm.runInContext('searchFull("John 3:16")',ctx);assert.equal(result.total,1);assert.ok(result.hits[0].text.includes("God so loved"));
  const range=vm.runInContext('searchFull("John 3:16–18")',ctx);assert.equal(range.total,3);
- console.log('PASS: full app boot, all 18 initial challenges and eight transfer-review challenges, failed attempts, hints, notes, corpus rendering, early/due reviews, progress export/import, both legacy routes, reader and search');
+ console.log('PASS: full app boot, all 50 initial challenges and 36 return-review challenges, failed attempts, hints, notes, corpus rendering, early/due reviews, progress export/import, both legacy routes, reader and search');
 }
 run().catch(e=>{console.error(e);process.exitCode=1;});
