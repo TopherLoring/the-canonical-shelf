@@ -2,7 +2,7 @@
 
 ## Release scope
 
-Unit 1 contains five complete lessons and ten playable understanding challenges. The theological guide contains sixteen approved topic explanations with passages and interpretive boundaries. Units 2–16 below are an authoring roadmap, not completed courses or unlocked placeholders. The existing Bible reader, full-verse corpus search, and original practice modes remain available.
+Units 1–2 contain nine complete lessons, eighteen initial challenges, and eight distinct transfer-review challenges for Unit 2. The theological guide contains sixteen approved topic explanations with passages and interpretive boundaries. Units 3–16 below are an authoring roadmap, not completed courses or unlocked placeholders. The existing Bible reader, full-verse corpus search, and original practice modes remain available.
 
 ## University-informed design
 
@@ -12,12 +12,12 @@ This is original curriculum, not copied course material, a university syllabus, 
 
 Each lesson has an objective, full primary reading from corpus.txt, substantive explanation, a simpler explanation, vocabulary, deeper inquiry, optional reflection with a model, and two challenges. Readers may move freely. No profession of faith is required. Reflection is private and ungraded; exported progress includes reflections and says so. Learning milestones are separate from legacy arcade XP.
 
-Challenges use sequencing, matching, evidence selection, and a two-stage scenario. All support keyboard and touch without dragging or timers. Hints and retries are unlimited. Completing both challenges earns one milestone. Return practice after 1, 3, 7, then 14 days builds retention; intervals are product defaults, not a uniquely proven optimum. Early practice is available but cannot accelerate review awards. Review exercises rotate order; future authored units should add transfer problems and alternate examples, not merely rehearse the same answers. A milestone is evidence of task completion, not whole-topic mastery or personal belief.
+Challenges use sequencing, matching, evidence selection, and a two-stage scenario. All support keyboard and touch without dragging or timers. Hints and retries are unlimited. Completing both challenges earns one milestone. Return practice after 1, 3, 7, then 14 days builds retention; intervals are product defaults, not a uniquely proven optimum. Early practice is available but cannot accelerate review awards. Unit 1 reviews revisit the original tasks with ordering variation. Unit 2 reviews use eight separately authored transfer problems. Revisit a lesson and resume the same mission without losing its current construction. A milestone is evidence of task completion, not whole-topic mastery or personal belief.
 
 ## Scope and sequence
 
 1. **Orientation:** The five playable lessons above.
-2. **Reading Scripture:** Genre; context; translation and manuscripts; observation to application.
+2. **Reading Scripture (playable):** Genre (Psalm 23); audience and context (1 Corinthians 11:17–22); translation and manuscripts (1 Corinthians 13:1–7); responsible application (James 1:19–27). See [complete Unit 2](unit-02.md).
 3. **Creation and humanity:** Genesis; image of God; sin and mortality; creation care.
 4. **Covenant and liberation:** Abraham; Exodus; Sinai; covenant responsibilities.
 5. **Land, kingdom, and exile:** Joshua and Judges; monarchy; temple; exile and return.

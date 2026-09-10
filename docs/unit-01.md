@@ -1,6 +1,6 @@
-# Unit 1: A guided beginning
+# Unit 1: Orientation
 
-Five complete lessons. Play the accompanying missions in Learn or Practice.
+5 complete lessons with full Berean Standard Bible readings and interactive understanding missions.
 
 ## Begin with the central story
 
@@ -28,16 +28,48 @@ The first goal is orientation. Notice what the passage actually says before tryi
 
 **Simply:** Start with a person and a story: Christians proclaim that Jesus died for sins and rose from the dead. You can learn what that claim means before deciding what you believe.
 
+### Vocabulary
+
+- **Gospel:** Good news; also the name for a narrative book about Jesus.
+- **Christ:** Anointed one; the Greek title corresponding to Messiah.
+- **Resurrection:** Being raised from death, not repeatedly returning in new earthly lives.
+
 **Deeper:** Paul distinguishes the proclamation from his own role as its messenger. Ask what changes when we read this as a reminder to a community rather than as a modern individual conversion script.
 
-**Reflection:** What would you need to understand before explaining Christianity’s central claim to someone else?
+**Optional reflection:** What would you need to understand before explaining Christianity’s central claim to someone else?
 
-**Model:** I would separate who Jesus is, what Christians say happened, and why they believe those events matter.
+**Model reflection:** I would separate who Jesus is, what Christians say happened, and why they believe those events matter.
 
-### Understanding missions
+### Reconstruct the proclamation
 
-- **Reconstruct the proclamation (sequence):** Arrange the events in the order Paul recounts them. Feedback: Paul connects death, burial, resurrection, and appearances. Sequence does not explain every theological mechanism; it establishes the proclamation.
-- **Decode the vocabulary (match):** Assign the correct meaning to each term. Feedback: Christ is a title, gospel is good news, and resurrection concerns being raised from death.
+**Format:** sequence
+
+Arrange the events in the order Paul recounts them.
+
+- Christ was buried
+- Christ appeared to witnesses
+- Christ died for sins
+- Christ was raised
+
+**Sequence:** Christ died for sins → Christ was buried → Christ was raised → Christ appeared to witnesses
+
+**Hint:** Follow the verbs in verses 3–5.
+
+**Explanation:** Paul connects death, burial, resurrection, and appearances. Sequence does not explain every theological mechanism; it establishes the proclamation.
+
+### Decode the vocabulary
+
+**Format:** match
+
+Assign the correct meaning to each term.
+
+- Gospel → Good news
+- Christ → Anointed one
+- Resurrection → Being raised from death
+
+**Hint:** A title, a message, and an event are different categories.
+
+**Explanation:** Christ is a title, gospel is good news, and resurrection concerns being raised from death.
 
 ## Navigate a library
 
@@ -63,16 +95,48 @@ Luke begins by describing earlier accounts, transmitted testimony, and his own i
 
 **Simply:** Think of a Bible reference as an address inside a library. First find the book, then chapter, then verse. Next ask what kind of writing you are reading.
 
+### Vocabulary
+
+- **Canon:** A community’s recognized collection of Scripture.
+- **Translation:** A rendering from one language into another.
+- **Genre:** A kind of writing with recognizable purposes and conventions.
+
 **Deeper:** Copying, translation, and interpretation are distinct processes. Compare wording and manuscript evidence before deciding that a difference changes meaning. Neither deliberate corruption nor complete recovery of an original interpretation should be assumed.
 
-**Reflection:** How could two Bibles differ without either being a fabricated Bible?
+**Optional reflection:** How could two Bibles differ without either being a fabricated Bible?
 
-**Model:** They may use different translations, different manuscript judgments, or different canons. I would identify the kind of difference first.
+**Model reflection:** They may use different translations, different manuscript judgments, or different canons. I would identify the kind of difference first.
 
-### Understanding missions
+### Sort the library labels
 
-- **Sort the library labels (match):** Match each kind of difference to its category. Feedback: Translation concerns language, canon concerns recognized books, and genre concerns literary form.
-- **Find the passage (sequence):** Put the navigation steps in order. Feedback: Book → chapter → verses → context gives you both a location and a responsible way to read it.
+**Format:** match
+
+Match each kind of difference to its category.
+
+- A different English rendering → Language rendering
+- Additional recognized books → Recognized collection
+- Poetry rather than a letter → Literary form
+
+**Hint:** Ask whether the difference concerns language, collection, or kind of writing.
+
+**Explanation:** Translation concerns language, canon concerns recognized books, and genre concerns literary form.
+
+### Find the passage
+
+**Format:** sequence
+
+Put the navigation steps in order.
+
+- Locate verses 1–4
+- Choose Luke
+- Read the surrounding passage
+- Open chapter 1
+
+**Sequence:** Choose Luke → Open chapter 1 → Locate verses 1–4 → Read the surrounding passage
+
+**Hint:** Start with the largest part of the address.
+
+**Explanation:** Book → chapter → verses → context gives you both a location and a responsible way to read it.
 
 ## Follow the larger story
 
@@ -94,16 +158,49 @@ Jesus and his earliest followers were Jewish. Christian interpretations of fulfi
 
 **Simply:** Follow relationships and turning points: creation, covenant, Israel’s history, Jesus, the Church, and renewed creation. The books themselves are grouped partly by genre, not simply by date.
 
+### Vocabulary
+
+- **Covenant:** A committed relationship involving promises and responsibilities.
+- **Kingdom of God:** God’s reign and its realization.
+- **Repentance:** Turning away from sin and toward God.
+
 **Deeper:** A Christian narrative overview is an interpretation of the collection. Compare it with how an individual book presents its own concerns. Israel is more than background scenery for the New Testament.
 
-**Reflection:** What might someone miss if they begin with Jesus but learn nothing about Israel?
+**Optional reflection:** What might someone miss if they begin with Jesus but learn nothing about Israel?
 
-**Model:** They could miss the meanings of Messiah, covenant, kingdom, and the scriptural language Jesus uses.
+**Model reflection:** They could miss the meanings of Messiah, covenant, kingdom, and the scriptural language Jesus uses.
 
-### Understanding missions
+### Build the story map
 
-- **Build the story map (sequence):** Order these broad narrative landmarks, not the dates when books were written. Feedback: Narrative sequence helps orientation. It does not settle the date or genre of each book.
-- **Connect the themes (match):** Match the language to its meaning. Feedback: These words describe relationships, response, and God’s reign rather than a collection of unrelated religious terms.
+**Format:** sequence
+
+Order these broad narrative landmarks, not the dates when books were written.
+
+- Early Church
+- Covenant with Abraham
+- Jesus’ ministry
+- Creation
+- Israel’s exile
+
+**Sequence:** Creation → Covenant with Abraham → Israel’s exile → Jesus’ ministry → Early Church
+
+**Hint:** Creation precedes Abraham; Jesus’ ministry precedes the Church’s mission.
+
+**Explanation:** Narrative sequence helps orientation. It does not settle the date or genre of each book.
+
+### Connect the themes
+
+**Format:** match
+
+Match the language to its meaning.
+
+- Covenant → Committed relationship
+- Repentance → Turning toward God
+- Kingdom → God’s reign
+
+**Hint:** Kingdom concerns reign; repentance concerns turning.
+
+**Explanation:** These words describe relationships, response, and God’s reign rather than a collection of unrelated religious terms.
 
 ## Become a context detective
 
@@ -129,16 +226,48 @@ Good interpretation can be tested. Name the details that support your reading, n
 
 **Simply:** Read before and after the verse. Paul is talking about contentment in both need and abundance. Strength here does not mean a promise to succeed at every goal.
 
+### Vocabulary
+
+- **Observation:** Identifying what the passage says or does.
+- **Interpretation:** Explaining meaning using evidence and context.
+- **Application:** Connecting that meaning responsibly to present life.
+
 **Deeper:** Historical context and literary context work together. A background claim should be supported, not invented to rescue a favored interpretation. Compare translations where a word carries much of an argument.
 
-**Reflection:** How would you use this passage to encourage someone whose situation has not improved?
+**Optional reflection:** How would you use this passage to encourage someone whose situation has not improved?
 
-**Model:** I would acknowledge the difficulty and offer companionship and practical help, while describing strength to endure rather than promising immediate success.
+**Model reflection:** I would acknowledge the difficulty and offer companionship and practical help, while describing strength to endure rather than promising immediate success.
 
-### Understanding missions
+### Build an evidence case
 
-- **Build an evidence case (evidence):** Select the two clues in the passage that support strength amid changing circumstances. Feedback: Hunger, plenty, and learned contentment ground the interpretation. The other claims are not in this passage.
-- **Separate the reading moves (match):** Match each statement to its role. Feedback: Observation, interpretation, and application are connected but not interchangeable.
+**Format:** evidence
+
+Select the two clues in the passage that support strength amid changing circumstances.
+
+- Paul describes hunger and plenty
+- Paul guarantees a victory in every contest
+- Paul says he has learned contentment
+- Paul says hardship proves weak faith
+
+**Supported evidence:** Paul describes hunger and plenty; Paul says he has learned contentment
+
+**Hint:** Look at verses 11–12, not just verse 13.
+
+**Explanation:** Hunger, plenty, and learned contentment ground the interpretation. The other claims are not in this passage.
+
+### Separate the reading moves
+
+**Format:** match
+
+Match each statement to its role.
+
+- Paul mentions hunger → Observation
+- The strength concerns endurance → Interpretation
+- Support a neighbor through hardship → Application
+
+**Hint:** First notice, then explain, then connect to life.
+
+**Explanation:** Observation, interpretation, and application are connected but not interchangeable.
 
 ## Put understanding into practice
 
@@ -182,13 +311,57 @@ This guide teaches salvation as God’s gift through Christ’s sacrifice and re
 
 **Simply:** The Samaritan becomes a neighbor by giving concrete care across a social boundary. The challenge is to recognize and practice mercy, not merely define who deserves it.
 
+### Vocabulary
+
+- **Parable:** A story used to provoke insight and response.
+- **Mercy:** Compassion expressed in care for someone in need.
+- **Grace:** God’s freely given favor and saving gift.
+
 **Deeper:** Christian traditions relate faith, justification, and works differently. Explain their reasoning fairly. In this guide, good works do not purchase salvation; love takes practical shape in response to grace.
 
-**Reflection:** What would meaningful care require beyond saying that you wish someone well?
+**Optional reflection:** What would meaningful care require beyond saying that you wish someone well?
 
-**Model:** I could ask what help is wanted, offer practical support within my ability, and follow through without assuming I know everything about their situation.
+**Model reflection:** I could ask what help is wanted, offer practical support within my ability, and follow through without assuming I know everything about their situation.
 
-### Understanding missions
+### The neighbor mission
 
-- **The neighbor mission (scenario):** A member of a group your community distrusts needs help after a crisis. Build a response that reflects the parable. Feedback: Mercy crosses the boundary, listens to the person, and follows through with practical care.
-- **Support your interpretation (evidence):** Select the two details that show mercy becoming practical responsibility. Feedback: Tending wounds and arranging care are textual evidence. The story neither explains every motive nor provides a formula for purchasing salvation.
+**Format:** scenario
+
+A member of a group your community distrusts needs help after a crisis. Build a response that reflects the parable.
+
+**First move: what do you do?**
+
+- Offer practical help and ask what is needed — intended response
+- Require agreement with your beliefs first
+- Assume another person will handle it
+
+You cross the boundary and begin with the person’s actual needs.
+
+**They accept help. What sustains the response?**
+
+- Make a public promise, then leave without a plan
+- Arrange appropriate support and follow through — intended response
+- Use the crisis to demonstrate your moral superiority
+
+Arranging care reflects the Samaritan’s continuing responsibility.
+
+**Hint:** Look for concrete care across a boundary, followed by responsibility.
+
+**Explanation:** Mercy crosses the boundary, listens to the person, and follows through with practical care.
+
+### Support your interpretation
+
+**Format:** evidence
+
+Select the two details that show mercy becoming practical responsibility.
+
+- The Samaritan arranges and pays for care
+- The story says good deeds purchase salvation
+- The Samaritan tends the traveler’s wounds
+- The story explains every passerby’s motive
+
+**Supported evidence:** The Samaritan arranges and pays for care; The Samaritan tends the traveler’s wounds
+
+**Hint:** Choose actions explicitly described, not conclusions supplied from elsewhere.
+
+**Explanation:** Tending wounds and arranging care are textual evidence. The story neither explains every motive nor provides a formula for purchasing salvation.

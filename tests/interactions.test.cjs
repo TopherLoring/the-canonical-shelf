@@ -20,6 +20,7 @@ async function run(){
  F.refreshPassage();assert.equal(document.querySelector('#fd-note').value,'<script>private & note</script>');
  action('start','[data-id="begin"]');action('check');assert.ok(document.querySelector('#fd-feedback').textContent.includes('Not yet'));assert.equal(F.exportState().lessons.begin.passed,false);
  action('hint');assert.ok(document.querySelector('.fd-feedback'));
+ action('up','[data-i="2"]');const paused=document.querySelector('.fd-order').textContent;action('lesson','[data-id="begin"]');assert.ok(document.querySelector('[data-fd="resume"]'));action('resume');assert.equal(document.querySelector('.fd-order').textContent,paused);
  function solve(ch){
   if(ch.kind==='sequence'){
    for(let target=0;target<ch.answer.length;target++){
@@ -32,7 +33,7 @@ async function run(){
   }else if(ch.kind==='evidence'){
    for(const i of ch.answer){const el=document.querySelector(`[data-clue="${i}"]`);el.checked=true;el.dispatchEvent(new window.Event('change'));}action('check');
   }else{
-   action('choice','[data-i="1"]');assert.ok(document.querySelector('#fd-feedback').textContent.includes('condition'));
+   const wrong=(ch.stages[0].correct+1)%ch.stages[0].choices.length;action('choice',`[data-i="${wrong}"]`);assert.equal(document.querySelector('#fd-feedback').textContent,ch.stages[0].feedback[wrong]);
    for(const st of ch.stages)action('choice',`[data-i="${st.correct}"]`);
   }
   assert.ok(document.querySelector('[data-fd="next"]'),'Challenge did not pass: '+ch.title);action('next');
@@ -41,6 +42,7 @@ async function run(){
  const backup=F.exportState(),due=backup.lessons.begin.due;
  F.open();action('practice');action('start','[data-id="begin"]');D.lessons[0].challenges.forEach(solve);assert.equal(F.exportState().lessons.begin.due,due);
  now=due+1;F.open();action('practice');action('start','[data-id="begin"]');D.lessons[0].challenges.forEach(solve);assert.equal(F.exportState().lessons.begin.reviews,1);
+ for(const l of D.lessons.filter(x=>x.unit===2)){now=F.exportState().lessons[l.id].due+1;F.open();action('practice');action('start',`[data-id="${l.id}"]`);assert.ok(document.querySelector('#panel-learn h2').textContent.includes(l.reviewChallenges[0].title));l.reviewChallenges.forEach(solve);assert.equal(F.exportState().lessons[l.id].reviews,1);}
  const codeSave=vm.runInContext('encodeSave()',ctx);F.importState({});assert.equal(F.exportState().lessons.begin.passed,false);ctx.codeSave=codeSave;assert.ok(vm.runInContext('decodeSave(codeSave)',ctx));assert.ok(F.exportState().lessons.begin.passed);
  F.open();action('lesson','[data-id="begin"]');assert.equal(document.querySelector('#fd-note').value,'<script>private & note</script>');assert.equal(document.querySelector('#fd-note script'),null);
  action('reader','[data-id="begin"]');assert.ok(document.querySelector('#panel-explore').textContent.includes('1 Corinthians 15'));assert.ok(document.querySelectorAll('.reader-verse').length>5);
@@ -49,6 +51,6 @@ async function run(){
  F.open();action('legacy');assert.ok(document.querySelector('#panel-learn').textContent.includes('Eight modes'));click('#foundations-return-button');
  const result=vm.runInContext('searchFull("John 3:16")',ctx);assert.equal(result.total,1);assert.ok(result.hits[0].text.includes("God so loved"));
  const range=vm.runInContext('searchFull("John 3:16–18")',ctx);assert.equal(range.total,3);
- console.log('PASS: full app boot, all ten playable challenges, failed attempts, hints, notes, corpus rendering, early/due reviews, progress export/import, both legacy routes, reader and search');
+ console.log('PASS: full app boot, all 18 initial challenges and eight transfer-review challenges, failed attempts, hints, notes, corpus rendering, early/due reviews, progress export/import, both legacy routes, reader and search');
 }
 run().catch(e=>{console.error(e);process.exitCode=1;});
