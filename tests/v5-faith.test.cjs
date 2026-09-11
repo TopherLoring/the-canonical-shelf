@@ -8,7 +8,7 @@ const sw=fs.readFileSync(path.join(pub,'sw.js'),'utf8');
 assert.equal((md.match(/^## Article /gm)||[]).length,19,'Statement of Faith must contain all nineteen articles');
 for(const phrase of ['Jesus is the lens through which Scripture is rightly read','Grace is not heterosexuality. The gospel is not heterosexuality. The gospel is Jesus Christ.','People seeking Christ deserve shepherds, not prosecutors.','Belonging precedes certainty','Prayer is relationship, not leverage.','Intellectual humility is a Christian virtue.'])assert.ok(md.includes(phrase),`missing core statement language: ${phrase}`);
 assert.ok(md.includes('Article XI — Of Sexuality, Relationships, and Inclusion')&&md.includes('LGBTQ+ Christians may follow Jesus, worship, serve, lead, form families, enter committed relationships and marriages'),'affirming article must be preserved');
-assert.ok(md.includes('Article XIX — Of the Application and Amendment of This Statement')&&md.includes('not required to affirm this Statement'),'institutional application clause missing');
+assert.ok(md.includes('Article XIX — Of the Application and Amendment of This Statement')&&/\*\*not\*\* required to affirm this Statement/.test(md),'institutional application clause missing');
 assert.ok(!md.includes('Marketing analytics')&&!md.includes('isolated-segment')&&!md.includes('\nsvg\n'),'export artifacts must not enter the published statement');
 assert.ok(js.includes("fetch(new URL('statement-of-faith.md',base))")&&js.includes('v5-faith-v3'),'v5 must render the canonical statement source');
 assert.ok(css.includes('.v5-faith-v3')&&css.includes('.v5-faith-version'),'Statement of Faith needs dedicated long-form editorial styling');
