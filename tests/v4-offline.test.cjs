@@ -10,4 +10,5 @@ assert.ok(sw.includes('./v4-integrated-preview.html'),'integrated preview docume
 assert.ok(sw.includes('./topics-extended.js'),'extended Topics corpus must be available offline');
 assert.ok(sw.includes('r.status!==200'),'runtime caching should not persist failed responses');
 assert.ok(sw.includes('v4-integrated-preview.html')&&sw.includes('index.html'),'navigation fallback must preserve both v4 preview and baseline app entry points');
-console.log(`PASS v4 offline cache: preview + ${assets.length} local runtime assets are precached`);
+assert.ok(html.includes("navigator.serviceWorker.register('./sw.js')"),'v4 integrated preview must register the offline service worker');
+console.log(`PASS v4 offline cache: preview + ${assets.length} local runtime assets are precached and registration is wired`);
