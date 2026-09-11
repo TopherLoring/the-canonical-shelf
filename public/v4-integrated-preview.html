@@ -18,4 +18,5 @@
 <script>
 CanonV4Integrated.mount('#pv-course');if(window.CanonTopics?.mount)CanonTopics.mount(document.querySelector('#pv-topics'));
 document.querySelectorAll('[data-pv]').forEach(b=>b.addEventListener('click',()=>{const p=b.dataset.pv;document.querySelectorAll('[data-pv]').forEach(x=>x.setAttribute('aria-pressed',String(x===b)));document.querySelector('#pv-course').hidden=p!=='course';document.querySelector('#pv-topics').hidden=p!=='topics';if(p==='topics'&&window.CanonTopics?.mount)CanonTopics.mount(document.querySelector('#pv-topics'));window.scrollTo({top:0,behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'});}));
+if('serviceWorker'in navigator)window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(err=>console.warn('Canonical Shelf service worker registration failed',err)));
 </script></body></html>
