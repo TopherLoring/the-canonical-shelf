@@ -32,6 +32,9 @@
     }
     if(old===6)return 12;
     if(old===7){
+      // Keep the unit overview as the learner's doorway into the prophetic library itself.
+      // The more focused Amos/Micah/Jeremiah lessons remain with the historical crisis/justice material.
+      if(has(l,/hear the prophets in their own setting|prophetic overview/))return 13;
       if(has(l,/justice|amos|micah|jeremiah|exilic hope/))return 10;
       return 13;
     }
@@ -57,7 +60,7 @@
   function visualFor(l,u){
     const title=(l.title||'').toLowerCase();
     if(/timeline|chronolog|exile|return|prophet|kingdom|history/.test(title))return {type:'timeline',title:`Orient ${l.title}`,points:[{title:'Before',date:'context'},{title:l.title,date:'focus'},{title:'After',date:'connection'}]};
-    if(/compare|tradition|view|interpret|atonement|gospel/.test(title))return {type:'compare',title:`Compare the key ideas`,columns:[{title:'First lens',items:['Read the lesson’s first claim in context']},{title:'Second lens',items:['Compare without erasing the difference']}],shared:['Use evidence proportionately']};
+    if(/compare|tradition|view|interpret|atonement|gospel/.test(title))return {type:'compare',title:'Compare the key ideas',columns:[{title:'First lens',items:['Read the lesson’s first claim in context']},{title:'Second lens',items:['Compare without erasing the difference']}],shared:['Use evidence proportionately']};
     if(/book|library|canon|shelf|genre/.test(title))return {type:'stack',title:'Locate before interpreting',layers:[{title:'Shelf',text:'Where are you?'},{title:'Book',text:'What kind of work?'},{title:'Passage',text:'What is happening here?'},{title:'Meaning',text:'What does the evidence support?'}]};
     if(/spirit|trinit|incarn|god|doctrine/.test(title))return {type:'relationship',title:'Claims held together',nodes:[{title:'Claim 1',role:'Keep the lesson’s first affirmation visible'},{title:'Claim 2',role:'Do not solve tension by erasing the second'},{title:'Interpretive boundary',role:'Distinguish historic formulation from analogy'}]};
     if(/prayer|bapt|commun|practice|formation|neighbor|mercy/.test(title))return {type:'flow',title:'From belief to practice',nodes:[{title:'Meaning'},{title:'Community'},{title:'Practice'},{title:'Consequences'}]};
