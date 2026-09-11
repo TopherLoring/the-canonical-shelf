@@ -3,7 +3,7 @@
   'use strict';
   if(window.__CANON_V4_COMPLETE_LOADER__)return;window.__CANON_V4_COMPLETE_LOADER__=true;
   const script=document.currentScript,base=script?.src?new URL('.',script.src):new URL('./',location.href);
-  const css=['v4-design-system.css'];
+  const css=['v4-design-system.css','v4-integrated.css'];
   const js=[
     'v4-course-map.js',
     'v4-visuals.js','v4-games.js','v4-guided-game-adapter.js',
