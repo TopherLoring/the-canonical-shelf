@@ -5,11 +5,16 @@ on:
   pull_request:
     branches: [main]
     paths:
+      - 'public/index.html'
+      - 'public/foundations*.js'
       - 'public/v4-*'
       - 'public/topics*'
-      - 'tests/v4-*'
-      - 'scripts/test-v4.cjs'
-      - 'docs/v4-*'
+      - 'public/sw.js'
+      - 'tests/**'
+      - 'scripts/**'
+      - 'package.json'
+      - 'package-lock.json'
+      - '.github/workflows/v4-curriculum.yml'
 jobs:
   verify:
     runs-on: ubuntu-latest
@@ -18,5 +23,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: Verify v4 curriculum
-        run: node scripts/test-v4.cjs
+          cache: npm
+      - name: Install test dependencies
+        run: npm ci
+      - name: Verify full application and v4 curriculum
+        run: npm test
