@@ -55,7 +55,7 @@
     }
     return 1;
   }
-  function visualFor(l,u){
+  function fallbackVisualFor(l,u){
     const title=(l.title||'').toLowerCase();
     if(/timeline|chronolog|exile|return|prophet|kingdom|history/.test(title))return {type:'timeline',title:`Orient ${l.title}`,points:[{title:'Before',date:'context'},{title:l.title,date:'focus'},{title:'After',date:'connection'}]};
     if(/compare|tradition|view|interpret|atonement|gospel|difficult|question/.test(title))return {type:'compare',title:'Compare the key ideas',columns:[{title:'What the evidence says',items:['Name the passage, setting, and claim']},{title:'What requires interpretation',items:['Explain the inference and its limits']}],shared:['Represent disagreement accurately before evaluating it']};
@@ -68,7 +68,8 @@
   }
   const migrated=D.lessons.map((l,order)=>{
     const v4Unit=unitFor(l),unit=C.units.find(u=>u.id===v4Unit);
-    return {...l,v4Unit,v4Order:order,v4UnitTitle:unit?.title||'',v4Visual:l.v4Visual||visualFor(l,v4Unit)};
+    const authoredVisual=window.CANON_V4_GUIDED_VISUALS?.byLesson?.[l.id];
+    return {...l,v4Unit,v4Order:order,v4UnitTitle:unit?.title||'',v4Visual:authoredVisual||l.v4Visual||fallbackVisualFor(l,v4Unit)};
   });
   const grouped=Object.fromEntries(C.units.map(u=>[u.id,migrated.filter(l=>l.v4Unit===u.id)]));
   window.CANON_V4_GUIDED={lessons:migrated,byUnit:grouped,total:migrated.length};
