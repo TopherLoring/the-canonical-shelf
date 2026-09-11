@@ -1,0 +1,16 @@
+/* Premium v4 renderer for guided lesson objects from FOUNDATIONS_DATA. */
+window.CanonV4Guided=(()=>{
+  'use strict';
+  const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot',"'":'&#39;'}[c]));
+  const V=()=>window.CanonV4Visuals,G=()=>window.CanonV4Games,A=()=>window.CanonV4GuidedAdapter;
+  let host=null,lesson=null,session=null,index=0;
+  function visualFor(l){return l.v4Visual||window.CANON_V4_GUIDED_VISUALS?.byUnit?.[l.unit]||null;}
+  function vocab(l){return Object.entries(l.vocab||{}).map(([k,v])=>`<details><summary>${esc(k)}</summary><p>${esc(v)}</p></details>`).join('');}
+  function renderLesson(l,target){host=typeof target==='string'?document.querySelector(target):target;lesson=l;session=null;index=0;if(!host||!l)return;const visual=visualFor(l);host.innerHTML=`<article class="v4-lesson"><header class="v4-lesson__head"><p class="v4-eyebrow">Guided lesson · ${esc(l.reading||'')}</p><h2>${esc(l.title)}</h2><p class="v4-objective">${esc(l.objective)}</p></header>${visual?V().render(visual):''}<div class="v4-prose">${(l.body||[]).map(p=>`<p>${esc(p)}</p>`).join('')}</div>${l.simple?`<aside class="v4-callout" data-tone="plain"><h3>In plain English</h3><p>${esc(l.simple)}</p></aside>`:''}${l.vocab?`<section><p class="v4-eyebrow">Words worth knowing</p><div class="v4-vocab">${vocab(l)}</div></section>`:''}${l.deeper?`<aside class="v4-callout" data-tone="boundary"><h3>Go deeper</h3><p>${esc(l.deeper)}</p></aside>`:''}${l.reflect?`<aside class="v4-callout" data-tone="plain"><h3>Think it through</h3><p>${esc(l.reflect)}</p>${l.model?`<details><summary>See one possible response</summary><p>${esc(l.model)}</p></details>`:''}</aside>`:''}<button class="v4-btn" data-guided="start">Start understanding check</button></article>`;bind();}
+  function start(){const challenges=A().lessonChallenges(lesson,false);if(!challenges.length)return;index=0;session=G().init(challenges[0]);renderGame(challenges);}
+  function renderGame(challenges=A().lessonChallenges(lesson,false)){host.innerHTML=`<div class="v4-shell"><button class="v4-btn v4-btn--secondary" data-guided="lesson">← Revisit lesson</button><div style="height:14px"></div>${G().render(session,{eyebrow:lesson.title,current:index+1,total:challenges.length})}</div>`;bindGame(challenges);bind();}
+  function bindGame(challenges){host.querySelectorAll('[data-game-action]').forEach(el=>el.addEventListener('click',()=>{const action=el.dataset.gameAction;if(action==='next'&&session.state.correct){if(index+1<challenges.length){index++;session=G().init(challenges[index]);renderGame(challenges);}else renderDone();return;}G().act(session,action,el.dataset);renderGame(challenges);}));}
+  function renderDone(){host.innerHTML=`<div class="v4-shell"><section class="v4-hero"><p class="v4-eyebrow">Understanding check complete</p><h2>${esc(lesson.title)}</h2><p>You reconstructed the lesson’s ideas and used them in context. Completion records the task; it does not claim exhaustive mastery of the subject.</p><button class="v4-btn" data-guided="lesson">Review the lesson</button></section></div>`;bind();}
+  function bind(){host?.querySelectorAll('[data-guided]').forEach(el=>el.addEventListener('click',()=>{if(el.dataset.guided==='start')start();if(el.dataset.guided==='lesson')renderLesson(lesson,host);}));}
+  return {renderLesson};
+})();
