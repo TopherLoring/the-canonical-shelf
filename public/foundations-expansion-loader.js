@@ -1,5 +1,5 @@
-/* Static-host loader for the Canonical Shelf 16-unit integrated curriculum.
-   Loads the expansion only after the baseline app has finished initializing. */
+/* Static-host loader for the Canonical Shelf integrated curriculum.
+   v4 redesign branch also loads the curated Topics reference desk. */
 (() => {
   'use strict';
   if (window.__CANON_EXPANSION_LOADER__) return;
@@ -12,7 +12,9 @@
     'foundations-skill-source.js',
     'foundations-skill-curriculum.js',
     'foundations-expansion-meta.js',
-    'foundations-expansion-finalize.js'
+    'foundations-expansion-finalize.js',
+    'topics-data.js',
+    'topics.js'
   ];
   const script = document.currentScript;
   const base = script?.src ? new URL('.', script.src) : new URL('./', location.href);
