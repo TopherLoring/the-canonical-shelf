@@ -1,6 +1,6 @@
 const fs=require('node:fs'),path=require('node:path'),vm=require('node:vm'),assert=require('node:assert/strict');
 const pub=path.resolve(__dirname,'../public'),ctx={window:{},console};vm.createContext(ctx);
-for(const f of ['foundations-data.js','foundations-expansion-core.js','foundations-units-02-08.js','foundations-units-09-16.js','v4-course-map.js','v4-course-map-fixed.js','v4-guided-visual-rules.js','v4-curriculum-migration.js'])vm.runInContext(fs.readFileSync(path.join(pub,f),'utf8'),ctx,{filename:f});
+for(const f of ['foundations-data.js','foundations-expansion-core.js','foundations-units-02-08.js','foundations-units-09-16.js','v4-course-map.js','v4-guided-visual-rules.js','v4-curriculum-migration.js'])vm.runInContext(fs.readFileSync(path.join(pub,f),'utf8'),ctx,{filename:f});
 const D=ctx.window.FOUNDATIONS_DATA,G=ctx.window.CANON_V4_GUIDED;
 assert.equal(D.lessons.length,70,'source guided curriculum must contain 70 lessons');
 assert.equal(G.lessons.length,70,'all guided lessons must migrate');
