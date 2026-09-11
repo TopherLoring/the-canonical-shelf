@@ -1,11 +1,11 @@
 const fs=require('node:fs'),path=require('node:path'),vm=require('node:vm'),assert=require('node:assert/strict');
-const root=path.resolve(__dirname,'..'),pub=path.join(root,'public');
-const context={window:{},console};vm.createContext(context);
-for(const f of ['v4-course-map.js','v4-mastery-content.js'])vm.runInContext(fs.readFileSync(path.join(pub,f),'utf8'),context,{filename:f});
-const C=context.window.CANON_V4_COURSE,M=context.window.CANON_V4_MASTERY;
+const pub=path.resolve(__dirname,'../public'),ctx={window:{},console};vm.createContext(ctx);
+const masteryFiles=['v4-mastery-content.js','v4-mastery-story.js','v4-mastery-order.js','v4-mastery-groups.js','v4-mastery-chrono.js','v4-mastery-content-profiles.js','v4-mastery-themes.js','v4-mastery-verses.js','v4-mastery-manifest.js'];
+for(const f of ['v4-course-map.js',...masteryFiles])vm.runInContext(fs.readFileSync(path.join(pub,f),'utf8'),ctx,{filename:f});
+const C=ctx.window.CANON_V4_COURSE,M=ctx.window.CANON_V4_MASTERY,manifest=ctx.window.CANON_V4_MASTERY_MANIFEST;
 assert.equal(C.units.length,23,'v4 must expose 23 learner-facing units');
 assert.equal(new Set(C.units.map(u=>u.id)).size,23,'unit IDs must be unique');
-assert.ok(C.units.every(u=>u.visual),'every unit needs a visual language declaration');
+assert.ok(C.units.every(u=>u.title&&u.scope&&u.visual),'every unit needs title, scope, and visual language');
 const placement=Object.values(C.masteryPlacement).flat();
 assert.equal(placement.length,69,'23 units × 3 mastery requirements must equal 69');
 assert.equal(new Set(placement).size,69,'each mastery requirement must appear exactly once');
@@ -19,11 +19,9 @@ const expected=[
 't.what','t.cov','t.exile','t.sac','t.mercy','t.faith','t.all',
 'v.what','v.proph','v.love','v.strength','v.fruit','v.speaker','v.build','v.all'];
 assert.deepEqual([...placement].sort(),[...expected].sort(),'v4 placement must preserve the exact original 69 requirements');
-for(const [id,m] of Object.entries(M)){
-  assert.ok(expected.includes(id),`${id}: unknown legacy mastery ID`);
-  assert.ok(m.title&&m.dek&&Array.isArray(m.body)&&m.body.length>=3,`${id}: incomplete authored teaching copy`);
-  assert.ok(m.plain,`${id}: missing plain-English summary`);
-  assert.ok(m.visual?.type,`${id}: missing purpose-built visual`);
-  assert.ok(m.challenge?.kind,`${id}: missing redesigned understanding check`);
-}
-console.log(`PASS v4 architecture: 23 units / 69 exact placements / ${Object.keys(M).length} mastery rewrites authored so far`);
+assert.equal(Object.keys(M).length,69,'all 69 mastery modules must be authored');
+assert.deepEqual(Object.keys(M).sort(),[...expected].sort(),'authored mastery IDs must exactly match preserved requirements');
+for(const id of expected){const m=M[id];assert.ok(m.title&&m.dek&&Array.isArray(m.body)&&m.body.length>=3,`${id}: incomplete authored teaching copy`);assert.ok(m.plain&&m.plain.length>=35,`${id}: missing useful plain-English summary`);assert.ok(m.visual?.type,`${id}: missing purpose-built visual`);assert.ok(m.challenge?.kind,`${id}: missing redesigned understanding check`);assert.ok(m.challenge?.prompt||m.challenge?.title,`${id}: challenge needs learner-facing copy`);}
+assert.equal(manifest.total,69);assert.equal(manifest.status,'fully-authored');
+assert.deepEqual(manifest.tracks,{story:10,order:17,groups:12,chrono:7,content:8,themes:7,verses:8});
+console.log('PASS v4 architecture: 23 units / 69 exact placements / 69 fully authored mastery modules');
