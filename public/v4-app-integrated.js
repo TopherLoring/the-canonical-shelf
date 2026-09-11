@@ -7,6 +7,21 @@ window.CanonV4Integrated=(()=>{
   let host=null,current=null,session=null;
   const doneLesson=id=>!!P?.state?.lessons?.[id]?.done,doneMastery=id=>!!P?.state?.mastery?.[id]?.done;
   const focusRoute=()=>requestAnimationFrame(()=>host?.querySelector('[data-v4-route-focus]')?.focus());
+  const focusGameTitle=()=>requestAnimationFrame(()=>host?.querySelector('#v4-game-title')?.focus());
+  function restoreGameFocus(action,data={}){
+    requestAnimationFrame(()=>{
+      let target=null;
+      if(['check','hint','choice'].includes(action))target=host?.querySelector('[data-game-feedback]');
+      if(!target&&(action==='up'||action==='down')&&data.item!==undefined)target=host?.querySelector(`[data-game-action="${action}"][data-item="${data.item}"]`);
+      if(!target&&action==='place'&&data.i!==undefined)target=host?.querySelector(`[data-game-action="unplace"][data-i="${data.i}"]`);
+      if(!target&&action==='unplace'&&data.i!==undefined)target=host?.querySelector(`[data-game-action="place"][data-i="${data.i}"]`);
+      if(!target&&action==='match')target=host?.querySelector(`[data-game-action="match"][data-left="${data.left}"][data-right="${data.right}"]`);
+      if(!target&&action==='context')target=host?.querySelector(`[data-game-action="context"][data-field="${data.field}"][data-choice="${data.choice}"]`);
+      if(!target&&['single','node'].includes(action)&&data.i!==undefined)target=host?.querySelector(`[data-game-action="${action}"][data-i="${data.i}"]`);
+      if(!target)target=host?.querySelector('[data-game-action="next"],[data-game-action="check"],#v4-game-title');
+      target?.focus();
+    });
+  }
   function unitStats(id){const lessons=Gd.byUnit[id]||[],mastery=C.masteryPlacement[id]||[];return {lessons,mastery,done:lessons.filter(l=>doneLesson(l.id)).length+mastery.filter(doneMastery).length,total:lessons.length+mastery.length};}
   function overall(){let done=0,total=0;for(const u of C.units){const s=unitStats(u.id);done+=s.done;total+=s.total;}return {done,total};}
   function progress(done,total,label='activities'){
@@ -54,8 +69,18 @@ window.CanonV4Integrated=(()=>{
   }
   function mastery(id){const m=M[id];if(!m)return map();const u=findUnit(id);current={type:'mastery',id,unit:u};host.innerHTML=`<article class="v4-lesson"><button class="v4-btn v4-btn--secondary" data-v4i="unit" data-id="${u}">← Unit</button><header class="v4-lesson__head"><p class="v4-eyebrow">Applied mastery${doneMastery(id)?' · complete':''}</p><h2 tabindex="-1" data-v4-route-focus>${esc(m.title)}</h2><p class="v4-objective">${esc(m.dek)}</p></header>${V.render(m.visual)}<div class="v4-prose">${m.body.map(p=>`<p>${esc(p)}</p>`).join('')}</div><aside class="v4-callout" data-tone="plain"><h3>In plain English</h3><p>${esc(m.plain)}</p></aside><button class="v4-btn" data-v4i="mastery-game" data-id="${esc(id)}">${doneMastery(id)?'Review':'Try'} the understanding check</button></article>`;bind();focusRoute();}
   function findUnit(id){return Number(Object.entries(C.masteryPlacement).find(([,ids])=>ids.includes(id))?.[0]||1);}
-  function masteryGame(id){const m=M[id];session=Games.init(m.challenge);current={type:'mastery-game',id,unit:findUnit(id)};renderMasteryGame();}
-  function renderMasteryGame(){const id=current.id,m=M[id];host.innerHTML=`<div class="v4-shell"><button class="v4-btn v4-btn--secondary" data-v4i="mastery" data-id="${esc(id)}">← Lesson</button><div style="height:14px"></div>${Games.render(session,{eyebrow:m.title,current:1,total:1})}</div>`;host.querySelectorAll('[data-game-action]').forEach(el=>el.addEventListener('click',()=>{const a=el.dataset.gameAction;if(a==='next'&&session.state.correct){P?.completeMastery(id);mastery(id);return;}if(a==='check')P?.attemptMastery(id);Games.act(session,a,el.dataset);renderMasteryGame();}));bind();}
+  function masteryGame(id){const m=M[id];session=Games.init(m.challenge);current={type:'mastery-game',id,unit:findUnit(id)};renderMasteryGame();focusGameTitle();}
+  function renderMasteryGame(){
+    const id=current.id,m=M[id];
+    host.innerHTML=`<div class="v4-shell"><button class="v4-btn v4-btn--secondary" data-v4i="mastery" data-id="${esc(id)}">← Lesson</button><div style="height:14px"></div>${Games.render(session,{eyebrow:m.title,current:1,total:1})}</div>`;
+    host.querySelectorAll('[data-game-action]').forEach(el=>el.addEventListener('click',()=>{
+      const a=el.dataset.gameAction,data={...el.dataset};
+      if(a==='next'&&session.state.correct){P?.completeMastery(id);mastery(id);return;}
+      if(a==='check')P?.attemptMastery(id);
+      Games.act(session,a,data);renderMasteryGame();restoreGameFocus(a,data);
+    }));
+    bind();
+  }
   function bind(){host?.querySelectorAll('[data-v4i]').forEach(el=>el.addEventListener('click',()=>{const a=el.dataset.v4i;if(a==='map')map();if(a==='unit')unit(el.dataset.id);if(a==='lesson')lesson(el.dataset.id);if(a==='mastery')mastery(el.dataset.id);if(a==='mastery-game')masteryGame(el.dataset.id);}));}
   function mount(target){host=typeof target==='string'?document.querySelector(target):target;if(!host)throw Error('v4 integrated mount target missing');map();}
   return {mount,map,unit,lesson,mastery,overall};
