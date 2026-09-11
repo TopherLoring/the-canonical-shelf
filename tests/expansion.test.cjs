@@ -35,6 +35,6 @@ const html=fs.readFileSync(path.join(pub,'index.html'),'utf8');
 for(const [name,count] of [['STORY',10],['ORDER',17],['GROUP',12],['CHRONO',7],['CONTENT',8],['THEME',7],['VERSE',8]]){const m=html.match(new RegExp(`const ${name}_STEPS\\s*=\\s*\\[([\\s\\S]*?)\\n\\];`));assert.ok(m,`Missing ${name}_STEPS`);assert.equal((m[1].match(/\bid\s*:\s*"[^"]+"/g)||[]).length,count,`${name} step count`);}
 const loader=fs.readFileSync(path.join(pub,'foundations-expansion-loader.js'),'utf8');assert.ok(loader.includes('foundations-skill-source.js')&&loader.includes('foundations-skill-curriculum.js')&&loader.includes('foundations-expansion-finalize.js'));
 const worker=fs.readFileSync(path.join(root,'worker.js'),'utf8');assert.ok(!worker.includes('HTMLRewriter')&&worker.includes('env.ASSETS.fetch'));
-assert.ok(fs.readFileSync(path.join(pub,'sw.js'),'utf8').includes('canon-v4-redesign-5'));
+assert.ok(fs.readFileSync(path.join(pub,'sw.js'),'utf8').includes('canon-v5-experience-1'));
 assert.ok(html.includes('foundations-expansion-loader.js'),'Static index must load the curriculum loader');
 console.log('PASS: 70 source guided lessons, 69 integrated skill missions, source-unit balance, baseline content preservation, corpus coverage, 14 theme investigations, challenge schemas');
