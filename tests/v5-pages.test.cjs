@@ -16,10 +16,8 @@ assert.ok(pages.includes('v5-progress-dialog')&&pages.includes('Profile & progre
 assert.ok(pages.includes('canon.v4.progress.1'),'v5 Home/Profile must reuse local v4 progress rather than invent a second store');
 assert.ok(css.includes('.v5-unit-grid')&&css.includes('.v5-bible-tools')&&css.includes('.v5-topic-map')&&css.includes('.v5-practice-map'),'page-level design system incomplete');
 assert.ok(css.includes('.v5-retired-masthead')&&css.includes('.v5-retired-tabbar'),'legacy top-level chrome must be visually retired');
-assert.ok(css.includes('.v5-faith-v3'),'full Statement of Faith needs dedicated editorial styling');
 assert.ok(css.includes('prefers-reduced-motion')&&css.includes('forced-colors'),'page-level accessibility fallbacks missing');
 assert.ok(loader.indexOf('v5-pages.js')>loader.indexOf('v5-shell.js'),'page layer must mount after shell');
-assert.ok(loader.indexOf('v5-faith.js')>loader.indexOf('v5-pages.js'),'faith layer must mount after page layer');
 assert.ok(loader.includes('v5-pages.css'));
-assert.ok(sw.includes('canon-v5-experience-3')&&sw.includes('./v5-pages.js')&&sw.includes('./v5-pages.css')&&sw.includes('./v5-faith.js')&&sw.includes('./statement-of-faith.md'));
-console.log('PASS v5 pages: Course/Bible/Topics/Practice are first-class experiences, global search/profile enhanced, legacy chrome retired, full faith statement integrated');
+assert.ok(sw.includes('canon-v5-experience-2')&&sw.includes('./v5-pages.js')&&sw.includes('./v5-pages.css'));
+console.log('PASS v5 pages: Course/Bible/Topics/Practice are first-class experiences, global search/profile enhanced, legacy chrome retired');
