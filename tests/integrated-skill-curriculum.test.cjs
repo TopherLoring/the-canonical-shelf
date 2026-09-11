@@ -82,7 +82,7 @@ assert.ok(!finalizer.includes('data-skill-track="'),'detached track-launch contr
 assert.ok(!finalizer.includes('S.legacyLearn'),'legacy course switching returned');
 
 const sw=fs.readFileSync(path.join(pub,'sw.js'),'utf8');
-assert.ok(sw.includes('canon-v4-redesign-4'),'integrated curriculum test must target the current v4 offline cache');
+assert.ok(sw.includes('canon-v4-redesign-5'),'integrated curriculum test must target the current v4 offline cache');
 assert.ok(sw.includes('foundations-expansion-loader.js'));
 assert.ok(sw.includes('foundations-skill-source.js')&&sw.includes('foundations-skill-curriculum.js'));
 

@@ -34,10 +34,10 @@ The redesign should not merely be “more polished than v3.” It should feel li
 
 ## Overall information architecture
 
-- Learn = sequenced course.
-- Practice = targeted retrieval/review and book/canon drills.
-- Explore = Bible/library browsing.
-- Verses = curated passage library and context.
-- Topics = expert-style plain-English reference desk.
+- **Course** = sequenced 25-unit curriculum with guided lessons and integrated mastery.
+- **Practice** = targeted retrieval/review and book/canon drills.
+- **Explore** = Bible/library browsing.
+- **Verses** = curated passage library and context.
+- **Topics** = expert-style plain-English reference desk.
 
 The same information may be linked across surfaces, but each surface has a distinct job.

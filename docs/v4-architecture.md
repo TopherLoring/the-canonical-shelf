@@ -2,149 +2,235 @@
 
 ## Product direction
 
-v4 is a full curriculum and learning-experience redesign. It is not an additive overlay on the 16-unit curriculum.
+v4 is the primary learner-facing curriculum inside the existing Canonical Shelf application shell. It is not a second course layered beside the older Learn experience.
+
+The full app keeps the established **Practice, Explore, Verses, Bible reader, translation controls, shelf navigation, and local Bible search**. The old learner-facing Learn surface is replaced at runtime by **Course**, and **Topics** is added as a separate reference surface.
 
 ### Core principles
 
 - The learner-facing course is organized by subject and learning sequence, not by the seven legacy track names.
-- The original 69 Bible-literacy requirements remain individually traceable and testable, but all user-facing copy is rewritten for flow, clarity, and context.
-- Purpose-built visual teaching devices are part of the curriculum, not decoration.
-- Understanding checks use dedicated interaction patterns rather than generic selects, checkboxes, and plain cards.
-- Explanations lead in plain English. Scripture, source notes, historical detail, and denominational differences remain available as progressively deeper evidence.
-- The app remains offline-capable and does not require external image/CDN dependencies.
+- The original 69 Bible-literacy requirements remain individually traceable and testable through stable legacy IDs.
+- Guided theological learning and applied Bible-literacy mastery appear in one course path.
+- Purpose-built visuals carry instructional information rather than decoration.
+- Understanding checks use interaction patterns matched to the cognitive task.
+- Explanations lead in plain English while Scripture, context, interpretive boundaries, and disagreement remain available at deeper layers.
+- The application remains offline-capable and requires no external image/CDN dependency for core learning.
+- Course completion measures learning activity, not personal theological assent.
 
-## Course shape: 23 units
+## Course shape: 25 units
 
-The 70 existing guided lessons are redistributed and expanded across 23 units. The 69 Bible-literacy modules are distributed at three per unit. This provides room for concepts to breathe while keeping the original skill coverage exact.
+The course contains **70 guided lessons + 69 integrated mastery activities = 139 total course activities**.
 
-1. Start Here — Christianity, Jesus, and how this course works
-2. How to Read a Bible — references, context, translation, canon
-3. The Bible as a Library — shelf map, groups, genres, navigation
-4. The Story in One View — whole-Bible arc and major hinges
-5. Beginnings — creation, humanity, rupture, promise
-6. Abraham to Exodus — family, covenant, slavery, liberation
-7. Torah and Wilderness — law, holiness, testing, formation
-8. Land and Judges — conquest, judges, difficult violence, cycles
-9. Kings and Temple — Saul, David, Solomon, kingdom, worship
-10. Division and Prophets — north/south, injustice, warning
-11. Exile and Return — 722/586 BC, Babylon, Persia, rebuilding
-12. Poetry and Wisdom — Job, Psalms, Proverbs, Ecclesiastes, Song
-13. The Prophetic Library — major/minor prophets, chronology, reading strategy
-14. Jesus and the Gospels — four portraits, Jewish context, kingdom
-15. Cross, Resurrection, and Salvation — atonement, grace, repentance, hope
-16. Acts and the Early Church — mission, conflict, inclusion, discernment
-17. Paul and His Letters — letter order, audiences, theology, practice
-18. General Letters and Revelation — catholic epistles, apocalypse, final hope
-19. Christian Doctrine — Trinity, incarnation, Spirit, providence
-20. Christian Practice — prayer, baptism, Communion, formation, ethics
-21. Christians Disagree — traditions, authority, sacraments, difficult questions
-22. Themes Across Scripture — fourteen canonical threads and comparison work
-23. Independent Mastery — book profiles, chronology, verse context, whole-canon synthesis
+The 69 original requirements are distributed by subject fit rather than by an arbitrary equal-per-unit quota. Guided lesson counts likewise follow the material; a unit can contain 1–5 guided lessons.
+
+1. Start Here
+2. How to Read a Bible
+3. The Bible as a Library
+4. The Story in One View
+5. Beginnings
+6. Abraham to Exodus
+7. Torah and Wilderness
+8. Land and Judges
+9. Kings and Temple
+10. Division and Prophets
+11. Exile and Return
+12. Poetry and Wisdom
+13. The Prophetic Library
+14. Jesus and the Gospels
+15. Cross and Salvation
+16. Acts and the Early Church
+17. Paul and His Letters
+18. General Letters
+19. Christian Doctrine
+20. Christian Practice
+21. Christian Traditions
+22. Difficult Questions
+23. Resurrection, Judgment, and New Creation
+24. Themes Across Scripture
+25. Independent Mastery
+
+The authoritative scope and detailed unit distribution are documented in `public/docs/curriculum.md` and `public/docs/course-review.md`.
+
+## Source curriculum and migration model
+
+The repository still builds the 70-lesson source curriculum from the existing Foundations data and expansion files. That source layer remains useful for preservation tests and content provenance, but it is no longer the learner-facing unit structure.
+
+Runtime flow:
+
+1. `public/index.html` initializes the established application and Foundations base.
+2. `public/foundations-expansion-loader.js` builds the complete 70-lesson source curriculum and 69 preserved skill missions.
+3. v4 migration files map those lessons and mastery requirements into the 25-unit learner-facing model.
+4. the v4 shell bridge mounts Course into the existing Learn panel and keeps the established application chrome intact.
+5. Topics joins the same shell as a reference tab.
+
+The standalone `public/v4-integrated-preview.html` is retained only as a QA surface for exercising Course + Topics independently of the older application chrome. It is not a competing product runtime.
 
 ## Learning object model
 
-A learner sees three nested levels:
+A learner sees:
 
-**Unit → Lesson → activity blocks**
+**Course → Unit → Activity**
 
-A lesson can contain:
+Activities are either guided lessons or mastery activities and are interleaved in subject order.
 
-- opening orientation / question
-- primary explanation
-- purpose-built visual
-- plain-English summary
-- vocabulary chips
-- historical / literary context panel
+A guided lesson can contain:
+
+- opening orientation and objective
+- complete primary reading
+- substantive explanation
+- plain-English restatement
+- purpose-built instructional visual
+- vocabulary
+- historical/literary context
 - interpretive boundary or disagreement panel
-- optional primary-text evidence
-- worked example
-- understanding game
-- reflection / transfer prompt
-- linked mastery module(s)
+- deeper inquiry
+- optional private reflection and model response
+- initial understanding check
+- later review challenge
 
-The 69 original requirements become `masteryModules`, not detached courses. Each has a stable `legacyId` for coverage tests and a new learner-facing title, explanation, examples, visual specification, and assessment pattern.
+A mastery activity contains:
+
+- stable internal legacy ID
+- learner-facing title and objective
+- requirement-specific teaching copy
+- plain-English summary
+- vocabulary/deeper context where useful
+- purpose-built visual
+- understanding check matched to the skill
+- persistent attempt/completion state
 
 ## Visual grammar
 
-All visuals are native HTML/CSS/SVG and must support keyboard navigation, high contrast, reduced motion, and narrow screens.
+All instructional visuals are native HTML/CSS/SVG and must retain accessible textual equivalents.
 
-### Reusable visual types
+Supported visual types include:
 
-- `shelf` — proportional 66-book shelf / group boundaries
-- `timeline` — historical eras, anchor dates, before/after relationships
-- `story-arc` — connected narrative beats with hinge events
-- `relationship` — people / communities / correspondence relationships
-- `compare` — side-by-side concepts, traditions, genres, or passages
-- `flow` — observation → interpretation → application or causal sequences
-- `theme-thread` — a concept recurring across books and eras
-- `map-lite` — schematic geographic relationships without external tiles
-- `book-profile` — book card with setting, purpose, people, audience, themes
-- `verse-context` — speaker → recipient → situation → wording → application
-- `spectrum` — distinguish positions without implying false equivalence
-- `stack` — layers such as canon / translation / manuscript / interpretation
+- `shelf`
+- `timeline`
+- `story-arc`
+- `relationship`
+- `compare`
+- `flow`
+- `theme-thread`
+- `map-lite`
+- `book-profile`
+- `verse-context`
+- `spectrum`
+- `stack`
 
-Every lesson should declare either a useful visual type or explicitly state `visual: null` with a reason. Visuals are not mandatory filler.
+Every one of the 70 guided lessons has an explicit authored visual definition. Mastery activities also use requirement-specific visuals where the visual improves understanding.
 
 ## Understanding-game system
 
-The old generic challenge shell is replaced by a coherent game system with shared progress, feedback, and motion but different boards for different cognitive tasks.
+The v4 interaction layer uses reusable boards matched to different learning tasks, including:
 
-### Game types
+- timeline sorting
+- shelf/order reconstruction
+- sequencing
+- matching
+- evidence classification
+- context reconstruction
+- argument mapping
+- compare boards
+- scenarios
+- verse rebuilding
+- book identification
+- theme tracing
+- capstone synthesis
 
-- `timeline-sort` — drag / keyboard-sort events on a horizontal timeline
-- `shelf-build` — place books or groups into shelf slots
-- `sequence-path` — arrange narrative / argument stages as connected cards
-- `match-board` — visually connect two sets of concepts without native selects
-- `evidence-lab` — sort claims into Supported / Possible / Overreach
-- `context-lens` — identify speaker, recipient, setting, genre, and purpose
-- `argument-map` — connect evidence → interpretation → application nodes
-- `compare-board` — classify similarities / differences between two views or texts
-- `scenario` — decision cards with consequence feedback
-- `verse-rebuild` — reconstruct wording or conceptual structure in chunks
-- `book-detective` — infer a book from synopsis, people, opening, audience, and era
-- `theme-trace` — connect a theme through multiple canonical stops
-- `capstone` — mixed-format multi-step synthesis
+Interaction requirements:
 
-### Interaction quality requirements
+- untimed by default
+- retries without penalty
+- correct answers lock against accidental mutation
+- hints appear only when useful and authored
+- explanatory feedback rather than bare right/wrong state
+- keyboard-operable controls
+- focus restoration after rerenders
+- live feedback semantics
+- reduced-motion support
+- high-contrast/forced-colors support
+- no fake currency or reward systems that obscure learning progress
 
-- Dedicated full-width game board, not a form embedded in prose.
-- Clear current objective and progress track.
-- Large interactive tiles with hover/focus/selected/locked/correct/error states.
-- Immediate explanatory feedback; wrong answers should teach rather than merely reject.
-- Optional hint ladder (nudge → stronger hint → reveal), not one static hint.
-- Retry without penalty.
-- Keyboard alternative for any drag interaction.
-- Reduced-motion mode.
-- Completion animation is subtle and can be disabled.
-- Avoid fake points/coins that do not support learning; progress is meaningful mastery coverage.
+## Progress model
 
-## Topics / expert reference surface
+v4 tracks guided completion, later reviews, mastery completion, and mastery attempts separately.
 
-`Topics` is a first-class tab separate from Learn, Explore, Practice, and Verses.
+Completion is written to persistent v4 progress. Returning to a completed guided lesson can use review material without erasing first-completion state. Course and unit progress are derived from actual activity completion rather than the old detached-track presentation.
 
-It contains:
+Topics history is lightweight reference history and does not count toward course completion.
 
-- natural-language Ask search against curated entries
-- practical topics (“What does Christianity say about…?”)
-- doctrine & theology
-- glossary
-- Christian disagreements / tradition comparison
+## Topics / reference surface
 
-Answers lead with a direct plain-English explanation. Supporting references, interpretive limits, and denominational differences follow as expandable evidence.
+Topics is a first-class tab separate from Course, Practice, Explore, and Verses.
 
-A future generative theologian assistant can retrieve from this vetted corpus. The static app must never expose a model API key and must not present generic model output as authoritative theology.
+It provides:
 
-## Migration / testing gates
+- natural-language search over curated entries
+- doctrine and theology
+- Christian practice
+- life questions
+- difficult/contested questions
+- glossary material
+- related-topic navigation
+- supporting biblical references
 
-Before v4 can replace main:
+Topics leads with a direct explanation and exposes disagreement/context where relevant. It is intentionally curated and offline rather than presented as generative AI.
 
-1. 69/69 legacy requirements mapped exactly once.
-2. All 69 user-facing modules rewritten; no generic track template copy remains.
-3. 23 units exist and every lesson is assigned exactly once.
-4. Every lesson has a valid visual declaration or explicit no-visual rationale.
-5. Every challenge is renderable through the new game engine.
-6. Keyboard and reduced-motion tests pass.
-7. Topic search works offline.
-8. Service-worker cache contains every required v4 asset.
-9. No model keys, external image dependencies, or required network requests.
-10. Existing Bible corpus / Explore / translation capabilities remain intact.
+## Full-shell integration
+
+The production-shaped branch runtime is the existing `public/index.html` shell plus the v4 loader/bridge.
+
+The integration contract is:
+
+- Practice remains functional.
+- Explore and the complete Bible reader remain functional.
+- Verses and translation switching remain functional.
+- global Bible search continues to route to verse results.
+- Course replaces the old learner-facing Learn rendering.
+- Topics is added without stealing the existing routes.
+- the shelf, book drawer, and existing navigation remain available.
+
+Automated shell-integration tests protect this contract.
+
+## Offline architecture
+
+`public/sw.js` precaches the active full-shell and standalone-QA dependencies, including the source curriculum, v4 migration/runtime files, Topics corpus, styles, and shell bridge.
+
+The service worker:
+
+- uses a versioned `canon-v4-redesign-*` cache;
+- removes older Canonical Shelf caches on activation;
+- does not runtime-cache failed or opaque responses;
+- preserves navigation fallbacks for both `index.html` and the integrated QA preview.
+
+Superseded preview loaders and the old 23-unit prototype runtime are intentionally not retained.
+
+## Verification gates
+
+Automated repository verification currently checks:
+
+1. all 70 guided lesson IDs and their 25-unit placement;
+2. all 69 original mastery requirements exactly once;
+3. substantive authored mastery content;
+4. explicit visual coverage for all guided lessons;
+5. supported visual/game renderers;
+6. answer locking, hints, retries, feedback, and focus behavior;
+7. guided completion/review and mastery-attempt persistence;
+8. Course/Topics full-shell routing without loss of Practice/Explore/Verses/search;
+9. Topics corpus quality/coverage invariants;
+10. offline dependency coverage;
+11. preservation of the underlying reader/search application through the normal `npm test` command.
+
+## Remaining release gates
+
+The remaining release risks are primarily human/editorial rather than missing architecture:
+
+- manual full-shell regression on the final build;
+- VoiceOver/NVDA and keyboard-only testing;
+- forced-colors/high-contrast, mobile/touch, and cross-browser review;
+- novice-learner usability testing;
+- systematic source/confidence review of disputed authorship, dating, audience, and chronology claims across all 66 book profiles;
+- human/peer evaluation criteria for independent-study work.
+
+These are documented in `public/docs/course-review.md` and should remain explicit rather than being hidden behind a technically green build.

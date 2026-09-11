@@ -13,7 +13,7 @@ The Canonical Shelf v4 redesign is one integrated learning system:
 
 Guided lessons develop biblical interpretation, Christian theology, history, practice, difficult questions, and independent study. Applied mastery develops canonical orientation, book knowledge, chronology, thematic connections, and verse-level context/recall at the point those skills are useful. The seven original track names now describe competency dimensions, not separate courses.
 
-The existing application also retains the complete Bible reader and local corpus search. On the redesign branch, the integrated v4 Course + Topics experience remains at `v4-integrated-preview.html` until it can be merged into the full reader/search shell without regression.
+The existing application retains the complete Bible reader and local corpus search. On the redesign branch, v4 **Course** now replaces the old learner-facing Learn surface inside the full application shell and **Topics** appears alongside Practice, Explore, Verses, and the existing global Bible search. `v4-integrated-preview.html` remains only as an isolated Course + Topics QA surface.
 
 See [course-review.md](course-review.md) for the preservation audit, unit-by-unit distribution, strengths, known gaps, and release gates.
 
@@ -215,19 +215,10 @@ Topics become difficult for different reasons: conceptual complexity, historical
 
 Topics is a reference layer, not a second curriculum. A Topic should answer a real learner question directly, explain important distinctions, cite relevant biblical texts, represent contested positions fairly when needed, and link related entries. Course progress does not depend on reading Topics.
 
-The reference layer can state the guide's editorial commitments clearly while distinguishing them from a claim that all Christians agree. Pastoral/life articles should not use Scripture to replace medical, legal, safety, or other professional care where such care is appropriate.
+The reference layer can state the guide's editorial commitments clearly while distinguishing them from a claim that all Christians agree. Pastoral/life articles should not use Scripture to replace medical, legal, safety, or other professional care.
 
 ## Editorial and release gates
 
 Approved positions are the guide's stated perspective, not a claim that every Christian or every MCC/Disciples congregation agrees. Competing positions must be described in recognizable terms. Sources, textual observations, historical reconstruction, theological interpretation, and application should be distinguishable. No learner receives points for identity, religious disclosure, or professing a required belief. New substantive theological disagreements require owner review before they are presented as the guide's settled position.
 
-Before v4 replaces the production learning shell, release review should include:
-
-1. integration of the redesigned Course/Topics surfaces with the existing Explore/Search reader without regression;
-2. human screen-reader, keyboard, forced-colors/high-contrast, touch, mobile, and cross-browser testing;
-3. novice learner usability testing of the complete 25-unit path;
-4. source/confidence audit of all 66 book profiles and contested authorship/date/audience claims;
-5. human/peer review support for the independent-study capstone;
-6. final editorial review of difficult/contested Topics and denominational comparisons.
-
-High-value post-core additions include harder advanced transfer missions, a dedicated Second Temple/canon-history bridge, deeper denominational comparison tools, optional difficult-text electives, and a unified glossary/reference linking layer.
+The post-redesign review identifies further priorities: manual full-shell regression, human accessibility testing, novice learner testing, a scholarly source/confidence audit of all 66 book profiles, human feedback on independent-study projects, harder late-course transfer work, deeper Second Temple/canon history, and cross-course glossary/reference linking.
