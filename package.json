@@ -2,9 +2,9 @@
   "name": "the-canonical-shelf",
   "private": true,
   "scripts": {
-    "test": "node tests/foundations.test.cjs && node tests/interactions.test.cjs && node tests/expansion.test.cjs && node tests/integrated-skill-curriculum.test.cjs && node scripts/test-v4.cjs && node tests/v5-shell.test.cjs",
+    "test": "node tests/foundations.test.cjs && node tests/interactions.test.cjs && node tests/expansion.test.cjs && node tests/integrated-skill-curriculum.test.cjs && node scripts/test-v4.cjs && node tests/v5-shell.test.cjs && node tests/v5-pages.test.cjs && node tests/v4-offline.test.cjs",
     "test:v4": "node scripts/test-v4.cjs",
-    "test:v5": "node tests/v5-shell.test.cjs",
+    "test:v5": "node tests/v5-shell.test.cjs && node tests/v5-pages.test.cjs && node tests/v4-offline.test.cjs",
     "docs": "node scripts/render-unit-docs.cjs",
     "test:skills": "node tests/integrated-skill-curriculum.test.cjs"
   },

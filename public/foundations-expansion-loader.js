@@ -1,17 +1,17 @@
 /* Static-host loader for the Canonical Shelf curriculum.
-   Builds the stable v4 curriculum/runtime, then progressively enhances it with the v5 application shell. */
+   Builds the stable v4 curriculum/runtime, then mounts the complete v5 application experience. */
 (() => {
   'use strict';
   if (window.__CANON_EXPANSION_LOADER__) return;
   window.__CANON_EXPANSION_LOADER__ = true;
 
-  const STYLES = ['v4-design-system.css','v4-integrated.css','v5-shell.css'];
+  const STYLES = ['v4-design-system.css','v4-integrated.css','v5-shell.css','v5-pages.css'];
   const FILES = [
     'foundations-expansion-core.js','foundations-units-02-08.js','foundations-units-09-16.js','foundations-skill-source.js','foundations-skill-curriculum.js','foundations-expansion-meta.js','foundations-expansion-finalize.js',
     'v4-course-map.js','v4-guided-visual-rules.js','v4-curriculum-migration.js','v4-visuals.js','v4-games.js','v4-guided-game-adapter.js','v4-progress-migration.js','v4-guided-shell.js',
     'v4-mastery-content.js','v4-mastery-story.js','v4-mastery-order.js','v4-mastery-groups.js','v4-mastery-chrono.js','v4-mastery-content-profiles.js','v4-mastery-themes.js','v4-mastery-verses.js','v4-mastery-manifest.js',
     'topics-data.js','topics-extended.js','v4-topic-bridge.js','topics.js','v4-topics-enhance.js',
-    'v4-app-integrated.js','v4-shell-bridge.js','v5-shell.js'
+    'v4-app-integrated.js','v4-shell-bridge.js','v5-shell.js','v5-pages.js'
   ];
   const script = document.currentScript;
   const base = script?.src ? new URL('.', script.src) : new URL('./', location.href);

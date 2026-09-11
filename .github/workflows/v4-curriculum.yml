@@ -1,7 +1,7 @@
 name: application verification
 on:
   push:
-    branches: [curriculum-v4-redesign, v5-application-experience]
+    branches: [curriculum-v4-redesign, v5-application-experience, v5-complete-experience]
   pull_request:
     branches: [main]
     paths:
