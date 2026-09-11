@@ -1,6 +1,5 @@
 /* Canonical Shelf v4 course architecture.
-   This file defines the learner-facing 23-unit sequence independently of the legacy 16-unit IDs.
-   Lesson migration is performed by v4-curriculum.js so current source material can be rewritten gradually. */
+   One authoritative learner-facing 23-unit sequence with the exact 69 preserved mastery requirements. */
 window.CANON_V4_COURSE = {
   version: 4,
   units: [
@@ -28,15 +27,14 @@ window.CANON_V4_COURSE = {
     {id:22,title:'Themes Across Scripture',scope:'Fourteen canonical threads traced without flattening context',visual:'theme-thread'},
     {id:23,title:'Independent Mastery',scope:'Book profiles, chronology, verse context, interpretation, and whole-canon synthesis',visual:'book-profile'}
   ],
-  // Three legacy requirements per unit. IDs remain stable for audit/tests; the v4 module copy is authored elsewhere.
   masteryPlacement: {
     1:['n.what','v.what','t.what'],
     2:['c.two','n.author','n.audience'],
-    3:['o.law','g.map','g.edges'],
+    3:['g.map','g.edges','o.law'],
     4:['s.1','s.10','o.all'],
-    5:['s.2','t.cov','n.plot'],
+    5:['s.2','n.plot','t.cov'],
     6:['s.3','c.eras','c.anchor'],
-    7:['g.law','t.faith','v.build'],
+    7:['g.law','v.build','t.faith'],
     8:['s.4','o.hist1','g.hist'],
     9:['s.5','o.hist2','n.people1'],
     10:['s.6','o.major','g.major'],
@@ -45,22 +43,13 @@ window.CANON_V4_COURSE = {
     13:['o.minor1','o.minor2','g.minor'],
     14:['s.9','o.gospels','g.gospel'],
     15:['t.sac','t.mercy','v.love'],
-    16:['n.nt','c.oop','t.mission'],
+    16:['n.nt','c.oop','o.nt'],
     17:['o.paul1','o.paul2','g.paul'],
     18:['o.general','g.gen','g.proph'],
     19:['c.paul','n.people2','v.speaker'],
-    20:['v.fruit','t.faithfulness','t.worship'],
-    21:['o.paul3','c.proph','t.judgment'],
-    22:['t.all','t.redemption','t.wisdom'],
-    23:['o.nt','c.all','n.all']
-  },
-  // Some source IDs above are semantic aliases that v4-curriculum normalizes to the exact legacy IDs.
-  aliases: {
-    't.mission':'t.all',
-    't.faithfulness':'t.faith',
-    't.worship':'t.all',
-    't.judgment':'t.all',
-    't.redemption':'t.all',
-    't.wisdom':'t.all'
+    20:['v.fruit','o.paul3','g.all'],
+    21:['c.proph','o.minor3','o.ot'],
+    22:['t.all','v.proph','o.hist3'],
+    23:['c.all','n.all','v.all']
   }
 };
