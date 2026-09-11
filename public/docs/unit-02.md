@@ -1,6 +1,6 @@
 # Unit 2: Reading Scripture
 
-4 complete lessons with full Berean Standard Bible readings and interactive understanding missions.
+5 complete lessons with full Berean Standard Bible readings and interactive understanding missions.
 
 ## Read the kind of writing in front of you
 
@@ -128,7 +128,64 @@ Read the comparison passages. Connect each feature with the reading move it warr
 
 **17** You shall not covet your neighbor’s house. You shall not covet your neighbor’s wife, or his manservant or maidservant, or his ox or donkey, or anything that belongs to your neighbor.”
 
-### Return mission: new examples
+### Integrated Bible-skill missions
+
+#### Groups: Nine groups, two testaments
+
+**Objective:** Identify the boundaries and reading strategy associated with “Nine groups, two testaments” without confusing shelf group with literary genre.
+
+The shelf is not sorted by date or author. It is sorted by kind of writing. Five groups in the Old Testament, four in the New.
+
+Use the shelf label to find the book, then identify the actual literary form in the passage before deciding how literally, poetically, narratively, or rhetorically to read it.
+
+Key anchors: Law 5 · Historical 12 · Poetry 5 · Major Prophets 5 · Minor Prophets 12 · Gospels & History 5 · Pauline 13 · General 8 · Prophecy 1
+
+Working cue: 5·12·5·5·12 = 39. 5·13·8·1 = 27. Together 66. This is a memory aid, not a substitute for the underlying context.
+
+**Simply:** Know this neighborhood of the shelf and adjust how you read when the literary form changes.
+
+**Deeper:** A shelf group can contain several literary forms. Narrative, poetry, law, genealogy, prophecy, correspondence, and symbolic vision may appear inside the same book.
+
+**Reflection:** What reading mistake becomes less likely once you understand “Nine groups, two testaments”?
+
+#### Content: How each book opens
+
+**Objective:** Use “How each book opens” to recognize what a biblical book contains and distinguish textual observation from background reconstruction.
+
+Knowing where a book starts tells you what it is trying to do. Mark opens at speed with no birth story; John opens with cosmic language about the Word.
+
+Build the book profile from evidence: what the text opens with, whom it names, what problem or story it develops, and what can responsibly be said about author and audience.
+
+Use the mission title and subtitle—The first move—as retrieval anchors, then explain the idea in your own words before checking it.
+
+Traditional attribution, internal claims, and modern scholarly reconstruction are different kinds of evidence. A responsible profile can preserve uncertainty instead of forcing a single answer. After the check, explain one answer in context rather than stopping at recognition.
+
+**Simply:** Know what the book is doing, who appears in it, and what evidence supports claims about author and audience.
+
+**Deeper:** Traditional attribution, internal claims, and modern scholarly reconstruction are different kinds of evidence. A responsible profile can preserve uncertainty instead of forcing a single answer.
+
+**Reflection:** Which claim in “How each book opens” would you want to verify directly from the book before repeating it?
+
+#### Verses: Who said it, and to whom
+
+**Objective:** Practice “Who said it, and to whom” so verse recall remains attached to speaker, recipient, book, and context.
+
+The same sentence means different things depending on who is saying it and who is listening. 2 Chronicles 16:9 is a favourite encouragement verse and was delivered as a rebuke.
+
+Recall is strongest when wording stays attached to location and context. Book, speaker, recipient, and surrounding argument are part of knowing the passage.
+
+Use the mission title and subtitle—Speaker and recipient—as retrieval anchors, then explain the idea in your own words before checking it.
+
+A verse can be quoted accurately and still be interpreted badly. Speaker, recipient, surrounding argument, genre, and translation all matter. After the check, explain one answer in context rather than stopping at recognition.
+
+**Simply:** Remember the words and the situation they belong to.
+
+**Deeper:** A verse can be quoted accurately and still be interpreted badly. Speaker, recipient, surrounding argument, genre, and translation all matter.
+
+**Reflection:** How could a verse in “Who said it, and to whom” be misused if its speaker or recipient were ignored?
+
+
+### Return mission
 
 ### Recognize a new genre clue
 
@@ -244,7 +301,46 @@ Arrange the workflow from initial reading to present-day response.
 
 **Explanation:** Audience, problem, response, and application form a defensible chain of reasoning.
 
-### Return mission: new examples
+### Integrated Bible-skill missions
+
+#### Groups: Where each group starts and stops
+
+**Objective:** Identify the boundaries and reading strategy associated with “Where each group starts and stops” without confusing shelf group with literary genre.
+
+Knowing the edges lets you place any book by elimination. If it sits between Joshua and Esther it is history; between Isaiah and Daniel it is a major prophet.
+
+Use the shelf label to find the book, then identify the actual literary form in the passage before deciding how literally, poetically, narratively, or rhetorically to read it.
+
+Use the mission title and subtitle—Boundaries—as retrieval anchors, then explain the idea in your own words before checking it.
+
+A shelf group can contain several literary forms. Narrative, poetry, law, genealogy, prophecy, correspondence, and symbolic vision may appear inside the same book. After the check, explain one answer in context rather than stopping at recognition.
+
+**Simply:** Know this neighborhood of the shelf and adjust how you read when the literary form changes.
+
+**Deeper:** A shelf group can contain several literary forms. Narrative, poetry, law, genealogy, prophecy, correspondence, and symbolic vision may appear inside the same book.
+
+**Reflection:** What reading mistake becomes less likely once you understand “Where each group starts and stops”?
+
+#### Content: Who wrote it
+
+**Objective:** Use “Who wrote it” to recognize what a biblical book contains and distinguish textual observation from background reconstruction.
+
+Most books carry a traditional attribution and a scholarly view, and for many of them the two differ. This tool gives you both rather than picking a side.
+
+Build the book profile from evidence: what the text opens with, whom it names, what problem or story it develops, and what can responsibly be said about author and audience.
+
+Key anchors: Moses is credited with the Torah; scholars see compiled sources · Isaiah 40–66 is widely read as later than 1–39 · Hebrews is anonymous — nobody knows
+
+Working cue: Where a book names its own author, that is worth more than tradition. Most do not. This is a memory aid, not a substitute for the underlying context.
+
+**Simply:** Know what the book is doing, who appears in it, and what evidence supports claims about author and audience.
+
+**Deeper:** Traditional attribution, internal claims, and modern scholarly reconstruction are different kinds of evidence. A responsible profile can preserve uncertainty instead of forcing a single answer.
+
+**Reflection:** Which claim in “Who wrote it” would you want to verify directly from the book before repeating it?
+
+
+### Return mission
 
 ### Label your confidence
 
@@ -380,7 +476,46 @@ Compare 1 John 5:6–8 and the workshop note. Select the two conclusions warrant
 
 **8** the Spirit, the water, and the blood—and these three are in agreement.
 
-### Return mission: new examples
+### Integrated Bible-skill missions
+
+#### Chronology: Two different orders
+
+**Objective:** Use “Two different orders” to place events on a qualified teaching timeline while keeping shelf position and composition distinct.
+
+The shelf is arranged by kind of writing. History happened in a different order, and the gap between the two is large.
+
+Keep four layers visible: shelf position, narrated events, historical reconstruction, and composition. Agreement in one layer does not automatically settle the others.
+
+Key anchors: Job sits 18th on the shelf and 2nd in time · Nehemiah sits 16th on the shelf and 39th in time · Psalms spans a thousand years and sits in one slot
+
+Working cue: Neither order is wrong. They answer different questions. This is a memory aid, not a substitute for the underlying context.
+
+**Simply:** Ask when the events happen, when the text was written or shaped, and where the book sits on the shelf as separate questions.
+
+**Deeper:** Biblical dating is uneven in certainty. Anchor dates can orient a teaching timeline, but disputed dates and authorship should remain visibly qualified rather than presented as settled fact.
+
+**Reflection:** Where could “Two different orders” be misunderstood if shelf order were treated as historical order?
+
+#### Content: Who they wrote to, and why
+
+**Objective:** Use “Who they wrote to, and why” to recognize what a biblical book contains and distinguish textual observation from background reconstruction.
+
+A letter makes sense only when you know who received it and what went wrong. Romans went to a church Paul had never visited; Galatians was fired off in anger at teachers adding requirements.
+
+Build the book profile from evidence: what the text opens with, whom it names, what problem or story it develops, and what can responsibly be said about author and audience.
+
+Use the mission title and subtitle—Occasion—as retrieval anchors, then explain the idea in your own words before checking it.
+
+Working cue: You are reading one half of a conversation. The letter that prompted the reply is usually lost. This is a memory aid, not a substitute for the underlying context.
+
+**Simply:** Know what the book is doing, who appears in it, and what evidence supports claims about author and audience.
+
+**Deeper:** Traditional attribution, internal claims, and modern scholarly reconstruction are different kinds of evidence. A responsible profile can preserve uncertainty instead of forcing a single answer.
+
+**Reflection:** Which claim in “Who they wrote to, and why” would you want to verify directly from the book before repeating it?
+
+
+### Return mission
 
 ### Choose the right next tool
 
@@ -531,7 +666,46 @@ Build exactly three supported links. Two observations support the author’s cen
 
 **Explanation:** Hearing/doing and care support the claim that reception takes practical form. The application is one justified response, not the only possible one. Bypassing listening contradicts 1:19.
 
-### Return mission: new examples
+### Integrated Bible-skill missions
+
+#### Chronology: Ten eras
+
+**Objective:** Use “Ten eras” to place events on a qualified teaching timeline while keeping shelf position and composition distinct.
+
+Everything in the Bible sits in one of ten windows. Learn the windows and any book can be placed roughly, even if you do not know its date.
+
+Keep four layers visible: shelf position, narrated events, historical reconstruction, and composition. Agreement in one layer does not automatically settle the others.
+
+Key anchors: Primeval · Patriarchs · Exodus & Wilderness · Conquest & Judges · United Monarchy · Divided Kingdom · Exile · Return & Persia · Life of Christ · The Early Church
+
+Biblical dating is uneven in certainty. Anchor dates can orient a teaching timeline, but disputed dates and authorship should remain visibly qualified rather than presented as settled fact. After the check, explain one answer in context rather than stopping at recognition.
+
+**Simply:** Ask when the events happen, when the text was written or shaped, and where the book sits on the shelf as separate questions.
+
+**Deeper:** Biblical dating is uneven in certainty. Anchor dates can orient a teaching timeline, but disputed dates and authorship should remain visibly qualified rather than presented as settled fact.
+
+**Reflection:** Where could “Ten eras” be misunderstood if shelf order were treated as historical order?
+
+#### Themes: What a thread is
+
+**Objective:** Trace the thread in “What a thread is” across more than one book and explain both continuity and change.
+
+A theme is not a property of a verse. It is something that starts in one book, develops across others, and gets resolved or reversed somewhere else. Covenant begins in Genesis, is formalised at Sinai, broken through Kings, mourned in Lamentations, promised new in Jeremiah, and claimed in Hebrews.
+
+Trace the concern in more than one setting. The aim is not to collect matching labels but to explain what remains continuous and what changes as the theme moves through the canon.
+
+Key anchors: Covenant · Exile & return · Kingdom & king · Sacrifice & atonement · Wilderness & testing · The remnant · Temple & presence · Judgment · Mercy · Redemption · Wisdom · Faithfulness · Worship & lament · Mission
+
+A repeated English word does not by itself prove a biblical theme. Compare function, audience, literary setting, and development before claiming continuity. After the check, explain one answer in context rather than stopping at recognition.
+
+**Simply:** Follow the connection across books without making every passage say the same thing.
+
+**Deeper:** A repeated English word does not by itself prove a biblical theme. Compare function, audience, literary setting, and development before claiming continuity.
+
+**Reflection:** What difference between two passages would you need to preserve when tracing “What a thread is”?
+
+
+### Return mission
 
 ### Evaluate a proposed application
 
@@ -563,3 +737,161 @@ Classify a new set of statements about James.
 **Hint:** Distinguish wording in the passage from its meaning and a modern response.
 
 **Explanation:** The chain makes reasoning reviewable while allowing more than one responsible application.
+
+## The shelf, the timeline, and seven Bible skills
+
+**Objective:** Use the seven original learning tracks to connect book knowledge with responsible interpretation.
+
+### Luke 24:44–49 · Berean Standard Bible
+
+**44** Jesus said to them, “These are the words I spoke to you while I was still with you: Everything must be fulfilled that is written about Me in the Law of Moses, the Prophets, and the Psalms.”
+
+**45** Then He opened their minds to understand the Scriptures.
+
+**46** And He told them, “This is what is written: The Christ will suffer and rise from the dead on the third day,
+
+**47** and in His name repentance and forgiveness of sins will be proclaimed to all nations, beginning in Jerusalem.
+
+**48** You are witnesses of these things.
+
+**49** And behold, I am sending the promise of My Father upon you. But remain in the city until you have been clothed with power from on high.”
+
+This course uses a 66-book Protestant shelf. Its nine navigation groups are Law/Pentateuch, Historical Books, Poetry/Wisdom, Major Prophets, Minor Prophets, Gospels/History, Pauline Letters, General Letters, and Prophecy. These are organizational labels, not nine pure literary genres: a single book can contain narrative, poetry, law, or vision.
+
+The first three skill tracks build orientation. The Story traces ten beats against their books; Order practices groups, testaments, and all 66; Groups teaches boundaries and reading approaches. Luke’s reference to Law, Prophets, and Psalms reflects another way of speaking about Israel’s Scriptures, reminding readers that this app’s shelf is not the only arrangement.
+
+Chronology separates shelf position, narrated events, and composition. Content adds summaries, casts, openings, authorship, and audiences. Dates and attributions vary in certainty, so a teaching timeline must not pretend every placement is settled. The integrated skill missions retain that practice while the curriculum marks those limits.
+
+Themes traces fourteen threads across books, including covenant, wilderness, remnant, presence, worship, and mission. Verses connects passages with themes, speaker, recipient, and reconstructed wording. These skills serve contextual understanding; accurate recall by itself does not establish a sound interpretation.
+
+**Simply:** Use book order to find a text, chronology to orient its setting, and content and context to understand it. They answer different questions.
+
+### Vocabulary
+
+- **Shelf order:** The position of a book in this edition’s arrangement.
+- **Narrative setting:** The time and circumstances a passage depicts.
+- **Composition:** The writing and shaping of a text, which may occur later than its setting.
+
+**Deeper:** A shelf category can contain several genres. Likewise, a book’s narrated era and its date of composition need not coincide; some placements remain debated.
+
+**Optional reflection:** Which of the seven skills would most improve your confidence as a new Bible reader?
+
+**Model reflection:** I might first learn the groups so I can find a passage, then use speaker and audience to avoid treating every sentence as directly addressed to me.
+
+### Investigate: The shelf, the timeline, and seven Bible skills
+
+**Format:** evidence
+
+Build an evidence board from Luke 24:44–49. Select the two supported statements; leave the two overreaches off the board.
+
+- Luke refers to Law, Prophets, and Psalms.
+- The scene connects understanding Scripture with a message and commission.
+- A book’s shelf position automatically identifies its date of composition.
+- Every book in one shelf group uses only one literary form.
+
+**Supported evidence:** Luke refers to Law, Prophets, and Psalms.; The scene connects understanding Scripture with a message and commission.
+
+**Hint:** Locate what the passage actually gives you and distinguish it from a stronger claim that would require more evidence.
+
+**Explanation:** Organizing Scripture and interpreting Scripture are related but distinct tasks.
+
+### Put the shelf, the timeline, and seven bible skills to work
+
+**Format:** scenario
+
+Navigate two decisions. Choose the response that best fits the passage and the limits of the evidence.
+
+**A learner assumes a later shelf position means a later event. What should they compare?**
+
+- Only the printed page number.
+- Shelf order, narrative setting, and composition separately. — intended response
+
+The three dimensions answer different questions.
+
+**Someone perfectly reconstructs a verse but misidentifies its speaker. What is still needed?**
+
+- The speaker, recipient, and surrounding argument. — intended response
+- Only faster word recall.
+
+Memory becomes useful interpretation when context is restored.
+
+**Hint:** A shelf category can contain several genres. Likewise, a book’s narrated era and its date of composition need not coincide; some placements remain debated.
+
+**Explanation:** Use shelf, setting, and textual context together when explaining a passage.
+
+### Integrated Bible-skill missions
+
+#### Content: What is actually in a book
+
+**Objective:** Use “What is actually in a book” to recognize what a biblical book contains and distinguish textual observation from background reconstruction.
+
+Every book can be held in a sentence. Not a summary of its theology — just what happens or what it contains.
+
+Build the book profile from evidence: what the text opens with, whom it names, what problem or story it develops, and what can responsibly be said about author and audience.
+
+Key anchors: Jonah — the prophet who ran · Haggai — finish the temple · Philemon — one page about one man
+
+Traditional attribution, internal claims, and modern scholarly reconstruction are different kinds of evidence. A responsible profile can preserve uncertainty instead of forcing a single answer. After the check, explain one answer in context rather than stopping at recognition.
+
+**Simply:** Know what the book is doing, who appears in it, and what evidence supports claims about author and audience.
+
+**Deeper:** Traditional attribution, internal claims, and modern scholarly reconstruction are different kinds of evidence. A responsible profile can preserve uncertainty instead of forcing a single answer.
+
+**Reflection:** Which claim in “What is actually in a book” would you want to verify directly from the book before repeating it?
+
+#### Verses: Two hundred and thirty-two passages
+
+**Objective:** Practice “Two hundred and thirty-two passages” so verse recall remains attached to speaker, recipient, book, and context.
+
+Every passage here carries its book, its speaker, who it was said to, a doctrinal theme and a life situation. Knowing who is talking is not decoration — it stops a verse being used for something it never said.
+
+Recall is strongest when wording stays attached to location and context. Book, speaker, recipient, and surrounding argument are part of knowing the passage.
+
+Use the mission title and subtitle—How they are tagged—as retrieval anchors, then explain the idea in your own words before checking it.
+
+Working cue: Job's friends say things the book later refutes. Tagging the speaker is what keeps that straight. This is a memory aid, not a substitute for the underlying context.
+
+**Simply:** Remember the words and the situation they belong to.
+
+**Deeper:** A verse can be quoted accurately and still be interpreted badly. Speaker, recipient, surrounding argument, genre, and translation all matter.
+
+**Reflection:** How could a verse in “Two hundred and thirty-two passages” be misused if its speaker or recipient were ignored?
+
+
+### Return mission
+
+### Return investigation: The shelf, the timeline, and seven Bible skills
+
+**Format:** argument
+
+Build three supported links: two observations support one interpretation, and that interpretation supports a proportionate application. Leave the competing claim disconnected.
+
+- Observation: Luke refers to Law, Prophets, and Psalms.
+- Observation: The scene connects understanding Scripture with a message and commission.
+- Interpretation: Organizing Scripture and interpreting Scripture are related but distinct tasks.
+- Application: Use shelf, setting, and textual context together when explaining a passage.
+- Competing claim: A book’s shelf position automatically identifies its date of composition.
+
+**Supported connections:**
+
+- Observation: Luke refers to Law, Prophets, and Psalms. → Interpretation: Organizing Scripture and interpreting Scripture are related but distinct tasks.
+- Observation: The scene connects understanding Scripture with a message and commission. → Interpretation: Organizing Scripture and interpreting Scripture are related but distinct tasks.
+- Interpretation: Organizing Scripture and interpreting Scripture are related but distinct tasks. → Application: Use shelf, setting, and textual context together when explaining a passage.
+
+**Hint:** Explain why each observation supports the interpretation, then why the interpretation warrants this application without proving every larger claim.
+
+**Explanation:** Organizing Scripture and interpreting Scripture are related but distinct tasks. Use shelf, setting, and textual context together when explaining a passage.
+
+### Restore the toolkit: The shelf, the timeline, and seven Bible skills
+
+**Format:** match
+
+Reconnect the three terms with their meanings.
+
+- Shelf order → The position of a book in this edition’s arrangement.
+- Narrative setting → The time and circumstances a passage depicts.
+- Composition → The writing and shaping of a text, which may occur later than its setting.
+
+**Hint:** Use book order to find a text, chronology to orient its setting, and content and context to understand it. They answer different questions.
+
+**Explanation:** These distinctions make the reading more precise without requiring personal assent.

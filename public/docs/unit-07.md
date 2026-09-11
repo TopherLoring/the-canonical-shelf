@@ -1,6 +1,6 @@
 # Unit 7: Prophets and justice
 
-1 complete lessons with full Berean Standard Bible readings and interactive understanding missions.
+4 complete lessons with full Berean Standard Bible readings and interactive understanding missions.
 
 ## Hear the prophets in their own setting
 
@@ -104,7 +104,64 @@ Arrange these steps or narrative movements into a responsible sequence.
 
 **8** He has shown you, O man, what is good. And what does the LORD require of you but to act justly, to love mercy, and to walk humbly with your God?
 
-### Return mission: new examples
+### Integrated Bible-skill missions
+
+#### The Story: Two kingdoms, prophets ignored
+
+**Objective:** Place “Two kingdoms, prophets ignored” inside the larger biblical story and identify the books that carry this movement.
+
+The kingdom splits north and south. For three centuries prophets warn both halves about injustice and idolatry. Almost nobody listens.
+
+Place this movement between what precedes and follows it. The point is to understand why the next movement becomes necessary, not merely to memorize ten labels.
+
+Key anchors: North — Israel, destroyed by Assyria in 722 BC · South — Judah, taken by Babylon in 586 BC
+
+A story arc is a navigation model, not a claim that every biblical book is narrative or that every tradition summarizes the canon in exactly the same way. After the check, explain one answer in context rather than stopping at recognition.
+
+**Simply:** Know what happens here, where it belongs in the larger story, and which books carry it.
+
+**Deeper:** A story arc is a navigation model, not a claim that every biblical book is narrative or that every tradition summarizes the canon in exactly the same way.
+
+**Reflection:** If you had to explain “Two kingdoms, prophets ignored” to someone who had never read the Bible, what would you include—and what would you avoid oversimplifying?
+
+#### Order: All twelve
+
+**Objective:** Reconstruct the canonical position of “All twelve” and use its boundaries to find neighboring books reliably.
+
+Six, three, three — said as one run. This is the stretch of the shelf most people never learn.
+
+Treat the sequence as a recoverable map. Use boundaries, neighboring books, repeated names, and structural rules so a forgotten item can be reconstructed rather than guessed.
+
+Key anchors: Hosea · Joel · Amos · Obadiah · Jonah · Micah · Nahum · Habakkuk · Zephaniah · Haggai · Zechariah · Malachi
+
+Canonical order is a navigation convention. It is not the same thing as chronology, composition date, or importance, and Catholic and Orthodox collections differ from this 66-book Protestant shelf. After the check, explain one answer in context rather than stopping at recognition.
+
+**Simply:** Learn this run as a usable map, not merely as a chant.
+
+**Deeper:** Canonical order is a navigation convention. It is not the same thing as chronology, composition date, or importance, and Catholic and Orthodox collections differ from this 66-book Protestant shelf.
+
+**Reflection:** What anchor would help you recover “All twelve” if you forgot the middle of the sequence?
+
+#### Chronology: The prophets sit inside Kings
+
+**Objective:** Use “The prophets sit inside Kings” to place events on a qualified teaching timeline while keeping shelf position and composition distinct.
+
+Every prophetic book belongs somewhere inside the historical narrative. They are not a later appendix — they are commentary running alongside events already described.
+
+Keep four layers visible: shelf position, narrated events, historical reconstruction, and composition. Agreement in one layer does not automatically settle the others.
+
+Key anchors: Amos, Hosea, Jonah, Micah — before Assyria · Nahum, Zephaniah, Habakkuk, Jeremiah — before Babylon · Ezekiel, Daniel — during the exile · Haggai, Zechariah, Malachi — after the return
+
+Biblical dating is uneven in certainty. Anchor dates can orient a teaching timeline, but disputed dates and authorship should remain visibly qualified rather than presented as settled fact. After the check, explain one answer in context rather than stopping at recognition.
+
+**Simply:** Ask when the events happen, when the text was written or shaped, and where the book sits on the shelf as separate questions.
+
+**Deeper:** Biblical dating is uneven in certainty. Anchor dates can orient a teaching timeline, but disputed dates and authorship should remain visibly qualified rather than presented as settled fact.
+
+**Reflection:** Where could “The prophets sit inside Kings” be misunderstood if shelf order were treated as historical order?
+
+
+### Return mission
 
 ### Audit a new interpretation
 
@@ -136,3 +193,495 @@ Connect each concrete example to the concept it illustrates.
 **Hint:** Compare the action or claim in each example with the definitions, rather than matching by a single word.
 
 **Explanation:** A correct connection explains the role of the example in context. These categories help organize reasoning; they do not measure personal assent.
+
+## Amos: when worship and conduct collide
+
+**Objective:** Explain the force of prophetic criticism without concluding all worship is worthless.
+
+### Amos 5:21–24 · Berean Standard Bible
+
+**21** “I hate, I despise your feasts! I cannot stand the stench of your solemn assemblies.
+
+**22** Even though you offer Me burnt offerings and grain offerings, I will not accept them; for your peace offerings of fattened cattle I will have no regard.
+
+**23** Take away from Me the noise of your songs! I will not listen to the music of your harps.
+
+**24** But let justice roll on like a river, and righteousness like an ever-flowing stream.
+
+Amos uses an uncompromising rejection of festivals, offerings, and songs. The shock matters: activities associated with religious devotion are not accepted as substitutes for justice. The passage challenges a separation between public worship and the way a community treats people.
+
+The contrast culminates in flowing water imagery for justice and righteousness. Read the image as a demand for sustained communal conduct, not merely an attractive line about nature. The rhetorical force depends on what the passage places against the religious activity.
+
+The critique does not require the claim that singing or ritual is always meaningless. Its target is worship severed from the concern expressed in the final demand. An interpretation should account for that contrast instead of selecting either the ritual rejection or the water image alone.
+
+A contemporary community can examine whether its celebrations conceal unfair practices. Ask about access, treatment of workers, use of money, and attention to those who are harmed. The prophetic text gives the examination moral urgency; specific accusations still require evidence.
+
+**Simply:** Religious activity cannot substitute for treating people justly. The point is to reconnect worship and conduct.
+
+### Vocabulary
+
+- **Prophetic critique:** A challenge to conduct voiced within a message about God’s purposes.
+- **Justice:** Right dealing with others, especially where power affects their treatment.
+- **Rhetoric:** The way language is shaped to persuade or confront.
+
+**Deeper:** Ask what the contrast accomplishes. A shocking rejection within a specific argument is not automatically a prohibition of every form of worship.
+
+**Optional reflection:** What might a community celebrate while failing to examine its conduct?
+
+**Model reflection:** A successful gathering might coexist with unfair treatment of its workers. I would investigate that treatment rather than let attendance numbers settle the question.
+
+### Investigate: Amos: when worship and conduct collide
+
+**Format:** evidence
+
+Build an evidence board from Amos 5:21–24. Select the two supported statements; leave the two overreaches off the board.
+
+- The passage rejects religious activities within its critique.
+- Its closing demand concerns justice and righteousness.
+- High attendance alone proves a community’s conduct is just.
+- The passage’s only concern is the musical quality of worship.
+
+**Supported evidence:** The passage rejects religious activities within its critique.; Its closing demand concerns justice and righteousness.
+
+**Hint:** Locate what the passage actually gives you and distinguish it from a stronger claim that would require more evidence.
+
+**Explanation:** Religious performance cannot replace justice in communal conduct.
+
+### Put amos: when worship and conduct collide to work
+
+**Format:** scenario
+
+Navigate two decisions. Choose the response that best fits the passage and the limits of the evidence.
+
+**A congregation points to a crowded festival when unfair treatment is reported. What should happen?**
+
+- Treat attendance as proof the report must be false.
+- Investigate the treatment itself. — intended response
+
+Amos refuses to let religious activity substitute for examining conduct.
+
+**Someone concludes that every song is forbidden. What is missing?**
+
+- The contrast between ritual activity and justice. — intended response
+- An even broader claim that all communal practices are useless.
+
+The passage’s argument concerns the relation between worship and conduct.
+
+**Hint:** Ask what the contrast accomplishes. A shocking rejection within a specific argument is not automatically a prohibition of every form of worship.
+
+**Explanation:** Examine a concrete practice instead of treating visible religious success as sufficient evidence of faithfulness.
+
+### Integrated Bible-skill missions
+
+#### Order: Major Prophets
+
+**Objective:** Reconstruct the canonical position of “Major Prophets” and use its boundaries to find neighboring books reliably.
+
+Major means long, not more important. Isaiah is 66 chapters; Obadiah, over in the Minor Prophets, is 21 verses.
+
+Treat the sequence as a recoverable map. Use boundaries, neighboring books, repeated names, and structural rules so a forgotten item can be reconstructed rather than guessed.
+
+Key anchors: Isaiah · 66 ch · Jeremiah · 52 ch · Lamentations · 5 ch · Ezekiel · 48 ch · Daniel · 12 ch
+
+Working cue: Lamentations is the short one sitting right after Jeremiah, because tradition credits him with it. This is a memory aid, not a substitute for the underlying context.
+
+**Simply:** Learn this run as a usable map, not merely as a chant.
+
+**Deeper:** Canonical order is a navigation convention. It is not the same thing as chronology, composition date, or importance, and Catholic and Orthodox collections differ from this 66-book Protestant shelf.
+
+**Reflection:** What anchor would help you recover “Major Prophets” if you forgot the middle of the sequence?
+
+#### Order: The Old Testament, end to end
+
+**Objective:** Reconstruct the canonical position of “The Old Testament, end to end” and use its boundaries to find neighboring books reliably.
+
+Five groups in a fixed order: law, then history, then poetry, then the long prophets, then the short ones. Thirty-nine books.
+
+Treat the sequence as a recoverable map. Use boundaries, neighboring books, repeated names, and structural rules so a forgotten item can be reconstructed rather than guessed.
+
+Key anchors: Law 5 · Historical 12 · Poetry 5 · Major 5 · Minor 12
+
+Working cue: 5 · 12 · 5 · 5 · 12 adds to 39. If your count is off, one group is wrong. This is a memory aid, not a substitute for the underlying context.
+
+**Simply:** Learn this run as a usable map, not merely as a chant.
+
+**Deeper:** Canonical order is a navigation convention. It is not the same thing as chronology, composition date, or importance, and Catholic and Orthodox collections differ from this 66-book Protestant shelf.
+
+**Reflection:** What anchor would help you recover “The Old Testament, end to end” if you forgot the middle of the sequence?
+
+#### Verses: Prophecy
+
+**Objective:** Practice “Prophecy” so verse recall remains attached to speaker, recipient, book, and context.
+
+Seventeen passages. Mostly indictment with consequences attached, and a handful of promises the New Testament writers return to constantly.
+
+Recall is strongest when wording stays attached to location and context. Book, speaker, recipient, and surrounding argument are part of knowing the passage.
+
+Use the mission title and subtitle—Warning, promise, the long view—as retrieval anchors, then explain the idea in your own words before checking it.
+
+A verse can be quoted accurately and still be interpreted badly. Speaker, recipient, surrounding argument, genre, and translation all matter. After the check, explain one answer in context rather than stopping at recognition.
+
+**Simply:** Remember the words and the situation they belong to.
+
+**Deeper:** A verse can be quoted accurately and still be interpreted badly. Speaker, recipient, surrounding argument, genre, and translation all matter.
+
+**Reflection:** How could a verse in “Prophecy” be misused if its speaker or recipient were ignored?
+
+
+### Return mission
+
+### Return investigation: Amos: when worship and conduct collide
+
+**Format:** argument
+
+Build three supported links: two observations support one interpretation, and that interpretation supports a proportionate application. Leave the competing claim disconnected.
+
+- Observation: The passage rejects religious activities within its critique.
+- Observation: Its closing demand concerns justice and righteousness.
+- Interpretation: Religious performance cannot replace justice in communal conduct.
+- Application: Examine a concrete practice instead of treating visible religious success as sufficient evidence of faithfulness.
+- Competing claim: High attendance alone proves a community’s conduct is just.
+
+**Supported connections:**
+
+- Observation: The passage rejects religious activities within its critique. → Interpretation: Religious performance cannot replace justice in communal conduct.
+- Observation: Its closing demand concerns justice and righteousness. → Interpretation: Religious performance cannot replace justice in communal conduct.
+- Interpretation: Religious performance cannot replace justice in communal conduct. → Application: Examine a concrete practice instead of treating visible religious success as sufficient evidence of faithfulness.
+
+**Hint:** Explain why each observation supports the interpretation, then why the interpretation warrants this application without proving every larger claim.
+
+**Explanation:** Religious performance cannot replace justice in communal conduct. Examine a concrete practice instead of treating visible religious success as sufficient evidence of faithfulness.
+
+### Restore the toolkit: Amos: when worship and conduct collide
+
+**Format:** match
+
+Reconnect the three terms with their meanings.
+
+- Prophetic critique → A challenge to conduct voiced within a message about God’s purposes.
+- Justice → Right dealing with others, especially where power affects their treatment.
+- Rhetoric → The way language is shaped to persuade or confront.
+
+**Hint:** Religious activity cannot substitute for treating people justly. The point is to reconnect worship and conduct.
+
+**Explanation:** These distinctions make the reading more precise without requiring personal assent.
+
+## Micah: justice, mercy, and humility
+
+**Objective:** Distinguish escalating religious offerings from the ethical response the passage names.
+
+### Micah 6:6–8 · Berean Standard Bible
+
+**6** With what shall I come before the LORD when I bow before the God on high? Should I come to Him with burnt offerings, with year-old calves?
+
+**7** Would the LORD be pleased with thousands of rams, with ten thousand rivers of oil? Shall I present my firstborn for my transgression, the fruit of my body for the sin of my soul?
+
+**8** He has shown you, O man, what is good. And what does the LORD require of you but to act justly, to love mercy, and to walk humbly with your God?
+
+The questions begin with what someone might bring before God and escalate toward increasingly extreme offerings. Read the sequence carefully: the rhetorical questions create a problem, and the response redirects attention. Not every possibility named in a question is endorsed.
+
+The answer names doing justice, loving mercy, and walking humbly with God. These are relational actions and dispositions rather than a price list. The passage challenges the assumption that the right quantity of an offering can bypass responsibility for how one lives.
+
+Humility matters for the reader as well as for the ancient audience. Applying a prophetic text does not give us infallible knowledge of everyone else’s motives. We need honest evidence, attention to those affected, and willingness to examine our own conduct.
+
+This text can guide a practical response without becoming a technique for purchasing salvation. Within this course, grace is God’s gift and ethical action is a response. Keep that distinction while allowing the prophet’s demand to retain its force.
+
+**Simply:** The passage turns from “How much can I offer?” to “How should I live with God and others?”
+
+### Vocabulary
+
+- **Mercy:** Compassion expressed in the treatment of others.
+- **Humility:** Recognition of one’s limits and accountability.
+- **Rhetorical question:** A question used to develop an argument rather than request a simple factual answer.
+
+**Deeper:** Follow the question-and-answer movement. An extreme possibility mentioned in a question must not be mistaken for a practice the passage commands.
+
+**Optional reflection:** What action would combine accountability with mercy in a conflict you can imagine?
+
+**Model reflection:** I could name a harmful action clearly while allowing a path to repair. Mercy would not require pretending no harm occurred.
+
+### Investigate: Micah: justice, mercy, and humility
+
+**Format:** evidence
+
+Build an evidence board from Micah 6:6–8. Select the two supported statements; leave the two overreaches off the board.
+
+- The questions escalate the proposed offerings.
+- The answer names justice, mercy, and humility.
+- Every offering mentioned in the questions is endorsed.
+- A sufficiently expensive gift makes conduct irrelevant.
+
+**Supported evidence:** The questions escalate the proposed offerings.; The answer names justice, mercy, and humility.
+
+**Hint:** Locate what the passage actually gives you and distinguish it from a stronger claim that would require more evidence.
+
+**Explanation:** The passage redirects religious bargaining toward responsible relationship.
+
+### Put micah: justice, mercy, and humility to work
+
+**Format:** scenario
+
+Navigate two decisions. Choose the response that best fits the passage and the limits of the evidence.
+
+**A donor offers money to avoid addressing mistreatment. What does this reading challenge?**
+
+- The possibility that material generosity can ever help.
+- Using an offering to bypass changed conduct. — intended response
+
+The contrast targets substitution for responsibility, not every use of a material gift.
+
+**A learner quotes an extreme offering as a divine command. What should they inspect?**
+
+- Its role in the rhetorical questions and their answer. — intended response
+- Only whether the words appear somewhere in the passage.
+
+Presence in a rhetorical question is not endorsement.
+
+**Hint:** Follow the question-and-answer movement. An extreme possibility mentioned in a question must not be mistaken for a practice the passage commands.
+
+**Explanation:** Choose an action that combines fair dealing, compassion, and willingness to be corrected.
+
+### Integrated Bible-skill missions
+
+#### Order: The Twelve: first six
+
+**Objective:** Reconstruct the canonical position of “The Twelve: first six” and use its boundaries to find neighboring books reliably.
+
+Twelve short books, once a single scroll called The Twelve. Learn them in three groups — six, then three, then three.
+
+Treat the sequence as a recoverable map. Use boundaries, neighboring books, repeated names, and structural rules so a forgotten item can be reconstructed rather than guessed.
+
+Key anchors: Hosea · Joel · Amos · Obadiah · Jonah · Micah
+
+Working cue: Obadiah comes before Jonah. Most people get that pair the wrong way round. This is a memory aid, not a substitute for the underlying context.
+
+**Simply:** Learn this run as a usable map, not merely as a chant.
+
+**Deeper:** Canonical order is a navigation convention. It is not the same thing as chronology, composition date, or importance, and Catholic and Orthodox collections differ from this 66-book Protestant shelf.
+
+**Reflection:** What anchor would help you recover “The Twelve: first six” if you forgot the middle of the sequence?
+
+#### Groups: Major Prophets
+
+**Objective:** Identify the boundaries and reading strategy associated with “Major Prophets” without confusing shelf group with literary genre.
+
+Major means long. A prophet here is less a fortune-teller than a public prosecutor: most of the content is indictment of present behaviour, with consequences attached.
+
+Use the shelf label to find the book, then identify the actual literary form in the passage before deciding how literally, poetically, narratively, or rhetorically to read it.
+
+Use the mission title and subtitle—How to read it—as retrieval anchors, then explain the idea in your own words before checking it.
+
+Working cue: Prediction is a consequence of the indictment, not the point of it. This is a memory aid, not a substitute for the underlying context.
+
+**Simply:** Know this neighborhood of the shelf and adjust how you read when the literary form changes.
+
+**Deeper:** A shelf group can contain several literary forms. Narrative, poetry, law, genealogy, prophecy, correspondence, and symbolic vision may appear inside the same book.
+
+**Reflection:** What reading mistake becomes less likely once you understand “Major Prophets”?
+
+
+### Return mission
+
+### Return investigation: Micah: justice, mercy, and humility
+
+**Format:** argument
+
+Build three supported links: two observations support one interpretation, and that interpretation supports a proportionate application. Leave the competing claim disconnected.
+
+- Observation: The questions escalate the proposed offerings.
+- Observation: The answer names justice, mercy, and humility.
+- Interpretation: The passage redirects religious bargaining toward responsible relationship.
+- Application: Choose an action that combines fair dealing, compassion, and willingness to be corrected.
+- Competing claim: Every offering mentioned in the questions is endorsed.
+
+**Supported connections:**
+
+- Observation: The questions escalate the proposed offerings. → Interpretation: The passage redirects religious bargaining toward responsible relationship.
+- Observation: The answer names justice, mercy, and humility. → Interpretation: The passage redirects religious bargaining toward responsible relationship.
+- Interpretation: The passage redirects religious bargaining toward responsible relationship. → Application: Choose an action that combines fair dealing, compassion, and willingness to be corrected.
+
+**Hint:** Explain why each observation supports the interpretation, then why the interpretation warrants this application without proving every larger claim.
+
+**Explanation:** The passage redirects religious bargaining toward responsible relationship. Choose an action that combines fair dealing, compassion, and willingness to be corrected.
+
+### Restore the toolkit: Micah: justice, mercy, and humility
+
+**Format:** match
+
+Reconnect the three terms with their meanings.
+
+- Mercy → Compassion expressed in the treatment of others.
+- Humility → Recognition of one’s limits and accountability.
+- Rhetorical question → A question used to develop an argument rather than request a simple factual answer.
+
+**Hint:** The passage turns from “How much can I offer?” to “How should I live with God and others?”
+
+**Explanation:** These distinctions make the reading more precise without requiring personal assent.
+
+## Jeremiah: hope addressed to a displaced community
+
+**Objective:** Read a familiar promise within its communal audience and extended time horizon.
+
+### Jeremiah 29:4–14 · Berean Standard Bible
+
+**4** This is what the LORD of Hosts, the God of Israel, says to all the exiles who were carried away from Jerusalem to Babylon:
+
+**5** “Build houses and settle down. Plant gardens and eat their produce.
+
+**6** Take wives and have sons and daughters. Take wives for your sons and give your daughters in marriage, so that they too may have sons and daughters. Multiply there; do not decrease.
+
+**7** Seek the prosperity of the city to which I have sent you as exiles. Pray to the LORD on its behalf, for if it prospers, you too will prosper.”
+
+**8** For this is what the LORD of Hosts, the God of Israel, says: “Do not be deceived by the prophets and diviners among you, and do not listen to the dreams you elicit from them.
+
+**9** For they are falsely prophesying to you in My name; I have not sent them, declares the LORD.”
+
+**10** For this is what the LORD says: “When Babylon’s seventy years are complete, I will attend to you and confirm My promise to restore you to this place.
+
+**11** For I know the plans I have for you, declares the LORD, plans to prosper you and not to harm you, to give you a future and a hope.
+
+**12** Then you will call upon Me and come and pray to Me, and I will listen to you.
+
+**13** You will seek Me and find Me when you search for Me with all your heart.
+
+**14** I will be found by you, declares the LORD, and I will restore you from captivity and gather you from all the nations and places to which I have banished you, declares the LORD. I will restore you to the place from which I sent you into exile.”
+
+Jeremiah’s letter addresses people living in exile. Instructions to build, plant, form households, and seek the city’s welfare concern a sustained life in displacement. The audience is not told that faith will make the situation disappear immediately.
+
+The warning about misleading voices matters alongside the promises. Not every reassuring message is trustworthy merely because it sounds religious. The letter directs the community toward practices that can continue while they wait.
+
+The promise of a future and hope belongs within this address and its stated horizon. It is not a personal guarantee of instant financial success or a preferred career. Reading the promise in context does not remove hope; it changes the kind of hope being offered.
+
+A contemporary reader can learn to combine longing with responsible life in present circumstances. Work for the welfare of neighbors, assess comforting claims carefully, and avoid treating a delayed outcome as proof that a person lacks faith.
+
+**Simply:** This hope accompanies a community through waiting. It does not promise that faithful people immediately get their preferred circumstances.
+
+### Vocabulary
+
+- **Audience:** The people addressed by a passage.
+- **Time horizon:** The period within which a text places an expectation.
+- **Communal hope:** Hope concerning the life of a people, not only an individual outcome.
+
+**Deeper:** Compare the instructions, warning, and promise before applying a single verse. Which parts would be missed if the promise were printed by itself?
+
+**Optional reflection:** What responsible action can coexist with waiting for circumstances to change?
+
+**Model reflection:** I can invest in the welfare of people around me while hoping for a different future. Waiting does not have to mean abandoning present responsibilities.
+
+### Investigate: Jeremiah: hope addressed to a displaced community
+
+**Format:** evidence
+
+Build an evidence board from Jeremiah 29:4–14. Select the two supported statements; leave the two overreaches off the board.
+
+- The letter instructs exiles to build and plant.
+- It calls for concern for the city where they live.
+- The promise guarantees each reader an immediate preferred career.
+- Present responsibilities are suspended until hope is fulfilled.
+
+**Supported evidence:** The letter instructs exiles to build and plant.; It calls for concern for the city where they live.
+
+**Hint:** Locate what the passage actually gives you and distinguish it from a stronger claim that would require more evidence.
+
+**Explanation:** Hope in this letter supports sustained communal life during displacement.
+
+### Put jeremiah: hope addressed to a displaced community to work
+
+**Format:** scenario
+
+Navigate two decisions. Choose the response that best fits the passage and the limits of the evidence.
+
+**A reader uses the promise to guarantee a promotion next week. What needs checking?**
+
+- Whether the reader has repeated the verse often enough.
+- The original audience and stated time horizon. — intended response
+
+The letter addresses a displaced community rather than guaranteeing that individual timetable.
+
+**A group decides waiting means doing nothing. What counters that?**
+
+- The instructions to build, plant, and seek the city’s welfare. — intended response
+- The claim that hopeful people never need practical plans.
+
+The letter gives waiting a form of responsible activity.
+
+**Hint:** Compare the instructions, warning, and promise before applying a single verse. Which parts would be missed if the promise were printed by itself?
+
+**Explanation:** Pair a long-term hope with one responsible action for present neighbors.
+
+### Integrated Bible-skill missions
+
+#### Order: The Twelve: last six
+
+**Objective:** Reconstruct the canonical position of “The Twelve: last six” and use its boundaries to find neighboring books reliably.
+
+Three before the exile, then three after it. The final three are the only prophets datable to the year, which makes them your anchor.
+
+Treat the sequence as a recoverable map. Use boundaries, neighboring books, repeated names, and structural rules so a forgotten item can be reconstructed rather than guessed.
+
+Key anchors: Nahum · Habakkuk · Zephaniah · Haggai · Zechariah · Malachi — all post-exile
+
+Working cue: Malachi closes the Old Testament. Lock the last three and the other nine sit in front of them. This is a memory aid, not a substitute for the underlying context.
+
+**Simply:** Learn this run as a usable map, not merely as a chant.
+
+**Deeper:** Canonical order is a navigation convention. It is not the same thing as chronology, composition date, or importance, and Catholic and Orthodox collections differ from this 66-book Protestant shelf.
+
+**Reflection:** What anchor would help you recover “The Twelve: last six” if you forgot the middle of the sequence?
+
+#### Groups: Minor Prophets
+
+**Objective:** Identify the boundaries and reading strategy associated with “Minor Prophets” without confusing shelf group with literary genre.
+
+Twelve short books, once a single scroll. Not in date order: six before the exile, three around it, three after.
+
+Use the shelf label to find the book, then identify the actual literary form in the passage before deciding how literally, poetically, narratively, or rhetorically to read it.
+
+Use the mission title and subtitle—How to read it—as retrieval anchors, then explain the idea in your own words before checking it.
+
+Working cue: Minor means brief. Several are under five pages. This is a memory aid, not a substitute for the underlying context.
+
+**Simply:** Know this neighborhood of the shelf and adjust how you read when the literary form changes.
+
+**Deeper:** A shelf group can contain several literary forms. Narrative, poetry, law, genealogy, prophecy, correspondence, and symbolic vision may appear inside the same book.
+
+**Reflection:** What reading mistake becomes less likely once you understand “Minor Prophets”?
+
+
+### Return mission
+
+### Return investigation: Jeremiah: hope addressed to a displaced community
+
+**Format:** argument
+
+Build three supported links: two observations support one interpretation, and that interpretation supports a proportionate application. Leave the competing claim disconnected.
+
+- Observation: The letter instructs exiles to build and plant.
+- Observation: It calls for concern for the city where they live.
+- Interpretation: Hope in this letter supports sustained communal life during displacement.
+- Application: Pair a long-term hope with one responsible action for present neighbors.
+- Competing claim: The promise guarantees each reader an immediate preferred career.
+
+**Supported connections:**
+
+- Observation: The letter instructs exiles to build and plant. → Interpretation: Hope in this letter supports sustained communal life during displacement.
+- Observation: It calls for concern for the city where they live. → Interpretation: Hope in this letter supports sustained communal life during displacement.
+- Interpretation: Hope in this letter supports sustained communal life during displacement. → Application: Pair a long-term hope with one responsible action for present neighbors.
+
+**Hint:** Explain why each observation supports the interpretation, then why the interpretation warrants this application without proving every larger claim.
+
+**Explanation:** Hope in this letter supports sustained communal life during displacement. Pair a long-term hope with one responsible action for present neighbors.
+
+### Restore the toolkit: Jeremiah: hope addressed to a displaced community
+
+**Format:** match
+
+Reconnect the three terms with their meanings.
+
+- Audience → The people addressed by a passage.
+- Time horizon → The period within which a text places an expectation.
+- Communal hope → Hope concerning the life of a people, not only an individual outcome.
+
+**Hint:** This hope accompanies a community through waiting. It does not promise that faithful people immediately get their preferred circumstances.
+
+**Explanation:** These distinctions make the reading more precise without requiring personal assent.
