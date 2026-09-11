@@ -32,8 +32,6 @@
     }
     if(old===6)return 12;
     if(old===7){
-      // Keep the unit overview as the learner's doorway into the prophetic library itself.
-      // The more focused Amos/Micah/Jeremiah lessons remain with the historical crisis/justice material.
       if(has(l,/hear the prophets in their own setting|prophetic overview/))return 13;
       if(has(l,/justice|amos|micah|jeremiah|exilic hope/))return 10;
       return 13;
@@ -41,6 +39,8 @@
     if(old===8)return 14;
     if(old===9)return 15;
     if(old===10){
+      // Acts/early-church material gets its own space before the course narrows to Paul and the letters.
+      if(has(l,/acts|early church|pentecost|communal discernment|jerusalem council/))return 16;
       if(has(l,/paul|letter|james|body|belong|favoritism/))return 17;
       return 16;
     }
