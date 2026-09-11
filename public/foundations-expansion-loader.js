@@ -11,7 +11,7 @@
     'v4-course-map.js','v4-guided-visual-rules.js','v4-curriculum-migration.js','v4-visuals.js','v4-games.js','v4-guided-game-adapter.js','v4-progress-migration.js','v4-guided-shell.js',
     'v4-mastery-content.js','v4-mastery-story.js','v4-mastery-order.js','v4-mastery-groups.js','v4-mastery-chrono.js','v4-mastery-content-profiles.js','v4-mastery-themes.js','v4-mastery-verses.js','v4-mastery-manifest.js',
     'topics-data.js','topics-extended.js','v4-topic-bridge.js','topics.js','v4-topics-enhance.js',
-    'v4-app-integrated.js','v4-shell-bridge.js','v5-shell.js','v5-pages.js','v5-faith.js'
+    'v4-app-integrated.js','v4-shell-bridge.js','v5-shell.js','v5-pages.js'
   ];
   const script = document.currentScript;
   const base = script?.src ? new URL('.', script.src) : new URL('./', location.href);
