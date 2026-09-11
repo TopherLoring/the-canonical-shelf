@@ -373,6 +373,27 @@ Verse 5 makes the cost of leaving a false confidence unchallenged relevant.
 
 **Explanation:** Decide whether a response will correct harm or merely reproduce the quarrel.
 
+### Integrated Bible-skill missions
+
+#### Themes: Faithfulness, wisdom, mission
+
+**Objective:** Trace the thread in “Faithfulness, wisdom, mission” across more than one book and explain both continuity and change.
+
+Holding on under pressure, living well day to day, and the blessing moving outward beyond one nation. These are the threads that most often point at the reader.
+
+Trace the concern in more than one setting. The aim is not to collect matching labels but to explain what remains continuous and what changes as the theme moves through the canon.
+
+Use the mission title and subtitle—The threads for readers—as retrieval anchors, then explain the idea in your own words before checking it.
+
+A repeated English word does not by itself prove a biblical theme. Compare function, audience, literary setting, and development before claiming continuity. After the check, explain one answer in context rather than stopping at recognition.
+
+**Simply:** Follow the connection across books without making every passage say the same thing.
+
+**Deeper:** A repeated English word does not by itself prove a biblical theme. Compare function, audience, literary setting, and development before claiming continuity.
+
+**Reflection:** What difference between two passages would you need to preserve when tracing “Faithfulness, wisdom, mission”?
+
+
 ### Return mission
 
 ### Return investigation: Proverbs: wisdom is more than a slogan
@@ -485,6 +506,27 @@ Who speaks and how the work evaluates the speech are part of interpretation.
 **Hint:** Compare the friends’ opening actions with their later arguments and the book’s evaluation of them. A speaker’s confidence is not a substitute for literary context.
 
 **Explanation:** Ask what support is useful without assigning an unverified cause to another person’s suffering.
+
+### Integrated Bible-skill missions
+
+#### Verses: Strength
+
+**Objective:** Practice “Strength” so verse recall remains attached to speaker, recipient, book, and context.
+
+Sixteen passages. Almost none of them describe strength a person already has.
+
+Recall is strongest when wording stays attached to location and context. Book, speaker, recipient, and surrounding argument are part of knowing the passage.
+
+Use the mission title and subtitle—Borrowed, not generated—as retrieval anchors, then explain the idea in your own words before checking it.
+
+A verse can be quoted accurately and still be interpreted badly. Speaker, recipient, surrounding argument, genre, and translation all matter. After the check, explain one answer in context rather than stopping at recognition.
+
+**Simply:** Remember the words and the situation they belong to.
+
+**Deeper:** A verse can be quoted accurately and still be interpreted badly. Speaker, recipient, surrounding argument, genre, and translation all matter.
+
+**Reflection:** How could a verse in “Strength” be misused if its speaker or recipient were ignored?
+
 
 ### Return mission
 

@@ -139,6 +139,27 @@ Connect each concrete example to the concept it illustrates.
 
 **30** And those He predestined, He also called; those He called, He also justified; those He justified, He also glorified.
 
+### Integrated Bible-skill missions
+
+#### Order: Paul: the short letters
+
+**Objective:** Reconstruct the canonical position of “Paul: the short letters” and use its boundaries to find neighboring books reliably.
+
+The run restarts at the Thessalonians, because the ordering runs longest-to-shortest twice — once for letters to churches, then again for letters to individuals.
+
+Treat the sequence as a recoverable map. Use boundaries, neighboring books, repeated names, and structural rules so a forgotten item can be reconstructed rather than guessed.
+
+Key anchors: 1 Thessalonians · 2 Thessalonians — last of the church letters · 1 Timothy · 2 Timothy · Titus · Philemon — letters to people
+
+Working cue: Where two share a name, the longer comes first. That is why 1 Corinthians precedes 2 Corinthians. This is a memory aid, not a substitute for the underlying context.
+
+**Simply:** Learn this run as a usable map, not merely as a chant.
+
+**Deeper:** Canonical order is a navigation convention. It is not the same thing as chronology, composition date, or importance, and Catholic and Orthodox collections differ from this 66-book Protestant shelf.
+
+**Reflection:** What anchor would help you recover “Paul: the short letters” if you forgot the middle of the sequence?
+
+
 ### Return mission
 
 ### Audit a new interpretation
@@ -254,6 +275,27 @@ Limited comprehension does not erase the difference between a teaching and an al
 **Hint:** An analogy can illustrate one feature while distorting another. State which feature it helps explain and exactly where it fails.
 
 **Explanation:** Explain the historic formulation and name one limit of an analogy used to illustrate it.
+
+### Integrated Bible-skill missions
+
+#### Order: All thirteen
+
+**Objective:** Reconstruct the canonical position of “All thirteen” and use its boundaries to find neighboring books reliably.
+
+Nine letters to churches, then four to individuals. Each run ordered by length.
+
+Treat the sequence as a recoverable map. Use boundaries, neighboring books, repeated names, and structural rules so a forgotten item can be reconstructed rather than guessed.
+
+Key anchors: Romans → 2 Thessalonians · churches · 1 Timothy → Philemon · people
+
+Canonical order is a navigation convention. It is not the same thing as chronology, composition date, or importance, and Catholic and Orthodox collections differ from this 66-book Protestant shelf. After the check, explain one answer in context rather than stopping at recognition.
+
+**Simply:** Learn this run as a usable map, not merely as a chant.
+
+**Deeper:** Canonical order is a navigation convention. It is not the same thing as chronology, composition date, or importance, and Catholic and Orthodox collections differ from this 66-book Protestant shelf.
+
+**Reflection:** What anchor would help you recover “All thirteen” if you forgot the middle of the sequence?
+
 
 ### Return mission
 
@@ -397,6 +439,27 @@ The traditional formulation does not treat either nature as an incomplete ingred
 **Hint:** Distinguish what John explicitly narrates from later terminology used to synthesize it. An explanation should preserve the passage’s claims without pretending to settle every philosophical question.
 
 **Explanation:** Explain incarnation in a way that preserves both full humanity and full divinity.
+
+### Integrated Bible-skill missions
+
+#### Groups: General Epistles
+
+**Objective:** Identify the boundaries and reading strategy associated with “General Epistles” without confusing shelf group with literary genre.
+
+Eight letters not addressed to a single city, grouped by author and then by length. Hebrews leads despite being anonymous.
+
+Use the shelf label to find the book, then identify the actual literary form in the passage before deciding how literally, poetically, narratively, or rhetorically to read it.
+
+Use the mission title and subtitle—How to read it—as retrieval anchors, then explain the idea in your own words before checking it.
+
+Working cue: “Catholic” epistles means universal, not Roman Catholic — they were written to no one congregation. This is a memory aid, not a substitute for the underlying context.
+
+**Simply:** Know this neighborhood of the shelf and adjust how you read when the literary form changes.
+
+**Deeper:** A shelf group can contain several literary forms. Narrative, poetry, law, genealogy, prophecy, correspondence, and symbolic vision may appear inside the same book.
+
+**Reflection:** What reading mistake becomes less likely once you understand “General Epistles”?
+
 
 ### Return mission
 

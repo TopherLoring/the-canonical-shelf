@@ -140,41 +140,23 @@ A story arc is a navigation model, not a claim that every biblical book is narra
 
 **Reflection:** If you had to explain “Land, then chaos” to someone who had never read the Bible, what would you include—and what would you avoid oversimplifying?
 
-#### Order: The retelling and the return
+#### Groups: Historical Books
 
-**Objective:** Reconstruct the canonical position of “The retelling and the return” and use its boundaries to find neighboring books reliably.
+**Objective:** Identify the boundaries and reading strategy associated with “Historical Books” without confusing shelf group with literary genre.
 
-Chronicles covers the same ground as Samuel and Kings a second time, written later for people rebuilding. Then Ezra and Nehemiah bring the exiles home, and Esther happens in Persia.
+Twelve books telling one arc: settle, fracture, collapse, return. Chronicles retells Samuel and Kings from a later vantage point rather than continuing them.
 
-Treat the sequence as a recoverable map. Use boundaries, neighboring books, repeated names, and structural rules so a forgotten item can be reconstructed rather than guessed.
+Use the shelf label to find the book, then identify the actual literary form in the passage before deciding how literally, poetically, narratively, or rhetorically to read it.
 
-Key anchors: 1 Chronicles · 2 Chronicles · Ezra · Nehemiah · Esther
+Use the mission title and subtitle—How to read it—as retrieval anchors, then explain the idea in your own words before checking it.
 
-Working cue: Ezra before Nehemiah: the priest teaches the law, then the cupbearer builds the wall. This is a memory aid, not a substitute for the underlying context.
+Working cue: When Chronicles repeats a story you have already read, it is not a mistake — it is a second telling for a different audience. This is a memory aid, not a substitute for the underlying context.
 
-**Simply:** Learn this run as a usable map, not merely as a chant.
+**Simply:** Know this neighborhood of the shelf and adjust how you read when the literary form changes.
 
-**Deeper:** Canonical order is a navigation convention. It is not the same thing as chronology, composition date, or importance, and Catholic and Orthodox collections differ from this 66-book Protestant shelf.
+**Deeper:** A shelf group can contain several literary forms. Narrative, poetry, law, genealogy, prophecy, correspondence, and symbolic vision may appear inside the same book.
 
-**Reflection:** What anchor would help you recover “The retelling and the return” if you forgot the middle of the sequence?
-
-#### Content: Who is in it: Old Testament
-
-**Objective:** Use “Who is in it: Old Testament” to recognize what a biblical book contains and distinguish textual observation from background reconstruction.
-
-Most books can be identified by three names. Moses and Aaron mean the Torah. Deborah, Gideon and Samson mean Judges.
-
-Build the book profile from evidence: what the text opens with, whom it names, what problem or story it develops, and what can responsibly be said about author and audience.
-
-Use the mission title and subtitle—The cast—as retrieval anchors, then explain the idea in your own words before checking it.
-
-Traditional attribution, internal claims, and modern scholarly reconstruction are different kinds of evidence. A responsible profile can preserve uncertainty instead of forcing a single answer. After the check, explain one answer in context rather than stopping at recognition.
-
-**Simply:** Know what the book is doing, who appears in it, and what evidence supports claims about author and audience.
-
-**Deeper:** Traditional attribution, internal claims, and modern scholarly reconstruction are different kinds of evidence. A responsible profile can preserve uncertainty instead of forcing a single answer.
-
-**Reflection:** Which claim in “Who is in it: Old Testament” would you want to verify directly from the book before repeating it?
+**Reflection:** What reading mistake becomes less likely once you understand “Historical Books”?
 
 
 ### Return mission
@@ -326,42 +308,6 @@ Working cue: This is the high-water mark. Everything after it is decline until t
 **Deeper:** A story arc is a navigation model, not a claim that every biblical book is narrative or that every tradition summarizes the canon in exactly the same way.
 
 **Reflection:** If you had to explain “Kings, and a peak that does not hold” to someone who had never read the Bible, what would you include—and what would you avoid oversimplifying?
-
-#### Order: All twelve histories
-
-**Objective:** Reconstruct the canonical position of “All twelve histories” and use its boundaries to find neighboring books reliably.
-
-Now the whole run in one go. Joshua through Esther is the historical backbone of the Old Testament — everything else slots into it.
-
-Treat the sequence as a recoverable map. Use boundaries, neighboring books, repeated names, and structural rules so a forgotten item can be reconstructed rather than guessed.
-
-Key anchors: Joshua · Judges · Ruth · 1 Samuel · 2 Samuel · 1 Kings · 2 Kings · 1 Chronicles · 2 Chronicles · Ezra · Nehemiah · Esther
-
-Canonical order is a navigation convention. It is not the same thing as chronology, composition date, or importance, and Catholic and Orthodox collections differ from this 66-book Protestant shelf. After the check, explain one answer in context rather than stopping at recognition.
-
-**Simply:** Learn this run as a usable map, not merely as a chant.
-
-**Deeper:** Canonical order is a navigation convention. It is not the same thing as chronology, composition date, or importance, and Catholic and Orthodox collections differ from this 66-book Protestant shelf.
-
-**Reflection:** What anchor would help you recover “All twelve histories” if you forgot the middle of the sequence?
-
-#### Themes: Exile, remnant, return
-
-**Objective:** Trace the thread in “Exile, remnant, return” across more than one book and explain both continuity and change.
-
-Deportation, a surviving minority, and a journey home. Once you see this thread the second half of the Old Testament stops looking like a jumble.
-
-Trace the concern in more than one setting. The aim is not to collect matching labels but to explain what remains continuous and what changes as the theme moves through the canon.
-
-Use the mission title and subtitle—The trauma and the survivors—as retrieval anchors, then explain the idea in your own words before checking it.
-
-A repeated English word does not by itself prove a biblical theme. Compare function, audience, literary setting, and development before claiming continuity. After the check, explain one answer in context rather than stopping at recognition.
-
-**Simply:** Follow the connection across books without making every passage say the same thing.
-
-**Deeper:** A repeated English word does not by itself prove a biblical theme. Compare function, audience, literary setting, and development before claiming continuity.
-
-**Reflection:** What difference between two passages would you need to preserve when tracing “Exile, remnant, return”?
 
 
 ### Return mission
@@ -517,24 +463,6 @@ Working cue: If you remember one date, remember 586 BC. Half the prophets sit be
 
 **Reflection:** If you had to explain “Exile” to someone who had never read the Bible, what would you include—and what would you avoid oversimplifying?
 
-#### Groups: Historical Books
-
-**Objective:** Identify the boundaries and reading strategy associated with “Historical Books” without confusing shelf group with literary genre.
-
-Twelve books telling one arc: settle, fracture, collapse, return. Chronicles retells Samuel and Kings from a later vantage point rather than continuing them.
-
-Use the shelf label to find the book, then identify the actual literary form in the passage before deciding how literally, poetically, narratively, or rhetorically to read it.
-
-Use the mission title and subtitle—How to read it—as retrieval anchors, then explain the idea in your own words before checking it.
-
-Working cue: When Chronicles repeats a story you have already read, it is not a mistake — it is a second telling for a different audience. This is a memory aid, not a substitute for the underlying context.
-
-**Simply:** Know this neighborhood of the shelf and adjust how you read when the literary form changes.
-
-**Deeper:** A shelf group can contain several literary forms. Narrative, poetry, law, genealogy, prophecy, correspondence, and symbolic vision may appear inside the same book.
-
-**Reflection:** What reading mistake becomes less likely once you understand “Historical Books”?
-
 
 ### Return mission
 
@@ -657,41 +585,23 @@ Genre and the wider ethical conversation matter when moving from expression to c
 
 ### Integrated Bible-skill missions
 
-#### The Story: Return, then a long silence
+#### Order: Conquest to the kings
 
-**Objective:** Place “Return, then a long silence” inside the larger biblical story and identify the books that carry this movement.
+**Objective:** Reconstruct the canonical position of “Conquest to the kings” and use its boundaries to find neighboring books reliably.
 
-Persia lets a remnant go home. They rebuild a smaller temple and the city walls. Then the record stops for roughly four hundred years.
+The story continues straight out of Deuteronomy. Joshua takes the land, judges hold it badly, then the nation demands a king and gets three — Saul, David, Solomon — before splitting in two.
 
-Place this movement between what precedes and follows it. The point is to understand why the next movement becomes necessary, not merely to memorize ten labels.
+Treat the sequence as a recoverable map. Use boundaries, neighboring books, repeated names, and structural rules so a forgotten item can be reconstructed rather than guessed.
 
-Use the mission title and subtitle—Ezra – Malachi—as retrieval anchors, then explain the idea in your own words before checking it.
+Key anchors: Joshua · Judges · Ruth · 1 Samuel · 2 Samuel · 1 Kings · 2 Kings
 
-A story arc is a navigation model, not a claim that every biblical book is narrative or that every tradition summarizes the canon in exactly the same way. After the check, explain one answer in context rather than stopping at recognition.
+Working cue: Ruth is the short quiet one wedged between the chaos of Judges and the rise of Samuel. This is a memory aid, not a substitute for the underlying context.
 
-**Simply:** Know what happens here, where it belongs in the larger story, and which books carry it.
+**Simply:** Learn this run as a usable map, not merely as a chant.
 
-**Deeper:** A story arc is a navigation model, not a claim that every biblical book is narrative or that every tradition summarizes the canon in exactly the same way.
+**Deeper:** Canonical order is a navigation convention. It is not the same thing as chronology, composition date, or importance, and Catholic and Orthodox collections differ from this 66-book Protestant shelf.
 
-**Reflection:** If you had to explain “Return, then a long silence” to someone who had never read the Bible, what would you include—and what would you avoid oversimplifying?
-
-#### Chronology: Six dates worth knowing
-
-**Objective:** Use “Six dates worth knowing” to place events on a qualified teaching timeline while keeping shelf position and composition distinct.
-
-You do not need many dates. Six will place almost anything.
-
-Keep four layers visible: shelf position, narrated events, historical reconstruction, and composition. Agreement in one layer does not automatically settle the others.
-
-Key anchors: 1446 BC — the exodus · 1010 BC — David becomes king · 930 BC — the kingdom splits · 722 BC — Assyria destroys the north · 586 BC — Babylon burns Jerusalem · AD 30 — crucifixion and Pentecost
-
-Working cue: 586 BC is the one that does the most work. Half the Old Testament is written either side of it. This is a memory aid, not a substitute for the underlying context.
-
-**Simply:** Ask when the events happen, when the text was written or shaped, and where the book sits on the shelf as separate questions.
-
-**Deeper:** Biblical dating is uneven in certainty. Anchor dates can orient a teaching timeline, but disputed dates and authorship should remain visibly qualified rather than presented as settled fact.
-
-**Reflection:** Where could “Six dates worth knowing” be misunderstood if shelf order were treated as historical order?
+**Reflection:** What anchor would help you recover “Conquest to the kings” if you forgot the middle of the sequence?
 
 
 ### Return mission
@@ -814,41 +724,23 @@ An opening scene does not promise that later decisions or circumstances will be 
 
 ### Integrated Bible-skill missions
 
-#### Order: Conquest to the kings
+#### Order: The retelling and the return
 
-**Objective:** Reconstruct the canonical position of “Conquest to the kings” and use its boundaries to find neighboring books reliably.
+**Objective:** Reconstruct the canonical position of “The retelling and the return” and use its boundaries to find neighboring books reliably.
 
-The story continues straight out of Deuteronomy. Joshua takes the land, judges hold it badly, then the nation demands a king and gets three — Saul, David, Solomon — before splitting in two.
+Chronicles covers the same ground as Samuel and Kings a second time, written later for people rebuilding. Then Ezra and Nehemiah bring the exiles home, and Esther happens in Persia.
 
 Treat the sequence as a recoverable map. Use boundaries, neighboring books, repeated names, and structural rules so a forgotten item can be reconstructed rather than guessed.
 
-Key anchors: Joshua · Judges · Ruth · 1 Samuel · 2 Samuel · 1 Kings · 2 Kings
+Key anchors: 1 Chronicles · 2 Chronicles · Ezra · Nehemiah · Esther
 
-Working cue: Ruth is the short quiet one wedged between the chaos of Judges and the rise of Samuel. This is a memory aid, not a substitute for the underlying context.
+Working cue: Ezra before Nehemiah: the priest teaches the law, then the cupbearer builds the wall. This is a memory aid, not a substitute for the underlying context.
 
 **Simply:** Learn this run as a usable map, not merely as a chant.
 
 **Deeper:** Canonical order is a navigation convention. It is not the same thing as chronology, composition date, or importance, and Catholic and Orthodox collections differ from this 66-book Protestant shelf.
 
-**Reflection:** What anchor would help you recover “Conquest to the kings” if you forgot the middle of the sequence?
-
-#### Chronology: Books out of place
-
-**Objective:** Use “Books out of place” to place events on a qualified teaching timeline while keeping shelf position and composition distinct.
-
-A handful of books sit nowhere near their historical position, and knowing which ones stops the shelf misleading you.
-
-Keep four layers visible: shelf position, narrated events, historical reconstruction, and composition. Agreement in one layer does not automatically settle the others.
-
-Key anchors: Job — patriarchal, filed with the poetry · Ruth — the era of Judges, filed after it · Chronicles — written after the exile, about the monarchy · Esther — Persia, later than the books either side of it
-
-Biblical dating is uneven in certainty. Anchor dates can orient a teaching timeline, but disputed dates and authorship should remain visibly qualified rather than presented as settled fact. After the check, explain one answer in context rather than stopping at recognition.
-
-**Simply:** Ask when the events happen, when the text was written or shaped, and where the book sits on the shelf as separate questions.
-
-**Deeper:** Biblical dating is uneven in certainty. Anchor dates can orient a teaching timeline, but disputed dates and authorship should remain visibly qualified rather than presented as settled fact.
-
-**Reflection:** Where could “Books out of place” be misunderstood if shelf order were treated as historical order?
+**Reflection:** What anchor would help you recover “The retelling and the return” if you forgot the middle of the sequence?
 
 
 ### Return mission

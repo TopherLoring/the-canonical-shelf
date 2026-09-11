@@ -138,24 +138,6 @@ Working cue: Everything later called “the promise” traces back to this chapt
 
 **Reflection:** If you had to explain “One family, one promise” to someone who had never read the Bible, what would you include—and what would you avoid oversimplifying?
 
-#### Themes: Covenant and kingdom
-
-**Objective:** Trace the thread in “Covenant and kingdom” across more than one book and explain both continuity and change.
-
-An agreement with terms, and a throne that is promised to last. Between them they explain most of what the prophets are angry about.
-
-Trace the concern in more than one setting. The aim is not to collect matching labels but to explain what remains continuous and what changes as the theme moves through the canon.
-
-Key anchors: Covenant — Genesis, Exodus, Deuteronomy, Jeremiah, Hebrews · Kingdom — Samuel, Kings, the Gospels, Revelation
-
-A repeated English word does not by itself prove a biblical theme. Compare function, audience, literary setting, and development before claiming continuity. After the check, explain one answer in context rather than stopping at recognition.
-
-**Simply:** Follow the connection across books without making every passage say the same thing.
-
-**Deeper:** A repeated English word does not by itself prove a biblical theme. Compare function, audience, literary setting, and development before claiming continuity.
-
-**Reflection:** What difference between two passages would you need to preserve when tracing “Covenant and kingdom”?
-
 
 ### Return mission
 
@@ -425,23 +407,23 @@ The passage begins with attention to suffering; an analogy does not validate a p
 
 ### Integrated Bible-skill missions
 
-#### Order: Law / Pentateuch
+#### Chronology: Six dates worth knowing
 
-**Objective:** Reconstruct the canonical position of “Law / Pentateuch” and use its boundaries to find neighboring books reliably.
+**Objective:** Use “Six dates worth knowing” to place events on a qualified teaching timeline while keeping shelf position and composition distinct.
 
-Five books open the shelf. They run from the creation of the world to the edge of the promised land, and every book after them assumes you have read them.
+You do not need many dates. Six will place almost anything.
 
-Treat the sequence as a recoverable map. Use boundaries, neighboring books, repeated names, and structural rules so a forgotten item can be reconstructed rather than guessed.
+Keep four layers visible: shelf position, narrated events, historical reconstruction, and composition. Agreement in one layer does not automatically settle the others.
 
-Key anchors: Genesis — beginnings · Exodus — the exit · Leviticus — the Levites, the priests · Numbers — two head counts · Deuteronomy — deutero, the law a second time
+Key anchors: 1446 BC — the exodus · 1010 BC — David becomes king · 930 BC — the kingdom splits · 722 BC — Assyria destroys the north · 586 BC — Babylon burns Jerusalem · AD 30 — crucifixion and Pentecost
 
-Working cue: The names carry the order if you let them: beginnings, exit, priests, counting, repeat. This is a memory aid, not a substitute for the underlying context.
+Working cue: 586 BC is the one that does the most work. Half the Old Testament is written either side of it. This is a memory aid, not a substitute for the underlying context.
 
-**Simply:** Learn this run as a usable map, not merely as a chant.
+**Simply:** Ask when the events happen, when the text was written or shaped, and where the book sits on the shelf as separate questions.
 
-**Deeper:** Canonical order is a navigation convention. It is not the same thing as chronology, composition date, or importance, and Catholic and Orthodox collections differ from this 66-book Protestant shelf.
+**Deeper:** Biblical dating is uneven in certainty. Anchor dates can orient a teaching timeline, but disputed dates and authorship should remain visibly qualified rather than presented as settled fact.
 
-**Reflection:** What anchor would help you recover “Law / Pentateuch” if you forgot the middle of the sequence?
+**Reflection:** Where could “Six dates worth knowing” be misunderstood if shelf order were treated as historical order?
 
 
 ### Return mission
@@ -573,23 +555,23 @@ The passage places obligations about wages beside other forms of care.
 
 ### Integrated Bible-skill missions
 
-#### Groups: Law / Pentateuch
+#### Themes: Covenant and kingdom
 
-**Objective:** Identify the boundaries and reading strategy associated with “Law / Pentateuch” without confusing shelf group with literary genre.
+**Objective:** Trace the thread in “Covenant and kingdom” across more than one book and explain both continuity and change.
 
-Narrative that turns into legislation. Genesis and Exodus tell a story; Leviticus, Numbers and Deuteronomy are largely law, census and speeches.
+An agreement with terms, and a throne that is promised to last. Between them they explain most of what the prophets are angry about.
 
-Use the shelf label to find the book, then identify the actual literary form in the passage before deciding how literally, poetically, narratively, or rhetorically to read it.
+Trace the concern in more than one setting. The aim is not to collect matching labels but to explain what remains continuous and what changes as the theme moves through the canon.
 
-Use the mission title and subtitle—How to read it—as retrieval anchors, then explain the idea in your own words before checking it.
+Key anchors: Covenant — Genesis, Exodus, Deuteronomy, Jeremiah, Hebrews · Kingdom — Samuel, Kings, the Gospels, Revelation
 
-Working cue: If you stall in the middle of the Torah, that is the genre changing under you, not you failing. This is a memory aid, not a substitute for the underlying context.
+A repeated English word does not by itself prove a biblical theme. Compare function, audience, literary setting, and development before claiming continuity. After the check, explain one answer in context rather than stopping at recognition.
 
-**Simply:** Know this neighborhood of the shelf and adjust how you read when the literary form changes.
+**Simply:** Follow the connection across books without making every passage say the same thing.
 
-**Deeper:** A shelf group can contain several literary forms. Narrative, poetry, law, genealogy, prophecy, correspondence, and symbolic vision may appear inside the same book.
+**Deeper:** A repeated English word does not by itself prove a biblical theme. Compare function, audience, literary setting, and development before claiming continuity.
 
-**Reflection:** What reading mistake becomes less likely once you understand “Law / Pentateuch”?
+**Reflection:** What difference between two passages would you need to preserve when tracing “Covenant and kingdom”?
 
 
 ### Return mission

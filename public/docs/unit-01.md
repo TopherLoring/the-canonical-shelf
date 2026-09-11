@@ -110,6 +110,27 @@ Use 1 Corinthians 11:17–22, the additional reading. Build three links from the
 
 **22** Don’t you have your own homes in which to eat and drink? Or do you despise the church of God and humiliate those who have nothing? What can I say to you? Shall I praise you for this? No, I will not!
 
+### Integrated Bible-skill missions
+
+#### Chronology: Two different orders
+
+**Objective:** Use “Two different orders” to place events on a qualified teaching timeline while keeping shelf position and composition distinct.
+
+The shelf is arranged by kind of writing. History happened in a different order, and the gap between the two is large.
+
+Keep four layers visible: shelf position, narrated events, historical reconstruction, and composition. Agreement in one layer does not automatically settle the others.
+
+Key anchors: Job sits 18th on the shelf and 2nd in time · Nehemiah sits 16th on the shelf and 39th in time · Psalms spans a thousand years and sits in one slot
+
+Working cue: Neither order is wrong. They answer different questions. This is a memory aid, not a substitute for the underlying context.
+
+**Simply:** Ask when the events happen, when the text was written or shaped, and where the book sits on the shelf as separate questions.
+
+**Deeper:** Biblical dating is uneven in certainty. Anchor dates can orient a teaching timeline, but disputed dates and authorship should remain visibly qualified rather than presented as settled fact.
+
+**Reflection:** Where could “Two different orders” be misunderstood if shelf order were treated as historical order?
+
+
 ### Sources
 
 - [Mark A. Jennings, Patronage and Rebuke in Paul’s Persuasion in 2 Corinthians 8–9 (2009)](https://www.jgrchj.net/volume6/JGRChJ6-5_Jennings.pdf)
@@ -181,6 +202,27 @@ Put the navigation steps in order.
 
 **Explanation:** Book → chapter → verses → context gives you both a location and a responsible way to read it.
 
+### Integrated Bible-skill missions
+
+#### Content: What is actually in a book
+
+**Objective:** Use “What is actually in a book” to recognize what a biblical book contains and distinguish textual observation from background reconstruction.
+
+Every book can be held in a sentence. Not a summary of its theology — just what happens or what it contains.
+
+Build the book profile from evidence: what the text opens with, whom it names, what problem or story it develops, and what can responsibly be said about author and audience.
+
+Key anchors: Jonah — the prophet who ran · Haggai — finish the temple · Philemon — one page about one man
+
+Traditional attribution, internal claims, and modern scholarly reconstruction are different kinds of evidence. A responsible profile can preserve uncertainty instead of forcing a single answer. After the check, explain one answer in context rather than stopping at recognition.
+
+**Simply:** Know what the book is doing, who appears in it, and what evidence supports claims about author and audience.
+
+**Deeper:** Traditional attribution, internal claims, and modern scholarly reconstruction are different kinds of evidence. A responsible profile can preserve uncertainty instead of forcing a single answer.
+
+**Reflection:** Which claim in “What is actually in a book” would you want to verify directly from the book before repeating it?
+
+
 ## Follow the larger story
 
 **Objective:** Connect Jesus’ proclamation to Israel’s story without erasing Judaism.
@@ -244,6 +286,27 @@ Match the language to its meaning.
 **Hint:** Kingdom concerns reign; repentance concerns turning.
 
 **Explanation:** These words describe relationships, response, and God’s reign rather than a collection of unrelated religious terms.
+
+### Integrated Bible-skill missions
+
+#### Themes: What a thread is
+
+**Objective:** Trace the thread in “What a thread is” across more than one book and explain both continuity and change.
+
+A theme is not a property of a verse. It is something that starts in one book, develops across others, and gets resolved or reversed somewhere else. Covenant begins in Genesis, is formalised at Sinai, broken through Kings, mourned in Lamentations, promised new in Jeremiah, and claimed in Hebrews.
+
+Trace the concern in more than one setting. The aim is not to collect matching labels but to explain what remains continuous and what changes as the theme moves through the canon.
+
+Key anchors: Covenant · Exile & return · Kingdom & king · Sacrifice & atonement · Wilderness & testing · The remnant · Temple & presence · Judgment · Mercy · Redemption · Wisdom · Faithfulness · Worship & lament · Mission
+
+A repeated English word does not by itself prove a biblical theme. Compare function, audience, literary setting, and development before claiming continuity. After the check, explain one answer in context rather than stopping at recognition.
+
+**Simply:** Follow the connection across books without making every passage say the same thing.
+
+**Deeper:** A repeated English word does not by itself prove a biblical theme. Compare function, audience, literary setting, and development before claiming continuity.
+
+**Reflection:** What difference between two passages would you need to preserve when tracing “What a thread is”?
+
 
 ## Become a context detective
 
@@ -311,6 +374,27 @@ Match each statement to its role.
 **Hint:** First notice, then explain, then connect to life.
 
 **Explanation:** Observation, interpretation, and application are connected but not interchangeable.
+
+### Integrated Bible-skill missions
+
+#### Verses: Two hundred and thirty-two passages
+
+**Objective:** Practice “Two hundred and thirty-two passages” so verse recall remains attached to speaker, recipient, book, and context.
+
+Every passage here carries its book, its speaker, who it was said to, a doctrinal theme and a life situation. Knowing who is talking is not decoration — it stops a verse being used for something it never said.
+
+Recall is strongest when wording stays attached to location and context. Book, speaker, recipient, and surrounding argument are part of knowing the passage.
+
+Use the mission title and subtitle—How they are tagged—as retrieval anchors, then explain the idea in your own words before checking it.
+
+Working cue: Job's friends say things the book later refutes. Tagging the speaker is what keeps that straight. This is a memory aid, not a substitute for the underlying context.
+
+**Simply:** Remember the words and the situation they belong to.
+
+**Deeper:** A verse can be quoted accurately and still be interpreted badly. Speaker, recipient, surrounding argument, genre, and translation all matter.
+
+**Reflection:** How could a verse in “Two hundred and thirty-two passages” be misused if its speaker or recipient were ignored?
+
 
 ## Put understanding into practice
 

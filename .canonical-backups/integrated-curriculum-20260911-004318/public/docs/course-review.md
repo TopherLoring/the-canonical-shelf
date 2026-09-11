@@ -2,7 +2,7 @@
 
 ## Review outcome
 
-The revised course uses **one 16-unit curriculum** containing 70 guided lessons plus **69 integrated Bible-skill missions** rebuilt from the original seven tracks—**139 learning activities total**. The 69 missions are placed inside the units where their knowledge is actually used, so Story, Order, Groups, Chronology, Content, Themes, and Verses are no longer detached mini-courses. The revised distribution ranges from 3–7 mastery missions per unit instead of the earlier 0–12 imbalance.
+The revised course uses **one 16-unit curriculum** containing 70 guided lessons plus **69 integrated Bible-skill missions** rebuilt from the original seven tracks. The 69 missions are placed inside the units where their knowledge is actually used, so Story, Order, Groups, Chronology, Content, Themes, and Verses are no longer detached mini-courses.
 
 The seven tracks now function as **competency dimensions across the same path**. Guided theological understanding and Bible-literacy mastery remain separately measurable, but they are taught together. Legacy drills are retained as the mastery engine behind the integrated missions rather than as the primary instructional interface.
 
@@ -24,24 +24,24 @@ The original design was a structured Bible-literacy system with seven tracks tot
 
 ## Revised 16-unit structure
 
-| Unit | Guided lessons | Mastery missions | Coverage |
-|---|---:|---:|---|
-| 1. Orientation | 5 | 4 | central proclamation; Bible as library; larger story; context detective; neighbor/mercy |
-| 2. Reading Scripture | 5 | 4 | genre; audience/context; translation/textual criticism; application; shelf/timeline/seven Bible skills |
-| 3. Creation and humanity | 4 | 4 | integrated creation overview; garden/freedom; sin/mortality/tree of life; creation care |
-| 4. Covenant and liberation | 4 | 4 | integrated covenant overview; Abraham/blessing; Exodus/liberation; Torah/neighbor responsibilities |
-| 5. Land, kingdom, and exile | 5 | 6 | integrated overview; Judges/violence; kingship/accountability; exile/lament; return/rebuilding |
-| 6. Prayer and wisdom | 5 | 4 | integrated overview; Psalms/lament; Proverbs/discernment; Job/suffering; Ecclesiastes/Song |
-| 7. Prophets and justice | 4 | 5 | integrated overview; Amos/worship and justice; Micah/mercy; Jeremiah/exilic hope |
-| 8. Jesus in his Jewish world | 4 | 4 | integrated overview; kingdom/discipleship; parables/welcome; comparing Gospels |
-| 9. Cross and resurrection | 4 | 4 | integrated overview; atonement images; receiving grace; repentance/repair |
-| 10. Early Church | 4 | 4 | integrated overview; Acts 15/discernment; body/belonging; James/favoritism |
-| 11. God and Christian doctrine | 5 | 3 | integrated overview; Trinity; incarnation; Spirit; providence/free response |
-| 12. Practicing Christianity | 4 | 3 | integrated overview; baptism; Communion/open table; prayer/formation |
-| 13. Christian traditions | 4 | 4 | integrated overview; creeds; authority/ecumenism; seven-denomination comparison |
-| 14. Difficult questions | 5 | 3 | integrated overview; difficult ethical texts; LGBTQ affirmation; Jewish roots/religious difference; suffering/miracles/spiritual discernment |
-| 15. Hope and new creation | 4 | 6 | integrated overview; bodily resurrection; judgment/competing interpretations; apocalyptic hope |
-| 16. Independent study | 4 | 7 | integrated overview; whole-book observation; argument/theme tracing; application/revision |
+| Unit | Lessons | Coverage |
+|---|---:|---|
+| 1. Orientation | 5 | central proclamation; Bible as library; larger story; context detective; neighbor/mercy |
+| 2. Reading Scripture | 5 | genre; audience/context; translation/textual criticism; application; shelf/timeline/seven Bible skills |
+| 3. Creation and humanity | 4 | integrated creation overview; garden/freedom; sin/mortality/tree of life; creation care |
+| 4. Covenant and liberation | 4 | integrated covenant overview; Abraham/blessing; Exodus/liberation; Torah/neighbor responsibilities |
+| 5. Land, kingdom, and exile | 5 | integrated overview; Judges/violence; kingship/accountability; exile/lament; return/rebuilding |
+| 6. Prayer and wisdom | 5 | integrated overview; Psalms/lament; Proverbs/discernment; Job/suffering; Ecclesiastes/Song |
+| 7. Prophets and justice | 4 | integrated overview; Amos/worship and justice; Micah/mercy; Jeremiah/exilic hope |
+| 8. Jesus in his Jewish world | 4 | integrated overview; kingdom/discipleship; parables/welcome; comparing Gospels |
+| 9. Cross and resurrection | 4 | integrated overview; atonement images; receiving grace; repentance/repair |
+| 10. Early Church | 4 | integrated overview; Acts 15/discernment; body/belonging; James/favoritism |
+| 11. God and Christian doctrine | 5 | integrated overview; Trinity; incarnation; Spirit; providence/free response |
+| 12. Practicing Christianity | 4 | integrated overview; baptism; Communion/open table; prayer/formation |
+| 13. Christian traditions | 4 | integrated overview; creeds; authority/ecumenism; seven-denomination comparison |
+| 14. Difficult questions | 5 | integrated overview; difficult ethical texts; LGBTQ affirmation; Jewish roots/religious difference; suffering/miracles/spiritual discernment |
+| 15. Hope and new creation | 4 | integrated overview; bodily resurrection; judgment/competing interpretations; apocalyptic hope |
+| 16. Independent study | 4 | integrated overview; whole-book observation; argument/theme tracing; application/revision |
 
 ## Improvements retained from Units 1–2
 

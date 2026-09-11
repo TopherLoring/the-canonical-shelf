@@ -20,6 +20,6 @@ The current expansion is additive and covered by integrity tests, but a complete
 
 ## Deployment verification
 
-`wrangler.jsonc` uses an `ASSETS` binding with `run_worker_first: true`. `worker.js` transforms only `/` and `/index.html`, appending the seven static loader and curriculum-expansion scripts after the existing application code; all other asset requests pass through unchanged.
+`wrangler.jsonc` uses an `ASSETS` binding with `run_worker_first: true`. `worker.js` transforms only `/` and `/index.html`, appending the seven curriculum-expansion scripts after the existing application code; all other asset requests pass through unchanged.
 
-The service-worker cache version must be bumped whenever its cached asset list changes. This release uses `canon-v3.8.0` and includes all static loader and curriculum-expansion scripts plus `docs/course-review.md`.
+The service-worker cache version must be bumped whenever its cached asset list changes. This release uses `canon-v3.7.0` and includes all curriculum-expansion scripts plus `docs/course-review.md`.

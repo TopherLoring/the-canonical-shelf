@@ -258,6 +258,27 @@ Permission and prohibition appear together; consequences do not make the choice 
 
 **Explanation:** Name a responsibility attached to a resource you share, and act on it.
 
+### Integrated Bible-skill missions
+
+#### Order: Law / Pentateuch
+
+**Objective:** Reconstruct the canonical position of “Law / Pentateuch” and use its boundaries to find neighboring books reliably.
+
+Five books open the shelf. They run from the creation of the world to the edge of the promised land, and every book after them assumes you have read them.
+
+Treat the sequence as a recoverable map. Use boundaries, neighboring books, repeated names, and structural rules so a forgotten item can be reconstructed rather than guessed.
+
+Key anchors: Genesis — beginnings · Exodus — the exit · Leviticus — the Levites, the priests · Numbers — two head counts · Deuteronomy — deutero, the law a second time
+
+Working cue: The names carry the order if you let them: beginnings, exit, priests, counting, repeat. This is a memory aid, not a substitute for the underlying context.
+
+**Simply:** Learn this run as a usable map, not merely as a chant.
+
+**Deeper:** Canonical order is a navigation convention. It is not the same thing as chronology, composition date, or importance, and Catholic and Orthodox collections differ from this 66-book Protestant shelf.
+
+**Reflection:** What anchor would help you recover “Law / Pentateuch” if you forgot the middle of the sequence?
+
+
 ### Return mission
 
 ### Return investigation: The garden: freedom, trust, and limits
@@ -399,6 +420,27 @@ They name different questions, even where Christian traditions connect them.
 
 **Explanation:** Take responsibility for harm you can address without attributing another person’s act to everyone affected.
 
+### Integrated Bible-skill missions
+
+#### Groups: Law / Pentateuch
+
+**Objective:** Identify the boundaries and reading strategy associated with “Law / Pentateuch” without confusing shelf group with literary genre.
+
+Narrative that turns into legislation. Genesis and Exodus tell a story; Leviticus, Numbers and Deuteronomy are largely law, census and speeches.
+
+Use the shelf label to find the book, then identify the actual literary form in the passage before deciding how literally, poetically, narratively, or rhetorically to read it.
+
+Use the mission title and subtitle—How to read it—as retrieval anchors, then explain the idea in your own words before checking it.
+
+Working cue: If you stall in the middle of the Torah, that is the genre changing under you, not you failing. This is a memory aid, not a substitute for the underlying context.
+
+**Simply:** Know this neighborhood of the shelf and adjust how you read when the literary form changes.
+
+**Deeper:** A shelf group can contain several literary forms. Narrative, poetry, law, genealogy, prophecy, correspondence, and symbolic vision may appear inside the same book.
+
+**Reflection:** What reading mistake becomes less likely once you understand “Law / Pentateuch”?
+
+
 ### Return mission
 
 ### Return investigation: Rupture, mortality, and the tree of life
@@ -519,6 +561,27 @@ Care includes the consequences of an action for neighbors as well as its intenti
 **Hint:** A theological reason to care for creation does not identify the most effective policy by itself. Combine the moral purpose with reliable evidence about the proposed action.
 
 **Explanation:** Investigate one shared resource and make a practical change that reduces harm.
+
+### Integrated Bible-skill missions
+
+#### Chronology: Ten eras
+
+**Objective:** Use “Ten eras” to place events on a qualified teaching timeline while keeping shelf position and composition distinct.
+
+Everything in the Bible sits in one of ten windows. Learn the windows and any book can be placed roughly, even if you do not know its date.
+
+Keep four layers visible: shelf position, narrated events, historical reconstruction, and composition. Agreement in one layer does not automatically settle the others.
+
+Key anchors: Primeval · Patriarchs · Exodus & Wilderness · Conquest & Judges · United Monarchy · Divided Kingdom · Exile · Return & Persia · Life of Christ · The Early Church
+
+Biblical dating is uneven in certainty. Anchor dates can orient a teaching timeline, but disputed dates and authorship should remain visibly qualified rather than presented as settled fact. After the check, explain one answer in context rather than stopping at recognition.
+
+**Simply:** Ask when the events happen, when the text was written or shaped, and where the book sits on the shelf as separate questions.
+
+**Deeper:** Biblical dating is uneven in certainty. Anchor dates can orient a teaching timeline, but disputed dates and authorship should remain visibly qualified rather than presented as settled fact.
+
+**Reflection:** Where could “Ten eras” be misunderstood if shelf order were treated as historical order?
+
 
 ### Return mission
 

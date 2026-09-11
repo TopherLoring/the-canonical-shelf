@@ -1,13 +1,13 @@
 # Canonical Shelf — Integrated Seven-Track Curriculum
 
-This overlay rebuilds the original seven Bible-literacy tracks as **69 guided skill missions embedded in the 16-unit / 70-lesson curriculum**: **139 learning activities total**.
+This overlay rebuilds the original seven Bible-literacy tracks as **69 guided skill missions embedded in the 16-unit / 70-lesson curriculum**.
 
 ## What changed
 
 - Preserved all original track coverage exactly: Story 10, Order 17, Groups 12, Chronology 7, Content 8, Themes 7, Verses 8.
 - Extracted the original authored step objects into `public/foundations-skill-source.js` so the source material is explicit and testable.
 - Rebuilt every step in `public/foundations-skill-curriculum.js` with the guided curriculum's instructional layers: objective, substantive explanation, plain-language explanation, vocabulary, deeper inquiry, reflection, and model response.
-- Rebalanced every mission by pedagogical fit to **3–7 mastery missions per unit** (most units have four) and then round-robin across that unit’s 4–5 guided lessons. Each original step is embedded exactly once, and no guided lesson receives more than two mastery missions.
+- Assigned every mission to a pedagogically relevant curriculum unit and then to a specific guided lesson. Each original step is embedded exactly once.
 - Kept the existing drill engine as the mission mastery-check engine rather than duplicating assessment code.
 - Replaced the detached-track presentation with contextual mission cards, competency progress, and return-to-owning-lesson behavior.
 - Retained End-to-End as the final cross-dimensional mastery experience.
@@ -19,14 +19,14 @@ This overlay rebuilds the original seven Bible-literacy tracks as **69 guided sk
 - `public/foundations-skill-curriculum.js`
 - `tests/integrated-skill-curriculum.test.cjs`
 
-`public/foundations-expansion-loader.js`, `worker.js`, `public/sw.js`, the expansion metadata/finalizer, curriculum docs, test suite, and documentation generator were updated to load and understand the integrated curriculum on static hosting as well as Worker-backed hosting.
+`worker.js`, `public/sw.js`, the expansion metadata/finalizer, curriculum docs, test suite, and documentation generator were updated to load and understand the integrated curriculum.
 
 ## Verification completed
 
 - Exact semantic comparison against the original seven source arrays: **69/69 source step objects match**.
 - JavaScript/CJS syntax validation: **pass**.
 - Self-contained curriculum integrity test: **pass**.
-- Assertions cover 69 unique missions, exact 10/17/12/7/8/7/8 track counts, 16-unit balance, 139 total learning activities, one-and-only-one lesson placement, guided-style fields, preserved mastery checks, static-loader order, and service-worker cache inclusion.
+- Assertions cover 69 unique missions, exact 10/17/12/7/8/7/8 track counts, one-and-only-one lesson placement, guided-style fields, preserved mastery checks, Worker load order, and service-worker cache inclusion.
 
 Run the focused test after overlaying this package on the full repository:
 

@@ -124,24 +124,6 @@ A story arc is a navigation model, not a claim that every biblical book is narra
 
 **Reflection:** If you had to explain “Two kingdoms, prophets ignored” to someone who had never read the Bible, what would you include—and what would you avoid oversimplifying?
 
-#### Order: All twelve
-
-**Objective:** Reconstruct the canonical position of “All twelve” and use its boundaries to find neighboring books reliably.
-
-Six, three, three — said as one run. This is the stretch of the shelf most people never learn.
-
-Treat the sequence as a recoverable map. Use boundaries, neighboring books, repeated names, and structural rules so a forgotten item can be reconstructed rather than guessed.
-
-Key anchors: Hosea · Joel · Amos · Obadiah · Jonah · Micah · Nahum · Habakkuk · Zephaniah · Haggai · Zechariah · Malachi
-
-Canonical order is a navigation convention. It is not the same thing as chronology, composition date, or importance, and Catholic and Orthodox collections differ from this 66-book Protestant shelf. After the check, explain one answer in context rather than stopping at recognition.
-
-**Simply:** Learn this run as a usable map, not merely as a chant.
-
-**Deeper:** Canonical order is a navigation convention. It is not the same thing as chronology, composition date, or importance, and Catholic and Orthodox collections differ from this 66-book Protestant shelf.
-
-**Reflection:** What anchor would help you recover “All twelve” if you forgot the middle of the sequence?
-
 #### Chronology: The prophets sit inside Kings
 
 **Objective:** Use “The prophets sit inside Kings” to place events on a qualified teaching timeline while keeping shelf position and composition distinct.
@@ -291,42 +273,6 @@ Working cue: Lamentations is the short one sitting right after Jeremiah, because
 
 **Reflection:** What anchor would help you recover “Major Prophets” if you forgot the middle of the sequence?
 
-#### Order: The Old Testament, end to end
-
-**Objective:** Reconstruct the canonical position of “The Old Testament, end to end” and use its boundaries to find neighboring books reliably.
-
-Five groups in a fixed order: law, then history, then poetry, then the long prophets, then the short ones. Thirty-nine books.
-
-Treat the sequence as a recoverable map. Use boundaries, neighboring books, repeated names, and structural rules so a forgotten item can be reconstructed rather than guessed.
-
-Key anchors: Law 5 · Historical 12 · Poetry 5 · Major 5 · Minor 12
-
-Working cue: 5 · 12 · 5 · 5 · 12 adds to 39. If your count is off, one group is wrong. This is a memory aid, not a substitute for the underlying context.
-
-**Simply:** Learn this run as a usable map, not merely as a chant.
-
-**Deeper:** Canonical order is a navigation convention. It is not the same thing as chronology, composition date, or importance, and Catholic and Orthodox collections differ from this 66-book Protestant shelf.
-
-**Reflection:** What anchor would help you recover “The Old Testament, end to end” if you forgot the middle of the sequence?
-
-#### Verses: Prophecy
-
-**Objective:** Practice “Prophecy” so verse recall remains attached to speaker, recipient, book, and context.
-
-Seventeen passages. Mostly indictment with consequences attached, and a handful of promises the New Testament writers return to constantly.
-
-Recall is strongest when wording stays attached to location and context. Book, speaker, recipient, and surrounding argument are part of knowing the passage.
-
-Use the mission title and subtitle—Warning, promise, the long view—as retrieval anchors, then explain the idea in your own words before checking it.
-
-A verse can be quoted accurately and still be interpreted badly. Speaker, recipient, surrounding argument, genre, and translation all matter. After the check, explain one answer in context rather than stopping at recognition.
-
-**Simply:** Remember the words and the situation they belong to.
-
-**Deeper:** A verse can be quoted accurately and still be interpreted badly. Speaker, recipient, surrounding argument, genre, and translation all matter.
-
-**Reflection:** How could a verse in “Prophecy” be misused if its speaker or recipient were ignored?
-
 
 ### Return mission
 
@@ -461,24 +407,6 @@ Working cue: Obadiah comes before Jonah. Most people get that pair the wrong way
 
 **Reflection:** What anchor would help you recover “The Twelve: first six” if you forgot the middle of the sequence?
 
-#### Groups: Major Prophets
-
-**Objective:** Identify the boundaries and reading strategy associated with “Major Prophets” without confusing shelf group with literary genre.
-
-Major means long. A prophet here is less a fortune-teller than a public prosecutor: most of the content is indictment of present behaviour, with consequences attached.
-
-Use the shelf label to find the book, then identify the actual literary form in the passage before deciding how literally, poetically, narratively, or rhetorically to read it.
-
-Use the mission title and subtitle—How to read it—as retrieval anchors, then explain the idea in your own words before checking it.
-
-Working cue: Prediction is a consequence of the indictment, not the point of it. This is a memory aid, not a substitute for the underlying context.
-
-**Simply:** Know this neighborhood of the shelf and adjust how you read when the literary form changes.
-
-**Deeper:** A shelf group can contain several literary forms. Narrative, poetry, law, genealogy, prophecy, correspondence, and symbolic vision may appear inside the same book.
-
-**Reflection:** What reading mistake becomes less likely once you understand “Major Prophets”?
-
 
 ### Return mission
 
@@ -611,41 +539,23 @@ The letter gives waiting a form of responsible activity.
 
 ### Integrated Bible-skill missions
 
-#### Order: The Twelve: last six
+#### Groups: Major Prophets
 
-**Objective:** Reconstruct the canonical position of “The Twelve: last six” and use its boundaries to find neighboring books reliably.
+**Objective:** Identify the boundaries and reading strategy associated with “Major Prophets” without confusing shelf group with literary genre.
 
-Three before the exile, then three after it. The final three are the only prophets datable to the year, which makes them your anchor.
-
-Treat the sequence as a recoverable map. Use boundaries, neighboring books, repeated names, and structural rules so a forgotten item can be reconstructed rather than guessed.
-
-Key anchors: Nahum · Habakkuk · Zephaniah · Haggai · Zechariah · Malachi — all post-exile
-
-Working cue: Malachi closes the Old Testament. Lock the last three and the other nine sit in front of them. This is a memory aid, not a substitute for the underlying context.
-
-**Simply:** Learn this run as a usable map, not merely as a chant.
-
-**Deeper:** Canonical order is a navigation convention. It is not the same thing as chronology, composition date, or importance, and Catholic and Orthodox collections differ from this 66-book Protestant shelf.
-
-**Reflection:** What anchor would help you recover “The Twelve: last six” if you forgot the middle of the sequence?
-
-#### Groups: Minor Prophets
-
-**Objective:** Identify the boundaries and reading strategy associated with “Minor Prophets” without confusing shelf group with literary genre.
-
-Twelve short books, once a single scroll. Not in date order: six before the exile, three around it, three after.
+Major means long. A prophet here is less a fortune-teller than a public prosecutor: most of the content is indictment of present behaviour, with consequences attached.
 
 Use the shelf label to find the book, then identify the actual literary form in the passage before deciding how literally, poetically, narratively, or rhetorically to read it.
 
 Use the mission title and subtitle—How to read it—as retrieval anchors, then explain the idea in your own words before checking it.
 
-Working cue: Minor means brief. Several are under five pages. This is a memory aid, not a substitute for the underlying context.
+Working cue: Prediction is a consequence of the indictment, not the point of it. This is a memory aid, not a substitute for the underlying context.
 
 **Simply:** Know this neighborhood of the shelf and adjust how you read when the literary form changes.
 
 **Deeper:** A shelf group can contain several literary forms. Narrative, poetry, law, genealogy, prophecy, correspondence, and symbolic vision may appear inside the same book.
 
-**Reflection:** What reading mistake becomes less likely once you understand “Minor Prophets”?
+**Reflection:** What reading mistake becomes less likely once you understand “Major Prophets”?
 
 
 ### Return mission

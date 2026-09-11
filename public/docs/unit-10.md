@@ -171,42 +171,6 @@ Working cue: That is the whole arc. Every book you learn from here has a place i
 
 **Reflection:** If you had to explain “The movement, and an ending that is a beginning” to someone who had never read the Bible, what would you include—and what would you avoid oversimplifying?
 
-#### Order: General Epistles
-
-**Objective:** Reconstruct the canonical position of “General Epistles” and use its boundaries to find neighboring books reliably.
-
-Eight letters, not addressed to one city. They are grouped by author, and within an author by length.
-
-Treat the sequence as a recoverable map. Use boundaries, neighboring books, repeated names, and structural rules so a forgotten item can be reconstructed rather than guessed.
-
-Key anchors: Hebrews — anonymous · James · 1 Peter · 2 Peter · 1 John · 2 John · 3 John · Jude
-
-Working cue: 2 and 3 John are the two shortest books in the Bible — thirteen and fourteen verses. This is a memory aid, not a substitute for the underlying context.
-
-**Simply:** Learn this run as a usable map, not merely as a chant.
-
-**Deeper:** Canonical order is a navigation convention. It is not the same thing as chronology, composition date, or importance, and Catholic and Orthodox collections differ from this 66-book Protestant shelf.
-
-**Reflection:** What anchor would help you recover “General Epistles” if you forgot the middle of the sequence?
-
-#### Chronology: Paul's letters sit inside Acts
-
-**Objective:** Use “Paul's letters sit inside Acts” to place events on a qualified teaching timeline while keeping shelf position and composition distinct.
-
-The letters were written during the journeys Acts narrates. Reading Acts alongside them turns a set of abstract documents into a sequence of events.
-
-Keep four layers visible: shelf position, narrated events, historical reconstruction, and composition. Agreement in one layer does not automatically settle the others.
-
-Use the mission title and subtitle—Overlap—as retrieval anchors, then explain the idea in your own words before checking it.
-
-Working cue: 1 Thessalonians is probably the earliest letter in the New Testament, written around AD 50 — but it sits eighth among Paul's thirteen. This is a memory aid, not a substitute for the underlying context.
-
-**Simply:** Ask when the events happen, when the text was written or shaped, and where the book sits on the shelf as separate questions.
-
-**Deeper:** Biblical dating is uneven in certainty. Anchor dates can orient a teaching timeline, but disputed dates and authorship should remain visibly qualified rather than presented as settled fact.
-
-**Reflection:** Where could “Paul's letters sit inside Acts” be misunderstood if shelf order were treated as historical order?
-
 
 ### Return mission
 
@@ -372,42 +336,6 @@ Working cue: Romans is first because it is long, not because it came first. 1 Th
 
 **Reflection:** What anchor would help you recover “Paul: the long letters” if you forgot the middle of the sequence?
 
-#### Order: The New Testament, end to end
-
-**Objective:** Reconstruct the canonical position of “The New Testament, end to end” and use its boundaries to find neighboring books reliably.
-
-Four groups: the Gospels and Acts, Paul's thirteen, the eight general letters, and Revelation on its own.
-
-Treat the sequence as a recoverable map. Use boundaries, neighboring books, repeated names, and structural rules so a forgotten item can be reconstructed rather than guessed.
-
-Key anchors: Gospels & History 5 · Pauline 13 · General 8 · Prophecy 1
-
-Working cue: 5 · 13 · 8 · 1 adds to 27. This is a memory aid, not a substitute for the underlying context.
-
-**Simply:** Learn this run as a usable map, not merely as a chant.
-
-**Deeper:** Canonical order is a navigation convention. It is not the same thing as chronology, composition date, or importance, and Catholic and Orthodox collections differ from this 66-book Protestant shelf.
-
-**Reflection:** What anchor would help you recover “The New Testament, end to end” if you forgot the middle of the sequence?
-
-#### Content: One-liners: New Testament
-
-**Objective:** Use “One-liners: New Testament” to recognize what a biblical book contains and distinguish textual observation from background reconstruction.
-
-The same for the twenty-seven. Four Gospels, one history, twenty-one letters, one apocalypse.
-
-Build the book profile from evidence: what the text opens with, whom it names, what problem or story it develops, and what can responsibly be said about author and audience.
-
-Use the mission title and subtitle—Books 40–66—as retrieval anchors, then explain the idea in your own words before checking it.
-
-Traditional attribution, internal claims, and modern scholarly reconstruction are different kinds of evidence. A responsible profile can preserve uncertainty instead of forcing a single answer. After the check, explain one answer in context rather than stopping at recognition.
-
-**Simply:** Know what the book is doing, who appears in it, and what evidence supports claims about author and audience.
-
-**Deeper:** Traditional attribution, internal claims, and modern scholarly reconstruction are different kinds of evidence. A responsible profile can preserve uncertainty instead of forcing a single answer.
-
-**Reflection:** Which claim in “One-liners: New Testament” would you want to verify directly from the book before repeating it?
-
 
 ### Return mission
 
@@ -550,24 +478,6 @@ The argument attends to members who might otherwise be treated as less honorable
 
 ### Integrated Bible-skill missions
 
-#### Order: Paul: the short letters
-
-**Objective:** Reconstruct the canonical position of “Paul: the short letters” and use its boundaries to find neighboring books reliably.
-
-The run restarts at the Thessalonians, because the ordering runs longest-to-shortest twice — once for letters to churches, then again for letters to individuals.
-
-Treat the sequence as a recoverable map. Use boundaries, neighboring books, repeated names, and structural rules so a forgotten item can be reconstructed rather than guessed.
-
-Key anchors: 1 Thessalonians · 2 Thessalonians — last of the church letters · 1 Timothy · 2 Timothy · Titus · Philemon — letters to people
-
-Working cue: Where two share a name, the longer comes first. That is why 1 Corinthians precedes 2 Corinthians. This is a memory aid, not a substitute for the underlying context.
-
-**Simply:** Learn this run as a usable map, not merely as a chant.
-
-**Deeper:** Canonical order is a navigation convention. It is not the same thing as chronology, composition date, or importance, and Catholic and Orthodox collections differ from this 66-book Protestant shelf.
-
-**Reflection:** What anchor would help you recover “Paul: the short letters” if you forgot the middle of the sequence?
-
 #### Groups: Pauline Epistles
 
 **Objective:** Identify the boundaries and reading strategy associated with “Pauline Epistles” without confusing shelf group with literary genre.
@@ -585,24 +495,6 @@ Working cue: They are one half of a conversation. You are reading the reply with
 **Deeper:** A shelf group can contain several literary forms. Narrative, poetry, law, genealogy, prophecy, correspondence, and symbolic vision may appear inside the same book.
 
 **Reflection:** What reading mistake becomes less likely once you understand “Pauline Epistles”?
-
-#### Content: Who is in it: New Testament
-
-**Objective:** Use “Who is in it: New Testament” to recognize what a biblical book contains and distinguish textual observation from background reconstruction.
-
-Peter and Paul dominate Acts. Timothy and Titus each have letters addressed to them. Onesimus appears in exactly one book.
-
-Build the book profile from evidence: what the text opens with, whom it names, what problem or story it develops, and what can responsibly be said about author and audience.
-
-Use the mission title and subtitle—The cast—as retrieval anchors, then explain the idea in your own words before checking it.
-
-Traditional attribution, internal claims, and modern scholarly reconstruction are different kinds of evidence. A responsible profile can preserve uncertainty instead of forcing a single answer. After the check, explain one answer in context rather than stopping at recognition.
-
-**Simply:** Know what the book is doing, who appears in it, and what evidence supports claims about author and audience.
-
-**Deeper:** Traditional attribution, internal claims, and modern scholarly reconstruction are different kinds of evidence. A responsible profile can preserve uncertainty instead of forcing a single answer.
-
-**Reflection:** Which claim in “Who is in it: New Testament” would you want to verify directly from the book before repeating it?
 
 
 ### Return mission
@@ -732,59 +624,23 @@ James examines conduct that can contradict a stated commitment.
 
 ### Integrated Bible-skill missions
 
-#### Order: All thirteen
+#### Chronology: Paul's letters sit inside Acts
 
-**Objective:** Reconstruct the canonical position of “All thirteen” and use its boundaries to find neighboring books reliably.
+**Objective:** Use “Paul's letters sit inside Acts” to place events on a qualified teaching timeline while keeping shelf position and composition distinct.
 
-Nine letters to churches, then four to individuals. Each run ordered by length.
+The letters were written during the journeys Acts narrates. Reading Acts alongside them turns a set of abstract documents into a sequence of events.
 
-Treat the sequence as a recoverable map. Use boundaries, neighboring books, repeated names, and structural rules so a forgotten item can be reconstructed rather than guessed.
+Keep four layers visible: shelf position, narrated events, historical reconstruction, and composition. Agreement in one layer does not automatically settle the others.
 
-Key anchors: Romans → 2 Thessalonians · churches · 1 Timothy → Philemon · people
+Use the mission title and subtitle—Overlap—as retrieval anchors, then explain the idea in your own words before checking it.
 
-Canonical order is a navigation convention. It is not the same thing as chronology, composition date, or importance, and Catholic and Orthodox collections differ from this 66-book Protestant shelf. After the check, explain one answer in context rather than stopping at recognition.
+Working cue: 1 Thessalonians is probably the earliest letter in the New Testament, written around AD 50 — but it sits eighth among Paul's thirteen. This is a memory aid, not a substitute for the underlying context.
 
-**Simply:** Learn this run as a usable map, not merely as a chant.
+**Simply:** Ask when the events happen, when the text was written or shaped, and where the book sits on the shelf as separate questions.
 
-**Deeper:** Canonical order is a navigation convention. It is not the same thing as chronology, composition date, or importance, and Catholic and Orthodox collections differ from this 66-book Protestant shelf.
+**Deeper:** Biblical dating is uneven in certainty. Anchor dates can orient a teaching timeline, but disputed dates and authorship should remain visibly qualified rather than presented as settled fact.
 
-**Reflection:** What anchor would help you recover “All thirteen” if you forgot the middle of the sequence?
-
-#### Groups: General Epistles
-
-**Objective:** Identify the boundaries and reading strategy associated with “General Epistles” without confusing shelf group with literary genre.
-
-Eight letters not addressed to a single city, grouped by author and then by length. Hebrews leads despite being anonymous.
-
-Use the shelf label to find the book, then identify the actual literary form in the passage before deciding how literally, poetically, narratively, or rhetorically to read it.
-
-Use the mission title and subtitle—How to read it—as retrieval anchors, then explain the idea in your own words before checking it.
-
-Working cue: “Catholic” epistles means universal, not Roman Catholic — they were written to no one congregation. This is a memory aid, not a substitute for the underlying context.
-
-**Simply:** Know this neighborhood of the shelf and adjust how you read when the literary form changes.
-
-**Deeper:** A shelf group can contain several literary forms. Narrative, poetry, law, genealogy, prophecy, correspondence, and symbolic vision may appear inside the same book.
-
-**Reflection:** What reading mistake becomes less likely once you understand “General Epistles”?
-
-#### Themes: Faithfulness, wisdom, mission
-
-**Objective:** Trace the thread in “Faithfulness, wisdom, mission” across more than one book and explain both continuity and change.
-
-Holding on under pressure, living well day to day, and the blessing moving outward beyond one nation. These are the threads that most often point at the reader.
-
-Trace the concern in more than one setting. The aim is not to collect matching labels but to explain what remains continuous and what changes as the theme moves through the canon.
-
-Use the mission title and subtitle—The threads for readers—as retrieval anchors, then explain the idea in your own words before checking it.
-
-A repeated English word does not by itself prove a biblical theme. Compare function, audience, literary setting, and development before claiming continuity. After the check, explain one answer in context rather than stopping at recognition.
-
-**Simply:** Follow the connection across books without making every passage say the same thing.
-
-**Deeper:** A repeated English word does not by itself prove a biblical theme. Compare function, audience, literary setting, and development before claiming continuity.
-
-**Reflection:** What difference between two passages would you need to preserve when tracing “Faithfulness, wisdom, mission”?
+**Reflection:** Where could “Paul's letters sit inside Acts” be misunderstood if shelf order were treated as historical order?
 
 
 ### Return mission

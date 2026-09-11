@@ -5,14 +5,11 @@
 The Canonical Shelf now combines two complementary learning systems:
 
 - **70 guided lessons in 16 units**, with 4–5 lessons in every unit.
-- **69 integrated Bible-skill mastery missions** rebuilt from the original Story, Order, Groups, Chronology, Content, Themes, and Verses tracks.
-- **139 learning activities total**: 70 guided lessons + 69 embedded mastery missions.
+- **69 integrated Bible-skill missions** rebuilt from the original Story, Order, Groups, Chronology, Content, Themes, and Verses tracks.
 
 The application now presents these as **one curriculum**. Guided lessons develop biblical interpretation, Christian theology, history, practice, difficult questions, and independent study; embedded skill missions develop canonical orientation, book knowledge, chronological thinking, thematic connections, and verse-level recall/context at the point those skills are useful. The seven track names remain as competency dimensions, not separate courses.
 
 The application also retains the complete Bible reader, corpus search, original book drills, saved progress, reflection notes, and progress import/export.
-
-The mastery-mission load is intentionally balanced by subject fit rather than made mathematically identical: unit counts are **4, 4, 4, 4, 6, 4, 5, 4, 4, 4, 3, 3, 4, 3, 6, 7**. No unit is left with zero or one mastery mission, and no guided lesson receives more than two embedded mastery missions.
 
 See [course-review.md](course-review.md) for the preservation audit, unit-by-unit expansion, strengths, known gaps, and recommended next improvements.
 

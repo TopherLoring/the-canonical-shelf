@@ -133,23 +133,23 @@ Care and correction address both practical loss and the added harm.
 
 ### Integrated Bible-skill missions
 
-#### Verses: Strength
+#### Chronology: Books out of place
 
-**Objective:** Practice “Strength” so verse recall remains attached to speaker, recipient, book, and context.
+**Objective:** Use “Books out of place” to place events on a qualified teaching timeline while keeping shelf position and composition distinct.
 
-Sixteen passages. Almost none of them describe strength a person already has.
+A handful of books sit nowhere near their historical position, and knowing which ones stops the shelf misleading you.
 
-Recall is strongest when wording stays attached to location and context. Book, speaker, recipient, and surrounding argument are part of knowing the passage.
+Keep four layers visible: shelf position, narrated events, historical reconstruction, and composition. Agreement in one layer does not automatically settle the others.
 
-Use the mission title and subtitle—Borrowed, not generated—as retrieval anchors, then explain the idea in your own words before checking it.
+Key anchors: Job — patriarchal, filed with the poetry · Ruth — the era of Judges, filed after it · Chronicles — written after the exile, about the monarchy · Esther — Persia, later than the books either side of it
 
-A verse can be quoted accurately and still be interpreted badly. Speaker, recipient, surrounding argument, genre, and translation all matter. After the check, explain one answer in context rather than stopping at recognition.
+Biblical dating is uneven in certainty. Anchor dates can orient a teaching timeline, but disputed dates and authorship should remain visibly qualified rather than presented as settled fact. After the check, explain one answer in context rather than stopping at recognition.
 
-**Simply:** Remember the words and the situation they belong to.
+**Simply:** Ask when the events happen, when the text was written or shaped, and where the book sits on the shelf as separate questions.
 
-**Deeper:** A verse can be quoted accurately and still be interpreted badly. Speaker, recipient, surrounding argument, genre, and translation all matter.
+**Deeper:** Biblical dating is uneven in certainty. Anchor dates can orient a teaching timeline, but disputed dates and authorship should remain visibly qualified rather than presented as settled fact.
 
-**Reflection:** How could a verse in “Strength” be misused if its speaker or recipient were ignored?
+**Reflection:** Where could “Books out of place” be misunderstood if shelf order were treated as historical order?
 
 
 ### Return mission
@@ -282,6 +282,27 @@ Responsible interpretation makes its reasoning and limits visible.
 
 **Explanation:** Separate textual statements, implications, and unresolved moral questions when explaining a difficult passage.
 
+### Integrated Bible-skill missions
+
+#### Content: Who is in it: Old Testament
+
+**Objective:** Use “Who is in it: Old Testament” to recognize what a biblical book contains and distinguish textual observation from background reconstruction.
+
+Most books can be identified by three names. Moses and Aaron mean the Torah. Deborah, Gideon and Samson mean Judges.
+
+Build the book profile from evidence: what the text opens with, whom it names, what problem or story it develops, and what can responsibly be said about author and audience.
+
+Use the mission title and subtitle—The cast—as retrieval anchors, then explain the idea in your own words before checking it.
+
+Traditional attribution, internal claims, and modern scholarly reconstruction are different kinds of evidence. A responsible profile can preserve uncertainty instead of forcing a single answer. After the check, explain one answer in context rather than stopping at recognition.
+
+**Simply:** Know what the book is doing, who appears in it, and what evidence supports claims about author and audience.
+
+**Deeper:** Traditional attribution, internal claims, and modern scholarly reconstruction are different kinds of evidence. A responsible profile can preserve uncertainty instead of forcing a single answer.
+
+**Reflection:** Which claim in “Who is in it: Old Testament” would you want to verify directly from the book before repeating it?
+
+
 ### Return mission
 
 ### Return investigation: Difficult ethical texts: neither avoidance nor easy excuses
@@ -402,6 +423,27 @@ Specific practices reveal the scope of a general claim.
 **Hint:** Love is not a shortcut that removes the need to interpret specific texts. A careful argument explains its textual reasoning and practical effects.
 
 **Explanation:** Discuss textual arguments while protecting equal dignity and making welcome practical.
+
+### Integrated Bible-skill missions
+
+#### Themes: Exile, remnant, return
+
+**Objective:** Trace the thread in “Exile, remnant, return” across more than one book and explain both continuity and change.
+
+Deportation, a surviving minority, and a journey home. Once you see this thread the second half of the Old Testament stops looking like a jumble.
+
+Trace the concern in more than one setting. The aim is not to collect matching labels but to explain what remains continuous and what changes as the theme moves through the canon.
+
+Use the mission title and subtitle—The trauma and the survivors—as retrieval anchors, then explain the idea in your own words before checking it.
+
+A repeated English word does not by itself prove a biblical theme. Compare function, audience, literary setting, and development before claiming continuity. After the check, explain one answer in context rather than stopping at recognition.
+
+**Simply:** Follow the connection across books without making every passage say the same thing.
+
+**Deeper:** A repeated English word does not by itself prove a biblical theme. Compare function, audience, literary setting, and development before claiming continuity.
+
+**Reflection:** What difference between two passages would you need to preserve when tracing “Exile, remnant, return”?
+
 
 ### Return mission
 

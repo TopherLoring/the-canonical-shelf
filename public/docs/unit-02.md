@@ -130,24 +130,6 @@ Read the comparison passages. Connect each feature with the reading move it warr
 
 ### Integrated Bible-skill missions
 
-#### Groups: Nine groups, two testaments
-
-**Objective:** Identify the boundaries and reading strategy associated with “Nine groups, two testaments” without confusing shelf group with literary genre.
-
-The shelf is not sorted by date or author. It is sorted by kind of writing. Five groups in the Old Testament, four in the New.
-
-Use the shelf label to find the book, then identify the actual literary form in the passage before deciding how literally, poetically, narratively, or rhetorically to read it.
-
-Key anchors: Law 5 · Historical 12 · Poetry 5 · Major Prophets 5 · Minor Prophets 12 · Gospels & History 5 · Pauline 13 · General 8 · Prophecy 1
-
-Working cue: 5·12·5·5·12 = 39. 5·13·8·1 = 27. Together 66. This is a memory aid, not a substitute for the underlying context.
-
-**Simply:** Know this neighborhood of the shelf and adjust how you read when the literary form changes.
-
-**Deeper:** A shelf group can contain several literary forms. Narrative, poetry, law, genealogy, prophecy, correspondence, and symbolic vision may appear inside the same book.
-
-**Reflection:** What reading mistake becomes less likely once you understand “Nine groups, two testaments”?
-
 #### Content: How each book opens
 
 **Objective:** Use “How each book opens” to recognize what a biblical book contains and distinguish textual observation from background reconstruction.
@@ -165,24 +147,6 @@ Traditional attribution, internal claims, and modern scholarly reconstruction ar
 **Deeper:** Traditional attribution, internal claims, and modern scholarly reconstruction are different kinds of evidence. A responsible profile can preserve uncertainty instead of forcing a single answer.
 
 **Reflection:** Which claim in “How each book opens” would you want to verify directly from the book before repeating it?
-
-#### Verses: Who said it, and to whom
-
-**Objective:** Practice “Who said it, and to whom” so verse recall remains attached to speaker, recipient, book, and context.
-
-The same sentence means different things depending on who is saying it and who is listening. 2 Chronicles 16:9 is a favourite encouragement verse and was delivered as a rebuke.
-
-Recall is strongest when wording stays attached to location and context. Book, speaker, recipient, and surrounding argument are part of knowing the passage.
-
-Use the mission title and subtitle—Speaker and recipient—as retrieval anchors, then explain the idea in your own words before checking it.
-
-A verse can be quoted accurately and still be interpreted badly. Speaker, recipient, surrounding argument, genre, and translation all matter. After the check, explain one answer in context rather than stopping at recognition.
-
-**Simply:** Remember the words and the situation they belong to.
-
-**Deeper:** A verse can be quoted accurately and still be interpreted badly. Speaker, recipient, surrounding argument, genre, and translation all matter.
-
-**Reflection:** How could a verse in “Who said it, and to whom” be misused if its speaker or recipient were ignored?
 
 
 ### Return mission
@@ -302,24 +266,6 @@ Arrange the workflow from initial reading to present-day response.
 **Explanation:** Audience, problem, response, and application form a defensible chain of reasoning.
 
 ### Integrated Bible-skill missions
-
-#### Groups: Where each group starts and stops
-
-**Objective:** Identify the boundaries and reading strategy associated with “Where each group starts and stops” without confusing shelf group with literary genre.
-
-Knowing the edges lets you place any book by elimination. If it sits between Joshua and Esther it is history; between Isaiah and Daniel it is a major prophet.
-
-Use the shelf label to find the book, then identify the actual literary form in the passage before deciding how literally, poetically, narratively, or rhetorically to read it.
-
-Use the mission title and subtitle—Boundaries—as retrieval anchors, then explain the idea in your own words before checking it.
-
-A shelf group can contain several literary forms. Narrative, poetry, law, genealogy, prophecy, correspondence, and symbolic vision may appear inside the same book. After the check, explain one answer in context rather than stopping at recognition.
-
-**Simply:** Know this neighborhood of the shelf and adjust how you read when the literary form changes.
-
-**Deeper:** A shelf group can contain several literary forms. Narrative, poetry, law, genealogy, prophecy, correspondence, and symbolic vision may appear inside the same book.
-
-**Reflection:** What reading mistake becomes less likely once you understand “Where each group starts and stops”?
 
 #### Content: Who wrote it
 
@@ -477,24 +423,6 @@ Compare 1 John 5:6–8 and the workshop note. Select the two conclusions warrant
 **8** the Spirit, the water, and the blood—and these three are in agreement.
 
 ### Integrated Bible-skill missions
-
-#### Chronology: Two different orders
-
-**Objective:** Use “Two different orders” to place events on a qualified teaching timeline while keeping shelf position and composition distinct.
-
-The shelf is arranged by kind of writing. History happened in a different order, and the gap between the two is large.
-
-Keep four layers visible: shelf position, narrated events, historical reconstruction, and composition. Agreement in one layer does not automatically settle the others.
-
-Key anchors: Job sits 18th on the shelf and 2nd in time · Nehemiah sits 16th on the shelf and 39th in time · Psalms spans a thousand years and sits in one slot
-
-Working cue: Neither order is wrong. They answer different questions. This is a memory aid, not a substitute for the underlying context.
-
-**Simply:** Ask when the events happen, when the text was written or shaped, and where the book sits on the shelf as separate questions.
-
-**Deeper:** Biblical dating is uneven in certainty. Anchor dates can orient a teaching timeline, but disputed dates and authorship should remain visibly qualified rather than presented as settled fact.
-
-**Reflection:** Where could “Two different orders” be misunderstood if shelf order were treated as historical order?
 
 #### Content: Who they wrote to, and why
 
@@ -668,41 +596,23 @@ Build exactly three supported links. Two observations support the author’s cen
 
 ### Integrated Bible-skill missions
 
-#### Chronology: Ten eras
+#### Verses: Who said it, and to whom
 
-**Objective:** Use “Ten eras” to place events on a qualified teaching timeline while keeping shelf position and composition distinct.
+**Objective:** Practice “Who said it, and to whom” so verse recall remains attached to speaker, recipient, book, and context.
 
-Everything in the Bible sits in one of ten windows. Learn the windows and any book can be placed roughly, even if you do not know its date.
+The same sentence means different things depending on who is saying it and who is listening. 2 Chronicles 16:9 is a favourite encouragement verse and was delivered as a rebuke.
 
-Keep four layers visible: shelf position, narrated events, historical reconstruction, and composition. Agreement in one layer does not automatically settle the others.
+Recall is strongest when wording stays attached to location and context. Book, speaker, recipient, and surrounding argument are part of knowing the passage.
 
-Key anchors: Primeval · Patriarchs · Exodus & Wilderness · Conquest & Judges · United Monarchy · Divided Kingdom · Exile · Return & Persia · Life of Christ · The Early Church
+Use the mission title and subtitle—Speaker and recipient—as retrieval anchors, then explain the idea in your own words before checking it.
 
-Biblical dating is uneven in certainty. Anchor dates can orient a teaching timeline, but disputed dates and authorship should remain visibly qualified rather than presented as settled fact. After the check, explain one answer in context rather than stopping at recognition.
+A verse can be quoted accurately and still be interpreted badly. Speaker, recipient, surrounding argument, genre, and translation all matter. After the check, explain one answer in context rather than stopping at recognition.
 
-**Simply:** Ask when the events happen, when the text was written or shaped, and where the book sits on the shelf as separate questions.
+**Simply:** Remember the words and the situation they belong to.
 
-**Deeper:** Biblical dating is uneven in certainty. Anchor dates can orient a teaching timeline, but disputed dates and authorship should remain visibly qualified rather than presented as settled fact.
+**Deeper:** A verse can be quoted accurately and still be interpreted badly. Speaker, recipient, surrounding argument, genre, and translation all matter.
 
-**Reflection:** Where could “Ten eras” be misunderstood if shelf order were treated as historical order?
-
-#### Themes: What a thread is
-
-**Objective:** Trace the thread in “What a thread is” across more than one book and explain both continuity and change.
-
-A theme is not a property of a verse. It is something that starts in one book, develops across others, and gets resolved or reversed somewhere else. Covenant begins in Genesis, is formalised at Sinai, broken through Kings, mourned in Lamentations, promised new in Jeremiah, and claimed in Hebrews.
-
-Trace the concern in more than one setting. The aim is not to collect matching labels but to explain what remains continuous and what changes as the theme moves through the canon.
-
-Key anchors: Covenant · Exile & return · Kingdom & king · Sacrifice & atonement · Wilderness & testing · The remnant · Temple & presence · Judgment · Mercy · Redemption · Wisdom · Faithfulness · Worship & lament · Mission
-
-A repeated English word does not by itself prove a biblical theme. Compare function, audience, literary setting, and development before claiming continuity. After the check, explain one answer in context rather than stopping at recognition.
-
-**Simply:** Follow the connection across books without making every passage say the same thing.
-
-**Deeper:** A repeated English word does not by itself prove a biblical theme. Compare function, audience, literary setting, and development before claiming continuity.
-
-**Reflection:** What difference between two passages would you need to preserve when tracing “What a thread is”?
+**Reflection:** How could a verse in “Who said it, and to whom” be misused if its speaker or recipient were ignored?
 
 
 ### Return mission
@@ -818,45 +728,6 @@ Memory becomes useful interpretation when context is restored.
 **Hint:** A shelf category can contain several genres. Likewise, a book’s narrated era and its date of composition need not coincide; some placements remain debated.
 
 **Explanation:** Use shelf, setting, and textual context together when explaining a passage.
-
-### Integrated Bible-skill missions
-
-#### Content: What is actually in a book
-
-**Objective:** Use “What is actually in a book” to recognize what a biblical book contains and distinguish textual observation from background reconstruction.
-
-Every book can be held in a sentence. Not a summary of its theology — just what happens or what it contains.
-
-Build the book profile from evidence: what the text opens with, whom it names, what problem or story it develops, and what can responsibly be said about author and audience.
-
-Key anchors: Jonah — the prophet who ran · Haggai — finish the temple · Philemon — one page about one man
-
-Traditional attribution, internal claims, and modern scholarly reconstruction are different kinds of evidence. A responsible profile can preserve uncertainty instead of forcing a single answer. After the check, explain one answer in context rather than stopping at recognition.
-
-**Simply:** Know what the book is doing, who appears in it, and what evidence supports claims about author and audience.
-
-**Deeper:** Traditional attribution, internal claims, and modern scholarly reconstruction are different kinds of evidence. A responsible profile can preserve uncertainty instead of forcing a single answer.
-
-**Reflection:** Which claim in “What is actually in a book” would you want to verify directly from the book before repeating it?
-
-#### Verses: Two hundred and thirty-two passages
-
-**Objective:** Practice “Two hundred and thirty-two passages” so verse recall remains attached to speaker, recipient, book, and context.
-
-Every passage here carries its book, its speaker, who it was said to, a doctrinal theme and a life situation. Knowing who is talking is not decoration — it stops a verse being used for something it never said.
-
-Recall is strongest when wording stays attached to location and context. Book, speaker, recipient, and surrounding argument are part of knowing the passage.
-
-Use the mission title and subtitle—How they are tagged—as retrieval anchors, then explain the idea in your own words before checking it.
-
-Working cue: Job's friends say things the book later refutes. Tagging the speaker is what keeps that straight. This is a memory aid, not a substitute for the underlying context.
-
-**Simply:** Remember the words and the situation they belong to.
-
-**Deeper:** A verse can be quoted accurately and still be interpreted badly. Speaker, recipient, surrounding argument, genre, and translation all matter.
-
-**Reflection:** How could a verse in “Two hundred and thirty-two passages” be misused if its speaker or recipient were ignored?
-
 
 ### Return mission
 

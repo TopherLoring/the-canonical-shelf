@@ -87,25 +87,19 @@
   const UNIT_BY_STEP = {};
   const place=(unit, ids)=>ids.split(/\s+/).filter(Boolean).forEach(id=>UNIT_BY_STEP[id]=unit);
 
-  // Balanced curriculum placement. The 69 legacy requirements remain exact, but they are
-  // distributed by subject fit so each unit carries a useful amount of embedded practice.
-  // Mission counts by unit: 4,4,4,4,6,4,5,4,4,4,3,3,4,3,6,7.
-  place(1,'n.what t.what v.what c.two');
-  place(2,'n.plot n.author n.audience v.speaker');
-  place(3,'s.1 o.law g.law c.eras');
-  place(4,'s.2 s.3 c.anchor t.cov');
-  place(5,'s.4 s.5 s.7 o.hist1 g.hist o.hist2');
-  place(6,'o.wisdom g.wis v.strength t.faith');
-  place(7,'s.6 o.major o.minor1 g.major c.proph');
-  place(8,'s.9 o.gospels g.gospel n.nt');
-  place(9,'t.sac t.mercy v.love n.people2');
-  place(10,'s.10 o.paul1 g.paul c.paul');
-  place(11,'o.paul2 o.paul3 g.gen');
-  place(12,'o.general v.fruit v.build');
-  place(13,'o.ot o.nt g.edges g.map');
-  place(14,'c.oop n.people1 t.exile');
-  place(15,'s.8 o.minor2 o.minor3 g.minor g.proph v.proph');
-  place(16,'o.hist3 o.all g.all c.all n.all t.all v.all');
+  place(3,'s.1');
+  place(4,'s.2 s.3 o.law g.law t.cov');
+  place(5,'s.4 s.5 s.7 s.8 o.hist1 o.hist2 o.hist3 g.hist c.anchor c.oop n.people1 t.exile');
+  place(6,'o.wisdom g.wis');
+  place(7,'s.6 o.major o.minor1 o.minor2 o.minor3 o.ot g.major g.minor c.proph v.proph');
+  place(8,'s.9 o.gospels g.gospel');
+  place(9,'t.sac t.mercy');
+  place(10,'s.10 o.paul1 o.paul2 o.paul3 o.general o.nt g.paul g.gen c.paul n.nt n.people2 t.faith');
+  place(12,'v.love v.fruit');
+  place(15,'g.proph');
+  place(16,'o.all g.all c.all n.all t.all v.build v.all');
+  place(2,'g.map g.edges c.two c.eras n.what n.plot n.author n.audience t.what v.what v.speaker');
+  place(14,'v.strength');
 
   const strip=s=>String(s||'').replace(/<[^>]*>/g,'').replace(/&amp;/g,'&').replace(/\s+/g,' ').trim();
   const trackList=Object.keys(TRACKS);
@@ -186,14 +180,10 @@
     });
   }
 
-  const missionCountsByUnit=Object.fromEntries(D.units.map(u=>[u.id,D.skillMissions.filter(m=>m.unit===u.id).length]));
   D.integratedCurriculum={
-    units:D.units.length,
     guidedLessons:D.lessons.length,
     skillMissions:D.skillMissions.length,
-    totalActivities:D.lessons.length+D.skillMissions.length,
     tracks:D.skillTracks.length,
-    missionCountsByUnit,
     model:'one-curriculum',
     progressMeaning:'Guided lesson completion and embedded skill-mission completion are complementary requirements inside one learning path.'
   };

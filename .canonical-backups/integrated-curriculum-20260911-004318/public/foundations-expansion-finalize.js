@@ -149,7 +149,7 @@
         const marker=document.createElement('section');marker.dataset.expansion='home';marker.className='fd-course-progress';
         const state=(()=>{try{return F.exportState()}catch{return null}})();
         const next=D.lessons.find(l=>!state?.lessons?.[l.id]?.passed)||D.lessons[0];
-        marker.innerHTML=`<h3>16 units · 70 guided lessons · 69 mastery missions</h3><p><strong>139 learning activities in one curriculum.</strong> ${s.done}/${s.total} embedded mastery missions complete. Story, Order, Groups, Chronology, Content, Themes, and Verses are competency dimensions woven through the guided course rather than separate tracks.</p>${dimensions()}<button type="button" data-continue-lesson="${esc(next.id)}">Continue: ${esc(next.title)}</button><p><a href="docs/course-review.md">Curriculum architecture and coverage review</a></p>`;
+        marker.innerHTML=`<h3>One curriculum · seven Bible-skill dimensions</h3><p><strong>${s.done}/${s.total} integrated skill missions complete.</strong> The former Story, Order, Groups, Chronology, Content, Themes, and Verses tracks now run through the guided course instead of beside it.</p>${dimensions()}<button type="button" data-continue-lesson="${esc(next.id)}">Continue: ${esc(next.title)}</button><p><a href="docs/course-review.md">Curriculum architecture and coverage review</a></p>`;
         const filter=fd.querySelector('.fd-unit-filter');(filter||fd.firstElementChild).after(marker);
         fd.querySelectorAll('[data-fd="lesson"][data-id]').forEach(el=>{
           const lesson=D.lessons.find(l=>l.id===el.dataset.id),n=lesson?.skillMissions?.length||0;

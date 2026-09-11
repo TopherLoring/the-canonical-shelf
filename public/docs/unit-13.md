@@ -105,6 +105,27 @@ Connect each concrete example to the concept it illustrates.
 
 **7** Now to each one the manifestation of the Spirit is given for the common good.
 
+### Integrated Bible-skill missions
+
+#### Order: The Old Testament, end to end
+
+**Objective:** Reconstruct the canonical position of “The Old Testament, end to end” and use its boundaries to find neighboring books reliably.
+
+Five groups in a fixed order: law, then history, then poetry, then the long prophets, then the short ones. Thirty-nine books.
+
+Treat the sequence as a recoverable map. Use boundaries, neighboring books, repeated names, and structural rules so a forgotten item can be reconstructed rather than guessed.
+
+Key anchors: Law 5 · Historical 12 · Poetry 5 · Major 5 · Minor 12
+
+Working cue: 5 · 12 · 5 · 5 · 12 adds to 39. If your count is off, one group is wrong. This is a memory aid, not a substitute for the underlying context.
+
+**Simply:** Learn this run as a usable map, not merely as a chant.
+
+**Deeper:** Canonical order is a navigation convention. It is not the same thing as chronology, composition date, or importance, and Catholic and Orthodox collections differ from this 66-book Protestant shelf.
+
+**Reflection:** What anchor would help you recover “The Old Testament, end to end” if you forgot the middle of the sequence?
+
+
 ### Return mission
 
 ### Audit a new interpretation
@@ -231,6 +252,27 @@ Historical and literary distinctions can be kept while examining a real relation
 
 **Explanation:** Explain a confession’s claim before distinguishing your own agreement or questions.
 
+### Integrated Bible-skill missions
+
+#### Order: The New Testament, end to end
+
+**Objective:** Reconstruct the canonical position of “The New Testament, end to end” and use its boundaries to find neighboring books reliably.
+
+Four groups: the Gospels and Acts, Paul's thirteen, the eight general letters, and Revelation on its own.
+
+Treat the sequence as a recoverable map. Use boundaries, neighboring books, repeated names, and structural rules so a forgotten item can be reconstructed rather than guessed.
+
+Key anchors: Gospels & History 5 · Pauline 13 · General 8 · Prophecy 1
+
+Working cue: 5 · 13 · 8 · 1 adds to 27. This is a memory aid, not a substitute for the underlying context.
+
+**Simply:** Learn this run as a usable map, not merely as a chant.
+
+**Deeper:** Canonical order is a navigation convention. It is not the same thing as chronology, composition date, or importance, and Catholic and Orthodox collections differ from this 66-book Protestant shelf.
+
+**Reflection:** What anchor would help you recover “The New Testament, end to end” if you forgot the middle of the sequence?
+
+
 ### Return mission
 
 ### Return investigation: Creeds: learning a shared confession
@@ -350,6 +392,27 @@ Unity and cooperation need not erase all distinctions.
 
 **Explanation:** Represent a neighboring tradition fairly and identify a practical area of cooperation.
 
+### Integrated Bible-skill missions
+
+#### Groups: Nine groups, two testaments
+
+**Objective:** Identify the boundaries and reading strategy associated with “Nine groups, two testaments” without confusing shelf group with literary genre.
+
+The shelf is not sorted by date or author. It is sorted by kind of writing. Five groups in the Old Testament, four in the New.
+
+Use the shelf label to find the book, then identify the actual literary form in the passage before deciding how literally, poetically, narratively, or rhetorically to read it.
+
+Key anchors: Law 5 · Historical 12 · Poetry 5 · Major Prophets 5 · Minor Prophets 12 · Gospels & History 5 · Pauline 13 · General 8 · Prophecy 1
+
+Working cue: 5·12·5·5·12 = 39. 5·13·8·1 = 27. Together 66. This is a memory aid, not a substitute for the underlying context.
+
+**Simply:** Know this neighborhood of the shelf and adjust how you read when the literary form changes.
+
+**Deeper:** A shelf group can contain several literary forms. Narrative, poetry, law, genealogy, prophecy, correspondence, and symbolic vision may appear inside the same book.
+
+**Reflection:** What reading mistake becomes less likely once you understand “Nine groups, two testaments”?
+
+
 ### Return mission
 
 ### Return investigation: Authority and unity across Christian traditions
@@ -468,6 +531,27 @@ Fair comparison uses evidence and allows internal variety.
 **Hint:** Receiving others in Romans 14 should not be used to erase harmful conduct or all doctrinal distinctions. Identify what the ancient dispute is before drawing a modern comparison.
 
 **Explanation:** Compare official statements with concrete local questions about participation and teaching.
+
+### Integrated Bible-skill missions
+
+#### Groups: Where each group starts and stops
+
+**Objective:** Identify the boundaries and reading strategy associated with “Where each group starts and stops” without confusing shelf group with literary genre.
+
+Knowing the edges lets you place any book by elimination. If it sits between Joshua and Esther it is history; between Isaiah and Daniel it is a major prophet.
+
+Use the shelf label to find the book, then identify the actual literary form in the passage before deciding how literally, poetically, narratively, or rhetorically to read it.
+
+Use the mission title and subtitle—Boundaries—as retrieval anchors, then explain the idea in your own words before checking it.
+
+A shelf group can contain several literary forms. Narrative, poetry, law, genealogy, prophecy, correspondence, and symbolic vision may appear inside the same book. After the check, explain one answer in context rather than stopping at recognition.
+
+**Simply:** Know this neighborhood of the shelf and adjust how you read when the literary form changes.
+
+**Deeper:** A shelf group can contain several literary forms. Narrative, poetry, law, genealogy, prophecy, correspondence, and symbolic vision may appear inside the same book.
+
+**Reflection:** What reading mistake becomes less likely once you understand “Where each group starts and stops”?
+
 
 ### Return mission
 

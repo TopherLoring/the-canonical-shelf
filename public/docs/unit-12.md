@@ -113,23 +113,23 @@ Connect each concrete example to the concept it illustrates.
 
 ### Integrated Bible-skill missions
 
-#### Verses: Love
+#### Order: General Epistles
 
-**Objective:** Practice “Love” so verse recall remains attached to speaker, recipient, book, and context.
+**Objective:** Reconstruct the canonical position of “General Epistles” and use its boundaries to find neighboring books reliably.
 
-Twenty passages. The King James renders the word as charity, which is why 1 Corinthians 13 reads oddly in older Bibles.
+Eight letters, not addressed to one city. They are grouped by author, and within an author by length.
 
-Recall is strongest when wording stays attached to location and context. Book, speaker, recipient, and surrounding argument are part of knowing the passage.
+Treat the sequence as a recoverable map. Use boundaries, neighboring books, repeated names, and structural rules so a forgotten item can be reconstructed rather than guessed.
 
-Use the mission title and subtitle—Charity, in the older wording—as retrieval anchors, then explain the idea in your own words before checking it.
+Key anchors: Hebrews — anonymous · James · 1 Peter · 2 Peter · 1 John · 2 John · 3 John · Jude
 
-A verse can be quoted accurately and still be interpreted badly. Speaker, recipient, surrounding argument, genre, and translation all matter. After the check, explain one answer in context rather than stopping at recognition.
+Working cue: 2 and 3 John are the two shortest books in the Bible — thirteen and fourteen verses. This is a memory aid, not a substitute for the underlying context.
 
-**Simply:** Remember the words and the situation they belong to.
+**Simply:** Learn this run as a usable map, not merely as a chant.
 
-**Deeper:** A verse can be quoted accurately and still be interpreted badly. Speaker, recipient, surrounding argument, genre, and translation all matter.
+**Deeper:** Canonical order is a navigation convention. It is not the same thing as chronology, composition date, or importance, and Catholic and Orthodox collections differ from this 66-book Protestant shelf.
 
-**Reflection:** How could a verse in “Love” be misused if its speaker or recipient were ignored?
+**Reflection:** What anchor would help you recover “General Epistles” if you forgot the middle of the sequence?
 
 
 ### Return mission
@@ -393,6 +393,27 @@ The guide’s approved open-table commitment is explicit.
 **Hint:** Read the full chapter when considering examination and judgment language. The immediate problem includes the treatment of other people at the gathering.
 
 **Explanation:** Examine whether the arrangement of a shared meal makes its welcome concrete.
+
+### Integrated Bible-skill missions
+
+#### Verses: Rebuild them
+
+**Objective:** Practice “Rebuild them” so verse recall remains attached to speaker, recipient, book, and context.
+
+Reconstructing a verse from scrambled fragments forces you to produce it rather than recognise it.
+
+Recall is strongest when wording stays attached to location and context. Book, speaker, recipient, and surrounding argument are part of knowing the passage.
+
+Use the mission title and subtitle—From the pieces—as retrieval anchors, then explain the idea in your own words before checking it.
+
+A verse can be quoted accurately and still be interpreted badly. Speaker, recipient, surrounding argument, genre, and translation all matter. After the check, explain one answer in context rather than stopping at recognition.
+
+**Simply:** Remember the words and the situation they belong to.
+
+**Deeper:** A verse can be quoted accurately and still be interpreted badly. Speaker, recipient, surrounding argument, genre, and translation all matter.
+
+**Reflection:** How could a verse in “Rebuild them” be misused if its speaker or recipient were ignored?
+
 
 ### Return mission
 

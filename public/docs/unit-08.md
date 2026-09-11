@@ -556,6 +556,27 @@ A useful comparison preserves distinctive concerns rather than treating them as 
 
 **Explanation:** Compare two openings on their own terms before constructing a combined summary.
 
+### Integrated Bible-skill missions
+
+#### Content: One-liners: New Testament
+
+**Objective:** Use “One-liners: New Testament” to recognize what a biblical book contains and distinguish textual observation from background reconstruction.
+
+The same for the twenty-seven. Four Gospels, one history, twenty-one letters, one apocalypse.
+
+Build the book profile from evidence: what the text opens with, whom it names, what problem or story it develops, and what can responsibly be said about author and audience.
+
+Use the mission title and subtitle—Books 40–66—as retrieval anchors, then explain the idea in your own words before checking it.
+
+Traditional attribution, internal claims, and modern scholarly reconstruction are different kinds of evidence. A responsible profile can preserve uncertainty instead of forcing a single answer. After the check, explain one answer in context rather than stopping at recognition.
+
+**Simply:** Know what the book is doing, who appears in it, and what evidence supports claims about author and audience.
+
+**Deeper:** Traditional attribution, internal claims, and modern scholarly reconstruction are different kinds of evidence. A responsible profile can preserve uncertainty instead of forcing a single answer.
+
+**Reflection:** Which claim in “One-liners: New Testament” would you want to verify directly from the book before repeating it?
+
+
 ### Return mission
 
 ### Return investigation: Four Gospels: compare without flattening

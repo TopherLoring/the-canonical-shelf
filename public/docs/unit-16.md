@@ -125,15 +125,15 @@ Responsible application includes accountability to the people affected.
 
 ### Integrated Bible-skill missions
 
-#### Order: All sixty-six
+#### Order: All twelve histories
 
-**Objective:** Reconstruct the canonical position of “All sixty-six” and use its boundaries to find neighboring books reliably.
+**Objective:** Reconstruct the canonical position of “All twelve histories” and use its boundaries to find neighboring books reliably.
 
-Nine groups, two testaments, one shelf. Genesis to Revelation with nothing in front of you.
+Now the whole run in one go. Joshua through Esther is the historical backbone of the Old Testament — everything else slots into it.
 
 Treat the sequence as a recoverable map. Use boundaries, neighboring books, repeated names, and structural rules so a forgotten item can be reconstructed rather than guessed.
 
-Key anchors: 5 · 12 · 5 · 5 · 12 — then — 5 · 13 · 8 · 1
+Key anchors: Joshua · Judges · Ruth · 1 Samuel · 2 Samuel · 1 Kings · 2 Kings · 1 Chronicles · 2 Chronicles · Ezra · Nehemiah · Esther
 
 Canonical order is a navigation convention. It is not the same thing as chronology, composition date, or importance, and Catholic and Orthodox collections differ from this 66-book Protestant shelf. After the check, explain one answer in context rather than stopping at recognition.
 
@@ -141,25 +141,25 @@ Canonical order is a navigation convention. It is not the same thing as chronolo
 
 **Deeper:** Canonical order is a navigation convention. It is not the same thing as chronology, composition date, or importance, and Catholic and Orthodox collections differ from this 66-book Protestant shelf.
 
-**Reflection:** What anchor would help you recover “All sixty-six” if you forgot the middle of the sequence?
+**Reflection:** What anchor would help you recover “All twelve histories” if you forgot the middle of the sequence?
 
-#### Themes: All fourteen
+#### Content: Everything inside
 
-**Objective:** Trace the thread in “All fourteen” across more than one book and explain both continuity and change.
+**Objective:** Use “Everything inside” to recognize what a biblical book contains and distinguish textual observation from background reconstruction.
 
-Any thread, any book, both directions.
+Summaries, casts, openings and authors, any book.
 
-Trace the concern in more than one setting. The aim is not to collect matching labels but to explain what remains continuous and what changes as the theme moves through the canon.
+Build the book profile from evidence: what the text opens with, whom it names, what problem or story it develops, and what can responsibly be said about author and audience.
 
 Use the mission title and subtitle—Capstone—as retrieval anchors, then explain the idea in your own words before checking it.
 
-A repeated English word does not by itself prove a biblical theme. Compare function, audience, literary setting, and development before claiming continuity. After the check, explain one answer in context rather than stopping at recognition.
+Traditional attribution, internal claims, and modern scholarly reconstruction are different kinds of evidence. A responsible profile can preserve uncertainty instead of forcing a single answer. After the check, explain one answer in context rather than stopping at recognition.
 
-**Simply:** Follow the connection across books without making every passage say the same thing.
+**Simply:** Know what the book is doing, who appears in it, and what evidence supports claims about author and audience.
 
-**Deeper:** A repeated English word does not by itself prove a biblical theme. Compare function, audience, literary setting, and development before claiming continuity.
+**Deeper:** Traditional attribution, internal claims, and modern scholarly reconstruction are different kinds of evidence. A responsible profile can preserve uncertainty instead of forcing a single answer.
 
-**Reflection:** What difference between two passages would you need to preserve when tracing “All fourteen”?
+**Reflection:** Which claim in “Everything inside” would you want to verify directly from the book before repeating it?
 
 
 ### Return mission
@@ -280,41 +280,41 @@ The opening introduces a work; it does not replace the work.
 
 ### Integrated Bible-skill missions
 
-#### Groups: All nine
+#### Order: All sixty-six
 
-**Objective:** Identify the boundaries and reading strategy associated with “All nine” without confusing shelf group with literary genre.
+**Objective:** Reconstruct the canonical position of “All sixty-six” and use its boundaries to find neighboring books reliably.
 
-Every book, any group, mixed together.
+Nine groups, two testaments, one shelf. Genesis to Revelation with nothing in front of you.
 
-Use the shelf label to find the book, then identify the actual literary form in the passage before deciding how literally, poetically, narratively, or rhetorically to read it.
+Treat the sequence as a recoverable map. Use boundaries, neighboring books, repeated names, and structural rules so a forgotten item can be reconstructed rather than guessed.
+
+Key anchors: 5 · 12 · 5 · 5 · 12 — then — 5 · 13 · 8 · 1
+
+Canonical order is a navigation convention. It is not the same thing as chronology, composition date, or importance, and Catholic and Orthodox collections differ from this 66-book Protestant shelf. After the check, explain one answer in context rather than stopping at recognition.
+
+**Simply:** Learn this run as a usable map, not merely as a chant.
+
+**Deeper:** Canonical order is a navigation convention. It is not the same thing as chronology, composition date, or importance, and Catholic and Orthodox collections differ from this 66-book Protestant shelf.
+
+**Reflection:** What anchor would help you recover “All sixty-six” if you forgot the middle of the sequence?
+
+#### Themes: All fourteen
+
+**Objective:** Trace the thread in “All fourteen” across more than one book and explain both continuity and change.
+
+Any thread, any book, both directions.
+
+Trace the concern in more than one setting. The aim is not to collect matching labels but to explain what remains continuous and what changes as the theme moves through the canon.
 
 Use the mission title and subtitle—Capstone—as retrieval anchors, then explain the idea in your own words before checking it.
 
-A shelf group can contain several literary forms. Narrative, poetry, law, genealogy, prophecy, correspondence, and symbolic vision may appear inside the same book. After the check, explain one answer in context rather than stopping at recognition.
+A repeated English word does not by itself prove a biblical theme. Compare function, audience, literary setting, and development before claiming continuity. After the check, explain one answer in context rather than stopping at recognition.
 
-**Simply:** Know this neighborhood of the shelf and adjust how you read when the literary form changes.
+**Simply:** Follow the connection across books without making every passage say the same thing.
 
-**Deeper:** A shelf group can contain several literary forms. Narrative, poetry, law, genealogy, prophecy, correspondence, and symbolic vision may appear inside the same book.
+**Deeper:** A repeated English word does not by itself prove a biblical theme. Compare function, audience, literary setting, and development before claiming continuity.
 
-**Reflection:** What reading mistake becomes less likely once you understand “All nine”?
-
-#### Verses: Rebuild them
-
-**Objective:** Practice “Rebuild them” so verse recall remains attached to speaker, recipient, book, and context.
-
-Reconstructing a verse from scrambled fragments forces you to produce it rather than recognise it.
-
-Recall is strongest when wording stays attached to location and context. Book, speaker, recipient, and surrounding argument are part of knowing the passage.
-
-Use the mission title and subtitle—From the pieces—as retrieval anchors, then explain the idea in your own words before checking it.
-
-A verse can be quoted accurately and still be interpreted badly. Speaker, recipient, surrounding argument, genre, and translation all matter. After the check, explain one answer in context rather than stopping at recognition.
-
-**Simply:** Remember the words and the situation they belong to.
-
-**Deeper:** A verse can be quoted accurately and still be interpreted badly. Speaker, recipient, surrounding argument, genre, and translation all matter.
-
-**Reflection:** How could a verse in “Rebuild them” be misused if its speaker or recipient were ignored?
+**Reflection:** What difference between two passages would you need to preserve when tracing “All fourteen”?
 
 
 ### Return mission
@@ -446,23 +446,23 @@ An accountable interpretation makes counterevidence visible.
 
 ### Integrated Bible-skill missions
 
-#### Chronology: Whole timeline
+#### Groups: All nine
 
-**Objective:** Use “Whole timeline” to place events on a qualified teaching timeline while keeping shelf position and composition distinct.
+**Objective:** Identify the boundaries and reading strategy associated with “All nine” without confusing shelf group with literary genre.
 
-Any book, any era, both testaments.
+Every book, any group, mixed together.
 
-Keep four layers visible: shelf position, narrated events, historical reconstruction, and composition. Agreement in one layer does not automatically settle the others.
+Use the shelf label to find the book, then identify the actual literary form in the passage before deciding how literally, poetically, narratively, or rhetorically to read it.
 
 Use the mission title and subtitle—Capstone—as retrieval anchors, then explain the idea in your own words before checking it.
 
-Biblical dating is uneven in certainty. Anchor dates can orient a teaching timeline, but disputed dates and authorship should remain visibly qualified rather than presented as settled fact. After the check, explain one answer in context rather than stopping at recognition.
+A shelf group can contain several literary forms. Narrative, poetry, law, genealogy, prophecy, correspondence, and symbolic vision may appear inside the same book. After the check, explain one answer in context rather than stopping at recognition.
 
-**Simply:** Ask when the events happen, when the text was written or shaped, and where the book sits on the shelf as separate questions.
+**Simply:** Know this neighborhood of the shelf and adjust how you read when the literary form changes.
 
-**Deeper:** Biblical dating is uneven in certainty. Anchor dates can orient a teaching timeline, but disputed dates and authorship should remain visibly qualified rather than presented as settled fact.
+**Deeper:** A shelf group can contain several literary forms. Narrative, poetry, law, genealogy, prophecy, correspondence, and symbolic vision may appear inside the same book.
 
-**Reflection:** Where could “Whole timeline” be misunderstood if shelf order were treated as historical order?
+**Reflection:** What reading mistake becomes less likely once you understand “All nine”?
 
 #### Verses: Every passage
 
@@ -669,23 +669,23 @@ Automated completion and independent evaluation are different outcomes.
 
 ### Integrated Bible-skill missions
 
-#### Content: Everything inside
+#### Chronology: Whole timeline
 
-**Objective:** Use “Everything inside” to recognize what a biblical book contains and distinguish textual observation from background reconstruction.
+**Objective:** Use “Whole timeline” to place events on a qualified teaching timeline while keeping shelf position and composition distinct.
 
-Summaries, casts, openings and authors, any book.
+Any book, any era, both testaments.
 
-Build the book profile from evidence: what the text opens with, whom it names, what problem or story it develops, and what can responsibly be said about author and audience.
+Keep four layers visible: shelf position, narrated events, historical reconstruction, and composition. Agreement in one layer does not automatically settle the others.
 
 Use the mission title and subtitle—Capstone—as retrieval anchors, then explain the idea in your own words before checking it.
 
-Traditional attribution, internal claims, and modern scholarly reconstruction are different kinds of evidence. A responsible profile can preserve uncertainty instead of forcing a single answer. After the check, explain one answer in context rather than stopping at recognition.
+Biblical dating is uneven in certainty. Anchor dates can orient a teaching timeline, but disputed dates and authorship should remain visibly qualified rather than presented as settled fact. After the check, explain one answer in context rather than stopping at recognition.
 
-**Simply:** Know what the book is doing, who appears in it, and what evidence supports claims about author and audience.
+**Simply:** Ask when the events happen, when the text was written or shaped, and where the book sits on the shelf as separate questions.
 
-**Deeper:** Traditional attribution, internal claims, and modern scholarly reconstruction are different kinds of evidence. A responsible profile can preserve uncertainty instead of forcing a single answer.
+**Deeper:** Biblical dating is uneven in certainty. Anchor dates can orient a teaching timeline, but disputed dates and authorship should remain visibly qualified rather than presented as settled fact.
 
-**Reflection:** Which claim in “Everything inside” would you want to verify directly from the book before repeating it?
+**Reflection:** Where could “Whole timeline” be misunderstood if shelf order were treated as historical order?
 
 
 ### Return mission
