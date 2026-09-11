@@ -1,0 +1,16 @@
+const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict');
+const pub=path.resolve(__dirname,'../public');
+const css=fs.readFileSync(path.join(pub,'v4-design-system.css'),'utf8');
+const app=fs.readFileSync(path.join(pub,'v4-app-integrated.js'),'utf8');
+const games=fs.readFileSync(path.join(pub,'v4-games.js'),'utf8');
+const guided=fs.readFileSync(path.join(pub,'v4-guided-shell.js'),'utf8');
+const preview=fs.readFileSync(path.join(pub,'v4-integrated-preview.html'),'utf8');
+assert.ok(css.includes(':focus-visible'),'interactive v4 controls need visible keyboard focus');
+assert.ok(css.includes('@media(forced-colors:active)'),'forced-colors support missing');
+assert.ok(css.includes('@media(prefers-contrast:more)'),'high-contrast preference support missing');
+assert.ok(css.includes('@media(prefers-reduced-motion:reduce)'),'reduced-motion support missing');
+assert.ok(app.includes('role="progressbar"')&&games.includes('role="progressbar"'),'course and challenge progress need semantic progressbars');
+assert.ok(games.includes('role="status"')&&games.includes('aria-live="polite"'),'challenge feedback must be announced without stealing interaction');
+assert.ok(app.includes('data-v4-route-focus')&&guided.includes('data-guided-focus'),'route transitions need programmatic focus targets');
+assert.ok(preview.includes('aria-pressed="true"')&&preview.includes('aria-pressed="false"'),'Course/Topics view switch must expose selected state');
+console.log('PASS v4 accessibility hooks: focus, progress, live feedback, contrast, and reduced motion');
