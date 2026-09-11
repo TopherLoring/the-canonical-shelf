@@ -2,7 +2,7 @@ const fs=require('node:fs'),path=require('node:path'),assert=require('node:asser
 const pub=path.resolve(__dirname,'../public');
 const html=fs.readFileSync(path.join(pub,'v4-integrated-preview.html'),'utf8');
 const sw=fs.readFileSync(path.join(pub,'sw.js'),'utf8');
-assert.ok(sw.includes('canon-v4-redesign-4'),'service-worker cache version must be bumped for the current full-shell v4 runtime');
+assert.ok(sw.includes('canon-v4-redesign-5'),'service-worker cache version must be bumped for the current full-shell v4 runtime');
 const assets=[...html.matchAll(/(?:src|href)="([^"]+)"/g)].map(m=>m[1]).filter(x=>!x.startsWith('#')&&!/^https?:/i.test(x));
 assert.ok(assets.length>=20,'integrated preview should expose a substantial local runtime asset set');
 for(const asset of assets){assert.ok(fs.existsSync(path.join(pub,asset)),`integrated preview references missing local asset ${asset}`);assert.ok(sw.includes(`./${asset}`),`service worker does not precache integrated preview asset ${asset}`);}
