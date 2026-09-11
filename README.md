@@ -2,7 +2,7 @@
 
 The Canonical Shelf is an offline-capable Bible reader, Bible-literacy trainer, and guided adult introduction to Christianity. It is designed for someone beginning with little or no prior Bible knowledge while retaining enough historical, literary, and theological depth to support serious continued study.
 
-This branch contains the **v4 curriculum redesign**. The existing reader/search application remains available from `public/index.html`; the integrated v4 learning experience is currently exposed at `public/v4-integrated-preview.html` while the redesigned course is completed and verified before replacing the production learning shell.
+This branch contains the **v4 curriculum redesign integrated into the full application shell**. `public/index.html` still provides the established shelf, Practice, Explore, Verses, book reader, and local Bible search; the v4 loader now replaces the old learner-facing Learn surface with **Course** and adds **Topics** alongside those existing tools. `public/v4-integrated-preview.html` remains as a standalone QA surface for testing Course + Topics independently of the older application chrome.
 
 ## v4 learning architecture
 
@@ -16,7 +16,7 @@ The redesign is one connected curriculum rather than a guided course plus detach
 - **45 curated Topics guides** for doctrine, Christian life, difficult questions, and reference
 - integrated completion, review, attempt, and unit/course progress
 - untimed understanding checks with retries and contextual feedback
-- offline precaching of the complete integrated v4 runtime
+- offline precaching of the complete integrated v4 runtime and full-shell bridge
 
 Guided lessons and mastery activities are interleaved inside the same unit path. A learner encounters explanation, Scripture, visual orientation, vocabulary, reflection, and an understanding check, then applies related Bible-literacy skills where they naturally belong. Mastery is therefore part of the curriculum rather than a second course hidden behind a “skill lab.”
 
@@ -83,7 +83,7 @@ The application assesses a learner's use of evidence and concepts, **not persona
 
 ## Topics reference
 
-The v4 Topics library currently contains **45 curated plain-English reference articles** covering doctrine, Scripture, Christian practice, ethics, difficult questions, and common life concerns. Topics are separate from course completion: they are a searchable reference layer a learner can consult when a question arises.
+The v4 Topics library currently contains **45 curated plain-English reference articles** covering doctrine, Scripture, Christian practice, ethics, difficult questions, and common life concerns. Topics are separate from course completion: they are a searchable reference layer a learner can consult when a question arises. Opened Topics are retained as lightweight recent-reference history without becoming scored course work.
 
 ## Editorial and theological framework
 
@@ -106,12 +106,18 @@ Approved teaching commitments include:
 
 Personal speculative beliefs discussed during development are not silently promoted to course doctrine. See [`public/docs/curriculum.md`](public/docs/curriculum.md) for the fuller framework.
 
-## Reading, search, and course surfaces
+## Full application surfaces
 
-- **Course (v4 preview):** the 25-unit, 139-activity integrated learning path.
-- **Topics (v4 preview):** searchable expert-style reference articles.
-- **Explore (existing app):** complete biblical text navigation by book and chapter.
-- **Search (existing app):** local search against `public/corpus.txt`, including references/ranges and complete verse text.
+The redesign branch now presents these surfaces in one application shell:
+
+- **Practice:** the established optional drills/free play.
+- **Explore:** complete biblical text navigation by book and chapter.
+- **Course:** the v4 25-unit, 139-activity integrated curriculum mounted into the former Learn route.
+- **Topics:** the v4 searchable plain-English reference desk.
+- **Verses:** the established curated passage/reference surface.
+- **Global Bible search:** local search against `public/corpus.txt`, including references/ranges and complete verse text; search continues routing to the Bible/Verses result surface rather than Topics.
+
+`v4-integrated-preview.html` remains useful as an isolated Course + Topics QA surface, but it is no longer the only way to enter v4 on this branch.
 
 The installation uses the Berean Standard Bible corpus and a 66-book Protestant shelf. The curriculum explicitly teaches that Catholic and Orthodox canons differ and that this shelf arrangement is not the only Christian canon organization.
 
@@ -125,7 +131,7 @@ npm run docs
 ```
 
 - `npm test` runs the baseline foundations/interactions/expansion tests **and** the complete v4 verification suite.
-- `npm run test:v4` runs the v4 architecture, mastery, migration, visual, game, progress, Topics, loader, integrated-preview, and offline-cache checks directly.
+- `npm run test:v4` runs the v4 architecture, mastery, migration, visual, game, progress, Topics, loader, full-shell integration, standalone preview, accessibility, and offline-cache checks directly.
 - `npm run docs` regenerates the legacy/source unit documents used during curriculum development.
 
 To serve the repository locally:
@@ -134,15 +140,15 @@ To serve the repository locally:
 python -m http.server 8000 --directory public
 ```
 
-Then open either the existing application at `/` or the redesign at `/v4-integrated-preview.html`.
+Open `/` for the integrated full application. Open `/v4-integrated-preview.html` only when you want the isolated Course + Topics QA surface.
 
 ## Offline behavior
 
-`public/sw.js` uses cache version `canon-v4-redesign-2`. It precaches the complete local runtime required by the integrated v4 preview—including the 70-lesson migration layer, mastery content, Topics corpus, visuals, games, progress model, and styles—alongside the existing application assets. The v4 preview registers that service worker directly. Runtime caching ignores failed/opaque responses, and navigation has separate cached fallbacks for the baseline application and the v4 preview.
+`public/sw.js` uses cache version `canon-v4-redesign-4`. It precaches the complete local runtime required by the full application and v4 integration—including the 70-lesson migration layer, mastery content, Topics corpus, visuals, games, progress model, full-shell bridge, and styles. The existing application and standalone v4 preview both register the service worker. Runtime caching ignores failed/opaque responses, and navigation retains separate cached fallbacks for the full application and standalone preview.
 
 ## Cloudflare deployment
 
-`wrangler.jsonc` uses Cloudflare Workers Static Assets with `public/` bound as `ASSETS`. `worker.js` is intentionally minimal and delegates requests directly to the static asset binding. The redesign branch does **not** yet replace `public/index.html`; keeping the v4 experience at its own entry point protects the complete reader/search application while the redesigned learning shell is validated.
+`wrangler.jsonc` uses Cloudflare Workers Static Assets with `public/` bound as `ASSETS`. `worker.js` is intentionally minimal and delegates requests directly to the static asset binding. On this redesign branch the v4 loader mounts Course + Topics into the existing `public/index.html` shell at runtime, preserving the established reader/search/Practice/Verses surfaces while keeping the standalone preview available for focused QA.
 
 The repository should not contain generated `node_modules/`, `.wrangler/`, or local Wrangler account-cache files. Install dependencies during development/build instead.
 
@@ -157,10 +163,12 @@ Automated v4 verification currently protects:
 - challenge renderers, answer locking, hints, retries, feedback, and keyboard/focus behavior;
 - guided completion/review persistence and mastery attempt accounting;
 - integrated course navigation and progress semantics;
-- 45 Topics entries;
-- loader ordering and integrated-preview wiring;
+- 45 Topics entries plus reference-history/focus integration;
+- accessibility hooks for focus, progress, live feedback, reduced motion, high contrast, and forced colors;
+- full-shell integration preserving Practice, Explore, Verses, and global Bible-search routing;
+- standalone preview and loader ordering;
 - complete offline runtime precaching.
 
-Before v4 should replace the production learning shell, the remaining high-value work is primarily product integration and human QA: integrate the redesigned Course/Topics surfaces with the existing Explore/Search shell without regressions; complete screen-reader, keyboard, high-contrast, mobile, and cross-browser testing; perform novice-learner usability testing; conduct a source-by-source scholarly review of contested authorship/dating claims and the 66-book profiles; and add human/peer feedback around the independent study project.
+The major structural/product integration work is therefore implemented on this branch. Remaining release gates are principally **human and editorial validation**: complete real screen-reader, keyboard, high-contrast, touch/mobile, and cross-browser testing; perform novice-learner usability testing; conduct a source-by-source scholarly review of contested authorship/dating/audience claims and the 66-book profiles; add human/peer feedback around the independent study project; and run final manual regression checks of Explore/Search/Practice/Verses in the integrated shell before merging to production.
 
 See [`public/docs/course-review.md`](public/docs/course-review.md) for the evolving curriculum-quality audit.
