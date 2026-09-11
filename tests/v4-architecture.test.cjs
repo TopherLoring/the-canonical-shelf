@@ -23,5 +23,5 @@ assert.equal(Object.keys(M).length,69,'all 69 mastery modules must be authored')
 assert.deepEqual(Object.keys(M).sort(),[...expected].sort(),'authored mastery IDs must exactly match preserved requirements');
 for(const id of expected){const m=M[id];assert.ok(m.title&&m.dek&&Array.isArray(m.body)&&m.body.length>=3,`${id}: incomplete authored teaching copy`);assert.ok(m.plain&&m.plain.length>=35,`${id}: missing useful plain-English summary`);assert.ok(m.visual?.type,`${id}: missing purpose-built visual`);assert.ok(m.challenge?.kind,`${id}: missing redesigned understanding check`);assert.ok(m.challenge?.prompt||m.challenge?.title,`${id}: challenge needs learner-facing copy`);}
 assert.equal(manifest.total,69);assert.equal(manifest.status,'fully-authored');
-assert.deepEqual(manifest.tracks,{story:10,order:17,groups:12,chrono:7,content:8,themes:7,verses:8});
+assert.equal(JSON.stringify(manifest.tracks),JSON.stringify({story:10,order:17,groups:12,chrono:7,content:8,themes:7,verses:8}));
 console.log('PASS v4 architecture: 23 units / 69 exact placements / 69 fully authored mastery modules');
