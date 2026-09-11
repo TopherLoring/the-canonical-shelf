@@ -1,0 +1,27 @@
+/* Corrected exact v4 placement table. v4-loader aliases this over the earlier draft map. */
+window.CANON_V4_PLACEMENT={
+  1:['n.what','v.what','t.what'],
+  2:['c.two','n.author','n.audience'],
+  3:['g.map','g.edges','o.law'],
+  4:['s.1','s.10','o.all'],
+  5:['s.2','n.plot','t.cov'],
+  6:['s.3','c.eras','c.anchor'],
+  7:['g.law','v.build','t.faith'],
+  8:['s.4','o.hist1','g.hist'],
+  9:['s.5','o.hist2','n.people1'],
+  10:['s.6','o.major','g.major'],
+  11:['s.7','s.8','t.exile'],
+  12:['o.wisdom','g.wis','v.strength'],
+  13:['o.minor1','o.minor2','g.minor'],
+  14:['s.9','o.gospels','g.gospel'],
+  15:['t.sac','t.mercy','v.love'],
+  16:['n.nt','c.oop','o.nt'],
+  17:['o.paul1','o.paul2','g.paul'],
+  18:['o.general','g.gen','g.proph'],
+  19:['c.paul','n.people2','v.speaker'],
+  20:['v.fruit','o.paul3','g.all'],
+  21:['c.proph','o.minor3','o.ot'],
+  22:['t.all','v.proph','o.hist3'],
+  23:['c.all','n.all','v.all']
+};
+if(window.CANON_V4_COURSE)window.CANON_V4_COURSE.masteryPlacement=window.CANON_V4_PLACEMENT;
