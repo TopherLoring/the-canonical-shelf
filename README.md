@@ -1,113 +1,174 @@
 # The Canonical Shelf
 
-The Canonical Shelf is an offline-capable Bible reader, Bible-literacy trainer, and guided adult introduction to Christianity. It is designed for someone beginning with little or no prior knowledge while retaining enough historical, literary, and theological depth to support serious continued study.
+The Canonical Shelf is an offline-capable Bible reader, Bible-literacy trainer, and guided adult introduction to Christianity. It is designed for someone beginning with little or no prior Bible knowledge while retaining enough historical, literary, and theological depth to support serious continued study.
 
-The deployed application is served from `public/`. Search runs directly against `public/corpus.txt` and returns complete Bible verses; Explore provides book-by-book and chapter-by-chapter access to the complete 66-book corpus.
+This branch contains the **v4 curriculum redesign integrated into the full application shell**. `public/index.html` still provides the established shelf, Practice, Explore, Verses, book reader, and local Bible search; the v4 loader now replaces the old learner-facing Learn surface with **Course** and adds **Topics** alongside those existing tools. `public/v4-integrated-preview.html` remains as a standalone QA surface for testing Course + Topics independently of the older application chrome.
 
-## Learning architecture
+## v4 learning architecture
 
-The curriculum contains **16 units and 70 guided lessons**, with **4–5 distinct guided lessons in every unit**, plus **69 integrated Bible-skill missions** rebuilt from the original seven-track learning plan. The skill missions are distributed through the same units instead of living in a parallel legacy course.
+The redesign is one connected curriculum rather than a guided course plus detached legacy skill tracks:
 
-The expanded path covers:
+- **25 learner-facing units**
+- **70 guided lessons**
+- **69 integrated mastery activities** preserving every requirement from the original seven-track plan
+- **139 total course activities**
+- **70 lesson-specific instructional visuals** plus purpose-built mastery visuals
+- **45 curated Topics guides** for doctrine, Christian life, difficult questions, and reference
+- integrated completion, review, attempt, and unit/course progress
+- untimed understanding checks with retries and contextual feedback
+- offline precaching of the complete integrated v4 runtime and full-shell bridge
 
-1. Orientation and the central Christian story
-2. Reading Scripture: genre, context, translation, textual criticism, application, and Bible-navigation skills
-3. Creation and humanity
-4. Covenant and liberation
-5. Land, kingdom, exile, and return
-6. Prayer and wisdom literature
-7. Prophets and justice
-8. Jesus in his Jewish world and the Gospels
-9. Cross, atonement, resurrection, grace, and repentance
-10. The early Church and New Testament communities
-11. Trinity, incarnation, Spirit, providence, and freedom
-12. Baptism, Communion, prayer, and Christian formation
-13. Creeds, authority, ecumenism, and Christian traditions
-14. Difficult ethical texts, LGBTQ inclusion, Judaism/other religions, suffering, miracles, and spiritual discernment
-15. Resurrection, judgment, apocalyptic literature, and renewed creation
-16. Independent whole-book study, argument building, theme tracing, application, and revision
+Guided lessons and mastery activities are interleaved inside the same unit path. A learner encounters explanation, Scripture, visual orientation, vocabulary, reflection, and an understanding check, then applies related Bible-literacy skills where they naturally belong. Mastery is therefore part of the curriculum rather than a second course hidden behind a “skill lab.”
 
-Guided understanding checks are gamified rather than simple Q&A. They use evidence boards, sequencing, multi-stage scenarios, matching, and directed argument maps. New lessons add 94 initial challenges and 94 return challenges; combined with the existing curriculum, the application contains **144 initial guided challenges and 130 return-review challenges**. Hints and retries are unlimited, missions are untimed, and the system assesses understanding rather than personal assent.
+### 25-unit sequence
 
-## Original learning plan — rebuilt and integrated
+1. **Start Here** — Christianity, Jesus, the course, and responsible learning
+2. **How to Read a Bible** — references, context, translation, manuscripts, and canon
+3. **The Bible as a Library** — the 66-book shelf, groups, genres, and navigation
+4. **The Story in One View** — the whole biblical arc and its major hinge events
+5. **Beginnings** — creation, humanity, rupture, mortality, and first promises
+6. **Abraham to Exodus** — patriarchs, covenant, Egypt, Moses, and liberation
+7. **Torah and Wilderness** — law, holiness, covenant life, testing, and formation
+8. **Land and Judges** — conquest, settlement, Judges, Ruth, violence, and cycles
+9. **Kings and Temple** — Samuel, Saul, David, Solomon, monarchy, and temple
+10. **Division and Prophets** — the divided kingdoms, injustice, warning, and Assyria
+11. **Exile and Return** — Babylon, 586 BC, exile, Persia, return, and rebuilding
+12. **Poetry and Wisdom** — Job, Psalms, Proverbs, Ecclesiastes, and Song of Songs
+13. **The Prophetic Library** — Major and Minor Prophets, chronology, and prophetic reading
+14. **Jesus and the Gospels** — four Gospel portraits, Jewish context, kingdom, and discipleship
+15. **Cross and Salvation** — atonement, grace, repentance, faith, resurrection, and reconciliation
+16. **Acts and the Early Church** — Pentecost, mission, inclusion, conflict, and communal discernment
+17. **Paul and His Letters** — Paul, audiences, letter order, theology, and community practice
+18. **General Letters** — Hebrews and the General Epistles in their community settings
+19. **Christian Doctrine** — Trinity, incarnation, Spirit, providence, freedom, and responsibility
+20. **Christian Practice** — prayer, baptism, Communion, formation, ethics, and neighbor-love
+21. **Christian Traditions** — authority, sacraments, polity, ecumenism, and denominational differences
+22. **Difficult Questions** — suffering, harmful readings, inclusion, difficult ethical texts, and religious difference
+23. **Resurrection, Judgment, and New Creation** — final hope, apocalyptic literature, judgment, and interpretive limits
+24. **Themes Across Scripture** — canonical threads traced across books without flattening local context
+25. **Independent Mastery** — book profiles, chronology, verse context, interpretation, and whole-canon synthesis
 
-The original seven Bible-learning tracks now operate as competency dimensions across the single guided course. Every former track step is represented as an embedded skill mission with the same teach → understand → practice pattern as the newer curriculum. Mission completion remains measurable so theological exposure is not confused with Bible-navigation or recall mastery.
+The 70 guided lessons are deliberately distributed across these units rather than forced into identical sizes. Each unit currently contains **1–5 guided lessons**, allowing dense subjects to breathe without padding narrower subjects with unrelated material.
 
-| Track | Steps | Intended learning |
+## Original learning plan — preserved and rebuilt
+
+The original seven Bible-learning modes are now competency dimensions within the v4 course. All **69 original requirements** remain present exactly once, but their teaching, visuals, and checks have been rewritten to match the newer curriculum.
+
+| Competency | Requirements | Intended learning |
 |---|---:|---|
-| **The Story** | 10 | The biblical arc in ten beats, checked against the books that carry it |
-| **Order** | 17 | Group by group, then testament, then all 66 books |
-| **Groups** | 12 | The nine shelf groups plus how to read the literary forms they contain |
-| **Chronology** | 7 | Shelf order versus narrated setting and composition; disputed datings are treated as teaching models, not absolute facts |
-| **Content** | 8 | Summaries, casts, openings, authorship information, and audiences |
-| **Themes** | 7 | Fourteen threads traced across books; the expanded course adds fourteen paired-passage investigations |
-| **Verses** | 8 | Theme, speaker, recipient, and verse reconstruction |
+| **The Story** | 10 | The biblical arc in ten major movements and the books that carry it |
+| **Order** | 17 | Groups, testaments, and ultimately the complete 66-book shelf |
+| **Groups** | 12 | The nine shelf groups plus how literary form affects reading |
+| **Chronology** | 7 | Shelf position, narrated setting, historical sequence, composition, and confidence levels |
+| **Content** | 8 | Book movement, people, openings, attribution, and audiences |
+| **Themes** | 7 | Major threads traced across books without reducing context to keyword matching |
+| **Verses** | 8 | Theme, speaker, recipient, context, and reconstruction |
 
-That is **69 integrated skill missions** inside the guided curriculum. The legacy drill engine remains available behind those missions, and End-to-End remains the final cross-dimensional mastery challenge.
+The mastery modules use stable original IDs for coverage/audit purposes, but the learner sees them as subject-appropriate activities inside the 25-unit sequence. End-to-end synthesis remains the final cross-dimensional goal.
 
-See [`public/docs/course-review.md`](public/docs/course-review.md) for the full preservation audit, strengths, known gaps, and recommended next improvements.
+## Guided lesson design
+
+A typical v4 guided lesson contains:
+
+- a clear learning objective and complete primary reading;
+- substantive explanation plus a plain-language restatement;
+- vocabulary and a deeper interpretive layer;
+- a **lesson-specific visual** chosen for what it needs to teach—timeline, flow, comparison, shelf, story arc, relationship map, theme thread, verse-context model, book profile, spectrum, interpretive stack, or schematic map;
+- optional private reflection and a model response;
+- an initial understanding check and a different return-review challenge where available.
+
+The challenge system uses sequencing, matching, evidence classification, context reconstruction, argument mapping, scenarios, comparisons, verse rebuilding, timeline sorting, and capstone identification. Correct answers lock against accidental mutation; retries are free; hints appear only when authored; completion and later reviews are tracked separately.
+
+The application assesses a learner's use of evidence and concepts, **not personal theological assent**.
+
+## Topics reference
+
+The v4 Topics library currently contains **45 curated plain-English reference articles** covering doctrine, Scripture, Christian practice, ethics, difficult questions, and common life concerns. Topics are separate from course completion: they are a searchable reference layer a learner can consult when a question arises. Opened Topics are retained as lightweight recent-reference history without becoming scored course work.
 
 ## Editorial and theological framework
 
-The curriculum is explicitly LGBTQ-affirming and open-table, with strong influence from Metropolitan Community Churches and the Christian Church (Disciples of Christ). It engages historic Christian doctrine substantively, explains major disagreements in recognizable terms, and does not require assent in order to participate.
+The curriculum is explicitly LGBTQ-affirming and open-table, with strong influence from Metropolitan Community Churches and the Christian Church (Disciples of Christ). It engages historic Christian doctrine substantively, explains major disagreements in terms adherents would recognize, and does not require assent in order to participate.
 
-Among the approved teaching commitments are:
+Approved teaching commitments include:
 
 - Scripture is inspired and authoritative, interpreted through literary form, historical context, textual evidence, and the life and teaching of Jesus; inerrancy is not required.
 - Jesus Christ's willing sacrifice and resurrection are necessary to salvation. Biblical atonement language includes sin-bearing, reconciliation, sacrifice, substitution, and victory over sin and death; penal substitution is accommodated without being made the exclusive mechanism.
-- Salvation is God's gift of grace, received through acknowledging sin and human inability to save ourselves, repentance, trust in Christ's saving work, and acceptance of the gift. Loving conduct follows grace rather than purchasing it.
+- Salvation is God's gift of grace, received through repentance and trust in Christ rather than purchased by moral performance; loving conduct follows grace.
 - Historic Trinitarian and incarnational teaching is taught clearly: one God in three persons; Jesus fully divine and fully human.
 - Baptism is spiritually and socially significant without being declared necessary for salvation in this guide.
 - Communion is an open table: all are welcome, always. Differing Christian accounts of Christ's presence are explained fairly.
 - Human freedom is meaningful; wrongdoing is possible without evil becoming God's desire. Providence and human responsibility are held together without treating foreknowledge and causation as synonyms.
-- Genesis is read according to genre and ancient context; the curriculum does not require young-earth creationism. It distinguishes inherited mortality/brokenness from inherited personal guilt.
+- Genesis is read according to genre and ancient context; the course does not require young-earth creationism and distinguishes inherited mortality/brokenness from inherited personal guilt.
 - Christianity's Jewish roots are integral. Collective Jewish blame for Jesus' death and simplistic claims that God abandoned the Jewish people are rejected.
-- LGBTQ dignity, relationships, marriage, leadership, and equal participation are explicit editorial commitments. Opposing readings may be explained without putting a learner's dignity up for debate.
+- LGBTQ dignity, relationships, marriage, leadership, and equal participation are explicit editorial commitments. Opposing readings can be explained accurately without putting a learner's dignity up for debate.
 - Difficult texts involving conquest, slavery, women, suffering, judgment, miracles, Satan/demons, and final destiny are addressed directly with interpretive boundaries rather than hidden or sensationalized.
 - Bodily resurrection and renewed creation anchor final hope; detailed end-times systems remain disputed interpretations.
 
-Personal speculative beliefs discussed during curriculum development are not silently promoted to course doctrine. See [`public/docs/curriculum.md`](public/docs/curriculum.md) for the complete approved framework.
+Personal speculative beliefs discussed during development are not silently promoted to course doctrine. See [`public/docs/curriculum.md`](public/docs/curriculum.md) for the fuller framework.
 
-## Reading and practice
+## Full application surfaces
 
-- **Learn:** 70 guided lessons with 69 embedded Bible-skill missions, theology guide, continuing-study prompts, and private reflection notes.
-- **Practice:** the same understanding missions plus spaced return practice.
-- **Explore:** full biblical text navigation by book and chapter.
-- **Search:** queries `corpus.txt`; supports words/phrases and references/ranges and returns complete verse text.
-- **Book drills:** the original Bible-order, group, content, chronology, theme, and verse-memory systems remain accessible.
+The redesign branch now presents these surfaces in one application shell:
 
-This installation uses the Berean Standard Bible corpus and a 66-book Protestant shelf. The curriculum explicitly teaches that Catholic and Orthodox canons differ and that the app's shelf organization is not the only way communities organize Scripture.
+- **Practice:** the established optional drills/free play.
+- **Explore:** complete biblical text navigation by book and chapter.
+- **Course:** the v4 25-unit, 139-activity integrated curriculum mounted into the former Learn route.
+- **Topics:** the v4 searchable plain-English reference desk.
+- **Verses:** the established curated passage/reference surface.
+- **Global Bible search:** local search against `public/corpus.txt`, including references/ranges and complete verse text; search continues routing to the Bible/Verses result surface rather than Topics.
 
-## Curriculum provenance
+`v4-integrated-preview.html` remains useful as an isolated Course + Topics QA surface, but it is no longer the only way to enter v4 on this branch.
 
-The curriculum is original work. Sample introductory course descriptions from Concordia University Texas and Bethel University in Mishawaka informed the breadth expected of an introductory Bible/Christianity course; those institutions do not endorse this application. Denominational comparisons use each tradition's own current public material where available.
+The installation uses the Berean Standard Bible corpus and a 66-book Protestant shelf. The curriculum explicitly teaches that Catholic and Orthodox canons differ and that this shelf arrangement is not the only Christian canon organization.
 
 ## Development
 
 ```sh
 npm ci
 npm test
+npm run test:v4
 npm run docs
 ```
 
-`npm test` runs the existing foundations and full-app interaction suites plus the expansion integrity test. `npm run docs` regenerates unit documents using the baseline data and curriculum expansion layer.
+- `npm test` runs the baseline foundations/interactions/expansion tests **and** the complete v4 verification suite.
+- `npm run test:v4` runs the v4 architecture, mastery, migration, visual, game, progress, Topics, loader, full-shell integration, standalone preview, accessibility, and offline-cache checks directly.
+- `npm run docs` regenerates the legacy/source unit documents used during curriculum development.
 
-To serve locally:
+To serve the repository locally:
 
 ```sh
 python -m http.server 8000 --directory public
 ```
 
+Open `/` for the integrated full application. Open `/v4-integrated-preview.html` only when you want the isolated Course + Topics QA surface.
+
+## Offline behavior
+
+`public/sw.js` uses cache version `canon-v4-redesign-4`. It precaches the complete local runtime required by the full application and v4 integration—including the 70-lesson migration layer, mastery content, Topics corpus, visuals, games, progress model, full-shell bridge, and styles. The existing application and standalone v4 preview both register the service worker. Runtime caching ignores failed/opaque responses, and navigation retains separate cached fallbacks for the full application and standalone preview.
+
 ## Cloudflare deployment
 
-`wrangler.jsonc` uses Cloudflare Workers Static Assets with `public/` bound as `ASSETS`. `worker.js` runs before the HTML shell and appends the curriculum-expansion scripts after the existing application code. This keeps the large baseline data and interface intact while loading the 47 additional lessons additively.
-
-The service worker caches the expansion scripts and uses cache version `canon-v3.7.0`, ensuring clients do not remain indefinitely on the previous curriculum after deployment.
+`wrangler.jsonc` uses Cloudflare Workers Static Assets with `public/` bound as `ASSETS`. `worker.js` is intentionally minimal and delegates requests directly to the static asset binding. On this redesign branch the v4 loader mounts Course + Topics into the existing `public/index.html` shell at runtime, preserving the established reader/search/Practice/Verses surfaces while keeping the standalone preview available for focused QA.
 
 The repository should not contain generated `node_modules/`, `.wrangler/`, or local Wrangler account-cache files. Install dependencies during development/build instead.
 
-## Verification status and known gaps
+## Verification status and remaining work
 
-Structural tests verify lesson counts, unique IDs, complete corpus references, challenge schemas, all 69 integrated skill missions, original-step source coverage, and the 14 cross-book theme investigations. The existing interaction tests continue to protect the reader, search, progress persistence, import/export, and baseline missions.
+Automated v4 verification currently protects:
 
-The final editorial audit found the course substantially broader and more coherent than the 23-lesson baseline, while identifying worthwhile next improvements rather than treating expansion as finished pedagogy: add harder late-course transfer challenges with multiple plausible answers; conduct a source-by-source scholarly audit of all 66 book profiles and contested chronology/authorship claims; add human/peer review for the independent project; expand Second Temple/canon history; and test the complete learning path with adults who actually begin with little Bible knowledge and with assistive technologies.
+- all 70 guided lesson IDs and their 25-unit placement;
+- all 69 original mastery requirements exactly once;
+- substantive authored copy for every mastery module;
+- all 70 purpose-built guided visuals and their actual migration priority;
+- challenge renderers, answer locking, hints, retries, feedback, and keyboard/focus behavior;
+- guided completion/review persistence and mastery attempt accounting;
+- integrated course navigation and progress semantics;
+- 45 Topics entries plus reference-history/focus integration;
+- accessibility hooks for focus, progress, live feedback, reduced motion, high contrast, and forced colors;
+- full-shell integration preserving Practice, Explore, Verses, and global Bible-search routing;
+- standalone preview and loader ordering;
+- complete offline runtime precaching.
+
+The major structural/product integration work is therefore implemented on this branch. Remaining release gates are principally **human and editorial validation**: complete real screen-reader, keyboard, high-contrast, touch/mobile, and cross-browser testing; perform novice-learner usability testing; conduct a source-by-source scholarly review of contested authorship/dating/audience claims and the 66-book profiles; add human/peer feedback around the independent study project; and run final manual regression checks of Explore/Search/Practice/Verses in the integrated shell before merging to production.
+
+See [`public/docs/course-review.md`](public/docs/course-review.md) for the evolving curriculum-quality audit.

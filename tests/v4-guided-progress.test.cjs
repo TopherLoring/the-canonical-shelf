@@ -1,0 +1,17 @@
+const fs=require('node:fs'),path=require('node:path'),vm=require('node:vm'),assert=require('node:assert/strict');
+const pub=path.resolve(__dirname,'../public');
+const store=new Map();
+const ctx={window:{},localStorage:{getItem:k=>store.get(k)||null,setItem:(k,v)=>store.set(k,String(v))},Date,JSON,console};ctx.window.localStorage=ctx.localStorage;vm.createContext(ctx);
+vm.runInContext(fs.readFileSync(path.join(pub,'v4-progress-migration.js'),'utf8'),ctx,{filename:'v4-progress-migration.js'});
+const P=ctx.window.CanonV4Progress;
+P.completeLesson('lesson-a');assert.equal(P.state.lessons['lesson-a'].done,true);assert.equal(P.state.lessons['lesson-a'].review,0);
+P.reviewLesson('lesson-a');assert.equal(P.state.lessons['lesson-a'].review,1,'review completion should be persisted separately');
+P.attemptMastery('mastery-a');P.completeMastery('mastery-a');assert.equal(P.state.mastery['mastery-a'].attempts,1,'successful mastery should not double-count the final attempt');assert.equal(P.state.mastery['mastery-a'].done,true);
+P.completeMastery('mastery-b');assert.equal(P.state.mastery['mastery-b'].attempts,1,'direct mastery completion should still record at least one attempt');
+const guided=fs.readFileSync(path.join(pub,'v4-guided-shell.js'),'utf8'),app=fs.readFileSync(path.join(pub,'v4-app-integrated.js'),'utf8');
+assert.ok(guided.includes('completeLesson?.(lesson.id)'),'guided completion must write to v4 progress');
+assert.ok(guided.includes('reviewLesson?.(lesson.id)'),'guided review must update review progress');
+assert.ok(guided.includes("data-guided=\"continue\""),'completion screen must offer a route back into the unit path');
+assert.ok(app.includes('onBack:()=>unit(l.v4Unit)')&&app.includes('onComplete:()=>unit(l.v4Unit)'),'integrated app must preserve unit navigation across guided rerenders');
+assert.ok(!app.includes('function injectBack'),'legacy DOM injection navigation should be removed');
+console.log('PASS guided completion, review progress, mastery attempt accounting, and persistent unit navigation');

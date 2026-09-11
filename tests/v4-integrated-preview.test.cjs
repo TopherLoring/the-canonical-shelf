@@ -1,0 +1,14 @@
+const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict');
+const pub=path.resolve(__dirname,'../public');
+const html=fs.readFileSync(path.join(pub,'v4-integrated-preview.html'),'utf8');
+for(const f of ['v4-design-system.css','v4-integrated.css','v4-course-map.js','v4-curriculum-migration.js','v4-guided-shell.js','v4-mastery-manifest.js','topics-data.js','topics-extended.js','topics.js','v4-app-integrated.js'])assert.ok(html.includes(f),`integrated preview missing ${f}`);
+assert.ok(!html.includes('v4-course-map-fixed.js'),'integrated preview must not rely on the removed course-map shim');
+const app=fs.readFileSync(path.join(pub,'v4-app-integrated.js'),'utf8');
+assert.ok(app.includes('${C.units.length} units'),'integrated course count must come from the course architecture');
+assert.ok(app.includes('${Gd.lessons.length} guided lessons'),'guided lesson count must be data-driven');
+assert.ok(app.includes('${Object.keys(M).length} integrated mastery activities'),'mastery count must be data-driven');
+assert.ok(app.includes('${all.total} activities total'),'total activity count must be data-driven');
+assert.ok(app.includes('Guided teaching and mastery work are intentionally interleaved'),'unit path must explain integrated learning');
+assert.ok(app.includes("data-kind=\"mastery\""),'mastery activities must render inside the unit path');
+assert.ok(app.includes("data-kind=\"guided\""),'guided activities must render inside the unit path');
+console.log('PASS v4 integrated preview wiring and interleaved unit path');

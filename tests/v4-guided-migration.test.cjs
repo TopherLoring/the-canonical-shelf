@@ -1,0 +1,18 @@
+const fs=require('node:fs'),path=require('node:path'),vm=require('node:vm'),assert=require('node:assert/strict');
+const pub=path.resolve(__dirname,'../public'),ctx={window:{},console};vm.createContext(ctx);
+for(const f of ['foundations-data.js','foundations-expansion-core.js','foundations-units-02-08.js','foundations-units-09-16.js','v4-course-map.js','v4-guided-visual-rules.js','v4-curriculum-migration.js'])vm.runInContext(fs.readFileSync(path.join(pub,f),'utf8'),ctx,{filename:f});
+const D=ctx.window.FOUNDATIONS_DATA,G=ctx.window.CANON_V4_GUIDED,C=ctx.window.CANON_V4_COURSE;
+assert.equal(C.units.length,25,'course architecture must expose 25 units');
+assert.equal(D.lessons.length,70,'source guided curriculum must contain 70 lessons');
+assert.equal(G.lessons.length,70,'all guided lessons must migrate');
+assert.equal(new Set(G.lessons.map(l=>l.id)).size,70,'guided lesson IDs must remain unique');
+assert.ok(G.lessons.every(l=>l.v4Unit>=1&&l.v4Unit<=25),'every lesson needs a valid v4 unit');
+assert.ok(G.lessons.every(l=>l.v4Visual?.type),'every migrated guided lesson needs a visual declaration');
+const counts=Array.from({length:25},(_,i)=>G.byUnit[i+1].length);
+assert.equal(counts.reduce((a,b)=>a+b,0),70);
+for(const [i,n] of counts.entries())assert.ok(n>=1,`v4 unit ${i+1} has no guided lesson`);
+assert.ok(Math.max(...counts)<=5,`guided curriculum is still over-concentrated: ${counts.join(',')}`);
+console.log('PASS guided migration: 70 lessons → 25 focused units',counts.join(','));
+console.log('GUIDED_VISUAL_AUDIT_BEGIN');
+for(const l of G.lessons)console.log(`${l.v4Unit}\t${l.id}\t${l.title}\t${l.reading||''}`);
+console.log('GUIDED_VISUAL_AUDIT_END');
