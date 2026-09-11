@@ -13,3 +13,6 @@ assert.equal(counts.reduce((a,b)=>a+b,0),70);
 for(const [i,n] of counts.entries())assert.ok(n>=1,`v4 unit ${i+1} has no guided lesson`);
 assert.ok(Math.max(...counts)<=5,`guided curriculum is still over-concentrated: ${counts.join(',')}`);
 console.log('PASS guided migration: 70 lessons → 25 focused units',counts.join(','));
+console.log('GUIDED_VISUAL_AUDIT_BEGIN');
+for(const l of G.lessons)console.log(`${l.v4Unit}\t${l.id}\t${l.title}\t${l.reading||''}`);
+console.log('GUIDED_VISUAL_AUDIT_END');
