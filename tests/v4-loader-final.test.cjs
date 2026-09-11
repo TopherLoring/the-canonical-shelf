@@ -1,0 +1,4 @@
+const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict');
+const pub=path.resolve(__dirname,'../public'),loader=fs.readFileSync(path.join(pub,'v4-loader-final.js'),'utf8');
+const order=['v4-course-map.js','v4-course-map-fixed.js','v4-visuals.js','v4-games.js','v4-mastery-content.js','v4-mastery-story.js','v4-mastery-order.js','v4-mastery-groups.js','v4-mastery-chrono.js','v4-mastery-content-profiles.js','v4-mastery-themes.js','v4-mastery-verses.js','v4-mastery-manifest.js','v4-guided-visual-rules.js','v4-progress-migration.js','topics-data.js','v4-topic-bridge.js','topics.js','v4-app.js','v4-preview.js'];
+let p=-1;for(const f of order){const i=loader.indexOf(`'${f}'`);assert.ok(i>p,`${f} missing/out of order`);p=i;}assert.ok(loader.includes('v4-design-system.css'));console.log('PASS complete v4 loader order');
