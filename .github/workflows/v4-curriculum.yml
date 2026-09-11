@@ -1,13 +1,14 @@
-name: v4 curriculum verification
+name: application verification
 on:
   push:
-    branches: [curriculum-v4-redesign]
+    branches: [curriculum-v4-redesign, v5-application-experience]
   pull_request:
     branches: [main]
     paths:
       - 'public/index.html'
       - 'public/foundations*.js'
       - 'public/v4-*'
+      - 'public/v5-*'
       - 'public/topics*'
       - 'public/sw.js'
       - 'tests/**'
@@ -26,5 +27,5 @@ jobs:
           cache: npm
       - name: Install test dependencies
         run: npm ci
-      - name: Verify full application and v4 curriculum
+      - name: Verify full application and curriculum
         run: npm test
