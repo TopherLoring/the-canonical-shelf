@@ -6,7 +6,9 @@ The v4 redesign now uses **one 25-unit curriculum** containing **70 guided lesso
 
 The redesign intentionally abandoned the earlier requirement that every unit contain the same number of lessons. Topic boundaries now determine unit size: each unit contains **1–5 guided lessons**, and mastery work is placed by subject fit rather than an arbitrary quota. Total unit load ranges from 3–9 activities, with most units landing between 3 and 8.
 
-The original seven-track scope is fully preserved. The important change is instructional form: all 69 original requirements have specific v4 teaching copy, a plain-language explanation, a purpose-built visual, and a redesigned understanding check. Guided lessons and applied mastery are interleaved in one learner-facing sequence.
+The original seven-track scope is fully preserved. All 69 original requirements have specific v4 teaching copy, a plain-language explanation, a purpose-built visual, and a redesigned understanding check. Guided lessons and applied mastery are interleaved in one learner-facing sequence.
+
+The redesigned Course and Topics surfaces are now also integrated into the established full application shell on `curriculum-v4-redesign`. The existing Practice, Explore, Verses, Bible reader, shelf, and global Bible search remain present; the former Learn route becomes Course after the v4 loader initializes. The standalone integrated preview remains a useful QA surface rather than the sole v4 entry point.
 
 ## Original intended learning — preserved
 
@@ -60,7 +62,7 @@ Unit 22 contains no inherited mastery requirement because none of the original 6
 
 **Layered explanation.** Guided lessons combine primary Scripture, substantive teaching, a simpler restatement, vocabulary, deeper inquiry, optional reflection, and model reflection. This gives a novice an accessible stopping point while keeping a path open for more serious study.
 
-**Purpose-built visuals.** All **70 guided lessons now have explicit lesson-specific visual definitions** rather than receiving generic unit art. The visual vocabulary includes timelines, flows, comparisons, shelf diagrams, story arcs, relationship maps, theme threads, verse-context models, book profiles, interpretive spectrums/stacks, and schematic maps. A regression test verifies the 70 visual IDs exactly match the 70 lesson IDs and that the migration layer actually prioritizes the authored visuals.
+**Purpose-built visuals.** All **70 guided lessons have explicit lesson-specific visual definitions** rather than generic unit art. The visual vocabulary includes timelines, flows, comparisons, shelf diagrams, story arcs, relationship maps, theme threads, verse-context models, book profiles, interpretive spectrums/stacks, and schematic maps. A regression test verifies the 70 visual IDs exactly match the 70 lesson IDs and that the migration layer actually prioritizes the authored visuals.
 
 **Active reasoning.** Checks use sequencing, matching, evidence classification, context reconstruction, argument mapping, scenarios, comparison, verse rebuilding, timeline ordering, and capstone identification. Correct answers lock so a completed board cannot be accidentally changed; hints appear only when authored; retries remain free.
 
@@ -68,9 +70,9 @@ Unit 22 contains no inherited mastery requirement because none of the original 6
 
 **Review is distinct from first completion.** Finishing a guided lesson records completion. Returning to it uses review challenges where available and increments a separate review count. Mastery attempts are counted without double-counting a successful final submission.
 
-**Navigation is now persistent.** Guided internal rerenders retain their route back to the owning unit. Completion returns the learner to the same interleaved unit path rather than dropping them into a detached track or losing context.
+**Navigation is persistent.** Guided internal rerenders retain their route back to the owning unit. Completion returns the learner to the same interleaved unit path rather than dropping them into a detached track or losing context.
 
-**Keyboard/focus behavior is materially improved.** Course/unit route headings receive focus after navigation; game rerenders attempt to restore focus to the changed control or feedback; feedback uses live status semantics; challenge/course/unit progress uses progressbar semantics. This is automated/interface hardening, not a substitute for real screen-reader testing.
+**Keyboard/focus behavior is materially improved.** Course/unit route headings receive focus after navigation; game rerenders attempt to restore focus to the changed control or feedback; feedback uses live status semantics; challenge/course/unit progress uses progressbar semantics; visible keyboard focus, forced-colors, higher-contrast preferences, and reduced motion receive explicit CSS treatment. This is automated/interface hardening, not a substitute for real assistive-technology testing.
 
 ## Original-information preservation check
 
@@ -88,19 +90,29 @@ The newer curriculum adds rather than substitutes: contextual interpretation, te
 
 ## Topics and reference layer
 
-The v4 Topics library currently contains **45 curated plain-English reference entries** spanning doctrine, Scripture, Christian life, ethics, difficult/contested questions, and common pastoral/life concerns. Topics are intentionally a reference surface rather than another completion track.
+The v4 Topics library contains **45 curated plain-English reference entries** spanning doctrine, Scripture, Christian life, ethics, difficult/contested questions, and common pastoral/life concerns. Topics remain a reference surface rather than another completion track.
 
-A searchable Topics layer is pedagogically useful because not every learner question should require another core course lesson. The remaining product opportunity is to connect Topics more intelligently to course context—for example, recently viewed references, contextual recommendations from a lesson, and a cross-course glossary.
+Opened Topics are now stored as lightweight recent-reference history in the v4 progress model. Search/article transitions expose a polite live results region and programmatic focus target. The next reference-layer opportunity is contextual linking from Course lessons into relevant Topics plus a cross-course glossary.
+
+## Full-shell integration review
+
+The redesign now loads through `foundations-expansion-loader.js` inside the existing `public/index.html` application. The loader adds the v4 design system, constructs the complete 70-lesson source data, loads all mastery/Topics/runtime modules, then loads `v4-shell-bridge.js` last.
+
+The bridge reuses `panel-learn`, changes its learner-facing tab label to **Course**, and routes the existing `renderLearn()` entry point to `CanonV4Integrated.mount()`. It retains the previous renderer as a failure fallback and does not remove the established Practice, Explore, Verses, reader, shelf, or search surfaces. Global Bible search still routes to the Verses/full-corpus search view rather than being hijacked by Topics.
+
+A dedicated shell-integration test protects these boundaries. The standalone `v4-integrated-preview.html` remains available for isolated Course + Topics QA.
 
 ## Offline and runtime review
 
-The integrated v4 preview now registers the service worker directly. Cache version `canon-v4-redesign-2` precaches the complete local dependency graph required for Course and Topics, including all migration/data layers, visuals, games, mastery content, Topics content, and styles. A regression test extracts the preview's actual local `src`/`href` dependencies and fails if any are missing from the service-worker cache.
+Both the full application and standalone v4 preview register the service worker. Cache version `canon-v4-redesign-4` precaches the complete local dependency graph required for the full shell and v4 integration, including all migration/data layers, visuals, games, mastery content, Topics content/enhancement, the full-shell bridge, and styles.
 
-The service worker no longer runtime-caches failed or opaque responses and retains separate navigation fallbacks for the existing application and the v4 integrated preview.
+A regression test extracts the standalone preview's actual local `src`/`href` dependencies and fails if any are absent from the cache; it also explicitly requires the shell bridge. The service worker does not runtime-cache failed or opaque responses and retains separate navigation fallbacks for the full application and standalone preview.
 
 ## Automated verification
 
-The v4 suite now protects the following invariants:
+The standard `npm test` command includes the baseline application suites and the v4 suite. CI on `curriculum-v4-redesign` now installs dependencies and runs that complete command so the redesign is checked against established functionality on every push.
+
+The v4-specific suite protects:
 
 - 25 unique learner-facing units;
 - all 70 guided lessons migrated exactly once, with no unit containing more than five guided lessons;
@@ -111,19 +123,19 @@ The v4 suite now protects the following invariants:
 - challenge answer locking, useful-hint behavior, feedback semantics, and reduced-motion support;
 - guided completion/review persistence and mastery attempt accounting;
 - persistent unit navigation across guided rerenders;
-- integrated Course/Topics preview wiring;
-- 45 Topics entries with minimum content quality;
+- 45 Topics entries plus history/focus integration;
+- accessibility hooks for keyboard focus, semantic progress/feedback, high contrast, forced colors, and reduced motion;
+- full-shell Course integration while preserving Practice, Explore, Verses, and global Bible-search routing;
+- standalone Course/Topics preview wiring;
 - loader order and runtime dependencies;
-- complete offline precaching of the integrated preview.
-
-The standard `npm test` command now runs the baseline application suites and the complete v4 verification suite so v4 cannot silently drift outside normal repository QA.
+- complete offline precaching of the integrated runtime.
 
 ## Remaining gaps and recommended next improvements
 
-### Highest priority before v4 replaces the production learning shell
+### Release gates that still require human/editorial work
 
-1. **Integrate Course/Topics with the full application shell.** The v4 Course and Topics experience currently lives at `v4-integrated-preview.html`, while the existing `index.html` retains Explore/Search and the established reader. The next production step is one shell that exposes redesigned Course + Topics alongside Explore + Search without regressing reader/search behavior.
-2. **Human accessibility testing.** Automated semantics and focus behavior are substantially improved, but actual VoiceOver/NVDA testing, high-contrast/forced-colors testing, touch testing, and browser/device coverage are still required.
+1. **Manual full-shell regression.** Automated tests protect structure and routing, but a person should still exercise Practice, Explore, Course, Topics, Verses, drawer navigation, translation switching, and Bible search together on the final build before merge.
+2. **Human accessibility testing.** Actual VoiceOver/NVDA testing, keyboard-only review, forced-colors/high-contrast review, touch testing, and browser/device coverage remain required.
 3. **Novice learner usability testing.** Structural coverage does not prove that a person with little Bible knowledge understands the vocabulary, pacing, visual models, or transitions. Observe real first-time learners and record recurring hesitation, misconceptions, and abandonment points.
 4. **66-book scholarly/source audit.** Existing content is useful for teaching, but disputed authorship, dating, audience, and chronology claims still need systematic source citations and visible confidence labels across all 66 book profiles.
 5. **Human feedback on independent study.** Automated checks can validate method structure but cannot certify the quality of exegesis. Add a facilitator/peer rubric for claim, evidence, counterevidence, context, and application.
@@ -138,6 +150,6 @@ The standard `npm test` command now runs the baseline application suites and the
 
 ## Release assessment
 
-The v4 curriculum is no longer a 16-unit expansion with attached legacy exercises. It is a coherent **25-unit / 139-activity integrated course** with complete preservation of the original 69 skill requirements, explicit visual instruction across all 70 guided lessons, a substantial searchable Topics layer, persistent progress, redesigned challenge interaction, and an offline-capable integrated runtime.
+The v4 curriculum is a coherent **25-unit / 139-activity integrated course** with complete preservation of the original 69 skill requirements, explicit visual instruction across all 70 guided lessons, a substantial searchable Topics layer, persistent progress, hardened challenge interaction, offline support, and full-shell integration with the existing reader/search application.
 
-The strongest remaining risks are no longer missing curriculum breadth or missing original content. They are **production-shell integration, human usability/accessibility validation, and scholarly source transparency**. Those should be treated as release gates before v4 replaces the existing learning interface.
+The strongest remaining risks are now **human usability/accessibility validation, final manual cross-surface regression, and scholarly source transparency** rather than missing architecture or missing original curriculum content. Those should be treated as the principal release gates before merging the redesign to production.
