@@ -1,0 +1,22 @@
+name: v4 curriculum verification
+on:
+  push:
+    branches: [curriculum-v4-redesign]
+  pull_request:
+    branches: [main]
+    paths:
+      - 'public/v4-*'
+      - 'public/topics*'
+      - 'tests/v4-*'
+      - 'scripts/test-v4.cjs'
+      - 'docs/v4-*'
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verify v4 curriculum
+        run: node scripts/test-v4.cjs
