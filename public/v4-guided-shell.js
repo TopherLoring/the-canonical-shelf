@@ -8,6 +8,21 @@ window.CanonV4Guided=(()=>{
   function visualFor(l){return l.v4Visual||window.CANON_V4_GUIDED_VISUALS?.byUnit?.[l.unit]||null;}
   function vocab(l){return Object.entries(l.vocab||{}).map(([k,v])=>`<details><summary>${esc(k)}</summary><p>${esc(v)}</p></details>`).join('');}
   function focusPrimary(){requestAnimationFrame(()=>host?.querySelector('[data-guided-focus]')?.focus());}
+  function focusGameTitle(){requestAnimationFrame(()=>host?.querySelector('#v4-game-title')?.focus());}
+  function restoreGameFocus(action,data={}){
+    requestAnimationFrame(()=>{
+      let target=null;
+      if(['check','hint','choice'].includes(action))target=host?.querySelector('[data-game-feedback]');
+      if(!target&&(action==='up'||action==='down')&&data.item!==undefined)target=host?.querySelector(`[data-game-action="${action}"][data-item="${data.item}"]`);
+      if(!target&&action==='place'&&data.i!==undefined)target=host?.querySelector(`[data-game-action="unplace"][data-i="${data.i}"]`);
+      if(!target&&action==='unplace'&&data.i!==undefined)target=host?.querySelector(`[data-game-action="place"][data-i="${data.i}"]`);
+      if(!target&&action==='match')target=host?.querySelector(`[data-game-action="match"][data-left="${data.left}"][data-right="${data.right}"]`);
+      if(!target&&action==='context')target=host?.querySelector(`[data-game-action="context"][data-field="${data.field}"][data-choice="${data.choice}"]`);
+      if(!target&&['single','node'].includes(action)&&data.i!==undefined)target=host?.querySelector(`[data-game-action="${action}"][data-i="${data.i}"]`);
+      if(!target)target=host?.querySelector('[data-game-action="next"],[data-game-action="check"],#v4-game-title');
+      target?.focus();
+    });
+  }
   function backButton(){return options.onBack?'<button class="v4-btn v4-btn--secondary" data-guided="back">← Unit</button>':'';}
   function renderLesson(l,target,opts){
     host=typeof target==='string'?document.querySelector(target):target;lesson=l;session=null;index=0;reviewing=false;
@@ -21,21 +36,20 @@ window.CanonV4Guided=(()=>{
     reviewing=isDone();
     const challenges=A().lessonChallenges(lesson,reviewing);
     if(!challenges.length){renderDone();return;}
-    index=0;session=G().init(challenges[0]);renderGame(challenges);
+    index=0;session=G().init(challenges[0]);renderGame(challenges);focusGameTitle();
   }
   function renderGame(challenges=A().lessonChallenges(lesson,reviewing)){
     host.innerHTML=`<div class="v4-shell">${backButton()}<button class="v4-btn v4-btn--secondary" data-guided="lesson">← Revisit lesson</button><div style="height:14px"></div>${G().render(session,{eyebrow:lesson.title,current:index+1,total:challenges.length})}</div>`;
     bindGame(challenges);bind();
-    requestAnimationFrame(()=>host?.querySelector('.v4-game__head h2')?.setAttribute('tabindex','-1'));
   }
   function bindGame(challenges){
     host.querySelectorAll('[data-game-action]').forEach(el=>el.addEventListener('click',()=>{
-      const action=el.dataset.gameAction;
+      const action=el.dataset.gameAction,data={...el.dataset};
       if(action==='next'&&session.state.correct){
-        if(index+1<challenges.length){index++;session=G().init(challenges[index]);renderGame(challenges);}else renderDone();
+        if(index+1<challenges.length){index++;session=G().init(challenges[index]);renderGame(challenges);focusGameTitle();}else renderDone();
         return;
       }
-      G().act(session,action,el.dataset);renderGame(challenges);
+      G().act(session,action,data);renderGame(challenges);restoreGameFocus(action,data);
     }));
   }
   function renderDone(){
