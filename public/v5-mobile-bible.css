@@ -1,0 +1,83 @@
+/* Canonical Shelf mobile-first + Bible experience refinements.
+   Loaded after the existing application styles so 100% phone zoom is the baseline. */
+:root{--app-gutter:clamp(18px,4.8vw,28px);--app-header-offset:132px}
+html,body{max-width:100%;overflow-x:hidden}
+html[data-canon-v5-shell] body{padding-left:env(safe-area-inset-left);padding-right:env(safe-area-inset-right)}
+
+/* Never let user-facing content touch the viewport edge. */
+html[data-canon-v5-shell] .v5-section-head,
+html[data-canon-v5-shell] .v5-course-overview,
+html[data-canon-v5-shell] .v5-bible-tools,
+html[data-canon-v5-shell] .v5-topic-map,
+html[data-canon-v5-shell] .v5-practice-map,
+html[data-canon-v5-shell] .v5-bible-shelf,
+html[data-canon-v5-shell] .v5-bible-only-shelf,
+html[data-canon-v5-shell] .v5-footer-links,
+html[data-canon-v5-shell] .v5-beliefs,
+html[data-canon-v5-shell] .v5-info{padding-left:max(var(--app-gutter),env(safe-area-inset-left))!important;padding-right:max(var(--app-gutter),env(safe-area-inset-right))!important;box-sizing:border-box}
+html[data-canon-v5-shell] #panel-learn>.fd,
+html[data-canon-v5-shell] #panel-play>.fd,
+html[data-canon-v5-shell] #panel-topics>.ct,
+html[data-canon-v5-shell] #panel-explore>*:not(.v5-section-head):not(.v5-bible-tools):not(.v5-bible-shelf):not(.spine-block),
+html[data-canon-v5-shell] #panel-verses>*{width:min(1180px,calc(100% - (var(--app-gutter) * 2)));box-sizing:border-box}
+
+/* Sticky destinations must never hide headings or drawers. */
+html{scroll-padding-top:var(--app-header-offset)}
+[data-v5-intro],.v5-section-head,.v5-bible-tools,.v5-bible-only-shelf,.spine-block,
+[role="dialog"],dialog,.drawer,.modal,.book-detail,.book-details,[data-book-detail]{scroll-margin-top:var(--app-header-offset)}
+
+/* Bible bookshelf: a real shelf with readable spine names. */
+.v5-bible-only-shelf,.v5-bible-shelf .spine-block{overflow-x:auto;overscroll-behavior-inline:contain;-webkit-overflow-scrolling:touch}
+.v5-bible-only-shelf :is(button,[role="button"],.spine,[data-book]){position:relative}
+.v5-spine-name{position:absolute;inset:8px 50% 8px auto;translate:50% 0;writing-mode:vertical-rl;transform:rotate(180deg);font:650 clamp(9px,2.5vw,12px)/1 var(--serif);letter-spacing:.015em;color:currentColor;white-space:nowrap;pointer-events:none;text-shadow:0 1px 0 rgba(255,255,255,.22)}
+.v5-book-button{min-height:46px!important;border-radius:12px!important;padding:10px 12px!important;font-size:13px!important;line-height:1.2!important;text-align:left!important}
+
+/* Rich book study panel appended to the existing book detail surface. */
+.v5-book-study{margin-top:22px;border-top:1px solid var(--v5-line);padding-top:22px}
+.v5-book-study__lead{display:grid;gap:7px;margin-bottom:18px}.v5-book-study__lead h3{font:600 clamp(25px,6vw,34px)/1.05 var(--serif);margin:0}.v5-book-study__lead p{margin:0;color:var(--v5-muted);line-height:1.55}
+.v5-book-study__grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.v5-book-study__card{padding:16px;border:1px solid var(--v5-line);border-radius:16px;background:rgba(255,255,255,.42)}.v5-book-study__card h4{font:600 17px/1.15 var(--serif);margin:0 0 9px}.v5-book-study__card ul{margin:0;padding-left:18px}.v5-book-study__card li,.v5-book-study__card p{font-size:13px;line-height:1.52;color:var(--v5-muted);margin:0 0 6px}.v5-book-study__card li:last-child{margin-bottom:0}
+.v5-retired-learned{display:none!important}
+
+/* Bible reader should feel like a reading surface, not a utility list. */
+#panel-explore :is(.reader,.chapter-text,[data-reader],[data-chapter-text],.bible-reader){max-width:760px;margin-left:auto;margin-right:auto;padding-left:var(--app-gutter);padding-right:var(--app-gutter);box-sizing:border-box}
+#panel-explore :is(.reader,.chapter-text,[data-reader],[data-chapter-text],.bible-reader) :is(p,.verse,[data-verse]){font-family:var(--serif);font-size:clamp(17px,4.4vw,19px);line-height:1.62}
+#panel-explore :is(.verse-num,.verse-number,[data-verse-number]){font:650 10px/1 var(--mono);color:var(--v5-accent);vertical-align:super;margin-right:.22em}
+
+/* Bible search: reference ranges read as a compact passage; keyword results stay dense. */
+:is(#panel-search,.search-panel,[data-search-results],.bible-search-results) :is(.result,.search-result,[data-search-result],article){margin:0 0 7px!important;padding:12px 14px!important;border-radius:11px!important;min-height:0!important}
+:is(#panel-search,.search-panel,[data-search-results],.bible-search-results) :is(.result,.search-result,[data-search-result],article) :is(p,.text,.verse-text){font-size:clamp(15.5px,4vw,17px)!important;line-height:1.42!important;margin:4px 0 0!important}
+:is(#panel-search,.search-panel,[data-search-results],.bible-search-results) :is(.ref,.reference,[data-reference]){font:650 10px/1.2 var(--mono)!important;letter-spacing:.08em!important}
+.v5-reference-passage{border:1px solid var(--v5-line);border-left:3px solid var(--v5-accent);border-radius:13px;background:rgba(255,255,255,.46);padding:14px;margin:10px 0 18px}.v5-reference-passage p{font:17px/1.5 var(--serif);margin:0}.v5-reference-passage sup{font:650 9px var(--mono);color:var(--v5-accent);margin-right:3px}
+
+/* Mobile is the baseline experience. */
+@media(max-width:700px){
+  :root{--app-header-offset:118px;--app-gutter:18px}
+  .v5-header{backdrop-filter:none!important;-webkit-backdrop-filter:none!important;background:color-mix(in srgb,var(--v5-bg) 97%,white 3%)!important}
+  .v5-header__inner{grid-template-columns:minmax(0,1fr) auto!important;gap:8px!important;padding:8px max(var(--app-gutter),env(safe-area-inset-right)) 7px max(var(--app-gutter),env(safe-area-inset-left))!important}
+  .v5-brand{font-size:18px!important;overflow:hidden;text-overflow:ellipsis}
+  .v5-tools{min-width:0;gap:6px!important}
+  .v5-profile{padding:4px!important}.v5-profile span{width:34px!important;height:34px!important}.v5-profile b{display:none!important}
+  .v5-tools .search{width:42px!important;height:42px!important;min-width:42px!important;padding:0 12px!important;border-radius:999px!important;color:transparent;caret-color:var(--v5-ink)}
+  .v5-tools .search::placeholder{color:transparent}
+  .v5-tools:focus-within{grid-column:1/-1;grid-row:2;display:grid;grid-template-columns:1fr auto}
+  .v5-tools:focus-within .search{width:100%!important;color:var(--v5-ink);grid-column:1/-1}
+  .v5-tools:focus-within .search::placeholder{color:var(--v5-muted)}
+  .v5-nav{grid-column:1/-1!important;order:3!important;display:grid!important;grid-template-columns:repeat(5,minmax(0,1fr));width:100%;overflow:visible!important;gap:2px!important;padding:3px 0 0!important}
+  .v5-nav button{min-width:0!important;padding:8px 2px!important;font-size:9px!important;letter-spacing:.07em!important;white-space:nowrap;text-align:center}
+  .v5-home{padding:18px var(--app-gutter) calc(64px + env(safe-area-inset-bottom))!important}
+  .v5-home__hero{padding:24px 20px!important;border-radius:22px!important}.v5-home h1{font-size:clamp(36px,10.5vw,48px)!important}.v5-home__intro{font-size:17px!important}
+  .v5-section-head{padding-top:30px!important;padding-bottom:20px!important}.v5-section-head h1{font-size:clamp(36px,10.8vw,48px)!important;line-height:1!important}.v5-section-head>p{font-size:17px!important}
+  .v5-dashboard,.v5-dashboard__progress,.v5-recent,.v5-practice-map,.v5-bible-tools,.v5-book-study__grid{grid-template-columns:1fr!important}.v5-dashboard__progress{display:grid!important;gap:18px!important}.v5-progress-ring{width:86px!important;height:86px!important;flex-basis:86px!important}
+  .v5-topic-map{display:flex!important;gap:7px!important;overflow-x:auto!important;padding-top:16px!important;padding-bottom:12px!important;scroll-snap-type:x proximity}.v5-topic-map button{flex:0 0 auto;min-width:132px;min-height:64px!important;padding:10px!important;scroll-snap-align:start}
+  .v5-bible-tools{gap:8px!important;padding-top:16px!important;padding-bottom:16px!important}.v5-bible-tools button{min-height:0!important;padding:13px 14px!important}.v5-bible-tools small{font-size:12px}
+  .v5-bible-only-shelf{padding-top:12px!important;padding-bottom:24px!important}
+  .v5-course-overview{padding-top:18px!important}.v5-unit-card{min-height:0!important;padding:13px!important}
+  .v5-beliefs,.v5-info{padding-top:34px!important;padding-bottom:calc(72px + env(safe-area-inset-bottom))!important}.v5-info h1,.v5-beliefs h1{font-size:clamp(36px,10vw,46px)!important}.v5-info h2{font-size:25px!important}.v5-info p,.v5-beliefs p{font-size:16px!important;line-height:1.62!important}
+  .v5-footer-links{padding-bottom:calc(28px + env(safe-area-inset-bottom))!important}
+  [role="dialog"],dialog,.drawer,.modal,.book-detail,.book-details,[data-book-detail]{max-height:calc(100dvh - var(--app-header-offset) - env(safe-area-inset-bottom))!important;overflow:auto!important;box-sizing:border-box}
+}
+
+@media(min-width:701px){:root{--app-header-offset:84px}.v5-book-study__grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(min-width:1000px){.v5-book-study__grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
+@media(forced-colors:active){.v5-book-study__card,.v5-reference-passage{border:1px solid CanvasText}.v5-spine-name{text-shadow:none}}
