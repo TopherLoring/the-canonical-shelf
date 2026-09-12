@@ -13,11 +13,12 @@ for(const key of ['review','order','context','themes','verses','games'])assert.o
 assert.ok(pages.includes("input.placeholder='Search Scripture or site…'"),'global search must cover Scripture and site topics');
 assert.ok(pages.includes("scripture=/^(?:[1-3]"),'global search must distinguish Scripture references');
 assert.ok(pages.includes('v5-progress-dialog')&&pages.includes('Profile & progress'),'profile/progress dialog missing');
-assert.ok(pages.includes('canon.v4.progress.1'),'v5 Home/Profile must reuse local v4 progress rather than invent a second store');
+assert.ok(pages.includes('canon.v4.progress.1'),'current Home/Profile must reuse the established local progress store rather than invent a second store');
 assert.ok(css.includes('.v5-unit-grid')&&css.includes('.v5-bible-tools')&&css.includes('.v5-topic-map')&&css.includes('.v5-practice-map'),'page-level design system incomplete');
 assert.ok(css.includes('.v5-retired-masthead')&&css.includes('.v5-retired-tabbar'),'legacy top-level chrome must be visually retired');
 assert.ok(css.includes('prefers-reduced-motion')&&css.includes('forced-colors'),'page-level accessibility fallbacks missing');
 assert.ok(loader.indexOf('v5-pages.js')>loader.indexOf('v5-shell.js'),'page layer must mount after shell');
-assert.ok(loader.includes('v5-pages.css'));
-assert.ok(sw.includes('canon-v5-experience-2')&&sw.includes('./v5-pages.js')&&sw.includes('./v5-pages.css'));
-console.log('PASS v5 pages: Course/Bible/Topics/Practice are first-class experiences, global search/profile enhanced, legacy chrome retired');
+assert.ok(loader.indexOf('v5-mobile-bible.js')>loader.indexOf('v5-pages.js'),'mobile/Bible enhancement must mount after the page layer');
+assert.ok(loader.includes('v5-pages.css')&&loader.includes('v5-mobile-bible.css'));
+assert.ok(sw.includes('canon-v5-experience-3')&&sw.includes('./v5-pages.js')&&sw.includes('./v5-pages.css')&&sw.includes('./v5-mobile-bible.js')&&sw.includes('./v5-mobile-bible.css'));
+console.log('PASS v5 pages: Course/Bible/Topics/Practice remain first-class and mobile/Bible enhancements load last');
