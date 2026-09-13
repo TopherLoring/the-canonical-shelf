@@ -19,6 +19,7 @@ assert.ok(css.includes('.v5-retired-masthead')&&css.includes('.v5-retired-tabbar
 assert.ok(css.includes('prefers-reduced-motion')&&css.includes('forced-colors'),'page-level accessibility fallbacks missing');
 assert.ok(loader.indexOf('v5-pages.js')>loader.indexOf('v5-shell.js'),'page layer must mount after shell');
 assert.ok(loader.indexOf('v5-mobile-bible.js')>loader.indexOf('v5-pages.js'),'mobile/Bible enhancement must mount after the page layer');
-assert.ok(loader.includes('v5-pages.css')&&loader.includes('v5-mobile-bible.css'));
-assert.ok(sw.includes('canon-v5-experience-3')&&sw.includes('./v5-pages.js')&&sw.includes('./v5-pages.css')&&sw.includes('./v5-mobile-bible.js')&&sw.includes('./v5-mobile-bible.css'));
-console.log('PASS v5 pages: Course/Bible/Topics/Practice remain first-class and mobile/Bible enhancements load last');
+assert.ok(loader.indexOf('v5-guided-tour.js')>loader.indexOf('v5-learning-experience.js'),'guided tour must mount after learning enhancements');
+assert.ok(loader.includes('v5-pages.css')&&loader.includes('v5-mobile-bible.css')&&loader.includes('v5-onboarding.css'));
+assert.ok(sw.includes('canon-v5-experience-5')&&sw.includes('./v5-pages.js')&&sw.includes('./v5-mobile-bible.js')&&sw.includes('./v5-inline-scripture.js')&&sw.includes('./v5-guided-tour.js'));
+console.log('PASS v5 pages: Course/Bible/Topics/Practice remain first-class and onboarding layers load last');
