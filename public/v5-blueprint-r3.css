@@ -1,0 +1,17 @@
+/* Canonical Shelf blueprint R3: critical interaction and bookshelf legibility fixes. */
+/* The tour must explain the live interface without trapping it. */
+.v5-tour-overlay,.v5-tour-shade,.v5-tour-focus{pointer-events:none!important}.v5-tour-card{pointer-events:auto!important}
+
+/* Canonical shelf labels: full names where there is room; compact labels on phones. */
+.v5-canon-spine__short{display:none}
+@media(max-width:700px){
+  .v5-canon-spine__full{display:none!important}.v5-canon-spine__short{display:block!important}
+  .v5-canon-spine span{font-size:clamp(7px,1.85vw,8.5px)!important;font-weight:800!important;letter-spacing:0!important;inset:4px 50% 4px auto!important}
+  .v5-canon-spine{min-width:0!important}
+}
+@media(min-width:701px){.v5-canon-spine__full{display:block}.v5-canon-spine__short{display:none!important}.v5-canon-spine span{font-size:clamp(7.5px,.7vw,9px)!important}}
+
+/* Keep the actual Bible reading surface unmistakably contained. */
+#panel-explore .reader-text,#panel-explore .v5-scripture-page,#panel-explore .v5-bible-reading-page{width:min(760px,calc(100% - (var(--app-gutter)*2)))!important;max-width:760px!important;margin:14px auto 22px!important;padding:28px clamp(20px,4vw,42px)!important;background:#fffdf7!important;border:1px solid rgba(63,49,33,.18)!important;border-radius:10px!important;box-shadow:0 10px 30px rgba(47,35,22,.10)!important;box-sizing:border-box!important}
+@media(max-width:700px){#panel-explore .reader-text,#panel-explore .v5-scripture-page,#panel-explore .v5-bible-reading-page{width:calc(100% - 20px)!important;margin:10px auto 18px!important;padding:20px 16px!important}}
+@media(forced-colors:active){#panel-explore .reader-text,#panel-explore .v5-scripture-page,#panel-explore .v5-bible-reading-page{box-shadow:none!important;border:1px solid CanvasText!important}}
