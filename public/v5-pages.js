@@ -6,12 +6,12 @@ const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&
 const route=r=>window.CanonV5Shell?.go?.(r);
 const text=(el)=>el?.textContent?.replace(/\s+/g,' ').trim()||'';
 const byText=(root,selector,label)=>$$(selector,root).find(el=>text(el)===label||text(el).includes(label));
-const progressState=()=>{try{return JSON.parse(localStorage.getItem('canon.v4.progress.1')||'{}')}catch{return {}}};
+const progressState=()=>{try{return window.CanonV4Progress?.exportState?.()||JSON.parse(localStorage.getItem('canon.v4.progress.1')||'{}')}catch{return {}}};
 
 function courseStats(){
   const state=progressState(),guided=state.guidedLessons||state.lessons||{},mastery=state.mastery||{};
-  const guidedDone=Object.values(guided).filter(v=>v===true||v?.passed||v?.complete).length;
-  const masteryDone=Object.values(mastery).filter(v=>v===true||v?.passed||v?.complete).length;
+  const guidedDone=Object.values(guided).filter(v=>v===true||v?.done||v?.passed||v?.complete).length;
+  const masteryDone=Object.values(mastery).filter(v=>v===true||v?.done||v?.passed||v?.complete).length;
   return {guidedDone,masteryDone,total:139,done:Math.min(139,guidedDone+masteryDone),pct:Math.round(Math.min(139,guidedDone+masteryDone)/139*100)};
 }
 function unitCards(){
@@ -78,7 +78,7 @@ function practiceLegacyButton(labels,panel){for(const l of labels){const b=byTex
 function enhancePractice(){
   const panel=$('#panel-play');if(!panel)return;let map=panel.querySelector('.v5-practice-map');if(!map)return;
   const articles=$$('article',map);const keys=['review','order','context','themes','verses','games'];articles.forEach((a,i)=>{const key=keys[i];if(!key||a.querySelector('button'))return;const b=document.createElement('button');b.type='button';b.className='v5-practice-open';b.dataset.practiceOpen=key;b.textContent='Open practice →';a.appendChild(b)});
-  if(!map.dataset.bound){map.dataset.bound='1';map.addEventListener('click',e=>{const b=e.target.closest('[data-practice-open]');if(!b)return;const key=b.dataset.practiceOpen;if(key==='verses'){const tab=$('#tab-verses');if(tab){tab.click();queueMicrotask(()=>{const v=$('#panel-verses');if(v){v.hidden=false;v.dataset.open='1';panel.hidden=true}const back=document.createElement('button');if(v&&!v.querySelector('[data-v5-practice-back]')){back.type='button';back.dataset.v5PracticeBack='1';back.className='v5-inline-back';back.textContent='← Back to Practice';back.addEventListener('click',()=>route('practice'));v.prepend(back)}});return}const legacy=practiceLegacyButton(practiceActions[key]||[],panel);if(legacy){legacy.click();queueMicrotask(()=>{panel.hidden=false;panel.dataset.open='1';const fd=panel.querySelector('.fd');if(fd&&!fd.querySelector('[data-v5-practice-back]')){const back=document.createElement('button');back.type='button';back.dataset.v5PracticeBack='1';back.className='v5-inline-back';back.textContent='← Practice overview';back.addEventListener('click',()=>route('practice'));fd.prepend(back)}})}else{panel.querySelector('.fd')?.scrollIntoView({block:'start'});}})}
+  if(!map.dataset.bound){map.dataset.bound='1';map.addEventListener('click',e=>{const b=e.target.closest('[data-practice-open]');if(!b)return;const key=b.dataset.practiceOpen;if(key==='verses'){const tab=$('#tab-verses');if(tab){tab.click();queueMicrotask(()=>{const v=$('#panel-verses');if(v){v.hidden=false;v.dataset.open='1';panel.hidden=true}const back=document.createElement('button');if(v&&!v.querySelector('[data-v5-practice-back]')){back.type='button';back.dataset.v5PracticeBack='1';back.className='v5-inline-back';back.textContent='← Back to Practice';back.addEventListener('click',()=>route('practice'));v.prepend(back)}});return}}const legacy=practiceLegacyButton(practiceActions[key]||[],panel);if(legacy){legacy.click();queueMicrotask(()=>{panel.hidden=false;panel.dataset.open='1';const fd=panel.querySelector('.fd');if(fd&&!fd.querySelector('[data-v5-practice-back]')){const back=document.createElement('button');back.type='button';back.dataset.v5PracticeBack='1';back.className='v5-inline-back';back.textContent='← Practice overview';back.addEventListener('click',()=>route('practice'));fd.prepend(back)}})}else{panel.querySelector('.fd')?.scrollIntoView({block:'start'});}})}
 }
 
 function enhanceGlobalSearch(){
@@ -88,11 +88,11 @@ function enhanceGlobalSearch(){
 function enhanceProfile(){
   const trigger=$('[data-v5-profile]');if(!trigger||trigger.dataset.profileBound==='1')return;trigger.dataset.profileBound='1';
   let dialog=$('#v5-progress-dialog');if(!dialog){dialog=document.createElement('dialog');dialog.id='v5-progress-dialog';dialog.className='v5-progress-dialog';document.body.appendChild(dialog)}
-  const render=()=>{const s=courseStats(),raw=progressState(),recent=(raw.recentTopics||raw.recent||[]).slice?.(0,5)||[];dialog.innerHTML=`<form method="dialog" class="v5-dialog-head"><div><p class="v5-kicker">Profile & progress</p><h2>Your Canonical Shelf</h2></div><button value="close" aria-label="Close">×</button></form><div class="v5-dialog-progress"><strong>${s.pct}%</strong><div><b>${s.done} of 139 activities recorded</b><span>${s.guidedDone} guided · ${s.masteryDone} mastery</span></div></div><section><h3>Recent activity</h3>${recent.length?`<ul>${recent.map(x=>`<li>${esc(x.title||x.id||x)}</li>`).join('')}</ul>`:'<p>No recent activity recorded yet.</p>'}</section><section><h3>Privacy</h3><p>Your progress is stored locally in this browser unless you deliberately export it.</p></section>`};
+  const render=()=>{const s=courseStats(),raw=progressState(),recent=(raw.topics?.recent||raw.recentTopics||raw.recent||[]).slice?.(0,5)||[];dialog.innerHTML=`<form method="dialog" class="v5-dialog-head"><div><p class="v5-kicker">Progress & backup</p><h2>Your Canonical Shelf</h2></div><button value="close" aria-label="Close">×</button></form><div class="v5-dialog-progress"><strong>${s.pct}%</strong><div><b>${s.done} of 139 activities complete</b><span>${s.guidedDone} guided · ${s.masteryDone} mastery</span></div></div><section><h3>Recent activity</h3>${recent.length?`<ul>${recent.map(x=>`<li>${esc(x.title||x.id||x)}</li>`).join('')}</ul>`:'<p>No recent activity yet.</p>'}</section><section><h3>Privacy</h3><p>Your progress is stored locally in this browser unless you deliberately export it.</p></section>`};
   trigger.addEventListener('click',()=>{render();dialog.showModal?.()});
 }
 function recentHome(){
-  const home=$('#v5-home-panel');if(!home)return;const p=progressState(),recent=[...(p.recentTopics||[]),...(p.recent||[])].slice(0,4);const host=home.querySelector('.v5-recent');if(!host||!recent.length||host.querySelector('.v5-recent-list'))return;host.insertAdjacentHTML('beforeend',`<div class="v5-recent-list">${recent.map(x=>`<span>${esc(x.title||x.id||x)}</span>`).join('')}</div>`)}
+  const home=$('#v5-home-panel');if(!home)return;const p=progressState(),recent=[...(p.topics?.recent||[]),...(p.recentTopics||[]),...(p.recent||[])].slice(0,4);const host=home.querySelector('.v5-recent');if(!host||!recent.length||host.querySelector('.v5-recent-list'))return;host.insertAdjacentHTML('beforeend',`<div class="v5-recent-list">${recent.map(x=>`<span>${esc(x.title||x.id||x)}</span>`).join('')}</div>`)}
 function retireLegacyChrome(){
   $$('.masthead').forEach(x=>x.classList.add('v5-retired-masthead'));
   $$('.tabbar').forEach(x=>x.classList.add('v5-retired-tabbar'));
@@ -102,6 +102,6 @@ function auditShelf(){const shelf=$('.spine-block');const bible=$('#panel-explor
 function boot(){retireLegacyChrome();enhanceGlobalSearch();enhanceCourse();enhanceBible();enhanceTopics();enhancePractice();enhanceProfile();recentHome();auditShelf();
   const observer=new MutationObserver(()=>{queueMicrotask(()=>{retireLegacyChrome();enhanceCourse();enhanceBible();enhanceTopics();enhancePractice();auditShelf()})});
   for(const id of ['panel-learn','panel-explore','panel-topics','panel-play']){const p=document.getElementById(id);if(p)observer.observe(p,{childList:true,subtree:true})}
-  window.CanonV5Pages={enhanceCourse,enhanceBible,enhanceTopics,enhancePractice,auditShelf};
+  window.CanonV5Pages={enhanceCourse,enhanceBible,enhanceTopics,enhancePractice,auditShelf,courseStats};
 }
-if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',boot,{once:true});else boot();})();
+if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',boot,{once:true});else boot()})();
