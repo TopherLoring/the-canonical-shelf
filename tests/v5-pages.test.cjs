@@ -24,5 +24,5 @@ assert.ok(loader.indexOf('v5-mobile-bible.js')>loader.indexOf('v5-pages.js'),'mo
 assert.ok(loader.indexOf('v5-progress-adapter.js')>loader.indexOf('v5-bible-continuity.js'),'progress adapter must mount after core v5 behavior');
 assert.ok(loader.indexOf('v5-guided-tour.js')>loader.indexOf('v5-progress-adapter.js'),'guided tour must mount after learner-state enhancements');
 assert.ok(loader.includes('v5-pages.css')&&loader.includes('v5-mobile-bible.css')&&loader.includes('v5-onboarding.css')&&loader.includes('v5-blueprint-r3.css'));
-assert.ok(sw.includes('canon-v5-experience-6')&&sw.includes('./v5-pages.js')&&sw.includes('./v5-mobile-bible.js')&&sw.includes('./v5-inline-scripture.js')&&sw.includes('./v5-guided-tour.js')&&sw.includes('./v5-progress-adapter.js'));
+const swVersion=Number((sw.match(/const VERSION\s*=\s*(\d+)/)||[])[1]);assert.ok(swVersion>=7&&sw.includes('./v5-pages.js')&&sw.includes('./v5-mobile-bible.js')&&sw.includes('./v5-inline-scripture.js')&&sw.includes('./v5-guided-tour.js')&&sw.includes('./v5-progress-adapter.js'));
 console.log('PASS v5 pages: parse-safe Course/Bible/Topics/Practice with corrected progress contract');
