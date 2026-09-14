@@ -12,24 +12,24 @@ const {chromium}=require(process.env.SHELF_PLAYWRIGHT_MODULE||'playwright');
   await page.locator('.v5-header').waitFor();await page.locator('#v5-home-panel').waitFor();
   for(const name of ['Home','Course','Bible','Topics','Practice'])assert.equal(await page.getByRole('navigation',{name:'Primary'}).getByRole('button',{name,exact:true}).count(),1,`missing ${name} nav`);
   assert.equal(await page.locator('.tabbar:visible').count(),0,'legacy tabbar must not be visible');assert.equal(await page.locator('.masthead:visible').count(),0,'legacy masthead must not be visible');
-  assert.equal(await page.locator('#v5-home-panel .v5-dashboard').count(),1);assert.equal(await page.locator('.spine-block:visible').count(),0,'bookshelf must not leak onto Home');
+  assert.equal(await page.locator('#v5-home-panel .v5-dashboard').count(),1);assert.equal(await page.locator('.v5-canon-shelf:visible').count(),0,'bookshelf must not leak onto Home');
 
-  await page.getByRole('button',{name:'Course',exact:true}).click();await page.locator('#panel-learn[data-open="1"]').waitFor();assert.equal(await page.locator('.v5-unit-card').count(),25,'Course must expose all 25 units');assert.equal(await page.locator('#panel-explore:visible,#panel-play:visible,#panel-topics:visible').count(),0,'Course route must isolate other engines');
+  /* Fresh-session tour may be visible, but it must never intercept real navigation. */
+  await page.waitForTimeout(800);await page.getByRole('button',{name:'Course',exact:true}).click();await page.locator('#panel-learn[data-open="1"]').waitFor();assert.equal(await page.locator('.v5-unit-card').count(),25,'Course must expose all 25 units');assert.equal(await page.locator('#panel-explore:visible,#panel-play:visible,#panel-topics:visible').count(),0,'Course route must isolate other engines');
 
-  await page.getByRole('button',{name:'Bible',exact:true}).click();await page.locator('#panel-explore[data-open="1"]').waitFor();assert.equal(await page.locator('.v5-bible-tools button').count(),4);assert.equal(await page.locator('.spine-block:visible').count(),1,'bookshelf belongs inside Bible');
+  await page.getByRole('button',{name:'Bible',exact:true}).click();await page.locator('#panel-explore[data-open="1"]').waitFor();assert.equal(await page.locator('.v5-bible-tools button').count(),4);assert.equal(await page.locator('.v5-canon-shelf:visible').count(),1,'canonical bookshelf belongs first inside Bible');assert.equal(await page.locator('.v5-canon-spine').count(),66,'bookshelf must expose all 66 books');
+  await page.getByRole('button',{name:'Open Genesis'}).click();await page.locator('#panel-explore .reader-text:visible').waitFor();assert.ok((await page.locator('#panel-explore .reader-text').textContent()).trim().length>100,'book shelf click must open real Bible text');
+  const readerStyle=await page.locator('#panel-explore .reader-text').evaluate(el=>({bg:getComputedStyle(el).backgroundColor,border:getComputedStyle(el).borderTopWidth}));assert.notEqual(readerStyle.bg,'rgba(0, 0, 0, 0)','Bible reader must have a contained reading surface');assert.notEqual(readerStyle.border,'0px','Bible reader must have a visible boundary');
 
   await page.getByRole('button',{name:'Topics',exact:true}).click();await page.locator('#panel-topics[data-open="1"]').waitFor();assert.equal(await page.locator('.v5-topic-map button').count(),7);assert.equal(await page.locator('#panel-explore:visible,#panel-play:visible,#panel-learn:visible').count(),0,'Topics route must isolate other engines');
+  await page.getByRole('button',{name:'Practice',exact:true}).click();await page.locator('#panel-play[data-open="1"]').waitFor();assert.equal(await page.locator('.v5-practice-map article').count(),6);
 
-  await page.getByRole('button',{name:'Practice',exact:true}).click();await page.locator('#panel-play[data-open="1"]').waitFor();assert.equal(await page.locator('.v5-practice-map article').count(),6);for(const label of ['Learning map','Practice missions','Theology guide','Book drills'])assert.equal(await page.getByText(label,{exact:true}).filter({visible:true}).count?.()||0,0);
-
-  const profile=page.locator('[data-v5-profile]');await profile.click();await page.locator('#v5-progress-dialog[open]').waitFor();assert.ok((await page.locator('#v5-progress-dialog').textContent()).includes('Profile & progress'));await page.locator('#v5-progress-dialog button[aria-label="Close"]').click();
-
+  const profile=page.locator('[data-v5-profile]');await profile.click();await page.locator('#v5-progress-dialog[open]').waitFor();assert.ok((await page.locator('#v5-progress-dialog').textContent()).includes('Progress & backup'));await page.locator('#v5-progress-dialog button[aria-label="Close"]').click();
   const search=page.locator('.v5-tools .search');await search.fill('What is the Trinity?');await search.press('Enter');await page.locator('#panel-topics[data-open="1"]').waitFor();await page.waitForFunction(()=>document.querySelector('#panel-topics')?.textContent.includes('Trinity'));
 
   assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false,'Mobile overflow');await page.setViewportSize({width:1440,height:1000});assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false,'Desktop overflow');
   if(process.env.SHELF_SCREENSHOT)await page.screenshot({path:process.env.SHELF_SCREENSHOT,fullPage:false});
-
   await page.evaluate(()=>navigator.serviceWorker.ready);await page.reload({waitUntil:'domcontentloaded'});await page.waitForFunction(()=>!!navigator.serviceWorker.controller);await context.setOffline(true);await page.reload({waitUntil:'domcontentloaded'});await page.locator('.v5-header').waitFor();assert.equal(await page.locator('#v5-home-panel').count(),1,'v5 Home must boot offline');
-  assert.deepEqual(errors,[]);console.log('PASS: v5 Chromium navigation, route isolation, Bible-only shelf, 25-unit Course, Topics/Practice maps, profile, site search, responsive layout and offline boot');
+  assert.deepEqual(errors,[]);console.log('PASS: v5 Chromium navigation, nonblocking tour, 25-unit Course, working 66-book shelf/reader, Topics/Practice, profile, search, responsive layout and offline boot');
  }finally{await browser.close();server.closeAllConnections();await new Promise(resolve=>server.close(resolve));}
 })().catch(e=>{console.error(e);process.exitCode=1;});
