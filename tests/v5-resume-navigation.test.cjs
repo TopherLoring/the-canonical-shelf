@@ -1,0 +1,14 @@
+const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict');
+const pub=path.resolve(__dirname,'../public');
+const progress=fs.readFileSync(path.join(pub,'v5-progress-adapter.js'),'utf8');
+const learn=fs.readFileSync(path.join(pub,'v5-learning-experience.js'),'utf8');
+new Function(progress);new Function(learn);
+for(const token of ['canon.v5.course-position.1','validBookmark','rememberActivity','openActivity','continueCourse'])assert.ok(progress.includes(token),`progress adapter missing ${token}`);
+assert.ok(progress.includes("I.lesson?.(entry.id)")&&progress.includes("I.mastery?.(entry.id)"),'resume must call stable integrated activity APIs directly');
+assert.ok(progress.includes('data-v5-next-activity')&&progress.includes('data-v5-continue-activity'),'Home CTAs must resolve to an actual activity');
+assert.ok(progress.includes("window.CanonV4Integrated.unit(id)"),'unit cards must call the integrated unit renderer directly');
+assert.ok(learn.includes('awardedKeys')&&learn.includes('challengeKey'),'correct-answer stars must be idempotent across DOM rerenders');
+assert.ok(learn.includes("fresh=!awarded.includes(key)"),'a repeated correct challenge must not award another star');
+assert.ok(learn.includes('CanonV5Progress?.validBookmark')&&learn.includes('CanonV5Progress.openActivity(next)'),'Skip ahead must follow the canonical activity sequence');
+assert.ok(!learn.includes("window.CanonV5Shell?.go?.('bible')"),'lesson Scripture fallback must not navigate away from guided learning');
+console.log('PASS stable activity resume, direct unit navigation, sequential skip-ahead and idempotent answer stars');
