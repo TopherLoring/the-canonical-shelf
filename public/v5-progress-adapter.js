@@ -11,14 +11,16 @@ function derive(){const p=state(),f=foundationState(),lessons=p.lessons||{},mast
   let next=null;
   for(const lesson of allLessons){if(!lessonDone(lesson.id)){next={type:'lesson',id:lesson.id,title:lesson.title,unit:lesson.unit};break}for(const id of lesson.skillMissions||[]){if(!masteryDone(id)){const m=missionById.get(id);next={type:'mastery',id,title:m?.title||id,unit:lesson.unit};break}}if(next)break}
   const total=139,done=Math.min(total,guidedDone+masteryDoneCount),pct=Math.round(done/total*100);return {guidedDone,masteryDone:masteryDoneCount,done,total,pct,next:next||{type:'complete',id:null,title:'Independent Mastery',unit:25}}}
+// Observer-driven rendering must converge: unchanged text must not mutate the DOM.
+function setText(el,value){if(el&&el.textContent!==value)el.textContent=value}
 function updateHome(){
   const s=derive(),home=$('#v5-home-panel,#v5-home');if(!home)return;
   const primary=home.querySelector('.v5-home__actions [data-v5-go="course"]');
-  if(primary){const b=primary.querySelector('b'),span=primary.querySelector('span:last-child');if(b)b.textContent=s.next.title;if(span)span.textContent=`${s.done}/139 activities complete · ${s.pct}%`;primary.dataset.v5NextActivity=s.next.id||''}
+  if(primary){const b=primary.querySelector('b'),span=primary.querySelector('span:last-child');setText(b,s.next.title);setText(span,`${s.done}/139 activities complete · ${s.pct}%`);primary.dataset.v5NextActivity=s.next.id||''}
   const progress=home.querySelector('.v5-dashboard__progress');
-  if(progress){const h=progress.querySelector('h2'),ring=progress.querySelector('.v5-progress-ring');if(h)h.textContent=`${s.pct}% through the course`;if(ring){ring.style.setProperty('--p',s.pct);ring.setAttribute('aria-valuenow',String(s.pct));const strong=ring.querySelector('strong'),small=ring.querySelector('span');if(strong)strong.textContent=`${s.pct}%`;if(small)small.textContent=`${s.done}/139`}}
+  if(progress){const h=progress.querySelector('h2'),ring=progress.querySelector('.v5-progress-ring');setText(h,`${s.pct}% through the course`);if(ring){ring.style.setProperty('--p',s.pct);ring.setAttribute('aria-valuenow',String(s.pct));const strong=ring.querySelector('strong'),small=ring.querySelector('span');setText(strong,`${s.pct}%`);setText(small,`${s.done}/139`)}}
   const suggested=[...home.querySelectorAll('.v5-dashboard__card')].find(x=>/Suggested next activity/i.test(x.textContent||''));
-  if(suggested){const h=suggested.querySelector('h3');if(h)h.textContent=s.next.title}
+  if(suggested){const h=suggested.querySelector('h3');setText(h,s.next.title)}
 }
 function removeDeveloperLinks(){document.querySelectorAll('a[href$="docs/course-review.md"],a[href$="/docs/course-review.md"]').forEach(a=>{const p=a.closest('p');if(p)p.remove();else a.remove()})}
 function refresh(){updateHome();removeDeveloperLinks();document.dispatchEvent(new CustomEvent('canon-v5-progress-refreshed',{detail:derive()}))}

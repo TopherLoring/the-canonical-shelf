@@ -1,5 +1,5 @@
 /* Canonical Shelf service worker. */
-const VERSION = 7;
+const VERSION = 8;
 const CACHE = `canon-v5-experience-${VERSION}`;
 
 const RUNTIME = [
