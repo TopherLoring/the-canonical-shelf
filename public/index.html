@@ -3817,7 +3817,7 @@ window.addEventListener("beforeunload", saveLocal);
 setInterval(saveLocal, 20000);
 restoreLocal();
 setTab("learn");
-if("serviceWorker" in navigator) window.addEventListener("load",()=>navigator.serviceWorker.register("sw.js").catch(()=>{}));
+if("serviceWorker" in navigator){let canonReloaded=false;navigator.serviceWorker.addEventListener("controllerchange",()=>{if(canonReloaded)return;canonReloaded=true;location.reload()});window.addEventListener("load",()=>{navigator.serviceWorker.register("sw.js").then(reg=>{reg.update().catch(()=>{});if(reg.waiting)reg.waiting.postMessage("canon-sw-skip-waiting");reg.addEventListener("updatefound",()=>{const sw=reg.installing;if(!sw)return;sw.addEventListener("statechange",()=>{if(sw.state==="installed"&&navigator.serviceWorker.controller)sw.postMessage("canon-sw-skip-waiting")})})}).catch(()=>{})});}
 (window.requestIdleCallback||function(f){setTimeout(f,2500);})(()=>loadCorpus(true));
 </script>
 
