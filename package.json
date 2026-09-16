@@ -3,12 +3,13 @@
   "private": true,
   "scripts": {
     "test": "bun tests/runtime-syntax.test.cjs && bun tests/observer-stability.test.cjs && bun tests/foundations.test.cjs && bun tests/interactions.test.cjs && bun tests/expansion.test.cjs && bun tests/integrated-skill-curriculum.test.cjs && bun scripts/test-v4.cjs && bun tests/v5-shell.test.cjs && bun tests/v5-pages.test.cjs && bun tests/v5-mobile-bible.test.cjs && bun tests/v5-learning-experience.test.cjs && bun tests/v5-bible-continuity.test.cjs && bun tests/v4-offline.test.cjs",
-    "test:v4": "bun tests/runtime-syntax.test.cjs && bun scripts/test-v4.cjs",
-    "test:v5": "bun tests/runtime-syntax.test.cjs && bun tests/v5-shell.test.cjs && bun tests/v5-pages.test.cjs && bun tests/v5-mobile-bible.test.cjs && bun tests/v5-learning-experience.test.cjs && bun tests/v5-bible-continuity.test.cjs && bun tests/v4-offline.test.cjs",
+    "test:v4": "bun tests/runtime-syntax.test.cjs && bun tests/observer-stability.test.cjs && bun scripts/test-v4.cjs",
+    "test:v5": "bun tests/runtime-syntax.test.cjs && bun tests/observer-stability.test.cjs && bun tests/v5-shell.test.cjs && bun tests/v5-pages.test.cjs && bun tests/v5-mobile-bible.test.cjs && bun tests/v5-learning-experience.test.cjs && bun tests/v5-bible-continuity.test.cjs && bun tests/v4-offline.test.cjs",
     "docs": "bun scripts/render-unit-docs.cjs",
     "test:skills": "bun tests/integrated-skill-curriculum.test.cjs"
   },
   "devDependencies": {
     "linkedom": "^0.18.13"
-  }
+  },
+  "packageManager": "bun@1.4.0"
 }

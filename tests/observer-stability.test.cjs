@@ -12,11 +12,9 @@ async function verify(file, fixture, check) {
   class BoundedObserver {
     constructor(callback) {
       this.inner = new window.MutationObserver(records => {
-        // linkedom also reports attributes when only childList was requested.
         records = records.filter(r => this.options[r.type]);
         if (!records.length) return;
         deliveries++;
-        // Keep a broken implementation from starving the test runner itself.
         if (deliveries > 20) { observers.forEach(o => o.disconnect()); return; }
         callback(records);
       });
@@ -45,7 +43,7 @@ async function verify(file, fixture, check) {
   await verify('v5-learning-experience.js', '<button data-v5-profile>Progress</button>', (w,d) => {
     w.CanonV5Learning.state.stars = 3;
     w.CanonV5Learning.audit();
-    assert.equal(d.querySelector('[data-v5-stars]').textContent, '★ 3');
+    assert.equal(d.querySelector('[data-v5-stars]').textContent, '\u2605 3');
   });
   await verify('v5-progress-adapter.js', `<section id="v5-home-panel">
     <div class="v5-home__actions"><button data-v5-go="course"><b></b><span></span></button></div>
@@ -58,4 +56,4 @@ async function verify(file, fixture, check) {
     assert.equal(d.querySelector('.v5-progress-ring span').textContent, '1/139');
   });
   console.log('PASS learning and progress observers settle and still render changed state');
-})()
+})().catch(error => { console.error(error); process.exitCode = 1; });
