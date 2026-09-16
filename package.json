@@ -9,7 +9,7 @@
     "test:skills": "bun tests/integrated-skill-curriculum.test.cjs"
   },
   "devDependencies": {
-    "linkedom": "^0.18.12"
+    "linkedom": "^0.18.13"
   },
   "packageManager": "bun@1.4.0"
 }
